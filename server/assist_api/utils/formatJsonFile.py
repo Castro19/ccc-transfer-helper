@@ -40,7 +40,7 @@ def split_json_data(input_filename, output_directory):
                 sorted_majors = sorted(college["majors"], key=lambda x: x['major'])
 
                 # Create individual JSON files for each college
-                college_filename = f"{college['code']}_{college['year']}.json"
+                college_filename = f"{college['code']}_{college['id']}.json"
                 college_file_path = os.path.join(folder_path, college_filename)
                 with open(college_file_path, 'w') as college_file:
                     json.dump(sorted_majors, college_file, indent=4)

@@ -2,18 +2,22 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.http import JsonResponse
-from .utils.getHomePageInfo import getListOfUnivs
+from .utils.getHomePageInfo import getListOfUnivs, getListOfMajors
 
 def test_api(request):
     data = {'message': 'Hello from Django!'}
     return JsonResponse(data)
 
-def get_univs_by_id(request, unique_id):
-    print("ID: ", unique_id)
-
+def get_univs_by_id(request, ccc_id):
     try:
-        base_dir = "ccc_info/"
-        data = getListOfUnivs(unique_id)
+        data = getListOfUnivs(ccc_id)
+        return JsonResponse({'status': 'success', 'data': data})
+    except:
+        return JsonResponse({'status': 'error', 'message': 'Data not found'}, status=404)
+
+def get_majors_by_id(request, ccc_id, univ_id):
+    try:
+        data = getListOfMajors(ccc_id, univ_id)
         return JsonResponse({'status': 'success', 'data': data})
     except:
         return JsonResponse({'status': 'error', 'message': 'Data not found'}, status=404)

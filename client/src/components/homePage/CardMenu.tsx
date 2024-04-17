@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import uMap from "@/assets/json_files/u_map.json";
 import ccc from "@/assets/json_files/community_colleges.json";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -12,113 +11,52 @@ import {
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 // Helpers:
-import fetchUnivsById from "./utils/getAssistData";
-
-type TransferCollegeData = {
-  institutionName: string;
-  majors: string[];
-  receivingYearIds: number[];
-  institutionParentId: number;
-  code: string;
-};
-
-type CommunityCollegeData = {
-  id: number;
-  name: string;
-  code: string;
-};
+import fetchUnivsById, { fetchMajors, fetchPDF } from "./utils/getAssistData";
 
 type Univ = {
   id: number;
-  code: string;
   name: string;
+  code: string;
+  year?: number;
 };
+
+type MajorPair = {
+  major: string;
+  key: string | number;
+};
+
 // type
 const CardMenu = () => {
-  const transferCollegeData: TransferCollegeData[] = Object.values(uMap);
-  const communityCollegeData: CommunityCollegeData[] = ccc;
-
-  const [count, setCount] = useState<number | null>(0);
-
+  // The following 3 are lists that populate the dropdowns
+  const communityCollegeData: Univ[] = ccc; // JSON Data of CCCs
   const [univList, setUnivList] = useState<Univ[]>([]);
+  const [majorList, setMajorList] = useState<MajorPair[]>([]);
 
-  const [majorList, setMajorList] = useState<string[]>([]);
+  // The following 4 are the selected values that will be transferred to the next page
+  const [year, setYear] = useState<number | undefined>();
+  const [selectedCommunityCollege, setSelectedCommunityCollege] =
+    useState<Univ>();
   const [selectedTransferCollege, setSelectedTransferCollege] = useState<
-    number | null
-  >(null);
-  const [selectedCommunityCollege, setSelectedCommunityCollege] = useState<
-    number | null
-  >(null);
-  const [selectedMajor, setSelectedMajor] = useState<string | null>(null);
-  const [year, setYear] = useState<number>(2021);
+    Univ | undefined
+  >();
+  const [selectedMajor, setSelectedMajor] = useState<MajorPair>();
 
+  // Use Effects: Handle when state vars change:
+  // 1. When the user selects a new CCC, do:
+  // 1a. Reset State vars
+  // 1b. Fetch the new list of universities
   useEffect(() => {
-    console.log("CCC: ", selectedCommunityCollege);
-    console.log("College Selected: ", selectedTransferCollege);
-    console.log("Major Selected: ", selectedMajor);
-    console.log("Year Chosen: ", year);
-  }, [year, selectedMajor, selectedTransferCollege, selectedCommunityCollege]);
+    // 1a. Reset the Transfer College, Major, and list of majors
+    setSelectedTransferCollege(undefined);
+    setSelectedMajor(undefined);
+    setMajorList([]);
 
-  const handleSelectedMajor = (collegeMajor: string) => {
-    setSelectedMajor(collegeMajor);
-  };
-
-  const handleCount = (count: number | null): void => {
-    if (count !== null) {
-      setCount(count + 1);
-    }
-  };
-
-  const handleNewWindow = () => {
-    // Check if the values are not null, otherwise use a default value or handle as needed
-    let transferCollegeParam: string | undefined = undefined;
-    let cccParam: string | undefined = undefined;
-
-    if (selectedCommunityCollege !== null) {
-      cccParam = communityCollegeData.find(
-        (college) => college.id === selectedCommunityCollege
-      )?.name;
-    }
-    if (selectedTransferCollege !== null) {
-      transferCollegeParam = transferCollegeData.find(
-        (college) => college.institutionParentId === selectedTransferCollege
-      )?.institutionName;
-    }
-    const majorParam =
-      selectedMajor !== null
-        ? encodeURIComponent(selectedMajor)
-        : "default_major";
-
-    const url = `/schedule?year=${year}&ccc=${cccParam}&college=${transferCollegeParam}&major=${majorParam}`;
-    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
-
-    if (newWindow) newWindow.opener = null;
-  };
-
-  const handleSelectedYear = (collegeYear: string) => {
-    setYear(Number(collegeYear));
-  };
-
-  const handleSelectedCommunityCollege = async (collegeCode: string) => {
-    console.log("CCC CODE: ", collegeCode);
-    const chosenCommunityCollegeData = communityCollegeData.find(
-      (college) => college.code === collegeCode
-    );
-
-    setSelectedCommunityCollege(
-      chosenCommunityCollegeData !== undefined
-        ? chosenCommunityCollegeData.id
-        : null
-    );
-    // setUnivList(data)
-  };
-
-  useEffect(() => {
-    if (selectedCommunityCollege !== null) {
+    // 1b. Fetch the new list of universities that have agreements with the CCC
+    if (selectedCommunityCollege !== undefined) {
       const fetchData = async () => {
         try {
+          // const ccc_id: number = selectedCommunityCollege.id;
           const data = await fetchUnivsById(selectedCommunityCollege);
-          console.log(data);
           setUnivList(data); // Assuming setUnivList updates a state with the fetched data
         } catch (error) {
           console.error("Failed to fetch university data:", error);
@@ -129,33 +67,89 @@ const CardMenu = () => {
     }
   }, [selectedCommunityCollege]);
 
-  const handleSelectedTransferCollege = (collegeCode: string) => {
-    const chosenTransferCollegeData = transferCollegeData.find(
+  // 2. When the user selects their transfer university,:
+  // 2a. Fetch the corresponding majors and their key values
+  useEffect(() => {
+    if (selectedTransferCollege && selectedCommunityCollege) {
+      const fetchData = async () => {
+        try {
+          const data = await fetchMajors(
+            selectedCommunityCollege,
+            selectedTransferCollege
+          );
+          console.log("Majors:", data);
+          setMajorList(data);
+        } catch (error) {
+          console.error("Failed to fetch the majors: ", error);
+        }
+      };
+      fetchData();
+    }
+  }, [selectedTransferCollege]);
+
+  // 3.) Selection Handler Functions: When the user selects from the dropdowns
+  // 3a. Select their starting year
+  const handleSelectedYear = (collegeYear: string) => {
+    setYear(Number(collegeYear));
+  };
+  // 3b. Select their CCC
+  const handleSelectedCommunityCollege = async (collegeCode: string) => {
+    console.log("CCC CODE: ", collegeCode);
+    const chosenCommunityCollege = communityCollegeData.find(
       (college) => college.code === collegeCode
     );
 
-    setSelectedTransferCollege(
-      chosenTransferCollegeData !== undefined
-        ? chosenTransferCollegeData.institutionParentId
-        : null
+    setSelectedCommunityCollege(chosenCommunityCollege);
+  };
+  // 3c. Select their Transfer University
+  const handleSelectedTransferCollege = (collegeCode: string) => {
+    const chosenTransferCollege = univList.find(
+      (college) => college.code === collegeCode
     );
+    setSelectedTransferCollege(chosenTransferCollege);
   };
 
-  useEffect(() => {
-    if (selectedTransferCollege) {
-      // Find the college by its code
-      const selectedTransferCollegeData = transferCollegeData.find(
-        (college) => college.institutionParentId === selectedTransferCollege
-      );
-      if (selectedTransferCollegeData) {
-        setMajorList(selectedTransferCollegeData.majors);
-      } else {
-        setMajorList([]); // Reset if not found
-      }
+  // 3d. Select their major
+  const handleSelectedMajor = (collegeMajor: string) => {
+    const chosenMajor: MajorPair | undefined = majorList.find(
+      (major) => major.major === collegeMajor
+    );
+
+    setSelectedMajor(chosenMajor);
+  };
+
+  // 4.) Button Handler Functions:
+  // 4a. Button to get their ASSIST PDF
+  const handlePDF = async () => {
+    if (selectedMajor !== undefined && selectedTransferCollege !== undefined) {
+      fetchPDF(selectedMajor["key"]);
     } else {
-      setMajorList([]);
+      alert("Please complete all fields before generating the PDF.");
     }
-  }, [selectedTransferCollege]);
+  };
+
+  // 4b. Button to get their Schedule on the next page
+  const handleNewWindow = () => {
+    if (
+      !selectedCommunityCollege ||
+      !selectedTransferCollege ||
+      !selectedMajor ||
+      !year
+    ) {
+      alert("Please complete all fields before getting the schedule.");
+    } else {
+      let transferCollegeParam = encodeURIComponent(
+        selectedTransferCollege.name
+      );
+      let cccParam = encodeURIComponent(selectedCommunityCollege.name);
+      const majorParam = encodeURIComponent(selectedMajor.major);
+
+      const url = `/schedule?year=${year}&ccc=${cccParam}&college=${transferCollegeParam}&major=${majorParam}`;
+      const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+
+      if (newWindow) newWindow.opener = null;
+    }
+  };
 
   return (
     <div>
@@ -200,6 +194,7 @@ const CardMenu = () => {
               Choose the University you want to transfer to
             </Label>
             <Select
+              value={selectedTransferCollege?.code || ""}
               onValueChange={(value) => handleSelectedTransferCollege(value)}
             >
               <SelectTrigger id="university">
@@ -218,14 +213,17 @@ const CardMenu = () => {
               </SelectContent>
             </Select>
             <Label htmlFor="major">Choose your Major</Label>
-            <Select onValueChange={(value) => handleSelectedMajor(value)}>
+            <Select
+              value={selectedMajor?.major || ""}
+              onValueChange={(value) => handleSelectedMajor(value)}
+            >
               <SelectTrigger id="major">
                 <SelectValue placeholder="Major" />
               </SelectTrigger>
               <SelectContent position="popper">
                 {majorList.map((major, index) => (
-                  <SelectItem key={index} value={major}>
-                    {major}
+                  <SelectItem key={index} value={major.major}>
+                    {major.major}
                   </SelectItem>
                 ))}
               </SelectContent>
@@ -233,8 +231,8 @@ const CardMenu = () => {
           </div>
         </CardContent>
         <div className="flex flex-col space-y-3.5 w-10/12 mx-auto justify-center mb-10">
-          <Button onClick={() => handleCount(count)}>Get PDF: {count}</Button>
-          <Button onClick={handleNewWindow}>Get Schedule: {count}</Button>
+          <Button onClick={handlePDF}>Get PDF</Button>
+          <Button onClick={handleNewWindow}>Get Schedule</Button>
         </div>
       </Card>
     </div>
@@ -242,3 +240,11 @@ const CardMenu = () => {
 };
 
 export default CardMenu;
+
+// Debugging UseEffect
+// useEffect(() => {
+//   console.log("CCC: ", selectedCommunityCollege);
+//   console.log("College Selected: ", selectedTransferCollege);
+//   console.log("Major Selected: ", selectedMajor);
+//   console.log("Year Chosen: ", year);
+// }, [year, selectedMajor, selectedTransferCollege, selectedCommunityCollege]);
