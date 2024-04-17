@@ -1,6 +1,6 @@
 import CardMenu from "./CardMenu";
 import HomePageTitle from "./HomePageTitle";
-import PDFCard from "./PDFCard";
+// import PDFCard from "./PDFCard";
 // import YouTubeEmbed from "./YouTubeEmbed";
 
 const HomePage = () => {
@@ -10,7 +10,7 @@ const HomePage = () => {
       <HomePageTitle />
       <div className="flex flex-col space-y-10">
         <CardMenu />
-        <PDFCard />
+        {/* <PDFCard /> */}
       </div>
     </div>
   );
