@@ -1,0 +1,21 @@
+{
+  "name": "ccc-transfer-helper",
+  "version": "1.0.0",
+  "description": "React TS, Python Django, and ",
+  "main": "manage.py",
+  "scripts": {
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && pip install -r requirements.txt",
+    "start:client": "cd client && npm run dev",
+    "start:server": "cd server && python manage.py runserver",
+    "install:all": "npm run install:client && npm run install:server",
+    "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
