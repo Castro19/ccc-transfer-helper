@@ -5,9 +5,8 @@
   "main": "manage.py",
   "scripts": {
     "install:client": "cd client && npm install",
-    "install:server": "cd server && pip install -r requirements.txt",
+    "start:server": "source venv/bin/activate && cd server && python manage.py runserver",
     "start:client": "cd client && npm run dev",
-    "start:server": "cd server && python manage.py runserver",
     "install:all": "npm run install:client && npm run install:server",
     "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +15,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/react-icons": "^3.0.0",
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.1.7",
+    "react-icons": "^5.1.0",
+    "styled-components": "^6.1.8",
+    "tailwind-merge": "^2.3.0"
   }
 }
