@@ -154,10 +154,10 @@ const CardMenu = () => {
     ) {
       alert("Please complete all fields before getting the schedule.");
     } else {
-      let transferCollegeParam = encodeURIComponent(
+      const transferCollegeParam = encodeURIComponent(
         selectedTransferCollege.name
       );
-      let cccParam = encodeURIComponent(selectedCommunityCollege.name);
+      const cccParam = encodeURIComponent(selectedCommunityCollege.name);
       const majorParam = encodeURIComponent(selectedMajor.major);
 
       const url = `/schedule?year=${year}&ccc=${cccParam}&college=${transferCollegeParam}&major=${majorParam}`;
@@ -171,10 +171,12 @@ const CardMenu = () => {
     <div>
       <Card>
         <CardHeader>
-          <CardTitle>Input your Transfer Details</CardTitle>
+          <div className="flex flex-col items-center">
+            <CardTitle>Input your Transfer Details</CardTitle>
+          </div>
         </CardHeader>
         <CardContent>
-          <div className="flex flex-col space-y-3.5">
+          <div className="flex flex-col items-center space-y-3.5">
             <Label htmlFor="year">Choose your Starting Year</Label>
             <Select onValueChange={(value) => handleSelectedYear(value)}>
               <SelectTrigger id="year">

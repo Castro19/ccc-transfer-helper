@@ -6,7 +6,7 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   try {
     const rawData = await fs.readFile(
-      "json_data/community_colleges.json",
+      "json_data/community_colleges_formatted.json",
       "utf8"
     );
     const data = JSON.parse(rawData);

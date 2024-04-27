@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { MdClose, MdArrowRight } from "react-icons/md"; // Import both the close and menu icons
 
 type SidebarProps = {

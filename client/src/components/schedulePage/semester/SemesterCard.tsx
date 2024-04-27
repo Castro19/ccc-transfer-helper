@@ -19,7 +19,7 @@ type SemesterCardProps = {
 
 export const SemesterCard = ({ semester }: SemesterCardProps) => {
   return (
-    <div className="relative z-20 rounded-2xl bg-slate-800 border border-black dark:border-white/[0.2] group-hover:border-slate-700 overflow-hidden min-w-[300px] min-h-[300px] w-full max-w-[700px] mx-auto flex flex-col gap-5 p-4">
+    <div className="relative z-20 rounded-2xl bg-slate-800 border border-black dark:border-white/[0.2] group-hover:border-slate-700 overflow-hidden min-w-[200px] min-h-[300px] w-full max-w-[700px] mx-auto flex flex-col gap-5 p-4">
       <CardTitle className="flex-shrink-0">
         {semester.term} {semester.year}
       </CardTitle>

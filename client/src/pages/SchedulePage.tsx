@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
-import SemesterCards from "./semester/Semesters";
-import SchedulePageTitle from "./SchedulePageTitle";
-import Sidebar from "../Sidebar";
+import SemesterCards from "@/components/schedulePage/semester/Semesters";
+import SchedulePageTitle from "@/components/schedulePage/SchedulePageTitle";
+import Sidebar from "@/components/layouts/Sidebar";
 import React, { useState } from "react";
 const SchedulePage = () => {
   const location = useLocation();
