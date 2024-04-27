@@ -7,7 +7,7 @@
 
 ![](https://live.staticflickr.com/65535/53666935444_1c9e904336.jpg)
 
-## Installation
+## Installation & Set Up
 
 1. **Clone the Repo:**
 
@@ -15,39 +15,19 @@
    git clone https://github.com/Castro19/ccc-transfer-helper.git
    ```
 
-2. **Create Python Virtual Environment**
-
-   ```
-   python -m venv venv
-   ```
-
-3. Install the Dev Dependencies:
+2. **Install** the **Dev** Dependencies:
 
    ```
    npm install
    ```
 
-4. Start the Virtual Environment
-
-   ```
-   source venv/bin/activate
-   ```
-
-5. Install the Client (React) & Server (Django) Dependencies
+3. **Install** the **Client** (React) & **Server** (Django) Dependencies
 
    ```
    npm run install:all
    ```
 
-## Set Up
-
-1. **Activate the Virtual Environment:** If its not already activated
-
-   ```
-   source venv/bin/activate
-   ```
-
-2. **Start the Application:**
+4. **Start the Application**
 
    ```
    npm start

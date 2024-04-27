@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import ccc from "@/assets/json_files/community_colleges.json";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Select,
@@ -11,7 +10,11 @@ import {
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 // Helpers:
-import fetchUnivsById, { fetchMajors, fetchPDF } from "./utils/getAssistData";
+import fetchUnivsById, {
+  fetchColleges,
+  fetchMajors,
+  fetchPDF,
+} from "./utils/getAssistData";
 
 type Univ = {
   id: number;
@@ -28,10 +31,10 @@ type MajorPair = {
 // type
 const CardMenu = () => {
   // The following 3 are lists that populate the dropdowns
-  const communityCollegeData: Univ[] = ccc; // JSON Data of CCCs
+  const [CCCList, setCCCList] = useState<Univ[]>([]); // JSON Data of CCCs
   const [univList, setUnivList] = useState<Univ[]>([]);
   const [majorList, setMajorList] = useState<MajorPair[]>([]);
-
+  fetchColleges;
   // The following 4 are the selected values that will be transferred to the next page
   const [year, setYear] = useState<number | undefined>();
   const [selectedCommunityCollege, setSelectedCommunityCollege] =
@@ -41,6 +44,18 @@ const CardMenu = () => {
   >();
   const [selectedMajor, setSelectedMajor] = useState<MajorPair>();
 
+  useEffect(() => {
+    const fetchCCCData = async () => {
+      try {
+        const data = await fetchColleges();
+        console.log("CCC DATAA: ", data);
+        setCCCList(data);
+      } catch (error) {
+        console.error("Failed to fetch the CCC Data: ", error);
+      }
+    };
+    fetchCCCData();
+  }, []);
   // Use Effects: Handle when state vars change:
   // 1. When the user selects a new CCC, do:
   // 1a. Reset State vars
@@ -57,6 +72,7 @@ const CardMenu = () => {
         try {
           // const ccc_id: number = selectedCommunityCollege.id;
           const data = await fetchUnivsById(selectedCommunityCollege);
+          console.log("DATAAA: ", data);
           setUnivList(data); // Assuming setUnivList updates a state with the fetched data
         } catch (error) {
           console.error("Failed to fetch university data:", error);
@@ -95,7 +111,7 @@ const CardMenu = () => {
   // 3b. Select their CCC
   const handleSelectedCommunityCollege = async (collegeCode: string) => {
     console.log("CCC CODE: ", collegeCode);
-    const chosenCommunityCollege = communityCollegeData.find(
+    const chosenCommunityCollege = CCCList.find(
       (college) => college.code === collegeCode
     );
 
@@ -179,7 +195,7 @@ const CardMenu = () => {
                 <SelectValue placeholder="Community College" />
               </SelectTrigger>
               <SelectContent position="popper">
-                {communityCollegeData.map((college, index) => (
+                {CCCList.map((college, index) => (
                   <SelectItem
                     key={index}
                     value={college.code}

@@ -2,12 +2,13 @@
   "name": "ccc-transfer-helper",
   "version": "1.0.0",
   "description": "React TS, Python Django, and ",
-  "main": "manage.py",
+  "main": "server.js",
   "scripts": {
     "install:client": "cd client && npm install",
-    "start:server": "source venv/bin/activate && cd server && python manage.py runserver",
-    "start:client": "cd client && npm run dev",
+    "install:server": "cd server && npm install",
     "install:all": "npm run install:client && npm run install:server",
+    "start:client": "cd client && npm run dev",
+    "start:server": "cd server && node server.js",
     "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -4,17 +4,31 @@ type Univ = {
   code: string;
 };
 
-//
+export async function fetchColleges() {
+  try {
+    const response = await fetch("http://localhost:8000/agreements");
+    if (!response.ok) {
+      throw new Error("Error fetching Community College Classes");
+    }
+
+    const data = await response.json();
+
+    console.log(data);
+    return data;
+  } catch (error) {
+    console.error("Problem Fetching CCCs: ", error);
+  }
+}
 export default async function fetchUnivsById(ccc_info: Univ) {
   try {
     const response = await fetch(
-      `http://localhost:8000/assist_api/univs/${ccc_info["code"]}_${ccc_info["id"]}/`
+      `http://localhost:8000/agreements/${ccc_info["code"]}_${ccc_info["id"]}/`
     );
     if (!response.ok) {
       throw new Error("University Section Newtwork Problem");
     }
     const data = await response.json();
-    return data["data"];
+    return data;
   } catch (error) {
     console.error("There was a problem fetching university data:", error);
   }
@@ -23,13 +37,13 @@ export default async function fetchUnivsById(ccc_info: Univ) {
 export async function fetchMajors(ccc_info: Univ, univ_info: Univ) {
   try {
     const response = await fetch(
-      `http://localhost:8000/assist_api/univs/${ccc_info["code"]}_${ccc_info["id"]}/${univ_info["code"]}_${univ_info["id"]}/`
+      `http://localhost:8000/agreements/${ccc_info["code"]}_${ccc_info["id"]}/${univ_info["code"]}_${univ_info["id"]}/`
     );
     if (!response.ok) {
       throw new Error("Trouble Fetching list of majors");
     }
     const data = await response.json();
-    return data["data"];
+    return data;
   } catch (error) {
     console.log("Error fetching data for majors: ", error);
   }
