@@ -9,3 +9,18 @@ export type SemesterType = {
   year: number;
   courses: Array<CourseType>;
 };
+
+export type ClassType = {
+  course: string;
+  units: string;
+  subject?: string;
+};
+
+export type SubjectType = {
+  subject: ClassType[];
+};
+
+export type ScheduleData = {
+  classes: ClassType[];
+  schedule: ClassType[];
+};

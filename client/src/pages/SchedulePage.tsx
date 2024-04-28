@@ -23,6 +23,7 @@ const SchedulePage = () => {
       <Sidebar
         isVisible={isSidebarVisible}
         setIsVisible={handleSidebarVisibility}
+        subjectClasses={scheduleData.classes}
       />
 
       {/* Main Content Area */}
