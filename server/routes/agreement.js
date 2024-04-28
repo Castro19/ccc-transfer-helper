@@ -16,8 +16,6 @@ router.get("/", async (req, res) => {
     console.error("Failed to read file:", error);
   }
 });
-// router.
-export default router;
 
 router.get("/:codeId/", async (req, res) => {
   try {
@@ -53,3 +51,6 @@ router.get("/:codeId/:univCodeId/", async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 });
+
+// router.
+export default router;

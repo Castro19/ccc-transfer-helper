@@ -13,7 +13,9 @@ import { SignupFormDemo } from "./pages/register/signup/SignUpForm.tsx";
 import { LoginFormDemo } from "./pages/register/login/LoginForm.tsx";
 import Home from "./components/tests/Home.tsx";
 import Layout from "./components/layouts/Layouts.tsx";
-// import App from "./App.tsx";
+// Loaders:
+import { fetchColleges } from "./components/homePage/utils/getAssistData.ts";
+import fetchScheduleData from "./components/schedulePage/utils/fetchScheduleData.ts";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -24,6 +26,7 @@ const router = createBrowserRouter([
         <HomePage />
       </Layout>
     ),
+    loader: fetchColleges,
   },
   {
     path: "/register",
@@ -39,12 +42,13 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/schedule",
+    path: "/schedule/:year/:ccc/:college/:major",
     element: (
       <Layout>
         <SchedulePage />
       </Layout>
     ),
+    loader: fetchScheduleData,
   },
   {
     path: "/home",

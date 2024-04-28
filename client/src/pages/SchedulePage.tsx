@@ -1,15 +1,16 @@
-import { useLocation } from "react-router-dom";
+import React, { useState } from "react";
+import { useParams, useLoaderData } from "react-router-dom";
 import SemesterCards from "@/components/schedulePage/semester/Semesters";
 import SchedulePageTitle from "@/components/schedulePage/SchedulePageTitle";
 import Sidebar from "@/components/layouts/Sidebar";
-import React, { useState } from "react";
 const SchedulePage = () => {
-  const location = useLocation();
-  const queryParams = new URLSearchParams(location.search);
-  const selectedYear = queryParams.get("year");
-  const selectedCCC = queryParams.get("ccc");
-  const selectedTransferCollege = queryParams.get("college");
-  const selectedMajor = queryParams.get("major");
+  const params = useParams();
+  const selectedYear = params.year;
+  const selectedCCC = params.ccc;
+  const selectedTransferCollege = params.college;
+  const selectedMajor = params.major;
+
+  const scheduleData = useLoaderData();
 
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
@@ -37,7 +38,7 @@ const SchedulePage = () => {
           selectedMajor={selectedMajor}
         />
         <div className="p-4 gap-4">
-          <SemesterCards />
+          <SemesterCards data={scheduleData} />
         </div>
       </div>
     </div>

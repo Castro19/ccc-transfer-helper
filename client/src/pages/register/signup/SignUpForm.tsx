@@ -59,8 +59,6 @@ export function SignupFormDemo() {
       return;
     }
 
-    try {
-    } catch (error) {}
     if (!isRegistering) {
       try {
         setIsRegistering(true);
@@ -187,11 +185,14 @@ export function SignupFormDemo() {
             {isRegistering ? "Signing Up..." : "Sign Up"}
             <BottomGradient />
           </button>
-          <div className="text-sm text-center">
+          <div
+            className="text-center text-sm
+             dark:text-gray-300 text-black pt-4"
+          >
             Already have an account? {"   "}
             <Link
               to={"/register/login"}
-              className="text-center text-sm hover:underline font-bold"
+              className="text-center text-blue-500 text-sm hover:underline font-bold"
             >
               Continue
             </Link>

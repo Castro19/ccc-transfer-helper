@@ -3,7 +3,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Image } from "lucide-react";
-import { UserProfile } from "../userProfile/UserPhoto";
 import UserAvatar from "../userProfile/UserAvatar";
 const transition = {
   type: "spring",

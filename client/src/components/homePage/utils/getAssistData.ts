@@ -1,24 +1,20 @@
-type Univ = {
-  id: number;
-  name: string;
-  code: string;
-};
-
-export async function fetchColleges() {
+import { Univ } from "@/types";
+export async function fetchColleges(): Promise<Univ[]> {
   try {
     const response = await fetch("http://localhost:8000/agreements");
     if (!response.ok) {
       throw new Error("Error fetching Community College Classes");
     }
 
-    const data = await response.json();
+    const data: Univ[] = await response.json();
 
-    console.log(data);
     return data;
   } catch (error) {
     console.error("Problem Fetching CCCs: ", error);
+    return [];
   }
 }
+
 export default async function fetchUnivsById(ccc_info: Univ) {
   try {
     const response = await fetch(

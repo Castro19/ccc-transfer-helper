@@ -121,16 +121,19 @@ export function LoginFormDemo() {
             {isSigningIn ? "Signing In..." : "Sign In"}
             <BottomGradient />
           </button>
-          <p className="text-center text-sm">
+          <p className="text-center text-sm dark:text-gray-400">
             Don't have an account?{" "}
-            <Link to={"/register/signup"} className="hover:underline font-bold">
+            <Link
+              to={"/register/signup"}
+              className="hover:underline font-bold dark:text-white text-blue-500"
+            >
               Sign up
             </Link>
           </p>
-          <div className="flex flex-row text-center w-full my-4">
-            <div className="border-b-2 mb-2.5 mr-2 w-full"></div>
+          <div className="flex flex-row text-center w-full my-4 dark:text-gray-400">
+            <div className="border-b-2 border-gray-500 mb-2.5 mr-2 w-full"></div>
             <div className="text-sm font-bold w-fit">OR</div>
-            <div className="border-b-2 mb-2.5 ml-2 w-full"></div>
+            <div className="border-b-2 border-gray-500 mb-2.5 ml-2 w-full"></div>
           </div>
 
           <div className="flex flex-col">
@@ -152,7 +155,7 @@ export function LoginFormDemo() {
   );
 }
 
-const BottomGradient = () => {
+export const BottomGradient = () => {
   return (
     <>
       <span className="group-hover/btn:opacity-100 block transition duration-500 opacity-0 absolute h-px w-full -bottom-px inset-x-0 bg-gradient-to-r from-transparent via-cyan-500 to-transparent" />

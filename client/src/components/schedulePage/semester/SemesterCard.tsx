@@ -1,17 +1,6 @@
 import { cn } from "@/lib/utils";
 import ClassRow from "./ClassRow";
-
-type CourseType = {
-  courseCode: string;
-  units: string;
-};
-
-type SemesterType = {
-  id: number;
-  term: string;
-  year: number;
-  courses: Array<CourseType>;
-};
+import { SemesterType } from "@/types";
 
 type SemesterCardProps = {
   semester: SemesterType;

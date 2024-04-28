@@ -25,7 +25,7 @@ export function UserAvatar() {
 
   return (
     <Avatar>
-      <AvatarImage src={userPhoto || "@/../static/imgs/test.png"} />
+      <AvatarImage src={userPhoto || "../../../static/imgs/test.png"} />
     </Avatar>
   );
 }

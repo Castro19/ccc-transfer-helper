@@ -1,37 +1,20 @@
 import { useEffect, useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
+import DropdownMenu from "./DropdownMenu";
 // Helpers:
 import fetchUnivsById, {
   fetchColleges,
   fetchMajors,
   fetchPDF,
 } from "./utils/getAssistData";
-
-type Univ = {
-  id: number;
-  name: string;
-  code: string;
-  year?: number;
-};
-
-type MajorPair = {
-  major: string;
-  key: string | number;
-};
+// Types
+import { Univ, MajorPair, DropdownType } from "@/types";
 
 // type
-const CardMenu = () => {
+const CardMenu = ({ colleges }: { colleges: Univ[] }) => {
   // The following 3 are lists that populate the dropdowns
-  const [CCCList, setCCCList] = useState<Univ[]>([]); // JSON Data of CCCs
+  const CCCList = colleges; // JSON Data of CCCs
   const [univList, setUnivList] = useState<Univ[]>([]);
   const [majorList, setMajorList] = useState<MajorPair[]>([]);
   fetchColleges;
@@ -44,18 +27,6 @@ const CardMenu = () => {
   >();
   const [selectedMajor, setSelectedMajor] = useState<MajorPair>();
 
-  useEffect(() => {
-    const fetchCCCData = async () => {
-      try {
-        const data = await fetchColleges();
-        console.log("CCC DATAA: ", data);
-        setCCCList(data);
-      } catch (error) {
-        console.error("Failed to fetch the CCC Data: ", error);
-      }
-    };
-    fetchCCCData();
-  }, []);
   // Use Effects: Handle when state vars change:
   // 1. When the user selects a new CCC, do:
   // 1a. Reset State vars
@@ -64,6 +35,7 @@ const CardMenu = () => {
     // 1a. Reset the Transfer College, Major, and list of majors
     setSelectedTransferCollege(undefined);
     setSelectedMajor(undefined);
+    // setUnivList([]);
     setMajorList([]);
 
     // 1b. Fetch the new list of universities that have agreements with the CCC
@@ -160,11 +132,41 @@ const CardMenu = () => {
       const cccParam = encodeURIComponent(selectedCommunityCollege.name);
       const majorParam = encodeURIComponent(selectedMajor.major);
 
-      const url = `/schedule?year=${year}&ccc=${cccParam}&college=${transferCollegeParam}&major=${majorParam}`;
+      const url = `/schedule/${year}/${cccParam}/${transferCollegeParam}/${majorParam}`;
       const newWindow = window.open(url, "_blank", "noopener,noreferrer");
 
       if (newWindow) newWindow.opener = null;
     }
+  };
+
+  const yearList = ["2021", "2022", "2023", "2024"];
+  const yearDropdown: DropdownType = {
+    name: "Year",
+    labelText: "Choose your Starting Year",
+    handleFunction: handleSelectedYear,
+    listOfItems: yearList,
+    isCollege: false,
+  };
+  const CCCDropdown: DropdownType = {
+    name: "Community College",
+    labelText: "Choose your Community College",
+    handleFunction: handleSelectedCommunityCollege,
+    listOfItems: CCCList,
+    isCollege: true,
+  };
+  const univDropdown: DropdownType = {
+    name: "University",
+    labelText: "Choose your University",
+    handleFunction: handleSelectedTransferCollege,
+    listOfItems: univList,
+    isCollege: true,
+  };
+  const majorDropdown: DropdownType = {
+    name: "Major",
+    labelText: "Choose your Major",
+    handleFunction: handleSelectedMajor,
+    listOfItems: majorList.map((major) => major.major),
+    isCollege: false,
   };
 
   return (
@@ -177,75 +179,16 @@ const CardMenu = () => {
         </CardHeader>
         <CardContent>
           <div className="flex flex-col items-center space-y-3.5">
-            <Label htmlFor="year">Choose your Starting Year</Label>
-            <Select onValueChange={(value) => handleSelectedYear(value)}>
-              <SelectTrigger id="year">
-                <SelectValue placeholder="Year" />
-              </SelectTrigger>
-              <SelectContent position="popper">
-                <SelectItem value="2021">2021</SelectItem>
-                <SelectItem value="2022">2022</SelectItem>
-                <SelectItem value="2023">2023</SelectItem>
-                <SelectItem value="2024">2024</SelectItem>
-              </SelectContent>
-            </Select>
-            <Label htmlFor="university">Choose your Community College</Label>
-            <Select
-              onValueChange={(value) => handleSelectedCommunityCollege(value)}
-            >
-              <SelectTrigger id="ccc">
-                <SelectValue placeholder="Community College" />
-              </SelectTrigger>
-              <SelectContent position="popper">
-                {CCCList.map((college, index) => (
-                  <SelectItem
-                    key={index}
-                    value={college.code}
-                    onClick={() => handleSelectedCommunityCollege(college.code)}
-                  >
-                    {college.name} ({college.code})
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-            <Label htmlFor="university">
-              Choose the University you want to transfer to
-            </Label>
-            <Select
-              value={selectedTransferCollege?.code || ""}
-              onValueChange={(value) => handleSelectedTransferCollege(value)}
-            >
-              <SelectTrigger id="university">
-                <SelectValue placeholder="University" />
-              </SelectTrigger>
-              <SelectContent position="popper">
-                {univList.map((college, index) => (
-                  <SelectItem
-                    key={index}
-                    value={college.code}
-                    onClick={() => handleSelectedTransferCollege(college.code)}
-                  >
-                    {college.name} ({college.code})
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-            <Label htmlFor="major">Choose your Major</Label>
-            <Select
-              value={selectedMajor?.major || ""}
-              onValueChange={(value) => handleSelectedMajor(value)}
-            >
-              <SelectTrigger id="major">
-                <SelectValue placeholder="Major" />
-              </SelectTrigger>
-              <SelectContent position="popper">
-                {majorList.map((major, index) => (
-                  <SelectItem key={index} value={major.major}>
-                    {major.major}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+            <DropdownMenu items={yearDropdown} />
+            <DropdownMenu items={CCCDropdown} />
+            <DropdownMenu
+              items={univDropdown}
+              selectedValue={selectedTransferCollege?.code || ""}
+            />
+            <DropdownMenu
+              items={majorDropdown}
+              selectedValue={selectedMajor?.major || ""}
+            />
           </div>
         </CardContent>
         <div className="flex flex-col space-y-3.5 w-10/12 mx-auto justify-center mb-10">
