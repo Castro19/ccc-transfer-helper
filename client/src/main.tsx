@@ -11,6 +11,7 @@ import SchedulePage from "./pages/SchedulePage.tsx";
 import Register from "./pages/register/Register.tsx";
 import { SignupFormDemo } from "./pages/register/signup/SignUpForm.tsx";
 import { LoginFormDemo } from "./pages/register/login/LoginForm.tsx";
+import ErrorPage from "./pages/ErrorPage/ErrorPage.tsx";
 import Home from "./components/tests/Home.tsx";
 import Layout from "./components/layouts/Layouts.tsx";
 // Loaders:
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
       </Layout>
     ),
     loader: fetchColleges,
+    errorElement: (
+      <Layout>
+        <ErrorPage />
+      </Layout>
+    )
   },
   {
     path: "/register",
@@ -58,6 +64,15 @@ const router = createBrowserRouter([
       </Layout>
     ),
   },
+  {
+    path: "/404",
+    element: (
+      <Layout>
+      <ErrorPage />
+      </Layout>
+    )
+  }
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
