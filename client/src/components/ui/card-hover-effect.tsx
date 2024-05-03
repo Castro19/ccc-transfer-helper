@@ -2,36 +2,16 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { SemesterCard } from "../schedulePage/semester/SemesterCard";
+import { useScheduleDataContext } from "@/contexts/scheduleContext";
 
-// Define types for props
-type CourseType = {
-  courseCode: string;
-  units: string;
-};
-
-type SemesterType = {
-  id: number;
-  term: string;
-  year: number;
-  courses: Array<CourseType>;
-};
-
-type HoverEffectProps = {
-  semesters: SemesterType[];
-  className?: string;
-};
-
-export const HoverEffect = ({ semesters, className }: HoverEffectProps) => {
+export const HoverEffect = () => {
+  const { schedule } = useScheduleDataContext();
+  // console.log("SD", schedule);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div
-      className={cn(
-        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
-        className
-      )}
-    >
-      {semesters.map((semester, idx) => (
+    <div className={cn("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3")}>
+      {schedule.map((semester, idx) => (
         <button
           key={semester.id}
           className="relative group block p-2 h-full w-full"
@@ -60,7 +40,7 @@ export const HoverEffect = ({ semesters, className }: HoverEffectProps) => {
               />
             )}
           </AnimatePresence>
-          <SemesterCard semester={semester} />
+          <SemesterCard hoveredIndex={hoveredIndex} semester={semester} />
         </button>
       ))}
     </div>

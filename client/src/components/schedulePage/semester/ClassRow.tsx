@@ -1,36 +1,63 @@
 // ClassRow.tsx
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 interface ClassRowProps {
+  semesterId: number; // Identifier of the semester the course belongs to
+  courseId: number;
   initialCourseCode?: string;
   initialUnits?: string;
   onCourseCodeChange: (value: string) => void;
   onUnitsChange: (value: string) => void;
+  onDragStart: (
+    event: React.DragEvent<HTMLDivElement>,
+    id: string,
+    semesterId: number
+  ) => void; // Handler for when dragging starts
+  onDrop: any;
+  onDragOver: any;
 }
-
 const ClassRow: React.FC<ClassRowProps> = ({
+  semesterId,
+  courseId,
   initialCourseCode = "",
   initialUnits = "",
   onCourseCodeChange,
   onUnitsChange,
+  onDragStart,
+  onDrop,
+  onDragOver,
 }) => {
   const [courseCode, setCourseCode] = useState(initialCourseCode);
   const [units, setUnits] = useState(initialUnits);
 
+  // Effect to sync state with props
+  useEffect(() => {
+    setCourseCode(initialCourseCode);
+    setUnits(initialUnits);
+  }, [initialCourseCode, initialUnits]); // Dependencies on the props
+
   const handleCourseCodeChange = (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    setCourseCode(event.target.value);
-    onCourseCodeChange(event.target.value);
+    const newCourseCode = event.target.value;
+    setCourseCode(newCourseCode);
+    onCourseCodeChange(newCourseCode);
   };
 
   const handleUnitsChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setUnits(event.target.value);
-    onUnitsChange(event.target.value);
+    const newUnits = event.target.value;
+    setUnits(newUnits);
+    onUnitsChange(newUnits);
   };
 
   return (
-    <div className="flex space-x-2 w-full">
+    <div
+      draggable
+      onDragStart={(e) => onDragStart(e, courseId, semesterId)}
+      onDragOver={onDragOver}
+      onDrop={(e) => onDrop(e, courseId, semesterId)}
+      className="flex space-x-2 w-full cursor-move"
+    >
       <input
         type="text"
         value={courseCode}
