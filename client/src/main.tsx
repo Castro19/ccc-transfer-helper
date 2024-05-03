@@ -5,7 +5,10 @@ import {
   RouterProvider,
   Navigate,
 } from "react-router-dom";
+// Context Providers
 import { AuthProvider } from "./contexts/authContext/index.tsx";
+import { CollegeProvider } from "./contexts/collegeContext";
+
 import HomePage from "./pages/HomePage.tsx";
 import SchedulePage from "./pages/SchedulePage.tsx";
 import Register from "./pages/register/Register.tsx";
@@ -32,7 +35,7 @@ const router = createBrowserRouter([
       <Layout>
         <ErrorPage />
       </Layout>
-    )
+    ),
   },
   {
     path: "/register",
@@ -68,17 +71,18 @@ const router = createBrowserRouter([
     path: "/404",
     element: (
       <Layout>
-      <ErrorPage />
+        <ErrorPage />
       </Layout>
-    )
-  }
-
+    ),
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <AuthProvider>
-      <RouterProvider router={router} />
+      <CollegeProvider>
+        <RouterProvider router={router} />
+      </CollegeProvider>
     </AuthProvider>
   </React.StrictMode>
 );
