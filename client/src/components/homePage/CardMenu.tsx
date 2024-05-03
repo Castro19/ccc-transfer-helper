@@ -48,9 +48,8 @@ const CardMenu = ({ handlePDF, handleNewWindow }: CardMenuProps) => {
     if (ccc) {
       const fetchData = async () => {
         try {
-          // const ccc_id: number = ccc.id;
           const data = await fetchUnivsById(ccc);
-          setUnivList(data); // Assuming setUnivList updates a state with the fetched data
+          setUnivList(data);
         } catch (error) {
           console.error("Failed to fetch university data:", error);
         }
@@ -58,13 +57,7 @@ const CardMenu = ({ handlePDF, handleNewWindow }: CardMenuProps) => {
 
       fetchData();
     }
-  }, [
-    ccc,
-    handleSelectedTransferCollege,
-    handleSelectedMajor,
-    setMajorList,
-    setUnivList,
-  ]);
+  }, [ccc, setMajorList, setUnivList]);
 
   // 2. When the user selects their transfer university,:
   // 2a. Fetch the corresponding majors and their key values
@@ -81,7 +74,7 @@ const CardMenu = ({ handlePDF, handleNewWindow }: CardMenuProps) => {
       };
       fetchData();
     }
-  }, [univ, ccc, setMajorList]);
+  }, [ccc, univ, setMajorList]);
 
   return (
     <div>
@@ -139,7 +132,6 @@ export default CardMenu;
 // Debugging UseEffect
 // useEffect(() => {
 //   console.log("CCC: ", ccc);
-//   console.log("College Selected: ", selectedTransferCollege);
+//   console.log("College Selected: ", univ);
 //   console.log("Major Selected: ", major);
-//   console.log("Year Chosen: ", year);
-// }, [year, major, selectedTransferCollege, ccc]);
+// }, [major, univ, ccc]);
