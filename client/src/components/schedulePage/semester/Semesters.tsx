@@ -1,12 +1,9 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
-import { semesters } from "@/types";
 
-export default function SemesterCards({ data }: { data: any }) {
-  console.log("SCHEDULED DATA: ", data);
-
+export default function SemesterCards() {
   return (
     <div className=" flex justify-center w-full">
-      <HoverEffect semesters={semesters} />
+      <HoverEffect />
     </div>
   );
 }

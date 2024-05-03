@@ -3,17 +3,18 @@ export type CourseType = {
   units: string;
 };
 
+export type ClassType = {
+  course: string;
+  units: string;
+  subject?: string;
+  inSchedule?: boolean;
+};
+
 export type SemesterType = {
   id: number;
   term: string;
   year: number;
   courses: Array<CourseType>;
-};
-
-export type ClassType = {
-  course: string;
-  units: string;
-  subject?: string;
 };
 
 export type SubjectType = {
