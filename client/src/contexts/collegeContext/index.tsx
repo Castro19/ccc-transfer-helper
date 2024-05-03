@@ -1,26 +1,33 @@
-import { useState, useContext, createContext } from "react";
+import { useState, useContext, createContext, ReactNode } from "react";
 import { Univ, MajorPair } from "@/types";
 import colleges from "@/assets/json_files/community_colleges.json";
-const CollegeContext = createContext(undefined);
+import { CollegeContextType } from "@/types";
 
-export const CollegeProvider = ({ children }: any) => {
-  //   Lists:
+interface CollegeProviderProps {
+  children: ReactNode;
+}
+
+const CollegeContext = createContext<CollegeContextType | undefined>(undefined);
+
+export const CollegeProvider = ({ children }: CollegeProviderProps) => {
+  // 1.) Define our state variables
+  //  1a. Lists:
   const CCCList = colleges;
   const [univList, setUnivList] = useState<Univ[]>([]);
   const [majorList, setMajorList] = useState<MajorPair[]>([]);
-
+  //  1b. The 4 selected items from the homepage
   const [year, setYear] = useState<number | undefined>();
   const [ccc, setCCC] = useState<Univ>();
   useState<Univ>();
   const [univ, setUniv] = useState<Univ | undefined>();
   const [major, setMajor] = useState<MajorPair>();
 
-  // 3.) Selection Handler Functions: When the user selects from the dropdowns
-  // 3a. Select their starting year
+  // 2.) Selection Handler Functions: When the user selects from the dropdowns
+  // 2a. Select their starting year
   const handleSelectedYear = (collegeYear: string) => {
     setYear(Number(collegeYear));
   };
-  // 3b. Select their CCC
+  // 2b. Select their CCC
   const handleSelectedCommunityCollege = async (collegeCode: string) => {
     console.log("CCC CODE: ", collegeCode);
     const chosenCommunityCollege = CCCList.find(
@@ -29,7 +36,7 @@ export const CollegeProvider = ({ children }: any) => {
 
     setCCC(chosenCommunityCollege);
   };
-  // 3c. Select their Transfer University
+  // 2c. Select their Transfer University
   const handleSelectedTransferCollege = (collegeCode: string) => {
     const chosenTransferCollege = univList.find(
       (college) => college.code === collegeCode
@@ -37,7 +44,7 @@ export const CollegeProvider = ({ children }: any) => {
     setUniv(chosenTransferCollege);
   };
 
-  // 3d. Select their major
+  // 2d. Select their major
   const handleSelectedMajor = (collegeMajor: string) => {
     const chosenMajor: MajorPair | undefined = majorList.find(
       (major) => major.major === collegeMajor
@@ -46,6 +53,7 @@ export const CollegeProvider = ({ children }: any) => {
     setMajor(chosenMajor);
   };
 
+  // 3. Create our provider and pass down the necessary values to it.
   return (
     <CollegeContext.Provider
       value={{
@@ -70,4 +78,11 @@ export const CollegeProvider = ({ children }: any) => {
   );
 };
 
-export const useCollege = () => useContext(CollegeContext);
+// 4. Export our custom hook and make sure we use it within the correct Provider
+export const useCollege = () => {
+  const context = useContext(CollegeContext);
+  if (!context) {
+    throw new Error("useCollege must be used within a CollegeProvider");
+  }
+  return context;
+};
