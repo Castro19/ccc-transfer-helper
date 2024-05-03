@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useParams, useLoaderData } from "react-router-dom";
 import SemesterCards from "@/components/schedulePage/semester/Semesters";
 import SchedulePageTitle from "@/components/schedulePage/SchedulePageTitle";
 import Sidebar from "@/components/layouts/Sidebar";
+
 const SchedulePage = () => {
   const params = useParams();
   const selectedYear = params.year;
