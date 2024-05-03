@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Label } from "@/components/ui/label";
 import {
   Select,
@@ -9,12 +9,14 @@ import {
 } from "@/components/ui/select";
 import { DropdownType } from "@/types";
 
-interface DropdownMenuProps {
-  items: DropdownType;
-  selectedValue?: string; // Optional prop for controlled components
-}
-const DropdownMenu = ({ items, selectedValue }: DropdownType) => {
-  const { name, labelText, handleFunction, listOfItems, isCollege } = items;
+const DropdownMenu = ({
+  name,
+  labelText,
+  handleFunction,
+  listOfItems,
+  isCollege,
+  selectedValue,
+}: DropdownType) => {
   const [position, setPosition] = useState("popper");
 
   useEffect(() => {

@@ -16,4 +16,5 @@ export type DropdownType = {
   handleFunction: (selectedId: string) => void;
   listOfItems: Univ[] | string[];
   isCollege: boolean;
+  selectedValue?: string; // Optional property to handle selected value
 };
