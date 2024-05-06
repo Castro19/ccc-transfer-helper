@@ -1,19 +1,17 @@
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+# from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.chrome.service import Service as chrome_service
 from selenium.webdriver.common.by import By
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.common.exceptions import WebDriverException, TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import json
 import re
 import os
-
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 
 from groupCourses import map_course_groupings
 
@@ -22,8 +20,11 @@ CHROME = True
 URLS_FILE_NAME = "community_colleges_with_urls.json"
 
 def join_path(file_name: str) -> str:
+    """
+    Join current directory path with a desired file name, returning full path as a string.
+    Full path will be found regardless of os being used.
+    """
     return os.path.join(os.path.dirname(os.path.abspath(__file__)), file_name)
-
 
 def extract_courses(course_area: BeautifulSoup) -> list:
     """
@@ -61,7 +62,7 @@ def extract_courses(course_area: BeautifulSoup) -> list:
 try:
     # Initialize the WebDriver with geckodriver
     if CHROME:
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        driver = webdriver.Chrome(service=chrome_service(ChromeDriverManager().install()))
     else:
         driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 
@@ -78,6 +79,8 @@ try:
     # url = "https://assist.org/transfer/results?year=74&institution=11&agreement=34&agreementType=from&view=agreement&viewBy=dept&viewSendingAgreements=false&viewByKey=74%2F34%2Fto%2F11%2FAllDepartments"
 
     for url_dict in urls:
+
+        # If there is no agreement bewtween schools, pass over current iteration
         try:
             driver.get(url_dict["url"])
         except TimeoutException:
@@ -85,18 +88,12 @@ try:
             driver.quit()
             continue
 
-
-        # driver.get("https://assist.org/transfer/results?year=74&institution=11&agreement=34&agreementType=from&view=agreement&viewBy=dept&viewSendingAgreements=false&viewByKey=74%2F34%2Fto%2F11%2FAllDepartments")
-
         # Wait for the presence of an element specified by XPath
         element = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, '//*[@id="view-results"]/app-report-preview/div/awc-agreement/div/div'))
         )
         
         soup = BeautifulSoup(driver.page_source, 'html.parser')
-
-        course_rows = soup.find_all('div', class_='rowContent')    
-        courses = []
 
         # Get school names and academic year
         articulation_agreement = {}
@@ -113,7 +110,11 @@ try:
         # print(bold_tags)
         # print(articulation_agreement)
 
+
         # Get agreements
+        course_rows = soup.find_all('div', class_='rowContent')    
+        courses = []
+
         for row in course_rows:
             
             receiving_courses = row.find_all('div', class_='rowReceiving')
