@@ -80,85 +80,87 @@ try:
 
     for url_dict in urls:
 
-        # If there is no agreement bewtween schools, pass over current iteration
         try:
             driver.get(url_dict["url"])
+
+            # Wait for the presence of an element specified by XPath
+            element = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.XPATH, '//*[@id="view-results"]/app-report-preview/div/awc-agreement/div/div'))
+            )
+            
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+            # Get school names and academic year
+            articulation_agreement = {}
+            bold_tags = soup.find_all('b')
+            re_year_pattern = r'\b(\d{4})-(\d{4})\b'
+            for tag in bold_tags:
+                if 'To:' in tag.text:
+                    articulation_agreement['receivingInstitution'] = tag.text.split('To: ')[-1].strip()
+                elif 'From:' in tag.text:
+                    articulation_agreement['sendingInstitution'] = tag.text.split('From: ')[-1].strip()
+                elif re.search(re_year_pattern, tag.text):
+                    articulation_agreement['academicYear'] = re.search(re_year_pattern, tag.text).group(0)
+
+            # print(bold_tags)
+            # print(articulation_agreement)
+
+
+            # Get agreements
+            course_rows = soup.find_all('div', class_='rowContent')    
+            courses = []
+
+
+            for row in course_rows:
+                
+                receiving_courses = row.find_all('div', class_='rowReceiving')
+                sending_courses = row.find_all('div', class_='rowSending')
+
+                courses_dict = {
+                    "receiving": {
+                        "courses": [],
+                        "conjunctions": []
+                    },
+                    'sending': {
+                        "courses": [],
+                        "conjunctions": []
+                    }
+                }
+
+                for receiving in receiving_courses:
+                    courses_dict["receiving"]["courses"] = extract_courses(receiving)
+                    conjunctions = receiving.find_all('div', class_='conjunction')
+                    courses_dict["receiving"]["conjunctions"] = [conj.text.strip().upper() for conj in conjunctions]
+
+                for sending in sending_courses:
+                    courses_dict["sending"]["courses"] = extract_courses(sending)
+                    conjunctions = sending.find_all('div', class_='conjunction')
+                    courses_dict["sending"]["conjunctions"] = [conj.text.strip().upper() for conj in conjunctions]
+
+                courses.append(courses_dict)
+
+            # Convert the scraped information to the desired format and group courses appropriately.
+            agreements = []
+            for course in courses:
+                agreements.append(map_course_groupings(course))
+            # print(agreements)
+            articulation_agreement["agreements"] = agreements
+
+            # print(json.dumps(articulation_agreement, indent=4)
+
+            with open(join_path(f"db/{url_dict['code']}_{url_dict['id']}.json"), 'w') as file:
+                json.dump(articulation_agreement, file, indent=4)
+
+
+        # If there is no agreement bewtween schools, pass over current iteration
         except TimeoutException:
-            print("Timed out waiting for page to load or element to appear.")
-            driver.quit()
+            print(f"Timed out waiting for page to load or element to appear with url: {url_dict['url']}")
             continue
 
-        # Wait for the presence of an element specified by XPath
-        element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, '//*[@id="view-results"]/app-report-preview/div/awc-agreement/div/div'))
-        )
-        
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-
-        # Get school names and academic year
-        articulation_agreement = {}
-        bold_tags = soup.find_all('b')
-        re_year_pattern = r'\b(\d{4})-(\d{4})\b'
-        for tag in bold_tags:
-            if 'To:' in tag.text:
-                articulation_agreement['receivingInstitution'] = tag.text.split('To: ')[-1].strip()
-            elif 'From:' in tag.text:
-                articulation_agreement['sendingInstitution'] = tag.text.split('From: ')[-1].strip()
-            elif re.search(re_year_pattern, tag.text):
-                articulation_agreement['academicYear'] = re.search(re_year_pattern, tag.text).group(0)
-
-        # print(bold_tags)
-        # print(articulation_agreement)
-
-
-        # Get agreements
-        course_rows = soup.find_all('div', class_='rowContent')    
-        courses = []
-
-        for row in course_rows:
-            
-            receiving_courses = row.find_all('div', class_='rowReceiving')
-            sending_courses = row.find_all('div', class_='rowSending')
-
-            courses_dict = {
-                "receiving": {
-                    "courses": [],
-                    "conjunctions": []
-                },
-                'sending': {
-                    "courses": [],
-                    "conjunctions": []
-                }
-            }
-
-            for receiving in receiving_courses:
-                courses_dict["receiving"]["courses"] = extract_courses(receiving)
-                conjunctions = receiving.find_all('div', class_='conjunction')
-                courses_dict["receiving"]["conjunctions"] = [conj.text.strip().upper() for conj in conjunctions]
-
-            for sending in sending_courses:
-                courses_dict["sending"]["courses"] = extract_courses(sending)
-                conjunctions = sending.find_all('div', class_='conjunction')
-                courses_dict["sending"]["conjunctions"] = [conj.text.strip().upper() for conj in conjunctions]
-
-            courses.append(courses_dict)
-
-        # Convert the scraped information to the desired format and group courses appropriately.
-        agreements = []
-        for course in courses:
-            agreements.append(map_course_groupings(course))
-        # print(agreements)
-        articulation_agreement["agreements"] = agreements
-
-        # print(json.dumps(articulation_agreement, indent=4)
-
-        with open(join_path(f"db/{url_dict['code']}_{url_dict['id']}.json"), 'w') as file:
-            json.dump(articulation_agreement, file, indent=4)
-
-except TimeoutException:
-    print("Timed out waiting for page to load or element to appear.")
 except WebDriverException as e:
     print(f"WebDriver encountered an issue: {e}")
+except ConnectionRefusedError as e:
+    print(f"Connection refused with url: {url_dict['url']}")
 except Exception as e:
     print(f"Unspecified error -- possibly in map_course_groupings: {e}")
 finally:
