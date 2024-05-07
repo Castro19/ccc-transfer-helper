@@ -1,3 +1,10 @@
+"""
+Scrapes course agreements between Cal Poly Slo and community colleges.
+
+Separate .json files are created for each agreement and saved to:
+json_files/calpolySchedules/
+"""
+
 from selenium import webdriver
 # from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
@@ -16,7 +23,7 @@ import os
 from groupCourses import map_course_groupings
 
 # Set to true to use Chrome instead of Firefox
-CHROME = True
+CHROME = False
 URLS_FILE_NAME = "community_colleges_with_urls.json"
 
 def join_path(file_name: str) -> str:
@@ -25,6 +32,13 @@ def join_path(file_name: str) -> str:
     Full path will be found regardless of os being used.
     """
     return os.path.join(os.path.dirname(os.path.abspath(__file__)), file_name)
+
+def initialize_driver():
+    if CHROME:
+        driver = webdriver.Chrome(service=chrome_service(ChromeDriverManager().install()))
+    else:
+        driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+    return driver
 
 def extract_courses(course_area: BeautifulSoup) -> list:
     """
@@ -39,7 +53,6 @@ def extract_courses(course_area: BeautifulSoup) -> list:
     ---
     list
         A list of dictionaries, each containing 'courseNumber', 'courseTitle', and 'courseUnits' for each course.
-
     """
     courses = course_area.find_all('div', class_='courseLine')
     extracted_courses = []
@@ -58,13 +71,9 @@ def extract_courses(course_area: BeautifulSoup) -> list:
         })
     return extracted_courses
 
-
 try:
-    # Initialize the WebDriver with geckodriver
-    if CHROME:
-        driver = webdriver.Chrome(service=chrome_service(ChromeDriverManager().install()))
-    else:
-        driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+    # Initialize the WebDriver
+    driver = initialize_driver()
 
     # Get URLs from community_colleges_with_urls.json
     with open(join_path(URLS_FILE_NAME), 'r') as file:
@@ -79,7 +88,6 @@ try:
     # url = "https://assist.org/transfer/results?year=74&institution=11&agreement=34&agreementType=from&view=agreement&viewBy=dept&viewSendingAgreements=false&viewByKey=74%2F34%2Fto%2F11%2FAllDepartments"
 
     for url_dict in urls:
-
         try:
             driver.get(url_dict["url"])
 
@@ -102,15 +110,9 @@ try:
                 elif re.search(re_year_pattern, tag.text):
                     articulation_agreement['academicYear'] = re.search(re_year_pattern, tag.text).group(0)
 
-            # print(bold_tags)
-            # print(articulation_agreement)
-
-
             # Get agreements
             course_rows = soup.find_all('div', class_='rowContent')    
             courses = []
-
-
             for row in course_rows:
                 
                 receiving_courses = row.find_all('div', class_='rowReceiving')
@@ -145,31 +147,34 @@ try:
                 agreements.append(map_course_groupings(course))
             # print(agreements)
             articulation_agreement["agreements"] = agreements
-
             # print(json.dumps(articulation_agreement, indent=4)
 
-            with open(join_path(f"db/{url_dict['code']}_{url_dict['id']}.json"), 'w') as file:
+            # Save jsons to /json_files/calpolySchedules. Create dir if it does not yet exist
+            file_path = join_path(f"json_files/calpolySchedules/{url_dict['code']}_{url_dict['id']}.json")
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+            with open(file_path, 'w') as file:
                 json.dump(articulation_agreement, file, indent=4)
 
 
-        # If there is no agreement bewtween schools, pass over current iteration
+        # Handle some exceptions within loop to allow the script to continue to scrape the other urls
         except TimeoutException:
             print(f"Timed out waiting for page to load or element to appear with url: {url_dict['url']}")
+            continue
+        except ConnectionRefusedError as e:
+            print(f"Connection refused with url: {url_dict['url']}")
+            continue
+        except Exception as e:
+            print(f"Unspecified error -- possibly in map_course_groupings: {e}")
+            # try to print course passed to map_course_groupings if it exists to narrow down the potential issue
+            try:
+                print(course)
+            except Exception as e:
+                print(e)
             continue
 
 except WebDriverException as e:
     print(f"WebDriver encountered an issue: {e}")
-except ConnectionRefusedError as e:
-    print(f"Connection refused with url: {url_dict['url']}")
-except Exception as e:
-    print(f"Unspecified error -- possibly in map_course_groupings: {e}")
 finally:
     # Ensure the driver quits no matter what
     driver.quit()
 
-
-# For dumping html for easier parsing
-# FILE_NAME = "output.html"
-# FILE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), FILE_NAME)
-# with open(FILE_PATH, "w", encoding='utf-8') as file:
-#     file.write(str(course_rows))
