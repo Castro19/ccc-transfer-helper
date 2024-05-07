@@ -1,0 +1,165 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "subject": "AGC",
+                "course": "AGC102",
+                "uniqueClass": false
+            },
+            {
+                "subject": "AGC",
+                "course": "AGC205",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH118",
+                "uniqueClass": false
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS101",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "subject": "AGC",
+                "course": "AGC207",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PLSC",
+                "course": "PLSC120",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CHEM",
+                "course": "CHEM110",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ENGL",
+                "course": "ENGL134",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "subject": "AGB",
+                "course": "AGB212",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ASCI",
+                "course": "ASCI112",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Animal Science Course",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Animal Science Course can go here.\r\n\r\nSelect one course from: ASCI221, ASCI222, ASCI223, ASCI224, ASCI225; DSCI230."
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS126",
+                "uniqueClass": true
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "subject": "JOUR",
+                "course": "JOUR203",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "BIO111",
+                    "BIO161"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BIO111, or BIO161."
+            },
+            {
+                "subject": "FSN",
+                "course": "FSN275",
+                "uniqueClass": true
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR) requirements."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "subject": "ECON",
+                "course": "ECON222",
+                "uniqueClass": false
+            },
+            {
+                "subject": "FSN",
+                "course": "FSN230",
+                "uniqueClass": false
+            },
+            {
+                "subject": "AGC",
+                "course": "AGC225",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR) requirements."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "Choose One",
+                "course": [
+                    "STAT217",
+                    "STAT218"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: STAT217, or STAT218."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "SS120",
+                    "SS130"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: SS120, or SS130."
+            },
+            {
+                "subject": "AGB",
+                "course": "AGB260",
+                "uniqueClass": true
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR) requirements."
+            }
+        ]
+    }
+}

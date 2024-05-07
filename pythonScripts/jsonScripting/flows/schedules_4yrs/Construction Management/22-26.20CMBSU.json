@@ -1,0 +1,357 @@
+{
+  "id": "11111111-1111-1111-1111-111111111111",
+  "ownerId": "11111111-1111-1111-1111-111111111111",
+  "name": "22-26.20CMBSU",
+  "programId": ["7e07e245-87f5-49f1-bb86-4fe8ec83ef09"],
+  "startYear": "2022",
+  "unitTotal": "189",
+  "notes": "",
+  "termData": [
+    {
+      "tIndex": -1,
+      "tUnits": "0",
+      "courses": []
+    },
+    {
+      "tIndex": 1,
+      "tUnits": "14",
+      "courses": [
+        {
+          "id": "CM102",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "MATH141",
+          "color": "#FCD09E"
+        },
+        {
+          "id": "EDES123",
+          "color": "#FCD09E"
+        },
+        {
+          "id": "COMS101",
+          "color": "#DCFDD2"
+        }
+      ]
+    },
+    {
+      "tIndex": 2,
+      "tUnits": "16",
+      "courses": [
+        {
+          "id": "CM113",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "CM114",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "MATH182",
+          "color": "#FCD09E"
+        },
+        {
+          "id": "PHYS141",
+          "color": "#FCD09E"
+        },
+        {
+          "id": "ENGL134",
+          "color": "#DCFDD2"
+        }
+      ]
+    },
+    {
+      "tIndex": 3,
+      "tUnits": "18",
+      "courses": [
+        {
+          "id": "CM115",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": null,
+          "color": "#FCD09E",
+          "customId": "PHYS/CHEM",
+          "customDisplayName": "PHYS142, CHEM124, or CHEM127",
+          "customUnits": "4",
+          "customDesc": "Choose one of the following: PHYS142, CHEM124, or CHEM127."
+        },
+        {
+          "id": null,
+          "color": "#FCD09E",
+          "customId": "Surveying",
+          "customDisplayName": "BRAE239 or CM239",
+          "customUnits": "4",
+          "customDesc": "Choose one of the following: BRAE239, or CM239."
+        },
+        {
+          "id": "COMS126",
+          "color": "#DCFDD2"
+        }
+      ]
+    },
+    {
+      "tIndex": 5,
+      "tUnits": "17",
+      "courses": [
+        {
+          "id": "CM214",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "CM232",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "CM280",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "ARCE211",
+          "color": "#FCD09E"
+        },
+        {
+          "id": "BUS207",
+          "color": "#FCD09E"
+        }
+      ]
+    },
+    {
+      "tIndex": 6,
+      "tUnits": "17",
+      "courses": [
+        {
+          "id": "CM334",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "ECON201",
+          "color": "#FCD09E"
+        },
+        {
+          "id": null,
+          "color": "#FCD09E",
+          "customId": "Choose One",
+          "customDisplayName": "BUS212 or BUS214",
+          "customUnits": "4",
+          "customDesc": "Choose one of the following: BUS212, or BUS214."
+        },
+        {
+          "id": "ARCE212",
+          "color": "#FCD09E"
+        },
+        {
+          "id": null,
+          "color": "#DCFDD2",
+          "customId": "GE",
+          "customUnits": "4",
+          "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+        }
+      ]
+    },
+    {
+      "tIndex": 7,
+      "tUnits": "16",
+      "courses": [
+        {
+          "id": "CM313",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "ARCE226",
+          "color": "#FCD09E"
+        },
+        {
+          "id": null,
+          "color": "#FCD09E",
+          "customId": "Statistics",
+          "customDisplayName": "STAT251 or STAT312",
+          "customUnits": "4",
+          "customDesc": "Choose one of the following: STAT251, or STAT312."
+        },
+        {
+          "id": "BUS215",
+          "color": "#FCD09E"
+        }
+      ]
+    },
+    {
+      "tIndex": 9,
+      "tUnits": "15",
+      "courses": [
+        {
+          "id": "CM413",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "CM335",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "CM318",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "ARCE315",
+          "color": "#FCD09E"
+        }
+      ]
+    },
+    {
+      "tIndex": 10,
+      "tUnits": "15",
+      "courses": [
+        {
+          "id": "CM317",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": null,
+          "color": "#FEFD9A",
+          "customId": "Technical Electives",
+          "customUnits": "4",
+          "customDesc": "Any Technical Elective course can go here.\r\n\r\nTechnical Electives. Select 8 units from CM Technical Electives: CE413, CE429, CM474; CM420, CM421, CM422, CM423, CM424, CM425, CM426, CM475, CM485."
+        },
+        {
+          "id": "GEOL201",
+          "color": "#FCD09E"
+        },
+        {
+          "id": null,
+          "color": "#DCFDD2",
+          "customId": "GE",
+          "customUnits": "4",
+          "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+        }
+      ]
+    },
+    {
+      "tIndex": 11,
+      "tUnits": "15",
+      "courses": [
+        {
+          "id": "CM314",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "CM460",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "ENGL310",
+          "color": "#FCD09E"
+        },
+        {
+          "id": null,
+          "color": "#DCFDD2",
+          "customId": "GE",
+          "customUnits": "4",
+          "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+        },
+        {
+          "id": null,
+          "color": "#DA9593",
+          "customId": "Graduation Writing Requirement",
+          "customUnits": "0",
+          "customDesc": "Students can attempt to fulfill the requirement after 90 earned units; students should complete the requirement before senior year. Refer to current catalog for prerequisites."
+        }
+      ]
+    },
+    {
+      "tIndex": 13,
+      "tUnits": "17",
+      "courses": [
+        {
+          "id": "CM411",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": null,
+          "color": "#FEFD9A",
+          "customId": "Technical Electives",
+          "customUnits": "4",
+          "customDesc": "Any Technical Elective course can go here.\r\n\r\nTechnical Electives. Select 8 units from CM Technical Electives: CE413, CE429, CM474; CM420, CM421, CM422, CM423, CM424, CM425, CM426, CM475, CM485."
+        },
+        {
+          "id": null,
+          "color": "#DCFDD2",
+          "customId": "GE",
+          "customUnits": "4",
+          "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+        },
+        {
+          "id": null,
+          "color": "#DCFDD2",
+          "customId": "GE",
+          "customUnits": "4",
+          "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+        }
+      ]
+    },
+    {
+      "tIndex": 14,
+      "tUnits": "14",
+      "courses": [
+        {
+          "id": "CM443",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": null,
+          "color": "#FCD09E",
+          "customId": "Upper-Division BUS, ECON, or ITP Course",
+          "customUnits": "4",
+          "customDesc": "Any Upper-Division BUS, ECON, or ITP course can go here."
+        },
+        {
+          "id": "ARCE421",
+          "color": "#FCD09E"
+        },
+        {
+          "id": null,
+          "color": "#DCFDD2",
+          "customId": "GE",
+          "customUnits": "4",
+          "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+        }
+      ]
+    },
+    {
+      "tIndex": 15,
+      "tUnits": "15",
+      "courses": [
+        {
+          "id": "CM450",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "CM461",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": "CM462",
+          "color": "#FEFD9A"
+        },
+        {
+          "id": null,
+          "color": "#DCFDD2",
+          "customId": "GE",
+          "customUnits": "4",
+          "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+        },
+        {
+          "id": null,
+          "color": "#DCFDD2",
+          "customId": "GE",
+          "customUnits": "4",
+          "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+        }
+      ]
+    }
+  ],
+  "version": 7,
+  "hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "publishedId": null,
+  "importedId": null,
+  "lastUpdatedUTC": "2023-03-05T20:03:23.610Z"
+}

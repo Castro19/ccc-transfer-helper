@@ -1,0 +1,183 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "subject": "EE",
+                "course": "EE111",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE151",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH141",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CHEM",
+                "course": "CHEM124",
+                "uniqueClass": false
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS101",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC101",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS141",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH142",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ENGL",
+                "course": "ENGL134",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "subject": "Choose One",
+                "course": [
+                    "EE113&EE143",
+                    "EE112&IME156"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS143",
+                "uniqueClass": true
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH143",
+                "uniqueClass": true
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS126",
+                "uniqueClass": true
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "subject": "EE",
+                "course": "EE211",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE241",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CPE",
+                "course": "CPE133",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS142",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH244",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "subject": "EE",
+                "course": "EE212",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE242",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CPE",
+                "course": "CPE233",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH241",
+                "uniqueClass": false
+            },
+            {
+                "subject": "BIO",
+                "course": "BIO213",
+                "uniqueClass": false
+            },
+            {
+                "subject": "BMED",
+                "course": "BMED213",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "EE",
+                "course": "EE255",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE295",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE228",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE335",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE375",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS211",
+                "uniqueClass": false
+            }
+        ]
+    }
+}

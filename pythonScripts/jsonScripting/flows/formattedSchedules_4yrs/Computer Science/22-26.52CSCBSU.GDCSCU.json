@@ -1,0 +1,320 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC123",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH141",
+                "uniqueClass": false
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS101",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC101",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH142",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ENGL",
+                "course": "ENGL134",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC202",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH143",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Life Science Support Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Life Science\" Support Electives: BIO111, BIO161, BIO213 & BMED213; BOT121; MCRO221.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS126",
+                "uniqueClass": true
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC203",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Linear Math",
+                "course": [
+                    "MATH206",
+                    "MATH244"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH206, or MATH244."
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS141",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Additional Science Support Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Additional Science\" Support Electives; BIO111, BIO161; BOT121; CHEM124; MCRO221; PHYS141.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC248",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CSC",
+                "course": "CSC225",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS142",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC349",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CSC",
+                "course": "CSC357",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS143",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Philosophical Classics",
+                "course": [
+                    "PHIL230",
+                    "PHIL231"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231."
+            }
+        ]
+    },
+    "9": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC365",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "CSC300",
+                    "PHIL323"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CSC300, or PHIL323."
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS404",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "ES/WGQS350",
+                    "ES/WGQS351"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: ES/WGQS350, or ES/WGQS351."
+            }
+        ]
+    },
+    "10": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC430",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "CSC321",
+                    "CSC325"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CSC321, CSC323, or CSC325."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            },
+            {
+                "subject": "Graduation Writing Requirement",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Students can attempt to fulfill the requirement after 90 earned units; students should complete the requirement before senior year. Refer to current catalog for prerequisites."
+            }
+        ]
+    },
+    "11": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC307",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Game Development Concentration Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Game Development Concentration Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following Game Development Concentration Electives: ART182, ART183, ART376, ART384; CSC309, CSC471, CSC473, CSC474, CSC476, CSC478, CSC480; ISLA240, ISLA340, ISLA341; ENGL387, ENGL411, ENGL412."
+            },
+            {
+                "subject": "STAT",
+                "course": "STAT312",
+                "uniqueClass": true
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "13": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC445",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CSC",
+                "course": "CSC364",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH/STAT Support Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any MATH/STAT Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"MATH/STAT Support Electives\": MATH241, MATH248, MATH306, MATH344, MATH335, MATH437, MATH470; STAT323, STAT324, STAT330, STAT331, STAT334, STAT416, STAT418, STAT419, STAT434."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "14": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC491",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CSC",
+                "course": "CSC453",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CSC",
+                "course": "CSC371",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "15": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC492",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CSC",
+                "course": "CSC378",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CSC",
+                "course": "CSC377",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    }
+}
