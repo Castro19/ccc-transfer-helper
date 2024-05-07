@@ -1,3 +1,17 @@
+"""
+This module is intended to be used with webScraper to map course agreements between institutions.
+
+It includes definitions for handling groups of courses, determining their equivalence or relationships,
+and processing these relationships based on conjunctions such as 'AND' or 'OR'. The main classes and functions are
+used to organize and serialize course data into structured formats suitable for JSON serialization.
+
+Classes:
+    Group - Represents a group of courses and their relational logic for course equivalency.
+
+Functions:
+    map_course_groupings - Processes course agreements and maps them into structured groupings based on
+    logical conjunctions.
+"""
 
 class Group:
     """
@@ -44,7 +58,7 @@ class Group:
         """
         self.grouping.remove(course)
 
-    def has_course(self, course) -> bool:
+    def has_course(self, course, deep_search: bool=False) -> bool:
         """
         Check if a course is already in the grouping.
 
@@ -54,13 +68,24 @@ class Group:
         ---
         course: dict
             The course dictionary to check.
+        deep_search: bool
+            Perform a deep search to check if the course is anywhere within the group,
+            searching recursively if the Group grouping is a Group.
+            Defaults to False.
 
         Returns
         ---
         bool
             True if the course is in the grouping, False otherwise.
         """
-        return any(course["courseNumber"] == x["courseNumber"] for x in self.grouping if isinstance(x, dict))
+        if deep_search:
+            return any(
+                item["courseNumber"] == course["courseNumber"] if isinstance(item, dict)
+                else item.has_course(course)
+                for item in self.grouping
+            )
+        else:
+            return course in self.grouping
 
     # Convert to a dictionary to align with desired json structure
     def make_dict(self) -> dict:
@@ -104,7 +129,7 @@ def map_course_groupings(course_agreement: dict, verbose: bool = False) -> dict:
     Returns
     ---
     dict
-        True if the course is in the grouping, False otherwise.
+        A dictionary of the agreement with the appropriate mapping and course groupings.
     """
 
     mapping = {}
@@ -235,3 +260,4 @@ if __name__ == "__main__":
     agreements = []
     for data in course_data:
         agreements.append(map_course_groupings(data, verbose=True))
+
