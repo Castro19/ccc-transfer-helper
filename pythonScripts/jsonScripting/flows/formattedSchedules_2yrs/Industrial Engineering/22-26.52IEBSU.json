@@ -1,0 +1,194 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "subject": "IME",
+                "course": "IME101",
+                "uniqueClass": false
+            },
+            {
+                "subject": "IME",
+                "course": "IME144",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH141",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CHEM",
+                "course": "CHEM124",
+                "uniqueClass": false
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS101",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "subject": "IME",
+                "course": "IME141",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS141",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH142",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ENGL",
+                "course": "ENGL134",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "subject": "IME",
+                "course": "IME223",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS142",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH143",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "CSC232",
+                    "CPE/CSC101"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CSC232, or CPE/CSC101.\r\n\r\nExcess unit from CPE/CSC101 can count as Category B technical elective."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "subject": "IME",
+                "course": "IME156",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS143",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH241",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ENGL",
+                "course": "ENGL147",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATE",
+                "course": "MATE210",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATE",
+                "course": "MATE215",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "subject": "IME",
+                "course": "IME212",
+                "uniqueClass": false
+            },
+            {
+                "subject": "General Psychology",
+                "course": [
+                    "PSY201",
+                    "PSY202"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PSY201, or PSY202."
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH244",
+                "uniqueClass": true
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "IME",
+                "course": "IME315",
+                "uniqueClass": false
+            },
+            {
+                "subject": "BIO",
+                "course": "BIO213",
+                "uniqueClass": false
+            },
+            {
+                "subject": "BMED",
+                "course": "BMED213",
+                "uniqueClass": false
+            },
+            {
+                "subject": "STAT",
+                "course": "STAT321",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE201",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE251",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ME",
+                "course": "ME211",
+                "uniqueClass": false
+            }
+        ]
+    }
+}

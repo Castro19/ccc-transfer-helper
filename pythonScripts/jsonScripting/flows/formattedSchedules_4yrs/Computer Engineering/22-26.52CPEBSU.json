@@ -1,0 +1,356 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "subject": "CPE",
+                "course": "CPE100",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CPE",
+                "course": "CPE123",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH141",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CHEM",
+                "course": "CHEM124",
+                "uniqueClass": false
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS101",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "subject": "CPE",
+                "course": "CPE101",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS141",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH142",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ENGL",
+                "course": "ENGL134",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "subject": "CPE",
+                "course": "CPE202",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CPE",
+                "course": "CPE133",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH143",
+                "uniqueClass": false
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS126",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "subject": "CPE",
+                "course": "CPE233",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE115",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE145",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS143",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH241",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "subject": "CPE",
+                "course": "CPE203",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE215",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE245",
+                "uniqueClass": false
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS142",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH244",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "Computer Architecture Course",
+                "course": [
+                    "CPE315",
+                    "CPE333"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE315, or CPE333."
+            },
+            {
+                "subject": "CSC",
+                "course": "CSC248",
+                "uniqueClass": true
+            },
+            {
+                "subject": "EE",
+                "course": "EE315",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose a Philosophy Course",
+                "course": [
+                    "PHIL230",
+                    "PHIL231"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            }
+        ]
+    },
+    "9": {
+        "courses": [
+            {
+                "subject": "Signals and Systems Course",
+                "course": [
+                    "CPE327&CPE367",
+                    "EE228"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE327 & CPE367, or EE228."
+            },
+            {
+                "subject": "CPE",
+                "course": "CPE357",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Approved Technical Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Technical Elective course can go here.\r\n\r\nConsultation with advisor is recommended prior to selecting Approved or Technical Electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. No double-counting with other degree requirements.\r\n\r\nThe following courses may not be used to satisfy this requirement: COOP units; BUS499; CSC304, CSC320, CSC364, CSC400, CSC500; EE321, EE322, EE361, EE400, EE460, EE500, EE563. A student with credit in CPE327/367 cannot take EE328/368 for credit."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "10": {
+        "courses": [
+            {
+                "subject": "Choose a Security Course",
+                "course": [
+                    "CPE321",
+                    "CPE426"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE321, CPE422, or CPE426."
+            },
+            {
+                "subject": "Approved Technical Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Technical Elective course can go here.\r\n\r\nConsultation with advisor is recommended prior to selecting Approved or Technical Electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. No double-counting with other degree requirements.\r\n\r\nThe following courses may not be used to satisfy this requirement: COOP units; BUS499; CSC304, CSC320, CSC364, CSC400, CSC500; EE321, EE322, EE361, EE400, EE460, EE500, EE563. A student with credit in CPE327/367 cannot take EE328/368 for credit."
+            },
+            {
+                "subject": "Choose an Ethics Course",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL323, PHIL327, PHIL328, PHIL339, or PHIL340.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "11": {
+        "courses": [
+            {
+                "subject": "Microcontrollers Course",
+                "course": [
+                    "CPE329",
+                    "CPE316"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE329, or CPE316."
+            },
+            {
+                "subject": "Choose an Ethnic Studies Course",
+                "course": [
+                    "ES350",
+                    "ES351"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: ES350, or ES351."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            },
+            {
+                "subject": "Graduation Writing Requirement",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Students can attempt to fulfill the requirement after 90 earned units; students should complete the requirement before senior year. Refer to current catalog for prerequisites."
+            }
+        ]
+    },
+    "13": {
+        "courses": [
+            {
+                "subject": "CPE",
+                "course": "CPE350",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CPE",
+                "course": "CPE464",
+                "uniqueClass": false
+            },
+            {
+                "subject": "STAT",
+                "course": "STAT350",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "14": {
+        "courses": [
+            {
+                "subject": "CPE",
+                "course": "CPE450",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CPE",
+                "course": "CPE461",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CPE",
+                "course": "CPE453",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Approved Technical Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Technical Elective course can go here.\r\n\r\nConsultation with advisor is recommended prior to selecting Approved or Technical Electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. No double-counting with other degree requirements.\r\n\r\nThe following courses may not be used to satisfy this requirement: COOP units; BUS499; CSC304, CSC320, CSC364, CSC400, CSC500; EE321, EE322, EE361, EE400, EE460, EE500, EE563. A student with credit in CPE327/367 cannot take EE328/368 for credit."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "15": {
+        "courses": [
+            {
+                "subject": "Approved Technical Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Technical Elective course can go here.\r\n\r\nConsultation with advisor is recommended prior to selecting Approved or Technical Electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. No double-counting with other degree requirements.\r\n\r\nThe following courses may not be used to satisfy this requirement: COOP units; BUS499; CSC304, CSC320, CSC364, CSC400, CSC500; EE321, EE322, EE361, EE400, EE460, EE500, EE563. A student with credit in CPE327/367 cannot take EE328/368 for credit."
+            },
+            {
+                "subject": "CPE",
+                "course": "CPE462",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Approved Technical Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Technical Elective course can go here.\r\n\r\nConsultation with advisor is recommended prior to selecting Approved or Technical Electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. No double-counting with other degree requirements.\r\n\r\nThe following courses may not be used to satisfy this requirement: COOP units; BUS499; CSC304, CSC320, CSC364, CSC400, CSC500; EE321, EE322, EE361, EE400, EE460, EE500, EE563. A student with credit in CPE327/367 cannot take EE328/368 for credit."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    }
+}

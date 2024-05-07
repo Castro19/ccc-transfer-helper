@@ -1,0 +1,168 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "subject": "ITP",
+                "course": "ITP100",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ITP",
+                "course": "ITP125",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Calculus",
+                "course": [
+                    "MATH141",
+                    "MATH221"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH141, or MATH221.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and GRaduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, and E."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "subject": "ITP",
+                "course": "ITP233",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "CHEM124",
+                    "CHEM127"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CHEM124, or CHEM127.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS121",
+                "uniqueClass": true
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS101",
+                "uniqueClass": true
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "subject": "ITP",
+                "course": "ITP150",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Statistics",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: STAT217, STAT218, or STAT251.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            },
+            {
+                "subject": "PHYS",
+                "course": "PHYS123",
+                "uniqueClass": true
+            },
+            {
+                "subject": "ENGL",
+                "course": "ENGL134",
+                "uniqueClass": true
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "subject": "ITP",
+                "course": "ITP330",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ITP",
+                "course": "ITP303",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ECON",
+                "course": "ECON201",
+                "uniqueClass": false
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS126",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "subject": "ITP",
+                "course": "ITP211",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ITP",
+                "course": "ITP341",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ITP",
+                "course": "ITP260",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, and E."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "ITP",
+                "course": "ITP371",
+                "uniqueClass": false
+            },
+            {
+                "subject": "BUS",
+                "course": "BUS346",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, and E."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, and E."
+            },
+            {
+                "subject": "Concentration Declaration Due",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Concentration Declaration is due around this time."
+            }
+        ]
+    }
+}
