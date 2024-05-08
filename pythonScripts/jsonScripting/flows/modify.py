@@ -1,6 +1,7 @@
 import os
 import json
 
+<<<<<<< Updated upstream
 def modify_json_files(source_directory, target_directory):
     for subdir, dirs, files in os.walk(source_directory):
         for filename in files:
@@ -17,6 +18,21 @@ def modify_json_files(source_directory, target_directory):
                     file.write(new_json)
                 print(f"Processed and saved: {target_filepath}")
 
+=======
+def modify_json_files(directory):
+    # Walk through all subdirectories of the given directory
+    ran = False
+    for subdir, dirs, files in os.walk(directory):
+        for filename in files:
+            filepath = os.path.join(subdir, filename)
+            print(filepath)
+            if filepath.endswith(".json"):
+                modify_json_file(filepath)
+                ran = True
+                break
+        if ran:
+            break
+>>>>>>> Stashed changes
 
 def modify_json_file(filepath):
     # Open the JSON file
@@ -27,6 +43,7 @@ def modify_json_file(filepath):
     new_version = {}
     
     # Modify Data here:
+<<<<<<< Updated upstream
     for term in data['termData']:
         unique_class = False # Flag to signify whether a class is maybe an elective with options (this is just to easily identify which classes we should manually check)
 
@@ -94,6 +111,11 @@ def modify_json_file(filepath):
     return pretty_json
         # print(pretty_json)
 
+=======
+    for key, val in enumerate(data):
+        print(key, ":", val, "\n")
+    
+>>>>>>> Stashed changes
     # Save the modified data back to the JSON file
     # with open(filepath, 'w') as file:
     #     json.dump(data, file, indent=4)
