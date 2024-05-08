@@ -1,11 +1,9 @@
-import React from "react";
-
 type YouTubeEmbedProps = {
   videoId: string;
   title: string;
 };
 
-const YouTubeEmbed = ({ videoId, title }: YouTubeEmbedProps) => {
+const YouTubeEmbed = ({ videoId, title }: YouTubeEmbedProps): JSX.Element => {
   const src = `https://www.youtube.com/embed/${videoId}?rel=0`; // Append correct URL parameters
 
   return (

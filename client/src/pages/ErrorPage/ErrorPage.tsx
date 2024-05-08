@@ -1,10 +1,8 @@
-import React from "react";
-//import { Button } from '@/components/ui/button'
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./ErrorPage.module.css";
 import errorImage from "./imgs/errorPic.png";
 
-const ErrorPage = () => {
+const ErrorPage = (): JSX.Element => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>SORRY</div>

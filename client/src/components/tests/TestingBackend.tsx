@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const TestingBackend = () => {
+const TestingBackend = (): JSX.Element => {
   const [msg, setMsg] = useState<string | null>(null);
   const handleTestRequest = () => {
     async function fetchRequest() {
@@ -21,7 +21,10 @@ const TestingBackend = () => {
   };
   return (
     <div>
-      <button className="bg-blue-100" onClick={handleTestRequest}>
+      <button
+        className="bg-blue-100"
+        onClick={handleTestRequest}
+      >
         Msg: {msg}
       </button>
     </div>

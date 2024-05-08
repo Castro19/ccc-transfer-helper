@@ -1,13 +1,11 @@
-import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { doSignOut } from "@/firebase/auth";
 
-import { User } from "@/components/firebase/auth"; // This import assumes you're using Firebase. Adjust if using a different auth system.
 import { useAuth } from "@/contexts/authContext";
 // import NavbarTitle from "./NavbarTitle";
 
-const Navbar = () => {
+const Navbar = (): JSX.Element => {
   const { userLoggedIn } = useAuth();
   const navigate = useNavigate();
 

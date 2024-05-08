@@ -1,7 +1,9 @@
-import React from "react";
-// import Navbar from "./navbar/Navbar";
-import CombinedNavbar from "./CombinedNavbar";
-const Layout = ({ children }) => {
+import { ReactNode } from "react";
+import CombinedNavbar from "./navbar/CombinedNavbar";
+type LayoutProps = {
+  children: ReactNode;
+};
+const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
     <div>
       <CombinedNavbar />

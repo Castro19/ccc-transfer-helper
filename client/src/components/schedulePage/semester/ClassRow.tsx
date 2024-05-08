@@ -9,12 +9,17 @@ interface ClassRowProps {
   onCourseCodeChange: (value: string) => void;
   onUnitsChange: (value: string) => void;
   onDragStart: (
-    event: React.DragEvent<HTMLDivElement>,
-    id: string,
+    e: React.DragEvent<HTMLDivElement>,
+    courseId: number,
     semesterId: number
-  ) => void; // Handler for when dragging starts
-  onDrop: any;
-  onDragOver: any;
+  ) => void;
+  onDrop: (
+    e: React.DragEvent<HTMLDivElement>,
+    targetSemesterId: number,
+    targetCourseId: number
+  ) => void;
+
+  onDragOver: (e: React.DragEvent<HTMLDivElement>) => void;
 }
 const ClassRow: React.FC<ClassRowProps> = ({
   semesterId,
@@ -34,7 +39,7 @@ const ClassRow: React.FC<ClassRowProps> = ({
   useEffect(() => {
     setCourseCode(initialCourseCode);
     setUnits(initialUnits);
-  }, [initialCourseCode, initialUnits]); // Dependencies on the props
+  }, [initialCourseCode, initialUnits]);
 
   const handleCourseCodeChange = (
     event: React.ChangeEvent<HTMLInputElement>
@@ -53,9 +58,9 @@ const ClassRow: React.FC<ClassRowProps> = ({
   return (
     <div
       draggable
-      onDragStart={(e) => onDragStart(e, courseId, semesterId)}
+      onDragStart={(e) => onDragStart(e, semesterId, courseId)}
       onDragOver={onDragOver}
-      onDrop={(e) => onDrop(e, courseId, semesterId)}
+      onDrop={(e) => onDrop(e, semesterId, courseId)}
       className="flex space-x-2 w-full cursor-move"
     >
       <input

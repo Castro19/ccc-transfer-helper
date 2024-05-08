@@ -1,5 +1,4 @@
-import React from "react";
-import { MdClose, MdArrowRight } from "react-icons/md"; // Import both the close and menu icons
+import { MdClose, MdArrowRight } from "react-icons/md";
 import SubjectAccordion from "../schedulePage/sidebarClasses/SubjectAccordion";
 import { SubjectType } from "@/types";
 type SidebarProps = {
@@ -7,7 +6,11 @@ type SidebarProps = {
   setIsVisible: (isVisible: boolean) => void;
   subjectClasses: SubjectType[];
 };
-const Sidebar = ({ isVisible, setIsVisible, subjectClasses }: SidebarProps) => {
+const Sidebar = ({
+  isVisible,
+  setIsVisible,
+  subjectClasses
+}: SidebarProps): JSX.Element => {
   const sidebarClasses: string = `fixed top-0 left-0 h-screen w-64 bg-white dark:bg-gray-800 z-40 overflow-y-auto shadow-lg p-4 transition-transform duration-300 ease-in-out ${
     isVisible ? "translate-x-0" : "-translate-x-full"
   }`;

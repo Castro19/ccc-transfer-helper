@@ -1,107 +1,36 @@
-import React, { useEffect } from "react";
 import { cn } from "@/lib/utils";
 import ClassRow from "./ClassRow";
 import { SemesterType } from "@/types";
 import { useScheduleDataContext } from "@/contexts/scheduleContext";
-
+import {
+  handleDragOver,
+  handleDragStart,
+  handleDrop
+} from "../helpers/drag";
 type SemesterCardProps = {
   semester: SemesterType;
-  hoveredIndex: number; // This doesn't seem to be used currently
+  handleScheduleChange: (
+    semesterId: number,
+    courseId: number,
+    type: string,
+    newValue: string
+  ) => void;
 };
 
-export const SemesterCard = ({ semester }: SemesterCardProps) => {
-  const { schedule, handleScheduleChange } = useScheduleDataContext();
+export const SemesterCard = ({
+  semester
+}: SemesterCardProps): JSX.Element => {
+  const { schedule, handleScheduleChange } =
+    useScheduleDataContext();
 
-  const onValueChange = (semesterIndex, courseIndex, type, newValue) => {
-    handleScheduleChange(semesterIndex, courseIndex, type, newValue);
+  const onValueChange = (
+    semesterId: number,
+    courseId: number,
+    type: string,
+    newValue: string
+  ) => {
+    handleScheduleChange(semesterId, courseId, type, newValue);
   };
-
-  useEffect(() => {
-    console.log("SCHEDULE CHANGING: ", schedule);
-  }, [schedule]);
-
-  function handleDragStart(e, courseIndex, semesterIndex) {
-    const dragData = { courseIndex, semesterIndex };
-    e.dataTransfer.setData("text/plain", JSON.stringify(dragData));
-    e.dataTransfer.effectAllowed = "move";
-    console.log("Drag start:", JSON.stringify(dragData));
-  }
-
-  function handleDrop(e, targetSemesterIndex, targetCourseIndex) {
-    e.preventDefault();
-    const {
-      courseIndex: sourceCourseIndex,
-      semesterIndex: sourceSemesterIndex,
-    } = JSON.parse(e.dataTransfer.getData("text/plain"));
-    console.log(
-      "Drop data:",
-      JSON.stringify({
-        sourceCourseIndex,
-        sourceSemesterIndex,
-        targetCourseIndex,
-        targetSemesterIndex,
-      })
-    );
-
-    if (
-      sourceSemesterIndex === targetSemesterIndex &&
-      sourceCourseIndex === targetCourseIndex
-    ) {
-      // Do nothing if the course is dropped onto itself
-      return;
-    }
-
-    const swapCourses = (
-      sourceSemesterIndex,
-      sourceCourseIndex,
-      targetSemesterIndex,
-      targetCourseIndex
-    ) => {
-      const sourceCourse =
-        schedule[sourceSemesterIndex].courses[sourceCourseIndex];
-      const targetCourse =
-        schedule[targetSemesterIndex].courses[targetCourseIndex];
-
-      // Swapping courseCode
-      handleScheduleChange(
-        sourceSemesterIndex,
-        sourceCourseIndex,
-        "courseCode",
-        targetCourse.courseCode
-      );
-      handleScheduleChange(
-        targetSemesterIndex,
-        targetCourseIndex,
-        "courseCode",
-        sourceCourse.courseCode
-      );
-
-      // Swapping units
-      handleScheduleChange(
-        sourceSemesterIndex,
-        sourceCourseIndex,
-        "units",
-        targetCourse.units
-      );
-      handleScheduleChange(
-        targetSemesterIndex,
-        targetCourseIndex,
-        "units",
-        sourceCourse.units
-      );
-    };
-    swapCourses(
-      sourceSemesterIndex,
-      sourceCourseIndex,
-      targetSemesterIndex,
-      targetCourseIndex
-    );
-  }
-
-  function handleDragOver(e) {
-    e.preventDefault(); // This is necessary to allow dropping
-    e.dataTransfer.dropEffect = "move";
-  }
 
   return (
     <div className="relative z-20 rounded-2xl bg-slate-800 border border-black dark:border-white/[0.2] group-hover:border-slate-700 overflow-hidden min-w-[200px] min-h-[300px] w-full max-w-[700px] mx-auto flex flex-col gap-5 p-4">
@@ -109,21 +38,41 @@ export const SemesterCard = ({ semester }: SemesterCardProps) => {
         {semester.term} {semester.year}
       </CardTitle>
       <div className="flex-grow-0 flex flex-col gap-2">
-        {semester.courses.map((course, index) => (
+        {semester.courses.map((course) => (
           <ClassRow
-            key={`${semester.id}-course-${index}`}
+            key={course.id}
             semesterId={semester.id} // Passed as index directly
-            courseId={index} // Index of the course in the semester's course array
+            courseId={course.id} // Index of the course in the semester's course array
             initialCourseCode={course.courseCode}
             initialUnits={course.units}
-            onDragStart={handleDragStart}
+            onDragStart={(e) =>
+              handleDragStart(e, course.id, semester.id)
+            }
             onCourseCodeChange={(newCode) =>
-              onValueChange(semester.id, index, "courseCode", newCode)
+              onValueChange(
+                semester.id,
+                course.id,
+                "courseCode",
+                newCode
+              )
             }
             onUnitsChange={(newUnit) =>
-              onValueChange(semester.id, index, "units", newUnit)
+              onValueChange(
+                semester.id,
+                course.id,
+                "units",
+                newUnit
+              )
             }
-            onDrop={(e) => handleDrop(e, semester.id, index)}
+            onDrop={(e: React.DragEvent<HTMLDivElement>) =>
+              handleDrop(
+                e,
+                semester.id,
+                course.id,
+                schedule,
+                handleScheduleChange
+              )
+            }
             onDragOver={handleDragOver}
           />
         ))}
@@ -134,13 +83,18 @@ export const SemesterCard = ({ semester }: SemesterCardProps) => {
 
 export const CardTitle = ({
   className,
-  children,
+  children
 }: {
   className?: string;
   children: React.ReactNode;
-}) => {
+}): JSX.Element => {
   return (
-    <h4 className={cn("text-white font-bold tracking-wide mt-4", className)}>
+    <h4
+      className={cn(
+        "text-white font-bold tracking-wide mt-4",
+        className
+      )}
+    >
       {children}
     </h4>
   );
