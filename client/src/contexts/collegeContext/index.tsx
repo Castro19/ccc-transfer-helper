@@ -1,4 +1,10 @@
-import { useState, useContext, createContext, ReactNode } from "react";
+/* eslint-disable react-refresh/only-export-components */
+import {
+  useState,
+  useContext,
+  createContext,
+  ReactNode
+} from "react";
 import { Univ, MajorPair } from "@/types";
 import colleges from "@/assets/json_files/community_colleges.json";
 import { CollegeContextType } from "@/types";
@@ -7,9 +13,13 @@ interface CollegeProviderProps {
   children: ReactNode;
 }
 
-const CollegeContext = createContext<CollegeContextType | undefined>(undefined);
+const CollegeContext = createContext<
+  CollegeContextType | undefined
+>(undefined);
 
-export const CollegeProvider = ({ children }: CollegeProviderProps) => {
+export const CollegeProvider = ({
+  children
+}: CollegeProviderProps): JSX.Element => {
   // 1.) Define our state variables
   //  1a. Lists:
   const CCCList = colleges;
@@ -28,7 +38,9 @@ export const CollegeProvider = ({ children }: CollegeProviderProps) => {
     setYear(Number(collegeYear));
   };
   // 2b. Select their CCC
-  const handleSelectedCommunityCollege = async (collegeCode: string) => {
+  const handleSelectedCommunityCollege = async (
+    collegeCode: string
+  ) => {
     console.log("CCC CODE: ", collegeCode);
     const chosenCommunityCollege = CCCList.find(
       (college) => college.code === collegeCode
@@ -37,7 +49,9 @@ export const CollegeProvider = ({ children }: CollegeProviderProps) => {
     setCCC(chosenCommunityCollege);
   };
   // 2c. Select their Transfer University
-  const handleSelectedTransferCollege = (collegeCode: string) => {
+  const handleSelectedTransferCollege = (
+    collegeCode: string
+  ) => {
     const chosenTransferCollege = univList.find(
       (college) => college.code === collegeCode
     );
@@ -70,7 +84,7 @@ export const CollegeProvider = ({ children }: CollegeProviderProps) => {
         univList,
         setUnivList,
         majorList,
-        setMajorList,
+        setMajorList
       }}
     >
       {children}
@@ -79,10 +93,12 @@ export const CollegeProvider = ({ children }: CollegeProviderProps) => {
 };
 
 // 4. Export our custom hook and make sure we use it within the correct Provider
-export const useCollege = () => {
+export const useCollege = (): CollegeContextType => {
   const context = useContext(CollegeContext);
   if (!context) {
-    throw new Error("useCollege must be used within a CollegeProvider");
+    throw new Error(
+      "useCollege must be used within a CollegeProvider"
+    );
   }
   return context;
 };

@@ -1,5 +1,6 @@
 export type CourseType = {
-  courseCode: string;
+  id?: number;
+  courseCode: string | null;
   units: string;
 };
 
@@ -10,6 +11,14 @@ export type ClassType = {
   inSchedule?: boolean;
 };
 
+export type SemesterCourses = {
+  [key: string]: CourseType[];
+};
+
+export type SubjectType = {
+  subject: CourseType[];
+};
+
 export type SemesterType = {
   id: number;
   term: string;
@@ -17,11 +26,7 @@ export type SemesterType = {
   courses: Array<CourseType>;
 };
 
-export type SubjectType = {
-  subject: ClassType[];
-};
-
 export type ScheduleData = {
-  classes: ClassType[];
-  schedule: ClassType[];
+  schedule: SemesterCourses;
+  classes: SubjectType;
 };

@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import PDFInputField from "./PDFInputField";
-const PDFCard = () => {
+const PDFCard = (): JSX.Element => {
   return (
     <div>
       <Card>

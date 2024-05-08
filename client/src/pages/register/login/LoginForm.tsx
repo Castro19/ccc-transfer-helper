@@ -14,10 +14,10 @@ import { useAuth } from "@/contexts/authContext";
 // Importing Auth Functions
 import {
   doSignInWithEmailAndPassword,
-  doSignInWithGoogle,
+  doSignInWithGoogle
 } from "@/firebase/auth";
 
-export function LoginFormDemo() {
+export function LoginFormDemo(): JSX.Element {
   const { userLoggedIn } = useAuth();
   const [isSigningIn, setIsSigningIn] = useState(false);
 
@@ -25,12 +25,15 @@ export function LoginFormDemo() {
   const [password, setPassword] = useState("");
   const [signInError, setSignInError] = useState("");
 
-  const [passwordVisible, setPasswordVisible] = useState<boolean>(false);
+  const [passwordVisible, setPasswordVisible] =
+    useState<boolean>(false);
   const togglePasswordVisibility = () => {
     setPasswordVisible(!passwordVisible);
   };
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (
+    e: React.FormEvent<HTMLFormElement>
+  ) => {
     e.preventDefault();
 
     setSignInError("");
@@ -65,7 +68,9 @@ export function LoginFormDemo() {
     }
   };
 
-  const handleGoogleSignIn = async (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleGoogleSignIn = async (
+    e: React.MouseEvent<HTMLButtonElement>
+  ) => {
     e.preventDefault();
     if (!isSigningIn) {
       setIsSigningIn(true);
@@ -113,7 +118,11 @@ export function LoginFormDemo() {
               {passwordVisible ? <FiEyeOff /> : <FiEye />}
             </button>
           </LabelInputContainer>
-          {signInError ? <ErrorMessage text={signInError} /> : <></>}
+          {signInError ? (
+            <ErrorMessage text={signInError} />
+          ) : (
+            <></>
+          )}
           <button
             className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full my-8 text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
             type="submit"
@@ -155,7 +164,7 @@ export function LoginFormDemo() {
   );
 }
 
-export const BottomGradient = () => {
+export const BottomGradient = (): JSX.Element => {
   return (
     <>
       <span className="group-hover/btn:opacity-100 block transition duration-500 opacity-0 absolute h-px w-full -bottom-px inset-x-0 bg-gradient-to-r from-transparent via-cyan-500 to-transparent" />
@@ -166,13 +175,18 @@ export const BottomGradient = () => {
 
 const LabelInputContainer = ({
   children,
-  className,
+  className
 }: {
   children: React.ReactNode;
   className?: string;
 }) => {
   return (
-    <div className={cn("flex flex-col space-y-2 w-full", className)}>
+    <div
+      className={cn(
+        "flex flex-col space-y-2 w-full",
+        className
+      )}
+    >
       {children}
     </div>
   );

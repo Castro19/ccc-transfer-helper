@@ -5,16 +5,19 @@ import SchedulePageTitle from "@/components/schedulePage/SchedulePageTitle";
 import DropdownSettings from "@/components/schedulePage/settings/dropdownSettings/DropdownSettings";
 import Sidebar from "@/components/layouts/Sidebar";
 import { ScheduleContext } from "@/contexts/scheduleContext";
-import { initialSemesters } from "@/types";
+import { ScheduleData, initialSemesters } from "@/types";
 import styles from "./SchedulePage.module.css";
-const SchedulePage = () => {
+
+const SchedulePage = (): JSX.Element => {
   const params = useParams();
   const selectedYear = params.year;
   const selectedCCC = params.ccc;
   const selectedTransferCollege = params.college;
   const selectedMajor = params.major;
 
-  const initialData = useLoaderData();
+  const initialData = useLoaderData() as ScheduleData;
+
+  console.log("INITIAL DATA: ", initialData);
   // const scheduleData = initialData.schedule;
   const subjectClassData = initialData.classes;
 
@@ -29,26 +32,47 @@ const SchedulePage = () => {
   };
 
   const handleScheduleChange = (
-    cardIndex: number,
-    courseIndex: number,
+    semesterId: number,
+    courseId: number,
     type: string,
     newValue: string
   ) => {
-    // Create a deep copy
+    // Create a deep copy of the schedule
     const newSchedule = [...schedule];
 
     // Deep copy of the card obj that needs to be updated
-    const updatedCourses = [...newSchedule[cardIndex].courses];
+    const updatedCourses = [...newSchedule[semesterId].courses];
+
+    // Find the semester by ID
+    const semesterIndex = newSchedule.findIndex(
+      (semester) => semester.id === semesterId
+    );
+    if (semesterIndex === -1) {
+      console.error("Semester not found");
+      return;
+    }
+
+    // Find the course by ID within the found semester
+    const courseIndex = newSchedule[semesterIndex].courses.findIndex(
+      (course) => course.id === courseId
+    );
+    if (courseIndex === -1) {
+      console.error("Course not found");
+      return;
+    }
 
     // Create new copy of the course obj and update specific field
     const updatedCourse = {
       ...updatedCourses[courseIndex],
       [type]: newValue,
     };
+
     updatedCourses[courseIndex] = updatedCourse;
 
-    newSchedule[cardIndex].courses = updatedCourses;
+    // Update the specific field in the course
+    newSchedule[semesterIndex].courses = updatedCourses;
 
+    // Update the state with the new schedule
     setSchedule(newSchedule);
   };
 

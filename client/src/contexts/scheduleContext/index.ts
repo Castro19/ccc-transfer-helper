@@ -6,7 +6,9 @@ export function useSemesterContext() {
   const [semesters] = useContext(ScheduleContext);
 
   if (semesters === undefined) {
-    throw new Error("useScheduleContext must be used with a Schedule Context ");
+    throw new Error(
+      "useScheduleContext must be used with a Schedule Context "
+    );
   }
   return semesters;
 }

@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import { Menu, MenuItem, HoveredLink } from "@/components/ui/navbar-item";
+import {
+  Menu,
+  MenuItem,
+  HoveredLink
+} from "@/components/ui/navbar-item";
 import { useAuth } from "@/contexts/authContext";
 import { doSignOut } from "@/firebase/auth";
 import { Button } from "@/components/ui/button";
 
-const UserMenu = () => {
+const UserMenu = (): JSX.Element => {
   const { userLoggedIn } = useAuth();
 
   const [active, setActive] = useState<string | null>(null);
@@ -21,7 +25,11 @@ const UserMenu = () => {
     <div>
       {userLoggedIn ? (
         <Menu setActive={setActive}>
-          <MenuItem setActive={setActive} active={active} item="profile">
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item="profile"
+          >
             <HoveredLink
               to="/signout"
               onClick={handleSignOut}
