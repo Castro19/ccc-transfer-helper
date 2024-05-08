@@ -10,7 +10,7 @@ import { AuthProvider } from "./contexts/authContext/index.tsx";
 import { CollegeProvider } from "./contexts/collegeContext";
 
 import HomePage from "./pages/HomePage.tsx";
-import SchedulePage from "./pages/SchedulePage.tsx";
+import SchedulePage from "./pages/schedule/SchedulePage.tsx";
 import Register from "./pages/register/Register.tsx";
 import { SignupFormDemo } from "./pages/register/signup/SignUpForm.tsx";
 import { LoginFormDemo } from "./pages/register/login/LoginForm.tsx";

@@ -123,7 +123,6 @@ export const SemesterCard = ({ semester }: SemesterCardProps) => {
             onUnitsChange={(newUnit) =>
               onValueChange(semester.id, index, "units", newUnit)
             }
-            onDragStart={handleDragStart}
             onDrop={(e) => handleDrop(e, semester.id, index)}
             onDragOver={handleDragOver}
           />

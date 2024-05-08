@@ -2,10 +2,11 @@ import { useState } from "react";
 import { useParams, useLoaderData } from "react-router-dom";
 import SemesterCards from "@/components/schedulePage/semester/Semesters";
 import SchedulePageTitle from "@/components/schedulePage/SchedulePageTitle";
+import DropdownSettings from "@/components/schedulePage/settings/dropdownSettings/DropdownSettings";
 import Sidebar from "@/components/layouts/Sidebar";
 import { ScheduleContext } from "@/contexts/scheduleContext";
 import { initialSemesters } from "@/types";
-
+import styles from "./SchedulePage.module.css";
 const SchedulePage = () => {
   const params = useParams();
   const selectedYear = params.year;
@@ -52,33 +53,40 @@ const SchedulePage = () => {
   };
 
   return (
-    <div className="flex min-h-screen">
-      <ScheduleContext.Provider value={{ schedule, handleScheduleChange }}>
+    <ScheduleContext.Provider value={{ schedule, handleScheduleChange }}>
+      <div className={styles.container}>
         {/* Sidebar Component with toggle function */}
         <Sidebar
           isVisible={isSidebarVisible}
           setIsVisible={handleSidebarVisibility}
           subjectClasses={subjectClasses}
         />
-
         {/* Main Content Area */}
         <div
-          className={`flex-1 ${
-            isSidebarVisible ? "ml-64" : "ml-0"
-          } transition-margin duration-300`}
+          className={`${styles.mainContent} ${
+            isSidebarVisible
+              ? styles.mainContentWithSidebar
+              : styles.mainContentWithoutSidebar
+          }`}
         >
-          <SchedulePageTitle
-            selectedYear={selectedYear}
-            selectedCCC={selectedCCC}
-            selectedTransferCollege={selectedTransferCollege}
-            selectedMajor={selectedMajor}
-          />
-          <div className="p-4 gap-4">
+          <div className={styles.contentArea}>
+            <SchedulePageTitle
+              selectedYear={selectedYear}
+              selectedCCC={selectedCCC}
+              selectedTransferCollege={selectedTransferCollege}
+              selectedMajor={selectedMajor}
+            />
+            <div className={styles.toolbar}>
+              <DropdownSettings />
+            </div>
+          </div>
+
+          <div className={styles.contentPadding}>
             <SemesterCards />
           </div>
         </div>
-      </ScheduleContext.Provider>
-    </div>
+      </div>
+    </ScheduleContext.Provider>
   );
 };
 
