@@ -16,6 +16,8 @@ def combinate(arr, n, combinations, find):
             return combinate(result.arr, len(result.arr), combinations, find)
         
         r-=1
+    for thing in arr:
+        combinations.append("DNE")
     return combinations
 
 def findCombination(arr, n ,r, find):
@@ -26,7 +28,7 @@ def findCombination(arr, n ,r, find):
 def recComb(arr, data, start, end, index, r, find):
 
     if index == r:
-        fResult = find(data[:r])
+        fResult =  find(data[:r])
         return ReturnType(fResult, [x for x in arr if x not in data[:r]]) if fResult else None
     
     i=start
@@ -38,14 +40,26 @@ def recComb(arr, data, start, end, index, r, find):
             return result
 
 
-myArray = [0,1,2,3]
+'''myArray = [0,1,2,3]
 
 def findAndPrint(thing):
 
-    if thing and len(thing)<3:
+    #if thing and len(thing)<3:
+        #return thing
+    if 0 not in thing and len(thing)<3:
         return thing
+    
     return None
 
 print(combinate(myArray,4, [], findAndPrint))
+
+
+def find(strs, agDic, courses):
+
+    return None
+
+def currFind(alexFind, agDic, courses):
+    
+    return lambda arr : alexFind(arr,courses,agDic)'''
 
 
