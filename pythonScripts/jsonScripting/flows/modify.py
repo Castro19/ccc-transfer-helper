@@ -103,6 +103,6 @@ def modify_json_file(filepath):
     # Use this ^ to get a good look at what the original data looks like.
 
 # Specify the root directory from where to start processing
-root_dir = "schedules_4yrs"
+root_dir = "schedules_2yrs"
 #root_directory = "schedules"
-modify_json_files(root_dir, "formattedSchedules_4yrs")
+modify_json_files(root_dir, "formattedSchedules")
