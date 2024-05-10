@@ -2,7 +2,7 @@
 Scrapes course agreements between Cal Poly Slo and community colleges.
 
 Separate .json files are created for each agreement and saved to:
-json_files/calpolyMappings/
+pythonScrips/json_files/calpolyAgreements/
 """
 
 from selenium import webdriver
@@ -25,11 +25,15 @@ from groupCourses import group_course_mappings
 
 # Set to true to use Chrome instead of Firefox
 CHROME = True
+# Sets makes selenium browser headless (no gui)
 HEADLESS_MODE = True
+# Name of the file which contains url data for every CCC
 URLS_FILE_NAME = "community_colleges_with_urls.json"
+# Name of desired directory where agreements will be saved
+AGREEMENT_DIR = "json_files/calpolyAgreements/"
 
 
-def join_path(file_name: str) -> str:
+def join_path(file_name: str, dir_levels_up: int = 0) -> str:
     """
     Join current directory path with a desired file name,
     returning full path as a string.
@@ -39,14 +43,20 @@ def join_path(file_name: str) -> str:
     Parameters
     ---
     file_name: str
-        The desired file name, including a subdirectory if desired.
+        The desired file name, including subdirectories if desired.
+    dir_levels_up: int
+        The desired number of directory levels to go up
+        from the current directory level.
+        Defaulted to 0.
 
     Returns
     ---
     str
         The full directory path including the given file name.
     """
-    return os.path.join(os.path.dirname(os.path.abspath(__file__)), file_name)
+    dir_path_list = os.path.dirname(os.path.abspath(__file__)).split('/')
+    desired_dir = '/'.join(dir_path_list[:len(dir_path_list) - dir_levels_up])
+    return os.path.join(desired_dir, file_name)
 
 
 def initialize_driver(is_chrome: bool = False, is_headless_mode: bool = True):
@@ -226,9 +236,10 @@ try:
     for url_dict in urls:
         try:
             articulation_agreement = scrape_agreement(url_dict["url"])
-            # Save jsons to /json_files/calpolySchedules
-            file_path = join_path(f"json_files/calpolySchedules/"
-                                  f"{url_dict['code']}_{url_dict['id']}.json")
+            # Save jsons to pythonScripts/json_files/calpolyAgreements
+            file_path = join_path(f"{AGREEMENT_DIR}"
+                                  f"{url_dict['code']}_{url_dict['id']}.json",
+                                  1)
             # Create dir if it does not yet exist
             os.makedirs(os.path.dirname(file_path), exist_ok=True)
             with open(file_path, 'w') as file:

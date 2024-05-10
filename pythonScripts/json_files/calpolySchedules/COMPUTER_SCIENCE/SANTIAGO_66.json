@@ -1,0 +1,268 @@
+{
+    "id": "11111111-1111-1111-1111-111111111111",
+    "ownerId": "11111111-1111-1111-1111-111111111111",
+    "name": "22-26.52CSCBSU",
+    "programId": [
+        "700ba9ff-016c-4472-801b-542da55a80f7"
+    ],
+    "startYear": "2022",
+    "unitTotal": "180",
+    "notes": "",
+    "termData": [
+        {
+            "tIndex": -1,
+            "tUnits": "0",
+            "courses": []
+        },
+        {
+            "tIndex": 1,
+            "tUnits": "16",
+            "courses": [
+                {
+                    "conjunction": null,
+                    "courses": [
+                        {
+                            "courseNumber": "CMPR120",
+                            "courseTitle": "Introduction to Programming",
+                            "courseUnits": "3.00"
+                        }
+                    ]
+                },
+                {
+                    "conjunction": "OR",
+                    "courses": [
+                        {
+                            "courseNumber": "MATH180",
+                            "courseTitle": "Single Variable Calculus I",
+                            "courseUnits": "4.00"
+                        },
+                        {
+                            "courseNumber": "MATH180H",
+                            "courseTitle": "Honors Single Variable Calculus I",
+                            "courseUnits": "4.00"
+                        }
+                    ]
+                },
+                {
+                    "conjunction": null,
+                    "courses": [
+                        {
+                            "courseNumber": "COMM110",
+                            "courseTitle": "Public Speaking",
+                            "courseUnits": "3.00"
+                        }
+                    ]
+                },
+                {
+                    "id": null,
+                    "color": "#DCFDD2",
+                    "customId": "GE",
+                    "customUnits": "4",
+                    "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+                }
+            ]
+        },
+        {
+            "tIndex": 2,
+            "tUnits": "16",
+            "courses": [
+                {
+                    "conjunction": "OR",
+                    "courses": [
+                        {
+                            "courseNumber": "CMPR112",
+                            "courseTitle": "JAVA Programming",
+                            "courseUnits": "3.00"
+                        },
+                        {
+                            "courseNumber": "CMPR121",
+                            "courseTitle": "Programming Concepts",
+                            "courseUnits": "3.00"
+                        },
+                        {
+                            "courseNumber": "CMPR122",
+                            "courseTitle": "Programming Concepts and Methodology I",
+                            "courseUnits": "3.00"
+                        }
+                    ]
+                },
+                {
+                    "conjunction": null,
+                    "courses": [
+                        {
+                            "courseNumber": "MATH185",
+                            "courseTitle": "Single Variable Calculus II",
+                            "courseUnits": "4.00"
+                        }
+                    ]
+                },
+                {
+                    "conjunction": null,
+                    "courses": [
+                        {
+                            "courseNumber": "ENGL101",
+                            "courseTitle": "Freshman Composition",
+                            "courseUnits": "4.00"
+                        }
+                    ]
+                },
+                {
+                    "id": null,
+                    "color": "#DCFDD2",
+                    "customId": "GE",
+                    "customUnits": "4",
+                    "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+                }
+            ]
+        },
+        {
+            "tIndex": 3,
+            "tUnits": "16",
+            "courses": [
+                {
+                    "conjunction": "OR",
+                    "courses": [
+                        {
+                            "courseNumber": "CMPR131",
+                            "courseTitle": "Data Structures Concepts",
+                            "courseUnits": "3.00"
+                        },
+                        {
+                            "courseNumber": "CMPR132",
+                            "courseTitle": "Programming Concepts and Methodology II",
+                            "courseUnits": "3.00"
+                        }
+                    ]
+                },
+                {
+                    "conjunction": null,
+                    "courses": [
+                        {
+                            "courseNumber": "MATH185",
+                            "courseTitle": "Single Variable Calculus II",
+                            "courseUnits": "4.00"
+                        }
+                    ]
+                },
+                {
+                    "conjunction": null,
+                    "courses": []
+                },
+                {
+                    "id": null,
+                    "color": "#FCD09E",
+                    "customId": "Life Science Support Elective",
+                    "customUnits": "4",
+                    "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Life Science\" Support Electives: BIO111, BIO161, BIO213 & BMED213; BOT121; MCRO221.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+                }
+            ]
+        },
+        {
+            "tIndex": 5,
+            "tUnits": "16",
+            "courses": [
+                {
+                    "conjunction": null,
+                    "courses": []
+                },
+                {
+                    "conjunction": null,
+                    "courses": [
+                        {
+                            "courseNumber": "PHYS250A",
+                            "courseTitle": "Physics for Scientists and Engineering I",
+                            "courseUnits": "5.00"
+                        }
+                    ]
+                },
+                {
+                    "id": null,
+                    "color": "#FCD09E",
+                    "customId": "Linear Math",
+                    "customDisplayName": "MATH206 or MATH244",
+                    "customUnits": "4",
+                    "customDesc": "Choose one of the following: MATH206, or MATH244."
+                },
+                {
+                    "id": null,
+                    "color": "#FCD09E",
+                    "customId": "Additional Science Support Elective",
+                    "customUnits": "4",
+                    "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Additional Science\" Support Electives; BIO111, BIO161; BOT121; CHEM124; MCRO221; PHYS141.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+                }
+            ]
+        },
+        {
+            "tIndex": 6,
+            "tUnits": "12",
+            "courses": [
+                {
+                    "conjunction": null,
+                    "courses": [
+                        {
+                            "courseNumber": "CMPR149",
+                            "courseTitle": "Discrete Structures for Computer Science",
+                            "courseUnits": "3.00"
+                        }
+                    ]
+                },
+                {
+                    "conjunction": null,
+                    "courses": [
+                        {
+                            "courseNumber": "CMPR154",
+                            "courseTitle": "Computer Architecture and Organization",
+                            "courseUnits": "3.00"
+                        }
+                    ]
+                },
+                {
+                    "conjunction": "AND",
+                    "courses": [
+                        {
+                            "courseNumber": "PHYS250B",
+                            "courseTitle": "Physics for Scientists and Engineering II",
+                            "courseUnits": "5.00"
+                        },
+                        {
+                            "courseNumber": "PHYS250C",
+                            "courseTitle": "Physics for Scientist and Engineering III",
+                            "courseUnits": "5.00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tIndex": 7,
+            "tUnits": "16",
+            "courses": [
+                {
+                    "conjunction": null,
+                    "courses": [
+                        {
+                            "courseNumber": "PHYS250B",
+                            "courseTitle": "Physics for Scientists and Engineering II",
+                            "courseUnits": "5.00"
+                        }
+                    ]
+                },
+                "No Matching Course: CSC349",
+                "No Matching Course: CSC357",
+                {
+                    "id": null,
+                    "color": "#FCD09E",
+                    "customId": "Philosophical Classics",
+                    "customDisplayName": "PHIL230 or PHIL231",
+                    "customUnits": "4",
+                    "customDesc": "Choose one of the following: PHIL230, or PHIL231."
+                }
+            ]
+        }
+    ],
+    "version": 7,
+    "hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "publishedId": null,
+    "importedId": null,
+    "lastUpdatedUTC": "2023-03-05T20:03:23.609Z"
+}
