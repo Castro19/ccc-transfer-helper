@@ -1,21 +1,27 @@
 """
-This module is intended to be used with webScraper to map course agreements between institutions.
+This module is intended to be used with webScraper to group course agreements
+between institutions.
 
-It includes definitions for handling groups of courses, determining their equivalence or relationships,
-and processing these relationships based on conjunctions such as 'AND' or 'OR'. The main classes and functions are
-used to organize and serialize course data into structured formats suitable for JSON serialization.
+It includes definitions for handling groups of courses, determining their
+equivalence or relationships, and processing these relationships based on
+conjunctions such as 'AND' or 'OR'. The main classes and functions are
+used to organize and serialize course data into structured formats suitable
+for JSON serialization.
 
 Classes:
-    Group - Represents a group of courses and their relational logic for course equivalency.
+    Group - Represents a group of courses and their relational logic for
+    course equivalency.
 
 Functions:
-    map_course_groupings - Processes course agreements and maps them into structured groupings based on
-    logical conjunctions.
+    map_course_groupings - Processes course agreement mappings and returns
+    structured groupings based on conjunctions.
 """
+
 
 class Group:
     """
-    Represents a group of courses as well as their relationship in the context of course equivalents with respect to another institution.
+    Represents a group of courses as well as their relationship in the context
+    of course equivalents with respect to another institution.
     """
     def __init__(self, grouping: list, conjunction: str = None) -> None:
         self.grouping = list(grouping[:])
@@ -23,7 +29,8 @@ class Group:
 
     # For a readable print
     def __repr__(self) -> str:
-        repr_grouping = ', '.join(self.repr_item(item) for item in self.grouping)
+        repr_grouping = ', '.join(self.repr_item(item)
+                                  for item in self.grouping)
         return f"{self.conjunction} [{repr_grouping}]"
 
     # Helper function for __repr__
@@ -58,7 +65,7 @@ class Group:
         """
         self.grouping.remove(course)
 
-    def has_course(self, course, deep_search: bool=False) -> bool:
+    def has_course(self, course, deep_search: bool = False) -> bool:
         """
         Check if a course is already in the grouping.
 
@@ -69,8 +76,8 @@ class Group:
         course: dict
             The course dictionary to check.
         deep_search: bool
-            Perform a deep search to check if the course is anywhere within the group,
-            searching recursively if the Group grouping is a Group.
+            Perform a deep search to check if the course is anywhere within
+            the group, searching recursively if the Group grouping is a Group.
             Defaults to False.
 
         Returns
@@ -80,7 +87,8 @@ class Group:
         """
         if deep_search:
             return any(
-                item["courseNumber"] == course["courseNumber"] if isinstance(item, dict)
+                item["courseNumber"] == course["courseNumber"]
+                if isinstance(item, dict)
                 else item.has_course(course)
                 for item in self.grouping
             )
@@ -95,15 +103,18 @@ class Group:
         Returns
         ---
         dict
-            A dictionary representing the Group with its courses and conjunction.
+            A dictionary representing the Group with its courses and
+            conjunction.
         """
         d = {
             "conjunction": self.conjunction,
-            "courses": [x if isinstance(x, dict) else x.make_dict() for x in self.grouping]
+            "courses": [x if isinstance(x, dict) else x.make_dict()
+                        for x in self.grouping]
         }
         return d
 
-def map_course_groupings(course_agreement: dict, verbose: bool = False) -> dict:
+
+def group_course_mappings(course_agreement: dict, verbose: bool=False) -> dict:
     """
     Parameters
     ---
@@ -121,7 +132,8 @@ def map_course_groupings(course_agreement: dict, verbose: bool = False) -> dict:
             }
         }
     verbose: bool
-        Defaulted to False. Prints result of function in a readable format if True, e.g.,
+        Defaulted to False. Prints result of function in a readable format if
+        True, e.g.:
 
         receiving: AND [CHEM124, CHEM125]
         sending: AND [CHEM2A, CHEM2AL, CHEM2B, CHEM2BL]
@@ -129,7 +141,8 @@ def map_course_groupings(course_agreement: dict, verbose: bool = False) -> dict:
     Returns
     ---
     dict
-        A dictionary of the agreement with the appropriate mapping and course groupings.
+        A dictionary of the agreement with the appropriate mapping
+        and course groupings.
     """
 
     mapping = {}
@@ -138,28 +151,36 @@ def map_course_groupings(course_agreement: dict, verbose: bool = False) -> dict:
         temp_courses = Group(val["courses"])
         group = temp_courses
 
-        # Start by ANDing courses. Remove any courses added to an AND group from temp_courses
+        # Start by ANDing courses. Remove any courses added to an AND group
+        # from temp_courses
         if "AND" in val["conjunctions"]:
             for i, conj in enumerate(val["conjunctions"]):
                 if conj == "AND":
-                    # The previous conjugation was also an AND, add next course to previous AND grouping
+                    # The previous conjugation was also an AND,
+                    # add next course to previous AND grouping
                     if i != 0 and conj == val["conjunctions"][i - 1]:
                         anded_courses[-1].add(val["courses"][i + 1])
                         temp_courses.remove(val["courses"][i + 1])
-                    # Otherwise create new AND Group when courses are separated by an AND
+                    # Otherwise create new AND Group when courses are
+                    # separated by an AND
                     else:
-                        anded_courses.append(Group((val["courses"][i], val["courses"][i + 1]), conj))
+                        anded_courses.append(Group((val["courses"][i],
+                                                    val["courses"][i + 1]),
+                                                   conj))
                         temp_courses.remove(val["courses"][i])
                         temp_courses.remove(val["courses"][i + 1])
-        # Conjunctions are present but there are no ANDs, make group an OR grouping
+        # Conjunctions are present but there are no ANDs,
+        # make group an OR grouping
         elif val["conjunctions"]:
             group.conjunction = "OR"
 
         if anded_courses:
-            # if temp_courses is empty, and there is at least one OR in conjuctions, presume ANDs should be ORed
+            # if temp_courses is empty, and there is at least
+            # one OR in conjuctions, presume ANDs should be ORed
             if not temp_courses.grouping and "OR" in val["conjunctions"]:
                 group = Group(anded_courses, "OR")
-            # There are leftover courses in temp_courses, OR them with the ANDed courses
+            # There are leftover courses in temp_courses,
+            # OR them with the ANDed courses
             elif temp_courses.grouping and "OR" in val["conjunctions"]:
                 group = Group([temp_courses] + anded_courses, "OR")
             # No Ors -- only a single group of ANDed courses remain
@@ -254,10 +275,13 @@ if __name__ == "__main__":
                 'conjunctions': ['OR', 'OR', 'OR', 'OR', 'OR', 'OR']
             }
         },
-        {'receiving': {'courses': [{'courseNumber': 'WLC202', 'courseTitle': 'Intermediate World Language II', 'courseUnits': '4.00'}], 'conjunctions': []}, 'sending': {'courses': [], 'conjunctions': []}}
+        {'receiving': {'courses': [
+            {'courseNumber': 'WLC202', 'courseTitle': 'Intermediate World Language II', 'courseUnits': '4.00'}],
+            'conjunctions': []},
+         'sending': {'courses': [], 'conjunctions': []}}
     ]
 
     agreements = []
     for data in course_data:
-        agreements.append(map_course_groupings(data, verbose=True))
+        agreements.append(group_course_mappings(data, verbose=True))
 
