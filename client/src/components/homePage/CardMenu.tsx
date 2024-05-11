@@ -15,7 +15,10 @@ interface CardMenuProps {
 }
 
 // type
-const CardMenu = ({ handlePDF, handleNewWindow }: CardMenuProps) => {
+const CardMenu = ({
+  handlePDF,
+  handleNewWindow,
+}: CardMenuProps): JSX.Element => {
   // Context Variables
   const {
     handleSelectedYear,

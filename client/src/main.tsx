@@ -8,9 +8,11 @@ import {
 // Context Providers
 import { AuthProvider } from "./contexts/authContext/index.tsx";
 import { CollegeProvider } from "./contexts/collegeContext";
+import { DndProvider } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
 
 import HomePage from "./pages/HomePage.tsx";
-import SchedulePage from "./pages/SchedulePage.tsx";
+import SchedulePage from "./pages/schedule/SchedulePage.tsx";
 import Register from "./pages/register/Register.tsx";
 import { SignupFormDemo } from "./pages/register/signup/SignUpForm.tsx";
 import { LoginFormDemo } from "./pages/register/login/LoginForm.tsx";
@@ -53,9 +55,11 @@ const router = createBrowserRouter([
   {
     path: "/schedule/:year/:ccc/:college/:major",
     element: (
-      <Layout>
-        <SchedulePage />
-      </Layout>
+      <DndProvider backend={HTML5Backend}>
+        <Layout>
+          <SchedulePage />
+        </Layout>
+      </DndProvider>
     ),
     loader: fetchScheduleData,
   },

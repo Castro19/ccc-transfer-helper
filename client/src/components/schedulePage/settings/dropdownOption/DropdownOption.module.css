@@ -1,0 +1,12 @@
+.option {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 50px;
+  border-color: black;
+}
+
+.option:hover {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex-grow: 1;
+  transition: margin-left 0.3s; /* Smooth transition for margin-left */
+}
+
+.mainContentWithSidebar {
+  margin-left: 300px;
+}
+
+.mainContentWithoutSidebar {
+  margin-left: 0;
+}
+
+.contentArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.toolbar {
+  width: 75%; /* Set width to 75% of its parent's width */
+  display: flex;
+  justify-content: center; /* Align DropdownSettings to the right */
+  padding-right: 20px; /* Padding to not stick to the edge */
+}
+
+.contentPadding {
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+}

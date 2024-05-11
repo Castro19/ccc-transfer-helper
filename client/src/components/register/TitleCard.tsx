@@ -1,8 +1,7 @@
 // TitleCard.tsx
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const TitleCard = () => {
+const TitleCard = (): JSX.Element => {
   const navigate = useNavigate();
 
   return (

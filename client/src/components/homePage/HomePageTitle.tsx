@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-const HomePageTitle = () => {
+const HomePageTitle = (): JSX.Element => {
   return (
     <Fragment>
       <p className="text-center text-2xl text-gray-800 my-4">

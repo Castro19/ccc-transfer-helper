@@ -10,9 +10,9 @@ import {
   doSignInWithGoogle,
 } from "@/firebase/auth";
 import { useAuth } from "@/contexts/authContext";
-import { Navigate, Link, useNavigate } from "react-router-dom";
+import { Navigate, Link } from "react-router-dom";
 
-export function SignupFormDemo() {
+export function SignupFormDemo(): JSX.Element {
   const { userLoggedIn } = useAuth();
 
   const [firstName, setFirstName] = useState("");
