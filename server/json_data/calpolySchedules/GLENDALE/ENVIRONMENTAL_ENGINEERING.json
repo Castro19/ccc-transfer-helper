@@ -1,0 +1,308 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CHEM124.",
+                "subject": "ENVE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH103",
+                        "courseTitle": "Calculus and Analytic Geometry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM101",
+                        "courseTitle": "General Chemistry A",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPCH101",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS141.",
+                "subject": "CE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH104",
+                        "courseTitle": "Calculus and Analytic Geometry",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH104H",
+                        "courseTitle": "Honors Calculus and Analytic Geometry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM101",
+                        "courseTitle": "General Chemistry A",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM102",
+                        "courseTitle": "General Chemistry B",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHY101",
+                        "courseTitle": "Physics for Scientists and Engineers: A",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL101",
+                        "courseTitle": "Introduction to College Reading and Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHY101",
+                        "courseTitle": "Physics for Scientists and Engineers: A",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "PHY103",
+                        "courseTitle": "Physics for Scientists and Engineers: C",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH104",
+                        "courseTitle": "Calculus and Analytic Geometry",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH104H",
+                        "courseTitle": "Honors Calculus and Analytic Geometry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM102",
+                        "courseTitle": "General Chemistry B",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH105",
+                        "courseTitle": "Multivariable and Vector Calculus",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH105H",
+                        "courseTitle": "Honors Multivariable and Vector Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHY102",
+                        "courseTitle": "Physics for Scientists and Engineers: B",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR152",
+                        "courseTitle": "Engineering Mechanics - Statics",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ME",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR241",
+                        "courseTitle": "Strength of Materials",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "CE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH108",
+                                "courseTitle": "Ordinary Differential Equations",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH107",
+                                "courseTitle": "Linear Algebra",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH108H",
+                                "courseTitle": "Honors Ordinary Differential Equations",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH107H",
+                                "courseTitle": "Honors Linear Algebra",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CE207.",
+                "subject": "CE",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "MCRO221",
+                    "MCRO224"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MCRO221, or MCRO224."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    }
+}

@@ -1,0 +1,278 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH250",
+                        "courseTitle": "Single Variable Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM150",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM150H",
+                        "courseTitle": "General Chemistry I - Honors",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "COMMST100",
+                        "courseTitle": "Elements of Public Speaking",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "COMMST100H",
+                        "courseTitle": "Elements of Public Speaking - Honors",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "course": "CPE100",
+                "note": "No matching course found.",
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "course": "CPE123",
+                "note": "No matching course found.",
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSIC200",
+                        "courseTitle": "Physics I",
+                        "courseUnits": "6.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH251",
+                        "courseTitle": "Single Variable Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ENGL101",
+                        "courseTitle": "Freshman Composition",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "ENGL101H",
+                        "courseTitle": "Freshman Composition - Honors",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "course": "CPE101",
+                "note": "No matching course found.",
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH251",
+                        "courseTitle": "Single Variable Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMMST125",
+                        "courseTitle": "Critical Thinking through Argumentation and Debate",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "course": "CPE202",
+                "note": "No matching course found.",
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "course": "CPE133",
+                "note": "No matching course found.",
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS143.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS143.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSIC201",
+                        "courseTitle": "Physics II",
+                        "courseUnits": "6.00"
+                    }
+                ],
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH252",
+                        "courseTitle": "Multivariable Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "course": "CPE233",
+                "note": "No matching course found.",
+                "subject": "MATH",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS142.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS142.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS142.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CPE203.",
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "course": "CPE203",
+                "note": "No matching course found.",
+                "subject": "MATH",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS130",
+                        "courseTitle": "Discrete Structures",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Computer Architecture Course",
+                "course": [
+                    "CPE315",
+                    "CPE333"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE315, or CPE333."
+            },
+            {
+                "subject": "Choose a Philosophy Course",
+                "course": [
+                    "PHIL230",
+                    "PHIL231"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            }
+        ]
+    }
+}

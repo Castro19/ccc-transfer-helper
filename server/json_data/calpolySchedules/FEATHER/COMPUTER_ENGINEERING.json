@@ -1,0 +1,254 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CHEM124.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH218",
+                        "courseTitle": "Single Variable Calculus I - Late Transcendentals",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM102",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CPE100.",
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "course": "CPE100",
+                "note": "No matching course found.",
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ICT201",
+                        "courseTitle": "Programming Concepts and Methodology I",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH142.",
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH220",
+                        "courseTitle": "Single Variable Calculus II - Late Transcendentals",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL101",
+                        "courseTitle": "Composition and Reading",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ICT202",
+                        "courseTitle": "Programming Concepts and Methodology II",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH143.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH220",
+                        "courseTitle": "Single Variable Calculus II - Late Transcendentals",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL103",
+                        "courseTitle": "Critical Thinking and Writing",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS143.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS143.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS143.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS143.",
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH241.",
+                "subject": "MATH",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS142.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS142.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS142.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS142.",
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH244.",
+                "subject": "MATH",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CSC248.",
+                "subject": "CSC",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Computer Architecture Course",
+                "course": [
+                    "CPE315",
+                    "CPE333"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE315, or CPE333."
+            },
+            {
+                "subject": "Choose a Philosophy Course",
+                "course": [
+                    "PHIL230",
+                    "PHIL231"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            }
+        ]
+    }
+}

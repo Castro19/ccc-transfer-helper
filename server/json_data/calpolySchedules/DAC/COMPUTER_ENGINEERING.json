@@ -1,0 +1,414 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CHEM124.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH1A",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1A",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "COMM1",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "COMM1H",
+                        "courseTitle": "Public Speaking - HONORS",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "course": "CPE100",
+                "note": "No matching course found.",
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CIS26A",
+                        "courseTitle": "C as a Second Programming Language",
+                        "courseUnits": "4.50"
+                    },
+                    {
+                        "courseNumber": "CIS27",
+                        "courseTitle": "Programming in C++ for C/Java Programmers",
+                        "courseUnits": "4.50"
+                    },
+                    {
+                        "courseNumber": "CIS35A",
+                        "courseTitle": "Java Programming",
+                        "courseUnits": "4.50"
+                    },
+                    {
+                        "courseNumber": "CIS22A",
+                        "courseTitle": "Beginning Programming Methodologies in C++",
+                        "courseUnits": "4.50"
+                    },
+                    {
+                        "courseNumber": "CIS36A",
+                        "courseTitle": "Introduction to Computer Programming Using Java",
+                        "courseUnits": "4.50"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4A",
+                        "courseTitle": "Physics for Scientists and Engineers: Mechanics",
+                        "courseUnits": "6.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH1B",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EWRT1A",
+                        "courseTitle": "Composition and Reading",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CIS22CH",
+                                "courseTitle": "Data Abstraction and Structures - HONORS",
+                                "courseUnits": "4.50"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CIS22B",
+                                "courseTitle": "Intermediate Programming Methodologies in C++",
+                                "courseUnits": "4.50"
+                            },
+                            {
+                                "courseNumber": "CIS22C",
+                                "courseTitle": "Data Abstraction and Structures",
+                                "courseUnits": "4.50"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CIS22BH",
+                                "courseTitle": "Intermediate Programming Methodologies in C++ - HONORS",
+                                "courseUnits": "4.50"
+                            },
+                            {
+                                "courseNumber": "CIS22CH",
+                                "courseTitle": "Data Abstraction and Structures - HONORS",
+                                "courseUnits": "4.50"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CIS22C",
+                                "courseTitle": "Data Abstraction and Structures",
+                                "courseUnits": "4.50"
+                            },
+                            {
+                                "courseNumber": "CIS35A",
+                                "courseTitle": "Java Programming",
+                                "courseUnits": "4.50"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CIS35A",
+                                "courseTitle": "Java Programming",
+                                "courseUnits": "4.50"
+                            },
+                            {
+                                "courseNumber": "CIS22CH",
+                                "courseTitle": "Data Abstraction and Structures - HONORS",
+                                "courseUnits": "4.50"
+                            },
+                            {
+                                "courseNumber": "CIS36B",
+                                "courseTitle": "Intermediate Problem Solving in Java",
+                                "courseUnits": "4.50"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CIS22C",
+                                "courseTitle": "Data Abstraction and Structures",
+                                "courseUnits": "4.50"
+                            },
+                            {
+                                "courseNumber": "CIS36B",
+                                "courseTitle": "Intermediate Problem Solving in Java",
+                                "courseUnits": "4.50"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH143.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH1C",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS143.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS143.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS143.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4B",
+                        "courseTitle": "Physics for Scientists and Engineers: Electricity and Magnetism",
+                        "courseUnits": "6.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH1D",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CIS28",
+                        "courseTitle": "Object Oriented Analysis and Design",
+                        "courseUnits": "4.50"
+                    },
+                    {
+                        "courseNumber": "CIS35B",
+                        "courseTitle": "Advanced Java Programming",
+                        "courseUnits": "4.50"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS142.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS142.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4C",
+                        "courseTitle": "Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics",
+                        "courseUnits": "6.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH2A",
+                        "courseTitle": "Differential Equations",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH2B",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH22",
+                        "courseTitle": "Discrete Mathematics",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH22H",
+                        "courseTitle": "Discrete Mathematics - HONORS",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Computer Architecture Course",
+                "course": [
+                    "CPE315",
+                    "CPE333"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE315, or CPE333."
+            },
+            {
+                "subject": "Choose a Philosophy Course",
+                "course": [
+                    "PHIL230",
+                    "PHIL231"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            }
+        ]
+    }
+}

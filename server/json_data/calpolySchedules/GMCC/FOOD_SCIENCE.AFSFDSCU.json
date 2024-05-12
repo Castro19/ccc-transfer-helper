@@ -1,0 +1,221 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for BIO111.",
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for BIO111.",
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO120",
+                        "courseTitle": "Principles of Biology",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM122",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "NUTR155",
+                        "courseTitle": "Introduction to Nutrition",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "NUTR255",
+                        "courseTitle": "Science of Nutrition",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM141",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL120",
+                        "courseTitle": "College Composition and Reading",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "MATH141",
+                    "MATH161"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH141, or MATH161."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CHEM128.",
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYC130",
+                        "courseTitle": "Fundamentals of Physics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM141",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM142",
+                        "courseTitle": "General Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH280",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH160",
+                        "courseTitle": "Elementary Statistics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "STAT",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for FSN204.",
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Approved Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Elective course can go here."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO152",
+                        "courseTitle": "Paramedical Microbiology",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MCRO",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Approved Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Elective course can go here."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). Students interested in Blended program should pass GWR no later than Spring of Junior year and adjust their schedule to plan to complete FSN 330 in Fall of their Junior year. FSN330 is one of the prerequisite courses to be considered for the Blended program."
+            }
+        ]
+    }
+}

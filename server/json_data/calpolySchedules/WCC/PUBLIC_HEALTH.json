@@ -1,0 +1,211 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPECH1",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "HLTH",
+                "uniqueClass": false
+            },
+            {
+                "course": "HLTH101",
+                "note": "No matching course found.",
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Health Issues",
+                "course": [
+                    "HLTH255",
+                    "HLTH260"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: HLTH255 or HLTH260."
+            },
+            {
+                "subject": "General Psychology",
+                "course": [
+                    "PSY201",
+                    "PSY202"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PSY201 or PSY202."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for STAT218.",
+                "subject": "HLTH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1A",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "STAT1",
+                        "courseTitle": "Introduction to Statistical Methods",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "STAT",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL1A",
+                        "courseTitle": "College Composition and Reading",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIOL1",
+                        "courseTitle": "Principles of Biology",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "BIO",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPECH3",
+                        "courseTitle": "Argumentation and Critical Thinking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "ANT201",
+                    "SOC110"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: ANT201 or SOC110."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for HLTH298.",
+                "subject": "HLTH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for FSN202.",
+                "subject": "FSN",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Microbiology",
+                "course": [
+                    "MCRO221",
+                    "MCRO224"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MCRO221 or MCRO224."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for BIO231.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Communication",
+                "course": [
+                    "COMS301",
+                    "JOUR312"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: COMS301 or JOUR312."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for BIO232.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here."
+            }
+        ]
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH141.",
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHM25A",
+                        "courseTitle": "Calculus with Analytic Geometry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATHM25AH",
+                        "courseTitle": "Honors: Calculus with Analytic Geometry I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMMM02",
+                        "courseTitle": "Introduction to Persuasion",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSM125",
+                        "courseTitle": "Programming Concepts and Methodology I",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATHM25B",
+                        "courseTitle": "Calculus with Analytic Geometry II",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ENGLM01A",
+                        "courseTitle": "English Composition",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "ENGLM01AH",
+                        "courseTitle": "Honors: English Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSM135",
+                        "courseTitle": "Programming Concepts and Methodology II",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATHM25B",
+                        "courseTitle": "Calculus with Analytic Geometry II",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMMM07",
+                        "courseTitle": "Argumentation and Debate",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Life Science Support Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Life Science\" Support Electives: BIO111, BIO161, BIO213 & BMED213; BOT121; MCRO221.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSM10B",
+                        "courseTitle": "Object-Oriented Programming Using C++",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYSM20A",
+                        "courseTitle": "Mechanics of Solids and Fluids",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM20AL",
+                        "courseTitle": "Mechanics of Solids and Fluids Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Linear Math",
+                "course": [
+                    "MATH206",
+                    "MATH244"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH206, or MATH244."
+            },
+            {
+                "subject": "Additional Science Support Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Additional Science\" Support Electives; BIO111, BIO161; BOT121; CHEM124; MCRO221; PHYS141.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSM155",
+                        "courseTitle": "Discrete Structures",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSM145",
+                        "courseTitle": "Computer Architecture and Organization",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYSM20C",
+                        "courseTitle": "Wave Motion, Optics, and Modern Physics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM20CL",
+                        "courseTitle": "Wave Motion, Optics, and Modern Physics Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYSM20B",
+                        "courseTitle": "Thermodynamics, Electricity, and Magnetism",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM20BL",
+                        "courseTitle": "Thermodynamics, Electricity, and Magnetism Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Philosophical Classics",
+                "course": [
+                    "PHIL230",
+                    "PHIL231"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231."
+            }
+        ]
+    }
+}
