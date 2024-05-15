@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams, useLoaderData } from "react-router-dom";
 import SemesterCards from "@/components/schedulePage/semester/Semesters";
 import SchedulePageTitle from "@/components/schedulePage/SchedulePageTitle";
@@ -17,13 +17,10 @@ const SchedulePage = (): JSX.Element => {
 
   const initialData = useLoaderData() as ScheduleData;
 
-  console.log("INITIAL DATA: ", initialData);
-  // const scheduleData = initialData.schedule;
-  const subjectClassData = initialData.classes;
-
   // Initialize state for schedule and classes
-  const [subjectClasses] = useState(subjectClassData);
+  const [subjectClasses] = useState(initialData.classes);
   const [schedule, setSchedule] = useState(initialSemesters);
+
   // Layout
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
@@ -76,6 +73,11 @@ const SchedulePage = (): JSX.Element => {
     setSchedule(newSchedule);
   };
 
+  useEffect(() => {
+    console.log("Subject Classes: ", subjectClasses);
+    console.log("Schedule: ", schedule);
+  }, [schedule, subjectClasses]);
+
   return (
     <ScheduleContext.Provider value={{ schedule, handleScheduleChange }}>
       <div className={styles.container}>
@@ -84,6 +86,7 @@ const SchedulePage = (): JSX.Element => {
           isVisible={isSidebarVisible}
           setIsVisible={handleSidebarVisibility}
           subjectClasses={subjectClasses}
+          schedule={schedule}
         />
         {/* Main Content Area */}
         <div
