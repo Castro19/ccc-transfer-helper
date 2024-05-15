@@ -25,7 +25,7 @@ from groupCourses import group_course_mappings
 
 # Set to true to use Chrome instead of Firefox
 CHROME = True
-# Sets makes selenium browser headless (no gui)
+# Sets selenium browser to headless mode (no gui)
 HEADLESS_MODE = True
 # Name of the file which contains url data for every CCC
 URLS_FILE_NAME = "community_colleges_with_urls.json"

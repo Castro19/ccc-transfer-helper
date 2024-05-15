@@ -1,7 +1,22 @@
+"""
+This script processes and generates community college transfer schedules based
+on agreements with Cal Poly, swapping out courses in Cal Poly's formatted major
+schedules.
 
-# This script is currently intended to work with calpoly schedules,
-# If it is ever changed to work with other schools, determinging
-# what is and what is not a lowerdivision course must be changed.
+This script expects the needed data to be in the following directories:
+pythonScripts/json_files/calpolyAgreements
+pythonScripts/json_files/formattedShedules
+
+Run pythonScripts/WebScraping-Assist/webScraper.py first to rescrape and save
+calpoly agreements if it is not already present or if an update is necessary.
+
+formattedSchedules is generated using pythonScripts/jsonScripting/flows/modify.py
+
+Note:
+    This script is intended to work with Cal Poly schedules, if it is ever
+    altered to work with other schools, determining what is and what is not a
+    lower division course must be changed.
+"""
 
 
 import os

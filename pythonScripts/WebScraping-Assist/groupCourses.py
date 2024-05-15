@@ -144,7 +144,6 @@ def group_course_mappings(course_agreement: dict, verbose: bool=False) -> dict:
         A dictionary of the agreement with the appropriate mapping
         and course groupings.
     """
-
     mapping = {}
     for key, val in course_agreement.items():
         anded_courses = []
@@ -192,6 +191,7 @@ def group_course_mappings(course_agreement: dict, verbose: bool=False) -> dict:
 
         mapping[key] = group.make_dict()
     return mapping
+
 
 # Testing
 if __name__ == "__main__":
@@ -284,4 +284,3 @@ if __name__ == "__main__":
     agreements = []
     for data in course_data:
         agreements.append(group_course_mappings(data, verbose=True))
-
