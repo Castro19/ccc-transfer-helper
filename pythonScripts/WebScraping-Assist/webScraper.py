@@ -3,6 +3,10 @@ Scrapes course agreements between Cal Poly Slo and community colleges.
 
 Separate .json files are created for each agreement and saved to:
 pythonScrips/json_files/calpolyAgreements/
+
+The following file is expected to be in the parent directory to obtain
+the articulation agreement urls:
+community_colleges_with_urls.json
 """
 
 from selenium import webdriver
@@ -25,7 +29,7 @@ from groupCourses import group_course_mappings
 
 # Set to true to use Chrome instead of Firefox
 CHROME = True
-# Sets makes selenium browser headless (no gui)
+# Sets selenium browser to headless mode (no gui)
 HEADLESS_MODE = True
 # Name of the file which contains url data for every CCC
 URLS_FILE_NAME = "community_colleges_with_urls.json"
@@ -33,7 +37,7 @@ URLS_FILE_NAME = "community_colleges_with_urls.json"
 AGREEMENT_DIR = "json_files/calpolyAgreements/"
 
 
-def join_path(file_name: str, dir_levels_up: int = 0) -> str:
+def construct_path(file_name: str, dir_levels_up: int = 0) -> str:
     """
     Join current directory path with a desired file name,
     returning full path as a string.
@@ -230,16 +234,16 @@ try:
     driver = initialize_driver(CHROME, HEADLESS_MODE)
 
     # Get URLs from community_colleges_with_urls.json
-    with open(join_path(URLS_FILE_NAME), 'r') as file:
+    with open(construct_path(URLS_FILE_NAME), 'r') as file:
         urls = json.load(file)
 
     for url_dict in urls:
         try:
             articulation_agreement = scrape_agreement(url_dict["url"])
             # Save jsons to pythonScripts/json_files/calpolyAgreements
-            file_path = join_path(f"{AGREEMENT_DIR}"
-                                  f"{url_dict['code']}_{url_dict['id']}.json",
-                                  1)
+            file_path = construct_path(f"{AGREEMENT_DIR}"
+                                       f"{url_dict['code']}_{url_dict['id']}.json",
+                                       1)
             # Create dir if it does not yet exist
             os.makedirs(os.path.dirname(file_path), exist_ok=True)
             with open(file_path, 'w') as file:
