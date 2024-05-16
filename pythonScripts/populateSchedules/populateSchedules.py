@@ -4,10 +4,10 @@ on agreements with Cal Poly, swapping out courses in Cal Poly's formatted major
 schedules.
 
 This script expects the needed data to be in the following directories:
-pythonScripts/json_files/calpolyAgreements
-pythonScripts/json_files/formattedShedules
+server/json_data/calpolyAgreements
+server/json_data/formattedShedules
 
-Run pythonScripts/WebScraping-Assist/webScraper.py first to rescrape and save
+Run pythonScripts/WebScraping-Assist/webScraper.py first to scrape and save
 calpoly agreements if it is not already present or if an update is necessary.
 
 formattedSchedules is generated using pythonScripts/jsonScripting/flows/modify.py
@@ -27,9 +27,9 @@ from combinator import combinate
 from util import (construct_path, join_path, find,
                   save_json, load_json, is_lower_div)
 
-AGREEMENTS_PATH = construct_path("json_files/calpolyAgreements/", 1)
-INPUT_SCHEDULES_PATH = construct_path("json_files/formattedSchedules", 1)
-SCHEDULE_PATH = construct_path("json_files/calpolySchedules", 1)
+AGREEMENTS_PATH = construct_path("server/json_data/calpolyAgreements/", 2)
+INPUT_SCHEDULES_PATH = construct_path("server/json_data/formattedSchedules", 2)
+OUTPUT_SCHEDULE_PATH = construct_path("server/json_data/calpolySchedules", 2)
 
 # For getting the major schedule suffix
 SUFFIX_PATTERN = re.compile(r'(\d+[A-Z]+)\.(.*)\.json')
@@ -42,7 +42,7 @@ for agreement_file in os.listdir(AGREEMENTS_PATH):
 
     # Get what will be the full directory path for each CCC
     ccc_dir_name = agreement_file.split('_')[0]
-    ccc_path = join_path([SCHEDULE_PATH, ccc_dir_name])
+    ccc_path = join_path([OUTPUT_SCHEDULE_PATH, ccc_dir_name])
     print(f"Populating schedules for {ccc_dir_name}")
 
     # Iterate over every major in the directory

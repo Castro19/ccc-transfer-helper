@@ -251,10 +251,11 @@ if __name__ == "__main__":
             'sending': {
                 'courses': [
                     {'courseNumber': 'BIOL3', 'courseTitle': 'Introduction to Life Science', 'courseUnits': '4.00'},
+                    {'courseNumber': 'BIOL4', 'courseTitle': 'Introduction to Life Science', 'courseUnits': '4.00'},
                     {'courseNumber': 'BIOL10', 'courseTitle': 'Introduction to Life Science Lecture', 'courseUnits': '3.00'},
                     {'courseNumber': 'BIOL10L', 'courseTitle': 'Introduction to Life Science Lab', 'courseUnits': '1.00'}
                 ],
-                'conjunctions': ['OR', 'AND']
+                'conjunctions': ['OR', 'OR', 'AND']
             }
         },
         {
