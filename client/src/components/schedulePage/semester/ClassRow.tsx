@@ -1,5 +1,7 @@
 // ClassRow.tsx
 import React, { useEffect, useState } from "react";
+import { RiDragMove2Fill } from "react-icons/ri";
+import { IoTrashBinOutline } from "react-icons/io5";
 
 interface ClassRowProps {
   semesterId: number; // Identifier of the semester the course belongs to
@@ -54,6 +56,12 @@ const ClassRow: React.FC<ClassRowProps> = ({
     setUnits(newUnits);
     onUnitsChange(newUnits);
   };
+  const clearFields = () => {
+    setCourseCode("");
+    setUnits("");
+    onCourseCodeChange("");
+    onUnitsChange("");
+  };
 
   return (
     <div
@@ -61,15 +69,18 @@ const ClassRow: React.FC<ClassRowProps> = ({
       onDragStart={(e) => onDragStart(e, semesterId, courseId)}
       onDragOver={onDragOver}
       onDrop={(e) => onDrop(e, semesterId, courseId)}
-      className="flex space-x-2 w-full cursor-move"
+      className="flex items-center space-x-2 w-full cursor-move p-2 rounded shadow"
     >
+      <div className="flex-shrink-0">
+        <RiDragMove2Fill className="text-gray-100 h-5 w-5" aria-hidden="true" />
+      </div>
       <input
         type="text"
         value={courseCode}
         onChange={handleCourseCodeChange}
         maxLength={7}
         placeholder="Course Code"
-        className="flex-1 p-2 text-sm font-medium text-white bg-transparent border-b border-gray-500 focus:outline-none focus:border-blue-500"
+        className="flex-grow-0 flex-shrink-0 md:flex-grow md:flex-shrink w-48 md:min-w-0 text-sm font-medium text-gray-100 bg-transparent border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
       />
       <input
         type="text"
@@ -77,8 +88,15 @@ const ClassRow: React.FC<ClassRowProps> = ({
         onChange={handleUnitsChange}
         maxLength={4}
         placeholder="Units"
-        className="flex-none w-20 p-2 text-sm font-medium text-white bg-transparent border-b border-slate-500 focus:outline-none focus:border-blue-500"
+        className="flex-grow-0 flex-shrink-0 md:flex-grow md:flex-shrink w-24 md:min-w-0 text-sm font-medium text-gray-100 bg-transparent border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
       />
+      <button
+        onClick={clearFields}
+        className="flex-shrink-0 ml-2 p-1 rounded "
+        title="Clear fields"
+      >
+        <IoTrashBinOutline className="h-5 w-5 text-gray-100 hover:text-red-500" />
+      </button>
     </div>
   );
 };
