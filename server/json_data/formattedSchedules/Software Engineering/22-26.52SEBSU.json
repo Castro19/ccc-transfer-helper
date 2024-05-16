@@ -1,0 +1,163 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC123",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH141",
+                "uniqueClass": false
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS101",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC101",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH142",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ENGL",
+                "course": "ENGL134",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC202",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH143",
+                "uniqueClass": false
+            },
+            {
+                "subject": "General Psychology",
+                "course": [
+                    "PSY201",
+                    "PSY202"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PSY201 or PSY202."
+            },
+            {
+                "subject": "COMS",
+                "course": "COMS126",
+                "uniqueClass": true
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC203",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CSC",
+                "course": "CSC225",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH241",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CHEM",
+                "course": "CHEM124",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "subject": "CSC",
+                "course": "CSC357",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CSC",
+                "course": "CSC248",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH244",
+                "uniqueClass": false
+            },
+            {
+                "subject": "CHEM",
+                "course": "CHEM125",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "Choose One",
+                "course": [
+                    "IME314",
+                    "IME315"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: IME314 or IME315."
+            },
+            {
+                "subject": "STAT",
+                "course": "STAT312",
+                "uniqueClass": true
+            },
+            {
+                "subject": "CHEM",
+                "course": "CHEM126",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "PHIL230",
+                    "PHIL231"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230 or PHIL231."
+            }
+        ]
+    }
+}

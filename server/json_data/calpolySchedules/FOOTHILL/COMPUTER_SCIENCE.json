@@ -1,0 +1,321 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH141.",
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH1A",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH1AH",
+                        "courseTitle": "Honors Calculus I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM1A",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CS2A",
+                        "courseTitle": "Object-Oriented Programming Methodologies in C++",
+                        "courseUnits": "4.50"
+                    },
+                    {
+                        "courseNumber": "CS1A",
+                        "courseTitle": "Object-Oriented Programming Methodologies in JAVA",
+                        "courseUnits": "4.50"
+                    },
+                    {
+                        "courseNumber": "CS3A",
+                        "courseTitle": "Object-Oriented Programming Methodologies in PYTHON",
+                        "courseUnits": "4.50"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH1B",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "ENGL1A",
+                                "courseTitle": "Composition & Reading",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "ENGL1S",
+                                "courseTitle": "Integrated Composition & Reading",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "ENGL1T",
+                                "courseTitle": "Integrated Composition & Reading",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CS2C",
+                                "courseTitle": "Advanced Data Structures & Algorithims in C++",
+                                "courseUnits": "4.50"
+                            },
+                            {
+                                "courseNumber": "CS2B",
+                                "courseTitle": "Intermediate Software Design in C++",
+                                "courseUnits": "4.50"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CS1C",
+                                "courseTitle": "Advanced Data Structures & Algorithims in JAVA",
+                                "courseUnits": "4.50"
+                            },
+                            {
+                                "courseNumber": "CS1B",
+                                "courseTitle": "Intermediate Software Design in JAVA",
+                                "courseUnits": "4.50"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CS3B",
+                                "courseTitle": "Intermediate Software Design in Python",
+                                "courseUnits": "4.50"
+                            },
+                            {
+                                "courseNumber": "CS3C",
+                                "courseTitle": "Advanced Data Structures & Algorithms in Python",
+                                "courseUnits": "4.50"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH1C",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Life Science Support Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Life Science\" Support Electives: BIO111, BIO161, BIO213 & BMED213; BOT121; MCRO221.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS1B",
+                        "courseTitle": "Intermediate Software Design in JAVA",
+                        "courseUnits": "4.50"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4A",
+                        "courseTitle": "General Physics (Calculus)",
+                        "courseUnits": "6.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Linear Math",
+                "course": [
+                    "MATH206",
+                    "MATH244"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH206, or MATH244."
+            },
+            {
+                "subject": "Additional Science Support Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Additional Science\" Support Electives; BIO111, BIO161; BOT121; CHEM124; MCRO221; PHYS141.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CS18",
+                        "courseTitle": "Discrete Mathematics",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH22",
+                        "courseTitle": "Discrete Mathematics",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS10",
+                        "courseTitle": "Computer Architecture & Organization",
+                        "courseUnits": "4.50"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4C",
+                        "courseTitle": "General Physics (Calculus)",
+                        "courseUnits": "6.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4B",
+                        "courseTitle": "General Physics (Calculus)",
+                        "courseUnits": "6.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Philosophical Classics",
+                "course": [
+                    "PHIL230",
+                    "PHIL231"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231."
+            }
+        ]
+    }
+}

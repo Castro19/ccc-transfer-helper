@@ -1,0 +1,254 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH141.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ARCH666",
+                        "courseTitle": "Introduction to Architecture",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH141.",
+                "subject": "EDES",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM110",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "course": "MATH141",
+                "note": "No matching course found.",
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH182.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ARCH666",
+                        "courseTitle": "Introduction to Architecture",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ENGL100",
+                        "courseTitle": "Composition and Reading",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ENGL105",
+                        "courseTitle": "Composition with Support",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": true
+            },
+            {
+                "course": "MATH182",
+                "note": "No matching course found.",
+                "subject": "ENGL",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "PHYS121",
+                    "PHYS141"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHYS121, or PHYS141.\r\n\r\nPHYS121 and PHYS122 are trigonometry based. PHYS141 and PHYS142 are calculus based."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCH101.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ARCH666",
+                        "courseTitle": "Introduction to Architecture",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "PHYS122",
+                    "PHYS142"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHYS122, or PHYS142.\r\n\r\nPHYS121 and PHYS122 are trigonometry based. PHYS141 and PHYS142 are calculus based."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, and F. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCH217.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCH217.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCH217.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCE211.",
+                "subject": "ARCE",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCH218.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCH218.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCH218.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCE212.",
+                "subject": "ARCE",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCH219.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCH219.",
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ARCH100",
+                        "courseTitle": "Survey of Modern Architecture",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for ARCE226.",
+                "subject": "ARCE",
+                "uniqueClass": false
+            }
+        ]
+    }
+}
