@@ -5,17 +5,29 @@ class ReturnType:
         self.arr = arr
 
 
+# CSC 123, CSC 101, COMM 101 -> CISP 300, CISP 360, COMM 301
+# COMM 101, CSC 123, CSC 101 -> CISP 5000, COMM 301
+# COMM 101, CSC 123, CSC 101, ART 102 -> CISP 5000, COMM 301, No articulation for ART 102
 
 def combinate(arr, n, combinations, find):
     
+    # arr = COMM 101, CSC 123, CSC 101, ART 102
+
     r = n
     while r > 0:
         result = findCombination(arr, n, r, find)
         if result:
-            combinations.append(result.res)
+
+            if not result["courses"]:
+                replaced = list(set(arr) - set(result.arr))
+                combinations.append(replaced)
+            else:
+                combinations.append(result.res)
             return combinate(result.arr, len(result.arr), combinations, find)
         
         r-=1
+
+    # arr = ART 102
     for thing in arr:
         combinations.append("DNE")
     return combinations
