@@ -1,12 +1,26 @@
 """
 Scrapes course agreements between Cal Poly Slo and community colleges.
 
-Separate .json files are created for each agreement and saved to:
-pythonScrips/json_files/calpolyAgreements/
-
 The following file is expected to be in the parent directory to obtain
 the articulation agreement urls:
 community_colleges_with_urls.json
+
+Browser
+---
+Firefox or Chrome.
+By default, Firefox will be used. Set global CHROME variable to True
+to use Chrome instead
+
+Required Libraries
+---
+selenium
+BeautifulSoup4
+requests
+
+Output
+---
+Separate .json files are created for each agreement and saved to:
+server/json_data/calpolyAgreements/
 """
 
 from selenium import webdriver
@@ -21,46 +35,21 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
+from os import path, makedirs
 import json
 import re
-import os
 
 from groupCourses import group_course_mappings
+from util import construct_path
 
 # Set to true to use Chrome instead of Firefox
-CHROME = True
+CHROME = False
 # Sets selenium browser to headless mode (no gui)
 HEADLESS_MODE = True
 # Name of the file which contains url data for every CCC
 URLS_FILE_NAME = "community_colleges_with_urls.json"
 # Name of desired directory where agreements will be saved
-AGREEMENT_DIR = "json_files/calpolyAgreements/"
-
-
-def construct_path(file_name: str, dir_levels_up: int = 0) -> str:
-    """
-    Join current directory path with a desired file name,
-    returning full path as a string.
-
-    Full path will be found regardless of os being used.
-
-    Parameters
-    ---
-    file_name: str
-        The desired file name, including subdirectories if desired.
-    dir_levels_up: int
-        The desired number of directory levels to go up
-        from the current directory level.
-        Defaulted to 0.
-
-    Returns
-    ---
-    str
-        The full directory path including the given file name.
-    """
-    dir_path_list = os.path.dirname(os.path.abspath(__file__)).split('/')
-    desired_dir = '/'.join(dir_path_list[:len(dir_path_list) - dir_levels_up])
-    return os.path.join(desired_dir, file_name)
+AGREEMENT_DIR = construct_path("server/json_data/calpolyAgreements/", 2)
 
 
 def initialize_driver(is_chrome: bool = False, is_headless_mode: bool = True):
@@ -240,12 +229,11 @@ try:
     for url_dict in urls:
         try:
             articulation_agreement = scrape_agreement(url_dict["url"])
-            # Save jsons to pythonScripts/json_files/calpolyAgreements
+            # Save jsons to server/json_files/calpolyAgreements
             file_path = construct_path(f"{AGREEMENT_DIR}"
-                                       f"{url_dict['code']}_{url_dict['id']}.json",
-                                       1)
+                                       f"{url_dict['code']}_{url_dict['id']}.json")
             # Create dir if it does not yet exist
-            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+            makedirs(path.dirname(file_path), exist_ok=True)
             with open(file_path, 'w') as file:
                 json.dump(articulation_agreement, file, indent=4)
 
