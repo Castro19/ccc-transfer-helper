@@ -1,0 +1,310 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH226",
+                        "courseTitle": "Analytic Geometry and Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM201",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE100."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE123."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS101."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CIS201",
+                                "courseTitle": "Programming Concepts and Methods I",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CIS206",
+                                "courseTitle": "Programming Java",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "CIS206B",
+                                "courseTitle": "Java Programming B",
+                                "courseUnits": "2.00"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS201",
+                        "courseTitle": "Engineering Physics (Mechanics of Solids)",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH227",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH227H",
+                        "courseTitle": "Honors Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL101",
+                        "courseTitle": "English Composition and Reading",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CIS202",
+                        "courseTitle": "Programming Concepts and Methods II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH227",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH227H",
+                        "courseTitle": "Honors Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE133."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS203",
+                        "courseTitle": "Engineering Physics (Electricity and Magnetism)",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH228",
+                        "courseTitle": "Analytic Geometry and Calculus III",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH228H",
+                        "courseTitle": "Honors Analytic Geometry & Calculus III",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE233."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE115."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE145."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS202",
+                        "courseTitle": "Engineering Physics (Mechanics of Fluids, Heat and Sound)",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS204H",
+                        "courseTitle": "Honors Engineering Physics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH270",
+                        "courseTitle": "Differential Equations",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATH231",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE203."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE215."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE245."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CIS264",
+                        "courseTitle": "Discrete Structures",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Computer Architecture Course",
+                "course": [
+                    null,
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE315, or CPE333."
+            },
+            {
+                "subject": "Choose a Philosophy Course",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "PHIL121",
+                                "courseTitle": "History of Modern and Contemporary Philosophy",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "PHIL114",
+                                "courseTitle": "Introduction to Political Theory Thought",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            }
+        ]
+    }
+}

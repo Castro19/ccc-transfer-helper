@@ -1,0 +1,335 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHM25A",
+                        "courseTitle": "Calculus with Analytic Geometry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATHM25AH",
+                        "courseTitle": "Honors: Calculus with Analytic Geometry I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CHEMM01A",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEMM01AH",
+                        "courseTitle": "Honors: General Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMMM02",
+                        "courseTitle": "Introduction to Persuasion",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for BMED101."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATHM25B",
+                        "courseTitle": "Calculus with Analytic Geometry II",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEMM01B",
+                        "courseTitle": "General Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYSM20A",
+                        "courseTitle": "Mechanics of Solids and Fluids",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM20AL",
+                        "courseTitle": "Mechanics of Solids and Fluids Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ENGLM01A",
+                        "courseTitle": "English Composition",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "ENGLM01AH",
+                        "courseTitle": "Honors: English Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for BMED102."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATHM25B",
+                        "courseTitle": "Calculus with Analytic Geometry II",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYSM20C",
+                        "courseTitle": "Wave Motion, Optics, and Modern Physics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM20CL",
+                        "courseTitle": "Wave Motion, Optics, and Modern Physics Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ENGL147."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATHM25C",
+                        "courseTitle": "Calculus and Analytic Geometry III",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYSM20B",
+                        "courseTitle": "Thermodynamics, Electricity, and Magnetism",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM20BL",
+                        "courseTitle": "Thermodynamics, Electricity, and Magnetism Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BIOLM02A",
+                        "courseTitle": "General Biology I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "BIOLM02AH",
+                        "courseTitle": "Honors: General Biology I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ME228."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATHM31",
+                        "courseTitle": "Introduction to Linear Algebra",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATHM35",
+                        "courseTitle": "Applied Differential Equations",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGRM16",
+                        "courseTitle": "Engineering Statics and Strength of Materials",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ME",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGRM10",
+                        "courseTitle": "Programming and Problem-Solving in MATLAB",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for BMED212."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGRM20",
+                        "courseTitle": "Electrical Engineering Fundamentals",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "EE",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGRM18",
+                        "courseTitle": "Engineering Dynamics",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ME",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGRM16",
+                        "courseTitle": "Engineering Statics and Strength of Materials",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "CE",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Approved Support Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Support Elective course can go here.\r\n\r\nRefer to current catalog for course selection. Support electives must total 12 units."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    }
+}

@@ -2,6 +2,7 @@
 import os
 import re
 import json
+from copy import deepcopy
 
 
 def is_lower_div(course: str) -> bool:
@@ -107,6 +108,14 @@ def construct_path(file_name: str, dir_levels_up: int = 0) -> str:
     return os.path.join(desired_dir, file_name)
 
 
+def match_course(course: str, agreements: dict) -> dict:
+    # print(agreement["receiving"])
+    for agreement in agreements["agreements"]:
+        if [course] == [x["courseNumber"]for x in
+                        agreement["receiving"]["courses"]]:
+            return agreement["sending"]
+
+
 def find(courses: list, agreements: dict) -> dict:
     """
     Finds the equivalent course(s) between institutions.
@@ -114,7 +123,7 @@ def find(courses: list, agreements: dict) -> dict:
     Parameters
     ---
     courses: list
-        A list of courses as strings to be matched,
+        A list of courses as dictionaries to be matched,
         potentially as an entire group.
         The course list corresponds to the receiving institution,
         e.g. Cal Poly.
@@ -129,10 +138,29 @@ def find(courses: list, agreements: dict) -> dict:
         The equivalent courses from the sending institution, e.g., a CCC,
         or None if there is no match found.
     """
+    # print(courses)
+    course_names = [x["course"] for x in courses]
+    # Get course subject and uniqueClass fields
+    # to be added to the dictionary later
+    # dd = [{key: val for key, val in x.items() if key != "course"} for x in courses]
+
+    dd = {}
+    subjects = list({x["subject"] for x in courses})
+    subjects = subjects[0] if len(subjects) == 1 else subjects
+    dd["subject"] = subjects
+    dd["uniqueClass"] = any([x["uniqueClass"] for x in courses])
+    # if "customDesc" in courses.keys():
+    #     dd["customDesc"] = courses["customDesc"]
     for agreement in agreements["agreements"]:
         # Ignore OR relationships on the receiving side
         if agreement["receiving"]["conjunction"] in [None, "AND"]:
             # Find a match on receiving regardless of course ordering
-            if set(courses) == set([x["courseNumber"]for x in
-                                    agreement["receiving"]["courses"]]):
-                return agreement["sending"]
+            if set(course_names) == set([x["courseNumber"]for x in
+                                         agreement["receiving"]["courses"]]):
+                # course_equivalencies = deepcopy(agreement["sending"])
+                # Add in the subject and uniqueClass fields
+                # agreement["sending"]["subject"] = course_subjects
+                # agreement["sending"]["uniqueClass"] = course_uniques
+                # course_equivalencies = 
+                # print(agreement["sending"])
+                return {**agreement["sending"], **dd}

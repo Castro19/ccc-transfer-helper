@@ -1,0 +1,413 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ERTH111",
+                        "courseTitle": "Dynamic Earth-Physical Geology",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ERTH111H",
+                        "courseTitle": "Dynamic Earth-Physical Geology, Honors",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "GEOL",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BIOL101",
+                        "courseTitle": "Plant Biology",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "BOT100",
+                        "courseTitle": "Concepts of Botany",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "BOT",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for NR140."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ERSC144."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS101."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM155",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ENG110",
+                        "courseTitle": "Composition and Reading",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "ENG110H",
+                        "courseTitle": "Composition and Reading, Honors",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "Calculus I Course",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "MATH150",
+                                "courseTitle": "Calculus with Analytic Geometry I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH130",
+                                "courseTitle": "Calculus for Biological Sciences, Social Sciences and Business I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH150",
+                                "courseTitle": "Calculus with Analytic Geometry I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH141, or MATH161."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EH102",
+                        "courseTitle": "Soils and Plant Nutrients",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "SS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM156",
+                        "courseTitle": "General Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "GEOG171",
+                        "courseTitle": "Introduction to Geographic Information Systems and Maps",
+                        "courseUnits": "2.00"
+                    },
+                    {
+                        "courseNumber": "GEOG172",
+                        "courseTitle": "Geographic Information Systems: Software Applications",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Calculus II Course",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "MATH160",
+                                "courseTitle": "Calculus with Analytic Geometry II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH131",
+                                "courseTitle": "Calculus for Biological Sciences, Social Sciences and Business II",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "MATH160",
+                                "courseTitle": "Calculus with Analytic Geometry II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH142, or MATH162.\r\n\r\nIf a course is taken to meet a Major requirement, it cannot be double-counted in the concentration."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM156",
+                        "courseTitle": "General Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for SS221."
+            },
+            {
+                "subject": "College Physics",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "PHYS105",
+                                "courseTitle": "General Physics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "PHYS110",
+                                "courseTitle": "Introductory Physics",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "PHYS121",
+                                "courseTitle": "Mechanics of Solids and Fluids",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHYS121, or PHYS141."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F.\r\n\r\nGEOG150: Human Geography recommended."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ERTH126",
+                        "courseTitle": "Petrology and Rock-Forming Minerals",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "ERSC",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Physics II Course",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "conjunction": "AND",
+                                "courses": [
+                                    {
+                                        "courseNumber": "PHYS105",
+                                        "courseTitle": "General Physics",
+                                        "courseUnits": "4.00"
+                                    },
+                                    {
+                                        "courseNumber": "PHYS106",
+                                        "courseTitle": "General Physics",
+                                        "courseUnits": "4.00"
+                                    }
+                                ]
+                            },
+                            {
+                                "conjunction": "AND",
+                                "courses": [
+                                    {
+                                        "courseNumber": "PHYS110",
+                                        "courseTitle": "Introductory Physics",
+                                        "courseUnits": "4.00"
+                                    },
+                                    {
+                                        "courseNumber": "PHYS111",
+                                        "courseTitle": "Introductory Physics",
+                                        "courseUnits": "4.00"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "PHYS121",
+                                "courseTitle": "Mechanics of Solids and Fluids",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "PHYS123",
+                                "courseTitle": "Heat, Light and Modern Physics",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHYS122, or PHYS142."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ERTH111L",
+                        "courseTitle": "Dynamic Earth-Physical Geology Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "GEOL",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Statistics",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH117",
+                                "courseTitle": "Elementary Statistics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "PSY150",
+                                "courseTitle": "Statistics for the Behavioral Sciences",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "SOC125",
+                                "courseTitle": "Introduction to Statistics in Sociology",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH117",
+                                "courseTitle": "Elementary Statistics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "PSY150",
+                                "courseTitle": "Statistics for the Behavioral Sciences",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "SOC125",
+                                "courseTitle": "Introduction to Statistics in Sociology",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: STAT217, or STAT218."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
+            }
+        ]
+    }
+}

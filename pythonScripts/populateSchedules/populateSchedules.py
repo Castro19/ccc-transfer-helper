@@ -24,12 +24,12 @@ import re
 from copy import deepcopy
 
 from combinator import combinate
-from util import (construct_path, join_path, find,
+from util import (construct_path, join_path, find, match_course,
                   save_json, load_json, is_lower_div)
 
 AGREEMENTS_PATH = construct_path("server/json_data/calpolyAgreements/", 2)
 INPUT_SCHEDULES_PATH = construct_path("server/json_data/formattedSchedules", 2)
-OUTPUT_SCHEDULE_PATH = construct_path("server/json_data/calpolySchedules", 2)
+OUTPUT_SCHEDULE_PATH = construct_path("server/json_data/ccc_schedules", 2)
 
 # For getting the major schedule suffix
 SUFFIX_PATTERN = re.compile(r'(\d+[A-Z]+)\.(.*)\.json')
@@ -49,8 +49,8 @@ for agreement_file in os.listdir(AGREEMENTS_PATH):
     for dir_name in os.listdir(INPUT_SCHEDULES_PATH):
         # Get major from directory path and strip unwanted characters.
         # to be used within schedule file name
-        major = dir_name.upper()
-        major = major.replace(' ', '_').replace('-', '').replace(',', '')
+        major = dir_name.upper().replace('-', '')
+        major = major.replace('  ', '_').replace(' ', '_').replace(',', '')
 
         # Get the list of all the schedules for a single major
         major_schedules_list = os.listdir(join_path([INPUT_SCHEDULES_PATH,
@@ -79,37 +79,33 @@ for agreement_file in os.listdir(AGREEMENTS_PATH):
             for key, term in calpoly_major_schedule.items():
                 # Do not attempt to swap courses which are not strings
                 # Upper division courses will be ommitted all together
-                courses = [x["course"] for x in term["courses"]
+                courses = [x for x in term["courses"]
                            if isinstance(x["course"], str)
                            and is_lower_div(x["course"])]
+                # These are cases where one of many courses may be chosen
+                # e.g. "Linear Math" for CS majors can take one of two courses
+                list_courses = [x for x in term["courses"]
+                                if isinstance(x["course"], list)]
                 # Get leftover courses which will be added back before swapping
+                # These are GE and free elective courses
                 other_courses = [x for x in term["courses"]
-                                 if not isinstance(x["course"], str)]
-                # These will be added back into the swapped courses
-                subjects = [x["subject"] for x in term["courses"]
-                            if isinstance(x["course"], str)
-                            and is_lower_div(x["course"])]
-                unique_classes = [x["uniqueClass"] for x in term["courses"]
-                                  if isinstance(x["course"], str)
-                                  and is_lower_div(x["course"])]
+                                 if x["course"] is None]
 
                 # Swap the courses
+                swapped_courses = []
                 if courses:
                     swapped_courses = combinate(courses, len(courses), [],
                                                 lambda x: find(x, agreement))
 
-                    # if major == "COMPUTER_SCIENCE" and key == "7":
-                    #     print(courses)
-                    #     print(swapped_courses)
+                if list_courses:
+                    # print(list_courses)
+                    for course_dict in list_courses:
+                        for i, course_str in enumerate(course_dict["course"]):
+                            course_dict["course"][i] = match_course(course_str, agreement)
 
-                    # Add in subject, uniqueClass vals for the swapped courses
-                    for i in range(len(swapped_courses)):
-                        swapped_courses[i]["subject"] = subjects[i]
-                        swapped_courses[i]["uniqueClass"] = unique_classes[i]
-
-                    # Swap the courses in the schedule
-                    swapped_courses = swapped_courses + other_courses
-                    ccc_schedule[key]["courses"] = swapped_courses
+                # Swap the courses in the schedule along with the leftovers
+                swapped_courses = swapped_courses + list_courses + other_courses
+                ccc_schedule[key]["courses"] = swapped_courses
 
                 # Save the schedule for each community college for the given major
                 file_path = join_path([ccc_path, f"{ccc_schedule_file_name}.json"])

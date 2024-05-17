@@ -1,0 +1,350 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ARCHA110",
+                        "courseTitle": "Introduction to Architecture",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHA180",
+                        "courseTitle": "Calculus 1",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATHA180H",
+                        "courseTitle": "Honors Calculus 1",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CMSTA110",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCH131."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EDES123."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ARCHA110",
+                        "courseTitle": "Introduction to Architecture",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHA185",
+                        "courseTitle": "Calculus 2",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATHA185H",
+                        "courseTitle": "Honors Calculus 2",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGLA100",
+                        "courseTitle": "Freshman Composition",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCH132."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "PHYSA120",
+                                "courseTitle": "Algebra-Based Physics: Mechanics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "PHYSA130",
+                                "courseTitle": "University Physics 1 (non-major)",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "PHYSA185",
+                                "courseTitle": "Calculus-Based Physics: Mechanics",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHYS121, or PHYS141.\r\n\r\nPHYS121 and PHYS122 are trigonometry based. PHYS141 and PHYS142 are calculus based."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ARCHA110",
+                        "courseTitle": "Introduction to Architecture",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCH133."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHYS122, or PHYS142.\r\n\r\nPHYS121 and PHYS122 are trigonometry based. PHYS141 and PHYS142 are calculus based."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, and F. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ARCHA215",
+                        "courseTitle": "Architectural Design and Theory 2",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ARCHA290",
+                        "courseTitle": "History of Architecture 1",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ARCHA290H",
+                        "courseTitle": "History of Architecture 1 Honors",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCH241."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE211."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ARCHA162",
+                        "courseTitle": "3-D Modeling: Rhino 1",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ARCHA290",
+                        "courseTitle": "History of Architecture 1",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ARCHA290H",
+                        "courseTitle": "History of Architecture 1 Honors",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ARCHA296",
+                        "courseTitle": "History of Architecture 2",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ARCHA296H",
+                        "courseTitle": "History of Architecture 2 Honors",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCH242."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE212."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ARCHA230",
+                        "courseTitle": "Architectural Design and Theory 3",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "ARCHA230H",
+                        "courseTitle": "Architectural Design and Theory 3 Honors",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "ARCHA185",
+                                "courseTitle": "Environmental Design Systems",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "ARCHA197",
+                                "courseTitle": "California Energy Code",
+                                "courseUnits": "1.50"
+                            },
+                            {
+                                "courseNumber": "ARCHA250",
+                                "courseTitle": "Building Codes and Standards",
+                                "courseUnits": "2.00"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ARCHA296",
+                        "courseTitle": "History of Architecture 2",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ARCHA296H",
+                        "courseTitle": "History of Architecture 2 Honors",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ARCH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE226."
+            }
+        ]
+    }
+}

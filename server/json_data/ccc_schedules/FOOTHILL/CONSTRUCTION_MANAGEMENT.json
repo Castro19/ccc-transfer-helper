@@ -1,0 +1,326 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH1A",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH1AH",
+                        "courseTitle": "Honors Calculus I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM1A",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM102."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EDES123."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH1B",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4A",
+                        "courseTitle": "General Physics (Calculus)",
+                        "courseUnits": "6.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "ENGL1A",
+                                "courseTitle": "Composition & Reading",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "ENGL1S",
+                                "courseTitle": "Integrated Composition & Reading",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "ENGL1T",
+                                "courseTitle": "Integrated Composition & Reading",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM113."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM114."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM115."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "PHYS/CHEM",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "PHYS4C",
+                                "courseTitle": "General Physics (Calculus)",
+                                "courseUnits": "6.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM1A",
+                                "courseTitle": "General Chemistry",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHYS142, CHEM124, or CHEM127."
+            },
+            {
+                "subject": "Surveying",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BRAE239, or CM239."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR35",
+                        "courseTitle": "Statics",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "ARCE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUSI18",
+                        "courseTitle": "Business Law I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "BUS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM214."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM232."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM280."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ECON201."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE212."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "ACTG1A",
+                                "courseTitle": "Financial Accounting I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "conjunction": "AND",
+                                "courses": [
+                                    {
+                                        "courseNumber": "ACTG1A",
+                                        "courseTitle": "Financial Accounting I",
+                                        "courseUnits": "5.00"
+                                    },
+                                    {
+                                        "courseNumber": "ACTG1B",
+                                        "courseTitle": "Financial Accounting II",
+                                        "courseUnits": "5.00"
+                                    }
+                                ]
+                            },
+                            {
+                                "conjunction": "AND",
+                                "courses": [
+                                    {
+                                        "courseNumber": "ACTG1BH",
+                                        "courseTitle": "Honors Financial Accounting II",
+                                        "courseUnits": "5.00"
+                                    },
+                                    {
+                                        "courseNumber": "ACTG1A",
+                                        "courseTitle": "Financial Accounting I",
+                                        "courseUnits": "5.00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BUS212, or BUS214."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ACTG1C",
+                        "courseTitle": "Managerial Accounting",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "ACTG1CH",
+                        "courseTitle": "Honors Managerial Accounting",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "BUS",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE226."
+            },
+            {
+                "subject": "Statistics",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH10",
+                                "courseTitle": "Elementary Statistics",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH17",
+                                "courseTitle": "Integrated Statistics II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: STAT251, or STAT312."
+            }
+        ]
+    }
+}

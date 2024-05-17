@@ -1,0 +1,240 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH101A",
+                        "courseTitle": "Calculus with Analytic Geometry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM111",
+                        "courseTitle": "Introduction to Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE106."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCH131."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH101B",
+                        "courseTitle": "Calculus with Analytic Geometry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS140",
+                        "courseTitle": "Mechanics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL101A",
+                        "courseTitle": "Reading and Written Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCH132."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH101B",
+                        "courseTitle": "Calculus with Analytic Geometry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCH133."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PHYS142."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH101C",
+                        "courseTitle": "Calculus with Analytic Geometry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE211."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM115."
+            },
+            {
+                "subject": "History of World Architecture or Structures",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: ARCH217, ARCH218, ARCH219, or ARCH260."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGI111",
+                        "courseTitle": "Programming and Problem-Solving in MATLAB",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH104",
+                        "courseTitle": "Differential Equations",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH103",
+                        "courseTitle": "Introduction to Linear Algebra",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE212."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ME212."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE257."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, USCP and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by satisfied by some (but not all) courses within GE categories: Upper-Division C, D1, D2, or E."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM101A",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "GEOL101",
+                        "courseTitle": "Introduction to Geology",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "GEOL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE227."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE223."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE224."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, USCP and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by satisfied by some (but not all) courses within GE categories: Upper-Division C, D1, D2, or E."
+            }
+        ]
+    }
+}

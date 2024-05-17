@@ -1,0 +1,260 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH60",
+                        "courseTitle": "First Calculus Course",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1A",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.50"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM10",
+                        "courseTitle": "Elements of Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE111."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE151."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CS21",
+                        "courseTitle": "Introduction to Computer Science-Java",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CS11",
+                        "courseTitle": "Introduction to Computer Science-C++",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CS31",
+                        "courseTitle": "Introduction to Computer Science-Python",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS3A",
+                        "courseTitle": "Physics for Sci & Eng. - Mechanics",
+                        "courseUnits": "5.50"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH70",
+                        "courseTitle": "Second Calculus Course",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL1",
+                        "courseTitle": "Reading and Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS3B",
+                        "courseTitle": "Physics for Sci. &Eng. -E & M",
+                        "courseUnits": "4.50"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH70",
+                        "courseTitle": "Second Calculus Course",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM60",
+                        "courseTitle": "Elements of Argumentation and Debate",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    null,
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR17L",
+                        "courseTitle": "Electrical Engineering Circuits Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ],
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH84",
+                        "courseTitle": "Intro to Differential Equations and Linear Algebra",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE211."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE133."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PHYS142."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH80",
+                        "courseTitle": "Third Calculus Course",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE212."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE242."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE233."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for BIO213."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for BMED213."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE255."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE295."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE228."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PHYS211."
+            }
+        ]
+    }
+}

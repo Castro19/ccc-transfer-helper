@@ -1,0 +1,260 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MAT3A",
+                        "courseTitle": "Analytic Geometry and Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHM1A",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COM1",
+                        "courseTitle": "Introduction to Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE111."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE151."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CSS1",
+                        "courseTitle": "Intro to Computer Science & Programming Fundamentals",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CSS2A",
+                        "courseTitle": "Object Oriented Programming",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHY4A",
+                        "courseTitle": "General Physics I/ Mechanics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MAT3B",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENG1A",
+                        "courseTitle": "College Composition and Reading",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHY4B",
+                        "courseTitle": "General Physics II/ Electricity and Magnetism",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MAT3B",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    null,
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHY4C",
+                        "courseTitle": "General Physics III/ Waves, Heat, Light, Sound and Modern Physics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MAT4",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MAT5",
+                        "courseTitle": "Differential Equations",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE211."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE241."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE133."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MAT3C",
+                        "courseTitle": "Analytic Geometry and Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE212."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE242."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE233."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for BIO213."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for BMED213."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHY4C",
+                        "courseTitle": "General Physics III/ Waves, Heat, Light, Sound and Modern Physics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE255."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE295."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE228."
+            }
+        ]
+    }
+}
