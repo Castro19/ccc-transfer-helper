@@ -4,7 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import DraggableClass from "./DraggableClass";
+import DraggableClass from "./DraggableClass/DraggableClass";
 import { ClassType, SemesterType, SubjectType } from "@/types";
 import { useMemo } from "react";
 

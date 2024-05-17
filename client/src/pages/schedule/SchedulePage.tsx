@@ -77,8 +77,8 @@ const SchedulePage = (): JSX.Element => {
   useEffect(() => {
     console.log("Subject Classes: ", subjectClasses);
     console.log("Schedule: ", schedule);
-    console.log("CLASS LIST: ", classList);
-  }, [schedule, subjectClasses, classList]);
+    // console.log("CLASS LIST: ", classList);
+  }, [schedule, subjectClasses]);
 
   return (
     <ScheduleContext.Provider value={{ schedule, handleScheduleChange }}>
@@ -88,6 +88,7 @@ const SchedulePage = (): JSX.Element => {
           isVisible={isSidebarVisible}
           setIsVisible={handleSidebarVisibility}
           subjectClasses={subjectClasses}
+          classList={classList}
           schedule={schedule}
         />
         {/* Main Content Area */}
