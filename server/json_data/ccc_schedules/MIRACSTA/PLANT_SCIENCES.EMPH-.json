@@ -1,0 +1,246 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO104",
+                        "courseTitle": "Introductory Biology: Botany (Plant Life)",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "BOT",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM101",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PLSC101."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PLSC120."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM150",
+                        "courseTitle": "General Chemistry I: For Science Majors",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM150H",
+                        "courseTitle": "General Chemistry I : For Science Majors (Honors)",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH126",
+                        "courseTitle": "Pre-Calculus I: College Algebra",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH126S",
+                        "courseTitle": "Pre-Calculus I: College Algebra with Integrated Support",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ENGL134."
+            },
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM151",
+                        "courseTitle": "General Chemistry II: For Science Majors",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM151H",
+                        "courseTitle": "General Chemistry II : For Science Majors (Honors)",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PLSC124."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HORT115",
+                        "courseTitle": "Soil Science",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "SS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Elementary Spanish I, II, III, or Hispanic Language & Culture",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "SPAN101",
+                                "courseTitle": "Elementary Spanish (First Semester)",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: SPAN101, SPAN102, SPAN103, or SPAN111."
+            },
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH103",
+                        "courseTitle": "Statistics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH103S",
+                        "courseTitle": "Statistics with Integrated Support",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "PSYC104",
+                        "courseTitle": "Statistics for Behavioral Science",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PSYC104H",
+                        "courseTitle": "Statistics for Behavioral Science (Honors)",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "BTEC180",
+                        "courseTitle": "Biostatistics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "BTEC180H",
+                        "courseTitle": "Biostatistics (Honors)",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "STAT",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for SS221."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    }
+}

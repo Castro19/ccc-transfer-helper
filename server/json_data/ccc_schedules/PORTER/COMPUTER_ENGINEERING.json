@@ -1,0 +1,221 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATHP103",
+                        "courseTitle": "Calculus I with Analytic Geometry",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEMP101A",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE100."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE123."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS101."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSP104A",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATHP104",
+                        "courseTitle": "Calculus II with Analytical Geometry",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGLP101A",
+                        "courseTitle": "Expository Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE101."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATHP104",
+                        "courseTitle": "Calculus II with Analytical Geometry",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE202."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE133."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSP104A",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATHP205",
+                        "courseTitle": "Calculus 3 with Analytic Geometry",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE233."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE115."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE145."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSP104B",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE203."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE215."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE245."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for MATH244."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CSC248."
+            },
+            {
+                "subject": "Computer Architecture Course",
+                "course": [
+                    null,
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE315, or CPE333."
+            },
+            {
+                "subject": "Choose a Philosophy Course",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            }
+        ]
+    }
+}

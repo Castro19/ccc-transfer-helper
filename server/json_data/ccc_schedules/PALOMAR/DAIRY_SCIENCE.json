@@ -1,0 +1,244 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPCH100",
+                        "courseTitle": "Oral Communication",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ASCI101."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for DSCI229."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for DSCI230."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH110",
+                        "courseTitle": "College Algebra",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH135",
+                        "courseTitle": "Precalculus Mathematics",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENG100",
+                        "courseTitle": "English Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for DSCI233."
+            },
+            {
+                "subject": "Approved Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Elective course can go here.\r\n\r\nAt least 7 units must be 300-400 level. Consult with academic advisor regarding career tracks. See online catalog for course options."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM110",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CHEM110L",
+                        "courseTitle": "General Chemistry Laboratory",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for DSCI241."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for DSCI202."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: DSCI102, or ASCI339."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "conjunction": null,
+                                "courses": [
+                                    {
+                                        "courseNumber": "BIOL100",
+                                        "courseTitle": "Introductory Biology: General Biology",
+                                        "courseUnits": "4.00"
+                                    }
+                                ]
+                            },
+                            {
+                                "conjunction": "AND",
+                                "courses": [
+                                    {
+                                        "courseNumber": "BIOL101",
+                                        "courseTitle": "General Biology (Lecture)",
+                                        "courseUnits": "3.00"
+                                    },
+                                    {
+                                        "courseNumber": "BIOL101L",
+                                        "courseTitle": "Introductory Biology: General Biology (Laboratory)",
+                                        "courseUnits": "1.00"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "BIOL200",
+                                "courseTitle": "Foundations of Biology I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BIO111, or BIO161.\r\n\r\nRequired in Support; also satisfies GE.\r\n\r\nStudents focusing on Dairy Foods should take BIO161."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ASCI220."
+            },
+            {
+                "subject": "Approved Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Elective course can go here.\r\n\r\nAt least 7 units must be 300-400 level. Consult with academic advisor regarding career tracks. See online catalog for course options."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH120",
+                        "courseTitle": "Elementary Statistics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "STAT",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Approved Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Elective course can go here.\r\n\r\nAt least 7 units must be 300-400 level. Consult with academic advisor regarding career tracks. See online catalog for course options."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    }
+}

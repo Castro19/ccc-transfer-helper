@@ -1,0 +1,217 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM101",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CD102."
+            },
+            {
+                "subject": "General Psychology",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "PSYCH001",
+                                "courseTitle": "Introductory Psychology",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PSYCH002",
+                                "courseTitle": "Biological Psychology",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "PSYCH001",
+                                "courseTitle": "Introductory Psychology",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PSYCH002",
+                                "courseTitle": "Biological Psychology",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PSY201, or PSY202."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Electives (8). Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, or Upper-Division D."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PSYCH041",
+                        "courseTitle": "Life-Span Psychology: From Infancy to Old Age",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CD",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGLISH101",
+                        "courseTitle": "College Reading and Composition I",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Electives (8). Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, or Upper-Division D."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Electives (8). Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, or Upper-Division D."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CD131."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Electives (8). Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, or Upper-Division D."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CD254."
+            },
+            {
+                "subject": "Biology",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BIO111, BIO123, or BIO161."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Electives (8). Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, or Upper-Division D."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BUS015",
+                        "courseTitle": "Business Statistics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATH227",
+                        "courseTitle": "Statistics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH227S",
+                        "courseTitle": "Statistics with Support",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "SOC125",
+                        "courseTitle": "Statistics for the Social Sciences",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "STAT",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Electives (8). Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, or Upper-Division D."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Electives (8). Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, or Upper-Division D."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Electives (8). Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, or Upper-Division D."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here."
+            }
+        ]
+    }
+}

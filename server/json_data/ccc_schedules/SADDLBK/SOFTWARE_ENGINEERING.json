@@ -1,0 +1,380 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS1B",
+                        "courseTitle": "Introduction to Computer Science II",
+                        "courseUnits": "3.50"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH3A",
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM1",
+                        "courseTitle": "Communication Fundamentals",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CS1B",
+                        "courseTitle": "Introduction to Computer Science II",
+                        "courseUnits": "3.50"
+                    },
+                    {
+                        "courseNumber": "CS4A",
+                        "courseTitle": "Introduction to JAVA for Computer Science",
+                        "courseUnits": "3.50"
+                    },
+                    {
+                        "courseNumber": "CIMP7A",
+                        "courseTitle": "Business Programming - JAVA--Beginning",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CS1A",
+                        "courseTitle": "Introduction to Computer Science I",
+                        "courseUnits": "3.50"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH3B",
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENG1A",
+                        "courseTitle": "Principles of Composition I",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS1D",
+                        "courseTitle": "Data Structures",
+                        "courseUnits": "3.50"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH3B",
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "General Psychology",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "PSYC1",
+                                "courseTitle": "Introduction to Psychology",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "PSYC1",
+                                "courseTitle": "Introduction to Psychology",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PSY201 or PSY202."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CIMP7B",
+                                "courseTitle": "Business Programming - JAVA--Advanced",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CS1D",
+                                "courseTitle": "Data Structures",
+                                "courseUnits": "3.50"
+                            },
+                            {
+                                "courseNumber": "CS4B",
+                                "courseTitle": "Advanced Topics in JAVA for Computer Science",
+                                "courseUnits": "3.50"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CS3A",
+                        "courseTitle": "Computer Organization and Machine Language",
+                        "courseUnits": "3.50"
+                    },
+                    {
+                        "courseNumber": "CS3B",
+                        "courseTitle": "Computer Organization and Assembly Language",
+                        "courseUnits": "3.50"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH3C",
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1A",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CS30A",
+                        "courseTitle": "Computer Discrete Mathematics I",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATH30A",
+                        "courseTitle": "Computer Discrete Mathematics I",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH24",
+                        "courseTitle": "Elementary Differential Equations",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH26",
+                        "courseTitle": "Introduction to Linear Algebra",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1B",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1B",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    null,
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: IME314 or IME315."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "PHIL2",
+                                "courseTitle": "History of Ancient Philosophy",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL5",
+                                "courseTitle": "History of Modern Philosophy",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL15",
+                                "courseTitle": "Introduction to Ethics",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL1",
+                                "courseTitle": "Introduction to Philosophy",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "PHIL15",
+                                "courseTitle": "Introduction to Ethics",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL1",
+                                "courseTitle": "Introduction to Philosophy",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL2",
+                                "courseTitle": "History of Ancient Philosophy",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL5",
+                                "courseTitle": "History of Modern Philosophy",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230 or PHIL231."
+            }
+        ]
+    }
+}

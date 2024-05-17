@@ -1,0 +1,299 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH180",
+                        "courseTitle": "Calculus and Analytic Geometry I",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "SPCH1A",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "SPCH1AH",
+                        "courseTitle": "Public Speaking - Honors",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM102."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EDES123."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH181",
+                        "courseTitle": "Calculus and Analytic Geometry II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4A",
+                        "courseTitle": "Engineering Physics",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL1A",
+                        "courseTitle": "Freshman Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM113."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM114."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM115."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "PHYS/CHEM",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM50",
+                                "courseTitle": "General Chemistry I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHYS142, CHEM124, or CHEM127."
+            },
+            {
+                "subject": "Surveying",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "SURV1B",
+                                "courseTitle": "Surveying",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "SURV1B",
+                                "courseTitle": "Surveying",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BRAE239, or CM239."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR40",
+                        "courseTitle": "Statics",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ARCE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "BUSL18",
+                        "courseTitle": "Business Law",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "BUSL19",
+                        "courseTitle": "Advanced Business Law",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "BUS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM214."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM232."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM280."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR42",
+                        "courseTitle": "Mechanics of Materials",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ARCE",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ECON201."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "BUSA7",
+                                "courseTitle": "Principles of Accounting - Financial",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BUS212, or BUS214."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUSA8",
+                        "courseTitle": "Principles of Accounting - Managerial",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "BUS",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE226."
+            },
+            {
+                "subject": "Statistics",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH110",
+                                "courseTitle": "Elementary Statistics",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "MATH110H",
+                                "courseTitle": "Elementary Statistics - Honors",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "BUSC17",
+                                "courseTitle": "Applied Business Statistics",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PSYC10",
+                                "courseTitle": "Statistics for the Behavioral Sciences",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: STAT251, or STAT312."
+            }
+        ]
+    }
+}

@@ -1,0 +1,313 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO104",
+                        "courseTitle": "Introductory Biology: Botany (Plant Life)",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "BOT",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM101",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for NR140."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for NR141."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HORT115",
+                        "courseTitle": "Soil Science",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "SS",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for NR215."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ENGL134."
+            },
+            {
+                "subject": "Statistics Course",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH103",
+                                "courseTitle": "Statistics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "MATH103S",
+                                "courseTitle": "Statistics with Integrated Support",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "PSYC104",
+                                "courseTitle": "Statistics for Behavioral Science",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "PSYC104H",
+                                "courseTitle": "Statistics for Behavioral Science (Honors)",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "BTEC180",
+                                "courseTitle": "Biostatistics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "BTEC180H",
+                                "courseTitle": "Biostatistics (Honors)",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "SOC125",
+                                "courseTitle": "Introduction to Statistics in Sociology",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "BUS204",
+                                "courseTitle": "Business Statistics",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "BUS204H",
+                                "courseTitle": "Business Statistics (Honors)",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH103",
+                                "courseTitle": "Statistics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "MATH103S",
+                                "courseTitle": "Statistics with Integrated Support",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "PSYC104",
+                                "courseTitle": "Statistics for Behavioral Science",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "PSYC104H",
+                                "courseTitle": "Statistics for Behavioral Science (Honors)",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "BTEC180",
+                                "courseTitle": "Biostatistics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "BTEC180H",
+                                "courseTitle": "Biostatistics (Honors)",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: STAT217, or STAT218."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for NR204."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "Calculus Course",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH115",
+                                "courseTitle": "Calculus with Applications",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH150",
+                                "courseTitle": "Calculus and Analytic Geometry I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH150H",
+                                "courseTitle": "Calculus and Analytic Geometry I (Honors)",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "MATH115",
+                                "courseTitle": "Calculus with Applications",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH161, or MATH221.\r\n\r\nStudents in the Watershed Management and Hydrology concentration must take MATH161."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM150",
+                        "courseTitle": "General Chemistry I: For Science Majors",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM150H",
+                        "courseTitle": "General Chemistry I : For Science Majors (Honors)",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for NR208."
+            },
+            {
+                "subject": "Surveying Course",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BRAE237, or BRAE239."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BIO204",
+                        "courseTitle": "Foundations of Biology: Biochemistry, Cell Biology, Genetics and Molecular Biology",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "BIO204H",
+                        "courseTitle": "Foundations of Biology: Biochemistry, Cell Biology, Genetics, and Molecular Biology(Honors)",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for NR260."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for NR218."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for BIO162."
+            }
+        ]
+    }
+}
