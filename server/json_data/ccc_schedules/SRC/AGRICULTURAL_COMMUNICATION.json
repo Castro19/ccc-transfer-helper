@@ -1,0 +1,294 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH27",
+                        "courseTitle": "Precalculus Algebra and Trigonometry",
+                        "courseUnits": "6.00"
+                    },
+                    {
+                        "courseNumber": "MATH25",
+                        "courseTitle": "Precalculus Algebra",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM1",
+                        "courseTitle": "Introduction to Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for AGC102."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for AGC205."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM42",
+                                "courseTitle": "Introductory General Chemistry",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM3A",
+                                "courseTitle": "General Chemistry Part 1: Lecture",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "CHEM3AL",
+                                "courseTitle": "General Chemistry Part 1: Lab",
+                                "courseUnits": "2.00"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL1A",
+                        "courseTitle": "College Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for AGC207."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PLSC120."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AGBUS7",
+                        "courseTitle": "Agricultural Economics",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "AGB",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ANSCI20",
+                        "courseTitle": "Basic Animal Science",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ASCI",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "Animal Science Course",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Animal Science Course can go here.\r\n\r\nSelect one course from: ASCI221, ASCI222, ASCI223, ASCI224, ASCI225; DSCI230."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "JOUR2",
+                        "courseTitle": "News Gathering and Writing",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "JOUR",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for FSN275."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "BIO10",
+                                "courseTitle": "Introduction to Principles of Biology",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "BIO16",
+                                "courseTitle": "Introduction to Biology for Non-Majors",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BIO111, or BIO161."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR) requirements."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ECON1",
+                        "courseTitle": "Principles of Macroeconomics",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ECON",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for FSN230."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for AGC225."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR) requirements."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for AGB260."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH15",
+                                "courseTitle": "Elementary Statistics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "PSYCH9",
+                                "courseTitle": "Introduction to Behavioral Sciences Statistics",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH15",
+                                "courseTitle": "Elementary Statistics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "PSYCH9",
+                                "courseTitle": "Introduction to Behavioral Sciences Statistics",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: STAT217, or STAT218."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "AGRI60",
+                                "courseTitle": "Soil & Plant Nutrition",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: SS120, or SS130."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR) requirements."
+            }
+        ]
+    }
+}

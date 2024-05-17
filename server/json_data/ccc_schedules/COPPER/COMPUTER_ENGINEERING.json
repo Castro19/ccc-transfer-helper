@@ -1,0 +1,266 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH001A",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CH001A",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SP004",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE100."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE123."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS089",
+                        "courseTitle": "C++ Programming I",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PH004A",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH001B",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENG003A",
+                        "courseTitle": "College Composition",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS089A",
+                        "courseTitle": "C++ Programming II",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH001B",
+                        "courseTitle": "Calculus",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE133."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PH004B",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH002A",
+                        "courseTitle": "Multivariate Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE233."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE115."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE145."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS089A",
+                        "courseTitle": "C++ Programming II",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH002C",
+                        "courseTitle": "Ordinary Differential Equations",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH002B",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE215."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE245."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PHYS142."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH004",
+                        "courseTitle": "Discrete Structures",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Computer Architecture Course",
+                "course": [
+                    null,
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE315, or CPE333."
+            },
+            {
+                "subject": "Choose a Philosophy Course",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            }
+        ]
+    }
+}

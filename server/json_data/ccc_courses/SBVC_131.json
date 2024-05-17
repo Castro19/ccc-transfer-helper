@@ -1,0 +1,717 @@
+{
+    "name": "San Bernardino Valley College",
+    "code": "SBVC",
+    "id": 131,
+    "courses": [
+        {
+            "courseNumber": "ART124A",
+            "courseTitle": "Beginning Drawing",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ART120",
+            "courseTitle": "Two-Dimensional Design",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ART103",
+            "courseTitle": "Art Appreciation",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ART175A",
+            "courseTitle": "Beginning Sculpture",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ART126A",
+            "courseTitle": "Beginning Painting",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ART100",
+            "courseTitle": "Art History: The Stone Age to the Middle Ages",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ART102",
+            "courseTitle": "Art History: Renaissance to Present",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "BIOL100",
+            "courseTitle": "General Biology",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "BIOL207",
+            "courseTitle": "Evolutionary Ecology",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "BIOL205",
+            "courseTitle": "Cell and Molecular Biology",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "BIOL206",
+            "courseTitle": "Organismal Biology",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "BIOL250",
+            "courseTitle": "Human Anatomy and Physiology I",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "BIOL261",
+            "courseTitle": "Human Physiology",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "BIOL260",
+            "courseTitle": "Human Anatomy",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "BIOL251",
+            "courseTitle": "Human Anatomy and Physiology II",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "BIOL270",
+            "courseTitle": "Microbiology",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "BUSAD210",
+            "courseTitle": "Business Law",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ACCT200",
+            "courseTitle": "Financial Accounting",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "ACCT201",
+            "courseTitle": "Managerial Accounting",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "ECON100",
+            "courseTitle": "Introduction to Economics",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ECON201",
+            "courseTitle": "Principles of Microeconomics",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ECON201H",
+            "courseTitle": "Principles of Microeconomics - Honors",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ECON200",
+            "courseTitle": "Principles of Macroeconomics",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ECON200H",
+            "courseTitle": "Principles of Macroeconomics - Honors",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "CHEM101",
+            "courseTitle": "Introductory Chemistry",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "CHEM150",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "CHEM150H",
+            "courseTitle": "General Chemistry I - Honors",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "CHEM151",
+            "courseTitle": "General Chemistry II",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "CHEM151H",
+            "courseTitle": "General Chemistry II - Honors",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "CHEM104",
+            "courseTitle": "Introduction to Organic Chemistry and Biochemistry",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "CHEM212",
+            "courseTitle": "Organic Chemistry I",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "CHEM212H",
+            "courseTitle": "Organic Chemistry I - Honors",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "CHEM213",
+            "courseTitle": "Organic Chemistry II",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "CHEM213H",
+            "courseTitle": "Organic Chemistry II - Honors",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "CHEM205",
+            "courseTitle": "Quantitative Chemical Analysis",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "COMMST100",
+            "courseTitle": "Elements of Public Speaking",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "COMMST100H",
+            "courseTitle": "Elements of Public Speaking - Honors",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "COMMST125",
+            "courseTitle": "Critical Thinking through Argumentation and Debate",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ENGL102",
+            "courseTitle": "Intermediate Composition and Critical Thinking",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "ENGL102H",
+            "courseTitle": "Intermediate Composition and Critical Thinking - Honors",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "COMMST111",
+            "courseTitle": "Interpersonal Communication",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "COMMST140",
+            "courseTitle": "Small Group Communication",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "CS190",
+            "courseTitle": "Programming in C++",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "CS215",
+            "courseTitle": "Programming with Java",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "CS110",
+            "courseTitle": "Fundamentals of Computer Science",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "CS265",
+            "courseTitle": "Data Structures and Algorithms with C++",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "CS170",
+            "courseTitle": "Assembly Language",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "CS130",
+            "courseTitle": "Discrete Structures",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ENGL101",
+            "courseTitle": "Freshman Composition",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "ENGL101H",
+            "courseTitle": "Freshman Composition - Honors",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "ENGL270",
+            "courseTitle": "English Literature: Middle Ages to 18th Century",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ENGL271",
+            "courseTitle": "English Literature: 18th Century to Present",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ANTHRO125",
+            "courseTitle": "Language and Culture",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "SOC141",
+            "courseTitle": "Race and Ethnic Relations",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "HOSP160",
+            "courseTitle": "Culinary Production and Kitchen Operations",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "FN162",
+            "courseTitle": "Introduction to Food and Nutrition",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "HIST145",
+            "courseTitle": "History of California",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "HIST170",
+            "courseTitle": "World History to 1500",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "HIST171",
+            "courseTitle": "World History Since 1500",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "PHYSIC200",
+            "courseTitle": "Physics I",
+            "courseUnits": "6.00"
+        },
+        {
+            "courseNumber": "PHYSIC201",
+            "courseTitle": "Physics II",
+            "courseUnits": "6.00"
+        },
+        {
+            "courseNumber": "MATH250",
+            "courseTitle": "Single Variable Calculus I",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "MATH251",
+            "courseTitle": "Single Variable Calculus II",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "ENGR265",
+            "courseTitle": "Engineering Mechanics - Statics",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "MATH252",
+            "courseTitle": "Multivariable Calculus",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "HEALTH101",
+            "courseTitle": "Personal Health and Wellness",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "KIN200",
+            "courseTitle": "Introduction to Physical Education and Kinesiology",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "KIN231",
+            "courseTitle": "First Aid and CPR",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "GEOG130",
+            "courseTitle": "Introduction to Geographic Information Systems (GIS)",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "GIS130",
+            "courseTitle": "Introduction to Geographic Information Systems (GIS)",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "MATH115",
+            "courseTitle": "Ideas of Mathematics",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "MATH102",
+            "courseTitle": "College Algebra",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "MATH151",
+            "courseTitle": "Precalculus",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "MATH103",
+            "courseTitle": "Plane Trigonometry",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "MATH265",
+            "courseTitle": "Linear Algebra",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "MATH266",
+            "courseTitle": "Ordinary Differential Equations",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "MUS101",
+            "courseTitle": "Music Theory I: Fundamentals",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "MUS201",
+            "courseTitle": "Music Theory III: Basic Harmony",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "MUS141X2",
+            "courseTitle": "Applied Music I",
+            "courseUnits": "0.50"
+        },
+        {
+            "courseNumber": "MUS133",
+            "courseTitle": "Elementary Piano",
+            "courseUnits": "1.00"
+        },
+        {
+            "courseNumber": "MUS134",
+            "courseTitle": "Intermediate Piano",
+            "courseUnits": "1.00"
+        },
+        {
+            "courseNumber": "MUS130",
+            "courseTitle": "Elementary Voice",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "MUS117A",
+            "courseTitle": "Elementary Acoustic Guitar",
+            "courseUnits": "1.00"
+        },
+        {
+            "courseNumber": "MUS150X4",
+            "courseTitle": "Mixed Chorus",
+            "courseUnits": "1.00"
+        },
+        {
+            "courseNumber": "MUS154X4",
+            "courseTitle": "College Singers",
+            "courseUnits": "2.00"
+        },
+        {
+            "courseNumber": "MUS156X4",
+            "courseTitle": "Concert Choir",
+            "courseUnits": "2.00"
+        },
+        {
+            "courseNumber": "MUS152X4",
+            "courseTitle": "Chamber Singers",
+            "courseUnits": "2.00"
+        },
+        {
+            "courseNumber": "MUS106",
+            "courseTitle": "History of Jazz",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "GEOL201",
+            "courseTitle": "Mineralogy",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "GEOG110",
+            "courseTitle": "Physical Geography",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ENVSCI100",
+            "courseTitle": "Introduction to Environmental Science",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "PHIL102",
+            "courseTitle": "Introduction to Critical Thinking and Writing",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ASTRON120",
+            "courseTitle": "Introduction to Astronomy",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "GEOL101",
+            "courseTitle": "Introduction to Physical Geology",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "GEOL111",
+            "courseTitle": "Introduction to Physical Geology Laboratory",
+            "courseUnits": "1.00"
+        },
+        {
+            "courseNumber": "BIOL109",
+            "courseTitle": "History of Life",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "BIOL109H",
+            "courseTitle": "History of Life - Honors",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "PHYSIC101",
+            "courseTitle": "Introductory Physics",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "PHYSIC151",
+            "courseTitle": "General Physics for the Life Sciences I",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "PHYSIC152",
+            "courseTitle": "General Physics for the Life Sciences II",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "PHYSIC210",
+            "courseTitle": "Modern Physics",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "POLIT141",
+            "courseTitle": "Introduction to World Politics",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "POLIT140",
+            "courseTitle": "Introduction to Comparative Politics",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "POLIT110",
+            "courseTitle": "Introduction to Political Theory",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "POLIT110H",
+            "courseTitle": "Introduction to Political Theory - Honors",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "CD111",
+            "courseTitle": "Observation and Assessment in Child Development",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "CD138",
+            "courseTitle": "Teaching in a Diverse Society",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "CD205",
+            "courseTitle": "Child Development Practicum/Field Experience",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "PSYCH111",
+            "courseTitle": "Developmental Psychology: Lifespan",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "CD105",
+            "courseTitle": "Child Growth and Development",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "CD105H",
+            "courseTitle": "Child Growth and Development - Honors",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "PSYCH100",
+            "courseTitle": "General Psychology",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "PSYCH100H",
+            "courseTitle": "General Psychology - Honors",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ANTHRO102",
+            "courseTitle": "Cultural Anthropology",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ANTHRO100",
+            "courseTitle": "Introduction to Archaeology",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ANTHRO106",
+            "courseTitle": "Biological Anthropology",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ANTHRO106H",
+            "courseTitle": "Biological Anthropology - Honors",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "GEOG102",
+            "courseTitle": "Cultural Geography",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "GEOG100",
+            "courseTitle": "Map Interpretation and Geospatial Analysis",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "SOC100",
+            "courseTitle": "Introduction to Sociology",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "SOC100H",
+            "courseTitle": "Introduction to Sociology - Honors",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "SOC110",
+            "courseTitle": "Social Problems",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ETHS141",
+            "courseTitle": "Race and Ethnic Relations",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ETHS141H",
+            "courseTitle": "Race and Ethnic Relations-Honors",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "ECON208",
+            "courseTitle": "Business and Economic Statistics",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "MATH108",
+            "courseTitle": "Introduction to Probability and Statistics",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "PSYCH105",
+            "courseTitle": "Statistics for the Behavioral Sciences",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "DANCE103A",
+            "courseTitle": "Beginning Ballet",
+            "courseUnits": "2.00"
+        },
+        {
+            "courseNumber": "DANCE101A",
+            "courseTitle": "Beginning Modern Dance",
+            "courseUnits": "2.00"
+        },
+        {
+            "courseNumber": "DANCE105A",
+            "courseTitle": "Beginning Jazz Dance",
+            "courseUnits": "2.00"
+        },
+        {
+            "courseNumber": "THART147",
+            "courseTitle": "Theatre Movement",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "THART100",
+            "courseTitle": "Introduction to the Theatre",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "THART120",
+            "courseTitle": "Acting Fundamentals I",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "THART139",
+            "courseTitle": "Fundamentals of Costume Design",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "THART160X4",
+            "courseTitle": "Technical Theatre in Production",
+            "courseUnits": "3.00"
+        },
+        {
+            "courseNumber": "FRENCH101",
+            "courseTitle": "College French I",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "FRENCH102",
+            "courseTitle": "College French II",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "SPAN101",
+            "courseTitle": "College Spanish I",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "SPAN102",
+            "courseTitle": "College Spanish II",
+            "courseUnits": "5.00"
+        },
+        {
+            "courseNumber": "SPAN103",
+            "courseTitle": "College Spanish III",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "SPAN103H",
+            "courseTitle": "College Spanish III - Honors",
+            "courseUnits": "4.00"
+        },
+        {
+            "courseNumber": "SPAN157",
+            "courseTitle": "Spanish for Heritage Speakers I",
+            "courseUnits": "4.00"
+        }
+    ]
+}

@@ -1,0 +1,263 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BIOLV03",
+                        "courseTitle": "Introduction to Organismal Biology and Ecology",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "BIOLV23",
+                        "courseTitle": "Introduction to Plant Biology",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "BOT",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AGV06",
+                        "courseTitle": "Introduction to Plant Science (with Laboratory)",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "PLSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMMV01",
+                        "courseTitle": "Introduction to Speech Communication",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PLSC101."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEMV01A",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CHEMV01AL",
+                        "courseTitle": "General Chemistry I Laboratory",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHV04",
+                        "courseTitle": "College Algebra",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATHV20",
+                        "courseTitle": "Precalculus Mathematics",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGLV01A",
+                        "courseTitle": "English Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AGV30",
+                        "courseTitle": "Plant Propagation and Production",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "PLSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEMV01B",
+                        "courseTitle": "General Chemistry II",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CHEMV01BL",
+                        "courseTitle": "General Chemistry II Laboratory",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMMV10",
+                        "courseTitle": "Critical Thinking in Oral Communication: Argumentation and Debate",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AGV04",
+                        "courseTitle": "Introduction to Soil Science",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "SS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Elementary Spanish I, II, III, or Hispanic Language & Culture",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "SPANV01",
+                                "courseTitle": "Elementary Spanish I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: SPAN101, SPAN102, SPAN103, or SPAN111."
+            },
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PSYV04",
+                        "courseTitle": "Introductory Statistics for the Social and Behavioral Sciences",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATHV44",
+                        "courseTitle": "Elementary Statistics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "STAT",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for SS221."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    }
+}

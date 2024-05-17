@@ -1,0 +1,321 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH180",
+                        "courseTitle": "Analytic Geometry and Calculus I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ME128."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ME163."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for IME142."
+            },
+            {
+                "subject": "Manufacturing Processes Elective",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: IME141, ITP341, or ME161."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH280",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYC190",
+                        "courseTitle": "Mechanics and Heat",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL120",
+                        "courseTitle": "College Composition and Reading",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ME129."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for IME145."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS101."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH280",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYC190",
+                        "courseTitle": "Mechanics and Heat",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "PHYC210",
+                        "courseTitle": "Wave Motion and Modern Physics",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM141",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ME130."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for IME146."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR200",
+                        "courseTitle": "Engineering Mechanics - Statics",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ME",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH281",
+                        "courseTitle": "Multivariable Calculus",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYC200",
+                        "courseTitle": "Electricity and Magnetism",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM142",
+                        "courseTitle": "General Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ME251."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR220",
+                        "courseTitle": "Engineering Mechanics - Dynamics",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ME",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH285",
+                        "courseTitle": "Differential Equations",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATH284",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ME236."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ME234."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CE204."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR260",
+                        "courseTitle": "Engineering Materials",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "MATE",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for MATE215."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CE207."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "ENGR120",
+                                "courseTitle": "Engineering Computer Applications",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CSC231, or CSC234."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E.\r\n\r\nRecommended: ECON201."
+            }
+        ]
+    }
+}

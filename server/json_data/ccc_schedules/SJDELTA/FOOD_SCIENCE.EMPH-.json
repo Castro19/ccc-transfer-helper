@@ -1,0 +1,197 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIOL10",
+                        "courseTitle": "Survey of Biology",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for FSN102."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for FSN125."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS101."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "FCS6",
+                        "courseTitle": "Nutrition",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1A",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENG1A",
+                        "courseTitle": "Reading and Composition",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "MATH1",
+                                "courseTitle": "Calculus I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH13",
+                                "courseTitle": "Survey of Calculus",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "MATH1",
+                                "courseTitle": "Calculus I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH141, or MATH161."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSC2A",
+                        "courseTitle": "General Physics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1B",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for FSN250."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "STATS12",
+                        "courseTitle": "Introduction to Probability and Statistics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "STAT",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for FSN204."
+            },
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for MCRO221."
+            },
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). Students interested in Blended program should pass GWR no later than Spring of Junior year and adjust their schedule to plan to complete FSN 330 in Fall of their Junior year. FSN330 is one of the prerequisite courses to be considered for the Blended program."
+            }
+        ]
+    }
+}

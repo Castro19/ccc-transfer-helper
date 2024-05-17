@@ -1,0 +1,263 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSP17",
+                        "courseTitle": "Introduction to Programming Concepts and Methodologies",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH1",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS101."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CSP31A",
+                        "courseTitle": "C++ Programming I",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CSP31B",
+                        "courseTitle": "C++ Programming II",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CSP26A",
+                        "courseTitle": "JAVA Programming",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH2",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENG1A",
+                        "courseTitle": "Reading and Composition",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CSP26B",
+                        "courseTitle": "Data Structures with Java",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CSP31B",
+                        "courseTitle": "C++ Programming II",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH2",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "Life Science Support Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Life Science\" Support Electives: BIO111, BIO161, BIO213 & BMED213; BOT121; MCRO221.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSC4A",
+                        "courseTitle": "Principles of Physics: Mechanics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CSC203."
+            },
+            {
+                "subject": "Linear Math",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "MATH5",
+                                "courseTitle": "Linear Algebra",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH4",
+                                "courseTitle": "Differential Equations",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "MATH5",
+                                "courseTitle": "Linear Algebra",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH206, or MATH244."
+            },
+            {
+                "subject": "Additional Science Support Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Additional Science\" Support Electives; BIO111, BIO161; BOT121; CHEM124; MCRO221; PHYS141.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS55",
+                        "courseTitle": "Discrete Structures for Computer Science",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSP25",
+                        "courseTitle": "Assembly Language Programming",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PHYS142."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSC4C",
+                        "courseTitle": "Principles of Physics: Electricity and Magnetism",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Philosophical Classics",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231."
+            }
+        ]
+    }
+}

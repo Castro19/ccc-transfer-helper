@@ -1,0 +1,281 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEMA180",
+                        "courseTitle": "General Chemistry A",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHA180",
+                        "courseTitle": "Calculus 1",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATHA180H",
+                        "courseTitle": "Honors Calculus 1",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CMSTA110",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and a GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D3, or E."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here. Recommended: CHEM101.\r\n\r\nA total of 19-21 units of Free Elective credit are required for the default curriculum. The Chemistry Dept strongly recommends taking CHEM101 (1) in your first quarter. Also, it is suggested that you take supplemental workshops (SCM150) along with available Math/Science courses in your first year."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEMA180",
+                        "courseTitle": "General Chemistry A",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEMA185",
+                        "courseTitle": "General Chemistry B",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHA185",
+                        "courseTitle": "Calculus 2",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATHA185H",
+                        "courseTitle": "Honors Calculus 2",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGLA100",
+                        "courseTitle": "Freshman Composition",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for BIO161."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here.\r\n\r\nA total of 19-21 units of Free Elective credit are required for the default curriculum. The Chemistry Dept strongly recommends taking CHEM101 (1) in your first quarter. Also, it is suggested that you take supplemental workshops (SCM150) along with available Math/Science courses in your first year."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEMA185",
+                        "courseTitle": "General Chemistry B",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHA185",
+                        "courseTitle": "Calculus 2",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATHA185H",
+                        "courseTitle": "Honors Calculus 2",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSA185",
+                        "courseTitle": "Calculus-Based Physics: Mechanics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here.\r\n\r\nA total of 19-21 units of Free Elective credit are required for the default curriculum. The Chemistry Dept strongly recommends taking CHEM101 (1) in your first quarter. Also, it is suggested that you take supplemental workshops (SCM150) along with available Math/Science courses in your first year."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEMA220",
+                        "courseTitle": "Organic Chemistry A",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CHEMA220L",
+                        "courseTitle": "Organic Chemistry Laboratory A",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PHYS142."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here.\r\n\r\nA total of 19-21 units of Free Elective credit are required for the default curriculum. The Chemistry Dept strongly recommends taking CHEM101 (1) in your first quarter. Also, it is suggested that you take supplemental workshops (SCM150) along with available Math/Science courses in your first year."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEMA225",
+                        "courseTitle": "Organic Chemistry B",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CHEMA225L",
+                        "courseTitle": "Organic Chemistry Laboratory B",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSA280",
+                        "courseTitle": "Calculus-Based Physics: Electricity/Magnetism",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CHEM203."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CHEM221."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and a GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D3, or E."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here.\r\n\r\nA total of 19-21 units of Free Elective credit are required for the default curriculum. The Chemistry Dept strongly recommends taking CHEM101 (1) in your first quarter. Also, it is suggested that you take supplemental workshops (SCM150) along with available Math/Science courses in your first year."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CHEM218."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and a GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D3, or E."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and a GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D3, or E."
+            }
+        ]
+    }
+}

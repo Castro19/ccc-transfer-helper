@@ -1,0 +1,229 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ITP100."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ITP125."
+            },
+            {
+                "subject": "Calculus",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "MATH190",
+                                "courseTitle": "Single Variable Calculus and Analytic Geometry I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH160",
+                                "courseTitle": "Calculus I for the Biological, Management and Social Sciences",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "MATH165",
+                                "courseTitle": "Calculus for Business and Social Sciences",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH190",
+                                "courseTitle": "Single Variable Calculus and Analytic Geometry I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MATH141, or MATH221.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and GRaduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, and E."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS2A",
+                        "courseTitle": "General Physics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS3A",
+                        "courseTitle": "General Physics with Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMS100",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ITP233."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM1A",
+                                "courseTitle": "General Chemistry I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM1A",
+                                "courseTitle": "General Chemistry I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CHEM124, or CHEM127.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS2B",
+                        "courseTitle": "General Physics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS3B",
+                        "courseTitle": "General Physics with Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL1A",
+                        "courseTitle": "Reading and Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ITP150."
+            },
+            {
+                "subject": "Statistics",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: STAT217, STAT218, or STAT251.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ECON100",
+                        "courseTitle": "Fundamentals of Economics",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ECON",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ITP211."
+            },
+            {
+                "subject": "Concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration course can go here."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, and E."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, and E."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, and E."
+            },
+            {
+                "subject": "Concentration Declaration Due",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Concentration Declaration is due around this time."
+            }
+        ]
+    }
+}

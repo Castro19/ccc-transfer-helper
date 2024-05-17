@@ -1,0 +1,227 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SOC001",
+                        "courseTitle": "Introductory Sociology",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "SOC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL001A",
+                        "courseTitle": "Reading and Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "ANTH002",
+                                "courseTitle": "Cultural Anthropology",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: ANT201, GEOG150, or Lower-Division Social Sciences Course.\r\n\r\nCourses from the following disciplines will be acceptable towards the lower-division Social Sciences course: Anthropology, Ethnic Studies, Geography, Sociology, Political Science, Psychology, or Women's, Gender, and Queer Studies."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SOC002",
+                        "courseTitle": "Contemporary Social Problems",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "SOC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPCH001",
+                        "courseTitle": "Fundamentals of Speech",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for SOC218."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "STAT015",
+                        "courseTitle": "Statistics for Business and Economics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "STAT018",
+                        "courseTitle": "Statistics for Behavioral and Social Sciences",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "STAT050",
+                        "courseTitle": "Elementary Statistics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "STAT",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "SOC014",
+                        "courseTitle": "Introduction to Ethnic Studies",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "SOC014H",
+                        "courseTitle": "Honors Introduction to Ethnic Studies",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "SOC",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for SOC222."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "Choose One",
+                "course": [
+                    null,
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: SOC308 or SOC435."
+            },
+            {
+                "subject": "Concentration or ICS Course",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Concentration or ICS course can go here."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    }
+}
