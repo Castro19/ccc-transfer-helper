@@ -53,7 +53,7 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/schedule/:year/:ccc/:college/:major",
+    path: "/schedule/:year/:ccc/:cccCode/:college/:major",
     element: (
       <DndProvider backend={HTML5Backend}>
         <Layout>

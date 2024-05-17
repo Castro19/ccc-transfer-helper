@@ -1,12 +1,16 @@
 import express from "express";
 import { promises as fs } from "fs";
-import organizeClasses from "./utils.js";
+import organizeClasses, { getFileName } from "./utils.js";
 const router = express.Router();
 
 router.get("/:ccc/:college/:major/", async (req, res) => {
   let result = {};
   try {
     const { ccc, college, major } = req.params;
+    // Format the major name to represent
+    const majorFilename = major.split(",")[0].split(" ").join("_");
+
+    console.log("MAJOR FILE NAME: ", getFileName(major, ccc));
 
     console.log(`Server Side: ${ccc}, ${college}, ${major}`);
     const rawData = await fs.readFile(

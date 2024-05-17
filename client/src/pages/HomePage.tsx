@@ -3,7 +3,7 @@ import HomePageTitle from "@/components/homePage/HomePageTitle";
 import { useCollege } from "@/contexts/collegeContext";
 import { fetchPDF } from "@/components/homePage/utils/getAssistData";
 
-const HomePage = () => {
+const HomePage = (): JSX.Element => {
   // Context Variables
   const { year, ccc, univ, major } = useCollege();
 
@@ -24,9 +24,10 @@ const HomePage = () => {
     } else {
       const transferCollegeParam = encodeURIComponent(univ.name);
       const cccParam = encodeURIComponent(ccc.name);
+      const cccCode = encodeURIComponent(ccc.code);
       const majorParam = encodeURIComponent(major.major);
 
-      const url = `/schedule/${year}/${cccParam}/${transferCollegeParam}/${majorParam}`;
+      const url = `/schedule/${year}/${cccParam}/${cccCode}/${transferCollegeParam}/${majorParam}`;
       const newWindow = window.open(url, "_blank", "noopener,noreferrer");
 
       if (newWindow) newWindow.opener = null;
