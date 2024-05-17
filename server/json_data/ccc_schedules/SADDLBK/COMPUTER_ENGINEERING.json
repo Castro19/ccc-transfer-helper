@@ -1,0 +1,356 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS1B",
+                        "courseTitle": "Introduction to Computer Science II",
+                        "courseUnits": "3.50"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH3A",
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1A",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM1",
+                        "courseTitle": "Communication Fundamentals",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE100."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CS1B",
+                        "courseTitle": "Introduction to Computer Science II",
+                        "courseUnits": "3.50"
+                    },
+                    {
+                        "courseNumber": "CS4A",
+                        "courseTitle": "Introduction to JAVA for Computer Science",
+                        "courseUnits": "3.50"
+                    },
+                    {
+                        "courseNumber": "CIMP7A",
+                        "courseTitle": "Business Programming - JAVA--Beginning",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CS1A",
+                        "courseTitle": "Introduction to Computer Science I",
+                        "courseUnits": "3.50"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4A",
+                        "courseTitle": "General Physics",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH3B",
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENG1A",
+                        "courseTitle": "Principles of Composition I",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS1D",
+                        "courseTitle": "Data Structures",
+                        "courseUnits": "3.50"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH3B",
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE133."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4B",
+                        "courseTitle": "General Physics",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH3C",
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CPE233."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE115."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE145."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CIMP7B",
+                                "courseTitle": "Business Programming - JAVA--Advanced",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CS1D",
+                                "courseTitle": "Data Structures",
+                                "courseUnits": "3.50"
+                            },
+                            {
+                                "courseNumber": "CS4B",
+                                "courseTitle": "Advanced Topics in JAVA for Computer Science",
+                                "courseUnits": "3.50"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH24",
+                        "courseTitle": "Elementary Differential Equations",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH26",
+                        "courseTitle": "Introduction to Linear Algebra",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE215."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EE245."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for PHYS142."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CS30A",
+                        "courseTitle": "Computer Discrete Mathematics I",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATH30A",
+                        "courseTitle": "Computer Discrete Mathematics I",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Computer Architecture Course",
+                "course": [
+                    null,
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CPE315, or CPE333."
+            },
+            {
+                "subject": "Choose a Philosophy Course",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "PHIL2",
+                                "courseTitle": "History of Ancient Philosophy",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL5",
+                                "courseTitle": "History of Modern Philosophy",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL15",
+                                "courseTitle": "Introduction to Ethics",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL1",
+                                "courseTitle": "Introduction to Philosophy",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "PHIL15",
+                                "courseTitle": "Introduction to Ethics",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL1",
+                                "courseTitle": "Introduction to Philosophy",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL2",
+                                "courseTitle": "History of Ancient Philosophy",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL5",
+                                "courseTitle": "History of Modern Philosophy",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+            }
+        ]
+    }
+}

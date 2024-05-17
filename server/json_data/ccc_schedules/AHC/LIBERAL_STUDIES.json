@@ -1,0 +1,306 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "EDUC130",
+                        "courseTitle": "Exploring Teaching",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ECS130",
+                        "courseTitle": "Exploring Teaching",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "LS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHSC111",
+                        "courseTitle": "Matter, Energy, and Molecules",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST107",
+                        "courseTitle": "U S History to 1877",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "HIST",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPCH101",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for LS201."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST119",
+                        "courseTitle": "History of California",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "HIST",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHSC111",
+                        "courseTitle": "Matter, Energy, and Molecules",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL101",
+                        "courseTitle": "Freshman Composition: Exposition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for LS211."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHSC112",
+                        "courseTitle": "Earth and the Universe",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PSC",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "HIST101",
+                        "courseTitle": "World Civilizations to 1600",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "HUM101",
+                        "courseTitle": "World Civilizations to 1600",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "HIST",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for LS214."
+            },
+            {
+                "subject": "Statistics",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "MATH123",
+                                "courseTitle": "Elementary Statistics",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: STAT137, or STAT217.\r\n\r\nStudents considering a Child Development or Psychology minor should consider taking STAT217."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH105",
+                        "courseTitle": "Mathematics for Teachers",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BIOL100",
+                        "courseTitle": "Introductory Biology",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "BIOL150",
+                        "courseTitle": "Cellular Biology",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPCH106",
+                        "courseTitle": "Argumentation and Debate",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for LS250."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for LS255."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for BIO211."
+            },
+            {
+                "subject": "General Psychology",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "PSY101",
+                                "courseTitle": "General Psychology",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "PSY101",
+                                "courseTitle": "General Psychology",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PSY201, or PSY202.\r\n\r\nRequired in Major; also satisfies GE."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ASTR100",
+                        "courseTitle": "Elementary Astronomy",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ASTR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ECS132",
+                        "courseTitle": "Child, Identity, and Learning",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "EDUC132",
+                        "courseTitle": "Child, Identity, and Learning",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ECS100",
+                        "courseTitle": "Child Growth and Development",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "CD",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, Upper-Division C, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D (GEOG308) should be taken only after Junior standing is reached (90 units). NOTE: Some GE may be fulfilled in concentration courses or minors. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            },
+            {
+                "subject": "Declare your concentration",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Declare your Concentration around this time."
+            }
+        ]
+    }
+}

@@ -1,0 +1,269 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHA180",
+                        "courseTitle": "Calculus 1",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATHA180H",
+                        "courseTitle": "Honors Calculus 1",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CMSTA110",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM102."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for EDES123."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHA185",
+                        "courseTitle": "Calculus 2",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATHA185H",
+                        "courseTitle": "Honors Calculus 2",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYSA185",
+                        "courseTitle": "Calculus-Based Physics: Mechanics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGLA100",
+                        "courseTitle": "Freshman Composition",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM113."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM114."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM115."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for COMS126."
+            },
+            {
+                "subject": "PHYS/CHEM",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CHEMA180",
+                                "courseTitle": "General Chemistry A",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: PHYS142, CHEM124, or CHEM127."
+            },
+            {
+                "subject": "Surveying",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BRAE239, or CM239."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUSA110",
+                        "courseTitle": "Business Law",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "BUS",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM214."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM232."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for CM280."
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE211."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ECONA100",
+                        "courseTitle": "Economics General Concepts",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "ECON",
+                "uniqueClass": false
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE212."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    {
+                        "conjunction": null,
+                        "courses": []
+                    },
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "ACCTA101",
+                                "courseTitle": "Financial Accounting",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    }
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BUS212, or BUS214."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ACCTA102",
+                        "courseTitle": "Managerial Accounting",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "BUS",
+                "uniqueClass": true
+            },
+            {
+                "courses": [],
+                "note": "No articulation agreement found for ARCE226."
+            },
+            {
+                "subject": "Statistics",
+                "course": [
+                    {
+                        "conjunction": "OR",
+                        "courses": [
+                            {
+                                "courseNumber": "MATHA160",
+                                "courseTitle": "Introduction to Statistics",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "PSYCA160",
+                                "courseTitle": "Statistics for Behavioral Sciences",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    null
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: STAT251, or STAT312."
+            }
+        ]
+    }
+}
