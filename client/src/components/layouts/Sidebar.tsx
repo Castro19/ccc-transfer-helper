@@ -16,7 +16,7 @@ const Sidebar = ({
   classList,
   schedule,
 }: SidebarProps): JSX.Element => {
-  const sidebarClasses: string = `fixed top-0 left-0 h-screen w-64 bg-white dark:bg-gray-800 z-40 overflow-y-auto shadow-lg p-4 transition-transform duration-300 ease-in-out ${
+  const sidebarClasses: string = `fixed top-0 left-0 h-screen w-72 bg-white dark:bg-gray-800 z-40 overflow-y-auto shadow-lg p-4 transition-transform duration-300 ease-in-out ${
     isVisible ? "translate-x-0" : "-translate-x-full"
   }`;
 
@@ -70,7 +70,7 @@ const Sidebar = ({
             <SubjectAccordion subjects={subjectClasses} schedule={schedule} />
           </div>
           <div>
-            <SearchbarClasses classList={classList} />
+            <SearchbarClasses classList={classList} schedule={schedule} />
           </div>
         </div>
       </aside>

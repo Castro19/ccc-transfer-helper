@@ -7,6 +7,7 @@ import {
 import DraggableClass from "./DraggableClass/DraggableClass";
 import { ClassType, SemesterType, SubjectType } from "@/types";
 import { useMemo } from "react";
+import { findUsedCourses } from "./helpers/findUsedCourses";
 
 interface SubjectAccordionProps {
   subjects: SubjectType[];
@@ -20,15 +21,7 @@ const SubjectAccordion = ({
 
   // Function to get used courses from the schedule
   const getUsedCourses = useMemo(() => {
-    const usedCourses = new Set();
-    schedule.forEach((semester) => {
-      semester.courses.forEach((course) => {
-        if (course.courseCode) {
-          usedCourses.add(course.courseCode);
-        }
-      });
-    });
-    return usedCourses;
+    return findUsedCourses(schedule);
   }, [schedule]); // Recompute when schedule changes
 
   return (

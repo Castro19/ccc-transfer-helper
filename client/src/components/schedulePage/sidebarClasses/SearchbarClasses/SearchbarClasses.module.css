@@ -1,0 +1,30 @@
+/* SearchbarClasses.module.css */
+/* SearchbarClasses.module.css */
+.command {
+  position: relative; /* Ensure the list positions itself relative to the command input */
+}
+
+.commandList {
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease; /* Smooth transition for opacity and transform */
+  opacity: 1;
+}
+
+.commandListHidden {
+  opacity: 0;
+  transform: translateY(-10px); /* Slight upward movement */
+  pointer-events: none; /* Disable interactions when hidden */
+}
+
+.commandItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Ensures it takes full width of the container */
+  height: 50px; /* Set a fixed height for uniformity */
+  padding: 8px;
+  margin: 4px 0;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
