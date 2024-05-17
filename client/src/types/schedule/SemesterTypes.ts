@@ -26,7 +26,14 @@ export type SemesterType = {
   courses: Array<CourseType>;
 };
 
+export type classData = {
+  courseNumber: string;
+  courseTitle: string;
+  courseUnits: string;
+};
+
 export type ScheduleData = {
   schedule: SemesterCourses;
-  classes: SubjectType;
+  subjectClasses: SubjectType;
+  classList: classData[];
 };

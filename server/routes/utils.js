@@ -1,3 +1,5 @@
+import { promises as fs } from "fs";
+
 export default function organizeClasses(data) {
   let subjects = {};
 
@@ -29,6 +31,15 @@ export default function organizeClasses(data) {
   return subjects;
 }
 
+export async function getClassList(ccc) {
+  const rawData = await fs.readFile(
+    `json_data/ccc_courses/${ccc}.json`,
+    "utf8"
+  );
+  const classList = JSON.parse(rawData);
+  return classList.courses;
+}
+
 export function getFileName(major, ccc) {
   let degreeType = "";
   let majorFilename = major.split(",")[0].split(" ").join("_");
@@ -39,4 +50,14 @@ export function getFileName(major, ccc) {
   const filePath = `json_data/ccc_schedules/${ccc}/${majorFilename}.json`;
 
   return filePath;
+}
+
+export async function getSchedule(
+  scheduleFilePath = "json_data/schedules/ideal-schedule-format.json"
+) {
+  const rawData = await fs.readFile(scheduleFilePath, "utf8");
+
+  const scheduleData = JSON.parse(rawData);
+
+  return scheduleData;
 }

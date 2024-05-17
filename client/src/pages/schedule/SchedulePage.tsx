@@ -18,7 +18,8 @@ const SchedulePage = (): JSX.Element => {
   const initialData = useLoaderData() as ScheduleData;
 
   // Initialize state for schedule and classes
-  const [subjectClasses] = useState(initialData.classes);
+  const [subjectClasses] = useState(initialData.subjectClasses);
+  const [classList] = useState(initialData.classList);
   const [schedule, setSchedule] = useState(initialSemesters);
 
   // Layout
@@ -76,7 +77,8 @@ const SchedulePage = (): JSX.Element => {
   useEffect(() => {
     console.log("Subject Classes: ", subjectClasses);
     console.log("Schedule: ", schedule);
-  }, [schedule, subjectClasses]);
+    console.log("CLASS LIST: ", classList);
+  }, [schedule, subjectClasses, classList]);
 
   return (
     <ScheduleContext.Provider value={{ schedule, handleScheduleChange }}>
