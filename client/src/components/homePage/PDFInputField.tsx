@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const PDFInputField = () => {
+const PDFInputField = (): JSX.Element => {
   const [file, setFile] = useState<File | null>(null);
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {

@@ -1,9 +1,8 @@
 // HomePage.tsx
-import React from "react";
 import { Outlet } from "react-router-dom";
 import TitleCard from "@/components/register/TitleCard"; // Make sure the import path is correct
 
-const Register = () => {
+const Register = (): JSX.Element => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-zinc-900">
       <div className="flex w-full max-w-4xl bg-white dark:bg-zinc-800 rounded-lg shadow-lg overflow-hidden">

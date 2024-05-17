@@ -1,0 +1,228 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH118.",
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BIOL103",
+                        "courseTitle": "Introduction to Nutrition",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "HEOC172",
+                        "courseTitle": "Basic Nutrition",
+                        "courseUnits": "2.00"
+                    }
+                ],
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIOL120",
+                        "courseTitle": "General Biology",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH106",
+                        "courseTitle": "College Algebra",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMM122",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CHEM127.",
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM120",
+                        "courseTitle": "General Chemistry 1",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL120",
+                        "courseTitle": "College Composition and Research",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CHEM128.",
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM121",
+                        "courseTitle": "General Chemistry 2",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "subject": "Choose One",
+                "course": [
+                    "MCRO221",
+                    "MCRO224"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: MCRO221, or MCRO224."
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "CHEM312",
+                    "CHEM216"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CHEM312, or CHEM216.\r\n\r\nMost Nutrition majors should take CHEM312 and CHEM314. Students choosing the Nutrition Science concentration may need to take CHEM216 and CHEM369, depending on their career goals and approved electives. Students selecting CHEM216 must also take CHEM217 and CHEM218. See advisor."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for FSN281.",
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "CHEM314",
+                    "CHEM369"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CHEM314, or CHEM369.\r\n\r\nMost Nutrition majors should take CHEM312 and CHEM314. Students choosing the Nutrition Science concentration may need to take CHEM216 and CHEM369, depending on their career goals and approved electives. Students selecting CHEM216 must also take CHEM217 and CHEM218. See advisor."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            },
+            {
+                "subject": "Approved Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Elective course can go here.\r\n\r\n22 total units of approved electives required. Please select from course options posted in catalog, and consult the Food, Science & Nutrition advising materials and catalog for prerequisites."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH232",
+                        "courseTitle": "Statistics",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "STAT",
+                "uniqueClass": false
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": false,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+            },
+            {
+                "subject": "Approved Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Approved Elective course can go here.\r\n\r\n22 total units of approved electives required. Please select from course options posted in catalog, and consult the Food, Science & Nutrition advising materials and catalog for prerequisites."
+            }
+        ]
+    }
+}

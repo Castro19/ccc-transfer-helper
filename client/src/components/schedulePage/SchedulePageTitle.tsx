@@ -11,8 +11,8 @@ const SchedulePageTitle = ({
   selectedYear,
   selectedCCC,
   selectedTransferCollege,
-  selectedMajor,
-}: SchedulePageTitleProps) => {
+  selectedMajor
+}: SchedulePageTitleProps): JSX.Element => {
   return (
     <Fragment>
       <h1 className="text-2xl font-bold text-center mt-4 mb-2">

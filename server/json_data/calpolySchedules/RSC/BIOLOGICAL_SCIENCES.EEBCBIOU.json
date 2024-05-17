@@ -1,0 +1,280 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CHEM127.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM219",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CMST102",
+                        "courseTitle": "Public Speaking",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CMST102H",
+                        "courseTitle": "Honors Public Speaking",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here.\r\n\r\n5 units of Free Electives required. SCM150 workshops for Math/Science courses recommended for remaining units."
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIOL211",
+                        "courseTitle": "Cellular and Molecular Biology",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM219",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM229",
+                        "courseTitle": "General Chemistry and Qualitative Analysis",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH150",
+                        "courseTitle": "Calculus for Biological, Management and Social Sciences",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH180",
+                        "courseTitle": "Single Variable Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "ENGL101",
+                        "courseTitle": "Freshman Composition",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "ENGL101H",
+                        "courseTitle": "Honors Freshman Composition",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here.\r\n\r\n5 units of Free Electives required. SCM150 workshops for Math/Science courses recommended for remaining units."
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH162.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM229",
+                        "courseTitle": "General Chemistry and Qualitative Analysis",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH185",
+                        "courseTitle": "Single Variable Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Free Elective",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Free Elective course can go here.\r\n\r\n5 units of Free Electives required. SCM150 workshops for Math/Science courses recommended for remaining units."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for BIO263.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH219",
+                        "courseTitle": "Statistics and Probability",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH219H",
+                        "courseTitle": "Honors Statistics and Probability",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH219",
+                        "courseTitle": "Statistics and Probability",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH219H",
+                        "courseTitle": "Honors Statistics and Probability",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PSYC210",
+                        "courseTitle": "Statistics for the Behavioral Sciences",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH219S",
+                        "courseTitle": "Statistics and Probability with Support",
+                        "courseUnits": "4.50"
+                    }
+                ],
+                "subject": "STAT",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "LA/NR218",
+                    "GEOG218"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: LA/NR218, or GEOG218."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "subject": "Ecology",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: BIO327, BIO363, BIO442; BOT326; MCRO436; MSCI300."
+            },
+            {
+                "subject": "BIO",
+                "course": "BIO363",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "CHEM216",
+                    "CHEM312"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: CHEM216, or CHEM312."
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "subject": "BIO",
+                "course": "BIO351",
+                "uniqueClass": false
+            },
+            {
+                "subject": "Biodiversity",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "Any Biodiversity course can go here.\r\n\r\n<b>Biodiversity Courses:</b> (12 units) See Catalog for course options and guidelines. Excess units will be applied to subsequent concentration electives. Students seeking certification (e.g. as an Associate Wildlife Biologist from the Wildlife Society) should see their faculty advisor for guidance."
+            },
+            {
+                "subject": "GE",
+                "course": null,
+                "uniqueClass": true,
+                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+            }
+        ]
+    }
+}

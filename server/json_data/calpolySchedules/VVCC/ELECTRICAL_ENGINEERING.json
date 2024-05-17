@@ -1,0 +1,302 @@
+{
+    "0": {
+        "courses": []
+    },
+    "1": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH141.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH226",
+                        "courseTitle": "Analytic Geometry and Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM201",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "course": "COMS101",
+                "note": "No matching course found.",
+                "subject": "CHEM",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "2": {
+        "courses": [
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CIS201",
+                                "courseTitle": "Programming Concepts and Methods I",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CIS206",
+                                "courseTitle": "Programming Java",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "CIS206B",
+                                "courseTitle": "Java Programming B",
+                                "courseUnits": "2.00"
+                            }
+                        ]
+                    }
+                ],
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS201",
+                        "courseTitle": "Engineering Physics (Mechanics of Solids)",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH227",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH227H",
+                        "courseTitle": "Honors Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGL101",
+                        "courseTitle": "English Composition and Reading",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "ENGL",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "3": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS203",
+                        "courseTitle": "Engineering Physics (Electricity and Magnetism)",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH227",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH227H",
+                        "courseTitle": "Honors Analytic Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "MATH",
+                "uniqueClass": true
+            },
+            {
+                "course": "COMS126",
+                "note": "No matching course found.",
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "subject": "Choose One",
+                "course": [
+                    "EE113&EE143",
+                    "EE112&IME156"
+                ],
+                "uniqueClass": true,
+                "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
+            }
+        ]
+    },
+    "5": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for CPE133.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for PHYS142.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS202",
+                        "courseTitle": "Engineering Physics (Mechanics of Fluids, Heat and Sound)",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS204H",
+                        "courseTitle": "Honors Engineering Physics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH270",
+                        "courseTitle": "Differential Equations",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATH231",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "3.00"
+                    }
+                ],
+                "subject": "PHYS",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "6": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for MATH241.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for BIO213.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH228",
+                        "courseTitle": "Analytic Geometry and Calculus III",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH228H",
+                        "courseTitle": "Honors Analytic Geometry & Calculus III",
+                        "courseUnits": "5.00"
+                    }
+                ],
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for BIO213.",
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for BMED213.",
+                "subject": "BIO",
+                "uniqueClass": false
+            }
+        ]
+    },
+    "7": {
+        "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for EE295.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement for EE228.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS204H",
+                        "courseTitle": "Honors Engineering Physics",
+                        "courseUnits": "4.00"
+                    }
+                ],
+                "subject": "EE",
+                "uniqueClass": false
+            }
+        ]
+    }
+}
