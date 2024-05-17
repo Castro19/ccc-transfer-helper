@@ -7,6 +7,7 @@ import Sidebar from "@/components/layouts/Sidebar";
 import { ScheduleContext } from "@/contexts/scheduleContext";
 import { ScheduleData, initialSemesters } from "@/types";
 import styles from "./SchedulePage.module.css";
+import SaveSchedule from "@/components/schedulePage/crudSchedules/createSchedule/SaveSchedule";
 
 const SchedulePage = (): JSX.Element => {
   const params = useParams();
@@ -113,6 +114,11 @@ const SchedulePage = (): JSX.Element => {
 
           <div className={styles.contentPadding}>
             <SemesterCards />
+          </div>
+          <div className={styles.saveScheduleContainer}>
+            <div className={styles.saveSchedule}>
+              <SaveSchedule schedule={schedule} params={params} />
+            </div>
           </div>
         </div>
       </div>

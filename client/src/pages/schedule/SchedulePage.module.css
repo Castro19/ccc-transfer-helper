@@ -37,3 +37,16 @@
   display: flex;
   gap: 16px;
 }
+
+.saveScheduleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.saveSchedule {
+  align-self: center;
+  justify-self: center;
+  margin: 20px;
+}

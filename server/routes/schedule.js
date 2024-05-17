@@ -1,5 +1,5 @@
 import express from "express";
-import { promises as fs } from "fs";
+import { addSchedule } from "../db/models/schedule/scheduleServices.js";
 import organizeClasses, {
   getClassList,
   getFileName,
@@ -27,8 +27,24 @@ router.get("/:ccc/:college/:major/", async (req, res) => {
   }
 });
 
+router.post("/", async (req, res) => {
+  const scheduleData = req.body;
+  console.log("BODY: ", scheduleData);
+  if (scheduleData.userId === null) {
+    res.status(400).json({ message: "User needs to be signed in!" });
+    return;
+  }
+  try {
+    const result = await addSchedule(scheduleData);
+    res.status(201).json(result);
+  } catch (error) {
+    res.status(500).send("Failed to create Schedule: " + error.message);
+    console.error("Failed to create Schedule: ", error);
+  }
+});
+
 router.get("/", async (req, res) => {
-  res.send("Working");
+  res.json({ message: "Working" });
 });
 
 export default router;
