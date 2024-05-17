@@ -2,6 +2,7 @@ import { SemesterType } from "@/types";
 import { Params } from "react-router-dom";
 interface postScheduleReturnType {
   message: string;
+  scheduleId: string;
 }
 
 export default async function postSchedule(
@@ -20,15 +21,11 @@ export default async function postSchedule(
       params,
     }),
   };
-  try {
-    const response = await fetch(`http://localhost:8000/schedules/`, options);
-    if (!response.ok) {
-      const errorData = await response.json();
-      console.log(`Error: `, errorData.message);
-    }
-    const responseData = await response.json();
-    return responseData;
-  } catch (error) {
-    console.log(`Error: `, error);
+  const response = await fetch(`http://localhost:8000/schedules/`, options);
+  const responseData = await response.json();
+
+  if (!response.ok) {
+    console.log(`Error: `, responseData.message);
   }
+  return responseData;
 }

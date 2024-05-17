@@ -1,5 +1,9 @@
 import express from "express";
-import { addSchedule } from "../db/models/schedule/scheduleServices.js";
+import {
+  addSchedule,
+  deleteSchedule,
+  fetchSchedules,
+} from "../db/models/schedule/scheduleServices.js";
 import organizeClasses, {
   getClassList,
   getFileName,
@@ -30,8 +34,10 @@ router.get("/:ccc/:college/:major/", async (req, res) => {
 router.post("/", async (req, res) => {
   const scheduleData = req.body;
   console.log("BODY: ", scheduleData);
-  if (scheduleData.userId === null) {
-    res.status(400).json({ message: "User needs to be signed in!" });
+  if (!scheduleData.userId) {
+    res
+      .status(400)
+      .json({ message: "User needs to be signed in to save a schedule" });
     return;
   }
   try {
@@ -43,8 +49,27 @@ router.post("/", async (req, res) => {
   }
 });
 
-router.get("/", async (req, res) => {
-  res.json({ message: "Working" });
+router.delete("/:scheduleId", async (req, res) => {
+  const { scheduleId } = req.params;
+  console.log("Schedule ID: ", scheduleId);
+  try {
+    await deleteSchedule(scheduleId);
+    res.status(200).json({ message: `Schedule ID (${scheduleId}) is deleted` });
+  } catch (error) {
+    res.status(500).send("Failed to Delete Schedule: " + error.message);
+    console.error("Failed to Delete Schedule: ", error);
+  }
+});
+
+router.get("/:userId", async (req, res) => {
+  const { userId } = req.params;
+
+  try {
+    const scheudles = await fetchSchedules(userId);
+    res.status(200).json(scheudles);
+  } catch (error) {
+    res.status(500).send({ message: error.message });
+  }
 });
 
 export default router;

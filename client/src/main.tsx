@@ -18,11 +18,14 @@ import { SignupFormDemo } from "./pages/register/signup/SignUpForm.tsx";
 import { LoginFormDemo } from "./pages/register/login/LoginForm.tsx";
 import ErrorPage from "./pages/ErrorPage/ErrorPage.tsx";
 import Home from "./components/tests/Home.tsx";
+import SavedSchedulesPage from "./pages/savedSchedules/SavedSchedulesPage.tsx";
 import Layout from "./components/layouts/Layouts.tsx";
+
 // Loaders:
 import { fetchColleges } from "./components/homePage/utils/getAssistData.ts";
 import fetchScheduleData from "./components/schedulePage/utils/fetchScheduleData.ts";
 import "./index.css";
+import fetchSchedules from "./components/schedulePage/crudSchedules/scheduleList/fetchSchedules.ts";
 
 const router = createBrowserRouter([
   {
@@ -70,6 +73,15 @@ const router = createBrowserRouter([
         <Home />
       </Layout>
     ),
+  },
+  {
+    path: "/savedSchedules",
+    element: (
+      <Layout>
+        <SavedSchedulesPage />
+      </Layout>
+    ),
+    loader: fetchSchedules,
   },
   {
     path: "/404",
