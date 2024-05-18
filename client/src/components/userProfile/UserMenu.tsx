@@ -7,7 +7,10 @@ import { Button } from "@/components/ui/button";
 
 const UserMenu = (): JSX.Element => {
   const { userLoggedIn, currentUser } = useAuth();
-  const path = `/savedSchedules/${currentUser.uid}`;
+  let path = "/";
+  if (currentUser) {
+    path = `/savedSchedules/${currentUser.uid}`;
+  }
   const [active, setActive] = useState<string | null>(null);
   const navigate = useNavigate();
 
