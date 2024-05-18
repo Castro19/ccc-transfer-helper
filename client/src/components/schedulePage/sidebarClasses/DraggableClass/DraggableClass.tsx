@@ -1,6 +1,6 @@
 import { ClassType } from "@/types";
 import { RiDragMove2Fill } from "react-icons/ri";
-import handleDragStartFromSidebar from "../helpers/sidebarDrag";
+import handleDragStartFromSidebar from "../../helpers/sidebarDrag";
 import styles from "./DraggableClass.module.css";
 type DraggableClassProps = {
   classItem: ClassType;

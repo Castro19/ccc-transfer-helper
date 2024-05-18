@@ -18,7 +18,8 @@ const SchedulePage = (): JSX.Element => {
   const initialData = useLoaderData() as ScheduleData;
 
   // Initialize state for schedule and classes
-  const [subjectClasses] = useState(initialData.classes);
+  const [subjectClasses] = useState(initialData.subjectClasses);
+  const [classList] = useState(initialData.classList);
   const [schedule, setSchedule] = useState(initialSemesters);
 
   // Layout
@@ -76,6 +77,7 @@ const SchedulePage = (): JSX.Element => {
   useEffect(() => {
     console.log("Subject Classes: ", subjectClasses);
     console.log("Schedule: ", schedule);
+    // console.log("CLASS LIST: ", classList);
   }, [schedule, subjectClasses]);
 
   return (
@@ -86,6 +88,7 @@ const SchedulePage = (): JSX.Element => {
           isVisible={isSidebarVisible}
           setIsVisible={handleSidebarVisibility}
           subjectClasses={subjectClasses}
+          classList={classList}
           schedule={schedule}
         />
         {/* Main Content Area */}

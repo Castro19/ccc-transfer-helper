@@ -6,15 +6,14 @@ import { useScheduleDataContext } from "@/contexts/scheduleContext";
 
 export const HoverEffect = () => {
   const { schedule } = useScheduleDataContext();
-  // console.log("SD", schedule);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <div className={cn("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3")}>
       {schedule.map((semester, idx) => (
-        <button
+        <div
           key={semester.id}
-          className="relative group block p-2 h-full w-full"
+          className="relative group block p-2 h-full w-full cursor-pointer"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
           onClick={() =>
@@ -41,7 +40,7 @@ export const HoverEffect = () => {
             )}
           </AnimatePresence>
           <SemesterCard hoveredIndex={hoveredIndex} semester={semester} />
-        </button>
+        </div>
       ))}
     </div>
   );
