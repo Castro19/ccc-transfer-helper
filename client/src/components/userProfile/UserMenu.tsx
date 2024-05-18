@@ -6,8 +6,8 @@ import { doSignOut } from "@/firebase/auth";
 import { Button } from "@/components/ui/button";
 
 const UserMenu = (): JSX.Element => {
-  const { userLoggedIn } = useAuth();
-
+  const { userLoggedIn, currentUser } = useAuth();
+  const path = `/savedSchedules/${currentUser.uid}`;
   const [active, setActive] = useState<string | null>(null);
   const navigate = useNavigate();
 
@@ -24,10 +24,7 @@ const UserMenu = (): JSX.Element => {
           <MenuItem setActive={setActive} active={active} item="profile">
             <div className="flex flex-col gap-2 ">
               <div className="border rounded-xl border-gray-200 p-4 mr-4 w-full">
-                <HoveredLink
-                  to="/savedSchedules"
-                  className="hover:text-gray-300"
-                >
+                <HoveredLink to={path} className="hover:text-gray-300">
                   View Schedules
                 </HoveredLink>
               </div>

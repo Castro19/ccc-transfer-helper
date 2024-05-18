@@ -1,26 +1,24 @@
 import ScheduleCard from "./scheduleCard/ScheduleCard";
-const fakeList = [
-  {
-    id: 1,
-    ccc: "San Mateo College",
-    univ: "California Polytechnic University, San Luis Obispo",
-    major: "COMPUTER SCIENCE, B.S.",
-    year: "2024",
-  },
-  {
-    ccc: "Clovis Community College",
-    univ: "California Polytechnic University, San Luis Obispo",
-    major: "COMPUTER SCIENCE, B.S.",
-    year: "2024",
-  },
-];
 
-const ScheduleList = (): JSX.Element => {
+interface savedScheduleType {
+  id: string;
+  ccc: string;
+  univ: string;
+  major: string;
+  year: string;
+}
+interface ScheduleListProps {
+  savedSchedules: savedScheduleType[];
+}
+
+const ScheduleList = ({ savedSchedules }: ScheduleListProps): JSX.Element => {
+  console.log("SAVED SCHEDULES", savedSchedules);
   return (
     <>
-      {fakeList.map((college, index) => (
+      {savedSchedules.map((college, index) => (
         <div key={index}>
           <ScheduleCard
+            id={college.id}
             ccc={college.ccc}
             univ={college.univ}
             major={college.major}

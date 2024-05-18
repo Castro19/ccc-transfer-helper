@@ -20,6 +20,7 @@ const ScheduleCard = ({
       <p>univ: {univ}</p>
       <p>major: {major}</p>
       <p>year: {year}</p>
+      <p>Schedule ID: {id}</p>
     </div>
   );
 };

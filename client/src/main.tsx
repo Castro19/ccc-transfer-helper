@@ -75,7 +75,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/savedSchedules",
+    path: "/savedSchedules/:userId",
     element: (
       <Layout>
         <SavedSchedulesPage />
