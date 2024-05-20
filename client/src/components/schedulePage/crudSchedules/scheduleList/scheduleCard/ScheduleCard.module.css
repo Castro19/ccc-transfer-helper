@@ -40,11 +40,11 @@
   font-size: 1.2rem;
 }
 
-/* .univ{
+.univ{
   align-items: center;
   display: flex;
   margin: var(--spacing-small) 0;
-} */
+}
 .univ, .major, .year, .id {
   
   color: #555;
@@ -65,9 +65,9 @@ p {
   pointer-events: none; /* Prevent interaction with the background */
 }
 
-/* .univImage {
+.univImage {
   width: 100%;
-  max-width: 100px; 
+  max-width: 80px; 
   height: auto;
-  margin: var(--spacing-small) 0;
-} */
+  margin-left: 8px;
+}
