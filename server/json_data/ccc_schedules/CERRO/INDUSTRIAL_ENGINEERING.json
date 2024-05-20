@@ -4,94 +4,12 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC151",
-                        "courseTitle": "Analytic Geometry and Calculus I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEMC111",
-                        "courseTitle": "General Inorganic Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME144."
-            }
+            null
         ]
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSC111",
-                        "courseTitle": "Mechanics",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC152",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME141."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -103,33 +21,25 @@
     "3": {
         "courses": [
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC152",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
+                "subject": "IME",
+                "course": "IME223",
                 "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for IME223."
+                "subject": "PHYS",
+                "course": "PHYS142",
+                "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
+                "subject": "MATH",
+                "course": "MATH143",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",
                 "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    null
+                    "CSC232",
+                    "CPE/CSC101"
                 ],
                 "uniqueClass": true,
                 "customDesc": "Choose one of the following: CSC232, or CPE/CSC101.\r\n\r\nExcess unit from CPE/CSC101 can count as Category B technical elective."
@@ -139,106 +49,57 @@
     "5": {
         "courses": [
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSC113",
-                        "courseTitle": "Electricity and Magnetism",
-                        "courseUnits": "5.00"
-                    }
-                ],
+                "subject": "IME",
+                "course": "IME156",
+                "uniqueClass": false
+            },
+            {
                 "subject": "PHYS",
+                "course": "PHYS143",
                 "uniqueClass": false
             },
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC251",
-                        "courseTitle": "Analytic Geometry and Calculus III",
-                        "courseUnits": "4.00"
-                    }
-                ],
                 "subject": "MATH",
+                "course": "MATH241",
                 "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for IME156."
+                "subject": "ENGL",
+                "course": "ENGL147",
+                "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL147."
+                "subject": "MATE",
+                "course": "MATE210",
+                "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for MATE210."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE215."
+                "subject": "MATE",
+                "course": "MATE215",
+                "uniqueClass": false
             }
         ]
     },
     "6": {
         "courses": [
             {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATHC255",
-                        "courseTitle": "Ordinary Differential Equations",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATHC257",
-                        "courseTitle": "Linear Algebra",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME212."
+                "subject": "IME",
+                "course": "IME212",
+                "uniqueClass": false
             },
             {
                 "subject": "General Psychology",
                 "course": [
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "PSYCC101",
-                                "courseTitle": "General Psychology",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PSYCC101H",
-                                "courseTitle": "General Psychology: Honors",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "PSYCC101",
-                                "courseTitle": "General Psychology",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PSYCC101H",
-                                "courseTitle": "General Psychology: Honors",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
+                    "PSY201",
+                    "PSY202"
                 ],
                 "uniqueClass": true,
                 "customDesc": "Choose one of the following: PSY201, or PSY202."
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH244",
+                "uniqueClass": true
             },
             {
                 "subject": "GE",
@@ -251,24 +112,39 @@
     "7": {
         "courses": [
             {
-                "courses": [],
-                "note": "No articulation agreement found for BIO213."
+                "subject": "IME",
+                "course": "IME315",
+                "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for BMED213."
+                "subject": "BIO",
+                "course": "BIO213",
+                "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for EE201."
+                "subject": "BMED",
+                "course": "BMED213",
+                "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for EE251."
+                "subject": "STAT",
+                "course": "STAT321",
+                "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for ME211."
+                "subject": "EE",
+                "course": "EE201",
+                "uniqueClass": false
+            },
+            {
+                "subject": "EE",
+                "course": "EE251",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ME",
+                "course": "ME211",
+                "uniqueClass": false
             }
         ]
     }

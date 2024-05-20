@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for ENGR110.",
+                "subject": "ENGR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH103",
@@ -39,15 +46,18 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGR110."
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for IME144.",
+                "subject": "IME",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "OR",
                 "courses": [
@@ -93,10 +103,6 @@
                 ],
                 "subject": "CHEM",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME144."
             }
         ]
     },
@@ -282,8 +288,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -296,12 +305,11 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for EE201."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE251."
+                "note": "No articulation agreement found for EE201, EE251.",
+                "subject": "EE",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",

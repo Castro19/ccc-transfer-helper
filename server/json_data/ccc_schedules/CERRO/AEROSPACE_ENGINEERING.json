@@ -4,38 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC151",
-                        "courseTitle": "Analytic Geometry and Calculus I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AERO121."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME144."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -46,78 +15,12 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEMC111",
-                        "courseTitle": "General Inorganic Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC152",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSC111",
-                        "courseTitle": "Mechanics",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            }
+            null
         ]
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC152",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -128,38 +31,7 @@
     },
     "5": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC251",
-                        "courseTitle": "Analytic Geometry and Calculus III",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSC113",
-                        "courseTitle": "Electricity and Magnetism",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AERO215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME211."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -170,59 +42,12 @@
     },
     "6": {
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATHC255",
-                        "courseTitle": "Ordinary Differential Equations",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATHC257",
-                        "courseTitle": "Linear Algebra",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE204."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AERO220."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE210."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME212."
-            }
+            null
         ]
     },
     "7": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE207."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AERO299."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE201."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE251."
-            }
+            null
         ]
     }
 }

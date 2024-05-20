@@ -4,34 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC151",
-                        "courseTitle": "Analytic Geometry and Calculus I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for STAT150."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -48,30 +21,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC152",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -88,34 +38,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC152",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CSCIC252",
-                        "courseTitle": "Introduction to Computer Science",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": null,
@@ -171,8 +94,10 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MATH248."
+                "subject": "MATH",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

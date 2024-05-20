@@ -4,26 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL2",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PSY102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            },
+            null,
             {
                 "subject": "General Psychology",
                 "course": [
@@ -55,30 +36,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PSY15",
-                        "courseTitle": "Lifespan Psychology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "PSY",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH18",
-                        "courseTitle": "Introduction to Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -96,8 +54,10 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PSY252."
+                "subject": "PSY",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

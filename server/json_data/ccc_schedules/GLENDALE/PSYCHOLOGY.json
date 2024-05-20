@@ -138,8 +138,11 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "Free Elective",
@@ -178,7 +181,8 @@
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for ASCI112."
                     },
                     {
                         "conjunction": null,

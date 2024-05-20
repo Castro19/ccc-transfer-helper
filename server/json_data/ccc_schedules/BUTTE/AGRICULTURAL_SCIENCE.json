@@ -4,31 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "AET22",
-                        "courseTitle": "Natural Resources & Agri-Construction",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "EH22",
-                        "courseTitle": "Landscape Construction",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "BRAE",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            },
+            null,
             {
                 "subject": "Math",
                 "course": [
@@ -66,39 +42,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "EH20",
-                        "courseTitle": "Introduction to Environmental Horticulture",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "AGS20",
-                        "courseTitle": "Plant Science",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "PLSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL2",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ASCI112."
-            },
+            null,
             {
                 "subject": "Chemistry",
                 "course": [
@@ -130,27 +74,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "AET30",
-                        "courseTitle": "Tractors & Crawlers",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "AET34",
-                        "courseTitle": "Farm Machinery",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "BRAE",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGB202."
-            },
+            null,
             {
                 "subject": "Science",
                 "course": [

@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CD102.",
+                "subject": "CD",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "SPCH101",
@@ -15,10 +22,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CD102."
             },
             {
                 "subject": "General Psychology",
@@ -98,12 +101,18 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for CD131."
+                "note": "No articulation agreement found for CD131.",
+                "subject": "CD",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

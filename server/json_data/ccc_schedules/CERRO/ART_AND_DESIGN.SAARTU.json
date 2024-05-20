@@ -4,62 +4,12 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ARTC111",
-                        "courseTitle": "Art and Design Foundations: 2-D",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ART",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ARTC106",
-                        "courseTitle": "Survey of Western Art from Renaissance to Contemporary",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ART",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART101."
-            }
+            null
         ]
     },
     "2": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART182."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART209."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART201."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -70,54 +20,12 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ARTC115",
-                        "courseTitle": "Art and Design Foundations: 3-D",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ART",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART183."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART213."
-            }
+            null
         ]
     },
     "5": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART148."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -129,8 +37,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ART224."
+                "subject": "ART",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -149,8 +59,10 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ART260."
+                "subject": "ART",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

@@ -4,30 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH003A",
-                        "courseTitle": "Calculus and Analytic Geometry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM001",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -38,30 +15,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH003B",
-                        "courseTitle": "Calculus and Analytic Geometry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL001A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -78,34 +32,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH003B",
-                        "courseTitle": "Calculus and Analytic Geometry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS004A",
-                        "courseTitle": "Engineering Physics - Mechanics",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -116,52 +43,7 @@
     },
     "5": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH004A",
-                        "courseTitle": "Intermediate Calculus",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYS004A",
-                        "courseTitle": "Engineering Physics - Mechanics",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "PHYS004C",
-                        "courseTitle": "Engineering Physics - Light, Heat, and Waves",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIST004A",
-                        "courseTitle": "Computer Programming I (C++ Programming)",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "CIST004A1",
-                        "courseTitle": "Computer Programming I (JAVA)",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -178,52 +60,7 @@
     },
     "6": {
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATH004B",
-                        "courseTitle": "Differential Equations",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH004C",
-                        "courseTitle": "Linear Algebra",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS004B",
-                        "courseTitle": "Engineering Physics - Electricity and Magnetism",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIST004B",
-                        "courseTitle": "Data Structures Using Advanced C++",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "CIST004B1",
-                        "courseTitle": "Data Structures Using Advanced JAVA",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -240,22 +77,7 @@
     },
     "7": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CIST004B",
-                        "courseTitle": "Data Structures Using Advanced C++",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC225."
-            },
+            null,
             {
                 "subject": "Statistics",
                 "course": [

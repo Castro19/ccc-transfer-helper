@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for ENVE111.",
+                "subject": "ENVE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH103",
@@ -39,15 +46,18 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENVE111."
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CE113.",
+                "subject": "CE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "OR",
                 "courses": [
@@ -105,10 +115,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE113."
             }
         ]
     },
@@ -161,8 +167,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
@@ -273,8 +282,11 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for CE207."
+                "note": "No articulation agreement found for CE207.",
+                "subject": "CE",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",

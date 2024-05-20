@@ -5,12 +5,18 @@
     "1": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for RPTA101."
+                "note": "No articulation agreement found for RPTA101.",
+                "subject": "RPTA",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
@@ -51,6 +57,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for RPTA110.",
+                "subject": "RPTA",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "ENGL101",
@@ -60,10 +73,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for RPTA110."
             },
             {
                 "subject": "Choose One",
@@ -114,12 +123,18 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for RPTA121."
+                "note": "No articulation agreement found for RPTA121.",
+                "subject": "RPTA",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -138,8 +153,11 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for RPTA210."
+                "note": "No articulation agreement found for RPTA210.",
+                "subject": "RPTA",
+                "uniqueClass": false
             },
             {
                 "subject": "Stat Course",
@@ -190,8 +208,11 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for RPTA255."
+                "note": "No articulation agreement found for RPTA255.",
+                "subject": "RPTA",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",
@@ -208,7 +229,8 @@
                     },
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for AGB214."
                     }
                 ],
                 "uniqueClass": true,

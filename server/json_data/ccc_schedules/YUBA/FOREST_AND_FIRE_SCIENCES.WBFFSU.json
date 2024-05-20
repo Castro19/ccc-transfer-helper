@@ -6,6 +6,20 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR140.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR141.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "BIOL3",
@@ -29,14 +43,6 @@
                 "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for NR140."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR141."
-            },
-            {
                 "subject": "GE",
                 "course": null,
                 "uniqueClass": false,
@@ -46,6 +52,13 @@
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR215.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -69,10 +82,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR215."
             },
             {
                 "subject": "Statistics Course",
@@ -113,6 +122,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR204.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "SPECH3",
@@ -122,10 +138,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR204."
             },
             {
                 "subject": "Calculus Course",
@@ -171,6 +183,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR208.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "CHEM1A",
@@ -180,10 +199,6 @@
                 ],
                 "subject": "CHEM",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR208."
             },
             {
                 "subject": "Surveying Course",
@@ -233,16 +248,25 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for NR260."
+                "note": "No articulation agreement found for NR260.",
+                "subject": "NR",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for NR218."
+                "note": "No articulation agreement found for NR218.",
+                "subject": "NR",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO162."
+                "note": "No articulation agreement found for BIO162.",
+                "subject": "BIO",
+                "uniqueClass": false
             }
         ]
     }

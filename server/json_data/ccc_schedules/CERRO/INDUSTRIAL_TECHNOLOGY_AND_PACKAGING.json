@@ -4,14 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ITP100."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ITP125."
-            },
+            null,
             {
                 "subject": "Calculus",
                 "course": [
@@ -49,26 +42,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ITP233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS121."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -94,26 +68,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ITP150."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS123."
-            },
+            null,
             {
                 "subject": "Statistics",
                 "course": null,
@@ -124,29 +79,16 @@
     },
     "5": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ECONC101",
-                        "courseTitle": "Introduction to Economics",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ECON",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
+            null
         ]
     },
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ITP211."
+                "subject": "ITP",
+                "uniqueClass": false
             },
             {
                 "subject": "Concentration",

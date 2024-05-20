@@ -4,42 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ECON001B",
-                        "courseTitle": "Principles of Microeconomics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ECON",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH003A",
-                        "courseTitle": "Calculus and Analytic Geometry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM001",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": null,
@@ -50,67 +15,12 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ECON001A",
-                        "courseTitle": "Principles of Macroeconomics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ECON",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "BUSN028",
-                        "courseTitle": "Business Law",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "BUSN028H",
-                        "courseTitle": "Honors Business Law",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "BUS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL001A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            }
+            null
         ]
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ACCT010",
-                        "courseTitle": "Financial Accounting",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BUS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,

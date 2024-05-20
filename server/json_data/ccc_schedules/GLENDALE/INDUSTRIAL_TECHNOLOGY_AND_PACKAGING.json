@@ -5,12 +5,15 @@
     "1": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ITP100."
+                "note": "No articulation agreement found for ITP125.",
+                "subject": "ITP",
+                "uniqueClass": false
             },
             {
                 "courses": [],
-                "note": "No articulation agreement found for ITP125."
+                "note": "No articulation agreement found for ITP100."
             },
             {
                 "subject": "Calculus",
@@ -51,6 +54,20 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for ITP233.",
+                "subject": "ITP",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for PHYS121.",
+                "subject": "PHYS",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "SPCH101",
@@ -60,14 +77,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ITP233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS121."
             },
             {
                 "subject": "Choose One",
@@ -102,6 +111,20 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for ITP150.",
+                "subject": "ITP",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for PHYS123.",
+                "subject": "PHYS",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "ENGL101",
@@ -111,14 +134,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ITP150."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS123."
             },
             {
                 "subject": "Statistics",
@@ -131,20 +146,29 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ECON201."
+                "note": "No articulation agreement found for ECON201.",
+                "subject": "ECON",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ITP211."
+                "note": "No articulation agreement found for ITP211.",
+                "subject": "ITP",
+                "uniqueClass": false
             },
             {
                 "subject": "Concentration",

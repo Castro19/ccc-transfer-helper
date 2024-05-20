@@ -34,8 +34,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -84,6 +87,13 @@
             },
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BIO161.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "ENGL101",
@@ -93,10 +103,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO161."
             },
             {
                 "subject": "Free Elective",
@@ -150,8 +156,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "Free Elective",
@@ -204,6 +213,20 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CHEM217.",
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CHEM221.",
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "PHYS196",
@@ -217,14 +240,6 @@
             {
                 "courses": [],
                 "note": "No articulation agreement found for CHEM203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM217."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM221."
             },
             {
                 "subject": "GE",
@@ -243,8 +258,11 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for CHEM218."
+                "note": "No articulation agreement found for CHEM218.",
+                "subject": "CHEM",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

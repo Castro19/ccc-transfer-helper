@@ -17,8 +17,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "Free Elective",
@@ -147,8 +150,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Breadth Elective",
@@ -195,11 +201,13 @@
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for PHYS206."
                     },
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for PHYS202."
                     }
                 ],
                 "uniqueClass": true,
@@ -228,8 +236,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PHYS212."
+                "note": "No articulation agreement found for PHYS212.",
+                "subject": "PHYS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

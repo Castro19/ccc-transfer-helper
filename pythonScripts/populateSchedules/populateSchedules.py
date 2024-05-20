@@ -24,7 +24,7 @@ import re
 from copy import deepcopy
 
 from combinator import combinate
-from util import (construct_path, join_path, find, match_course,
+from util import (construct_path, join_path, find,
                   save_json, load_json, is_lower_div)
 
 AGREEMENTS_PATH = construct_path("server/json_data/calpolyAgreements/", 2)
@@ -101,7 +101,7 @@ for agreement_file in os.listdir(AGREEMENTS_PATH):
                     # print(list_courses)
                     for course_dict in list_courses:
                         for i, course_str in enumerate(course_dict["course"]):
-                            course_dict["course"][i] = match_course(course_str, agreement)
+                            course_dict["course"][i] = find([{"course": course_str}], agreement)
 
                 # Swap the courses in the schedule along with the leftovers
                 swapped_courses = swapped_courses + list_courses + other_courses

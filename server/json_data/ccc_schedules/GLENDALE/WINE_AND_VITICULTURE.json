@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for WVIT102.",
+                "subject": "WVIT",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "SPCH101",
@@ -15,10 +22,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for WVIT102."
             },
             {
                 "subject": "Choose One",
@@ -71,6 +74,20 @@
             },
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for SS120.",
+                "subject": "SS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for AGB214.",
+                "subject": "AGB",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "ENGL101",
@@ -80,26 +97,24 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS120."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGB214."
             }
         ]
     },
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for WVIT202."
+                "note": "No articulation agreement found for WVIT202.",
+                "subject": "WVIT",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BOT121."
+                "note": "No articulation agreement found for BOT121.",
+                "subject": "BOT",
+                "uniqueClass": true
             },
             {
                 "subject": "Calculus",
@@ -144,12 +159,18 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for WVIT233."
+                "note": "No articulation agreement found for WVIT233.",
+                "subject": "WVIT",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Concentration",

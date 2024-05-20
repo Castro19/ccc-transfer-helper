@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for EE111, EE151.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH103",
@@ -39,14 +46,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE111."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE151."
             }
         ]
     },
@@ -144,8 +143,11 @@
                 "uniqueClass": true
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
@@ -160,6 +162,20 @@
     },
     "5": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for EE211, EE241.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CPE133.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "AND",
                 "courses": [
@@ -213,23 +229,25 @@
                 ],
                 "subject": "MATH",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE211."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE241."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE133."
             }
         ]
     },
     "6": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for EE212, EE242.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CPE233.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "OR",
                 "courses": [
@@ -248,44 +266,43 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for EE212."
+                "note": "No articulation agreement found for BIO213.",
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for EE242."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO213."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BMED213."
+                "note": "No articulation agreement found for BMED213.",
+                "subject": "BMED",
+                "uniqueClass": false
             }
         ]
     },
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for EE255."
+                "note": "No articulation agreement found for EE255, EE295.",
+                "subject": "EE",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for EE295."
+                "note": "No articulation agreement found for EE228.",
+                "subject": "EE",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for EE228."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS211."
+                "note": "No articulation agreement found for PHYS211.",
+                "subject": "PHYS",
+                "uniqueClass": false
             }
         ]
     }

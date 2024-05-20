@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR140.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "BIOL100",
@@ -17,12 +24,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for NR140."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
@@ -90,6 +96,13 @@
             },
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for SS120.",
+                "subject": "SS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "ENGL101",
@@ -99,10 +112,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS120."
             },
             {
                 "subject": "Choose One",
@@ -141,6 +150,13 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BIO161.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "OR",
                 "courses": [
                     {
@@ -173,12 +189,11 @@
                 "uniqueClass": true
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO161."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
@@ -206,6 +221,13 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR215.",
+                "subject": "NR",
+                "uniqueClass": true
+            },
+            {
                 "conjunction": "OR",
                 "courses": [
                     {
@@ -221,10 +243,6 @@
                 ],
                 "subject": "NR",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR215."
             },
             {
                 "subject": "Choose One",
@@ -292,8 +310,11 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ASCI239."
+                "note": "No articulation agreement found for ASCI239.",
+                "subject": "ASCI",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

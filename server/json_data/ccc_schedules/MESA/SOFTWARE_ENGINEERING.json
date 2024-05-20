@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CSC123.",
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH150",
@@ -17,12 +24,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for CSC123."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -115,8 +121,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "General Psychology",
@@ -149,6 +158,13 @@
     },
     "5": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CSC203.",
+                "subject": "CSC",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -189,10 +205,6 @@
                 ],
                 "subject": "CHEM",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC203."
             }
         ]
     },

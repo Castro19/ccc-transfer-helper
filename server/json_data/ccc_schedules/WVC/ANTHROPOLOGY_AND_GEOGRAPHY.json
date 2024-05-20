@@ -4,42 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ANTH003",
-                        "courseTitle": "Introduction to Cultural Anthropology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ANT",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "GEOG002",
-                        "courseTitle": "Introduction to Cultural Geography",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "GEOG",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM001",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -50,42 +15,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ANTH001",
-                        "courseTitle": "Introduction to Physical Anthropology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ANT",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "GEOG001",
-                        "courseTitle": "Intro to Physical Geography",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "GEOG",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL001A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -97,8 +27,10 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -157,8 +89,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for GEOG218."
+                "subject": "GEOG",
+                "uniqueClass": true
             },
             {
                 "subject": "Professional Prep for ANG",

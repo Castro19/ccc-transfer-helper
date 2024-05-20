@@ -4,75 +4,12 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "EH20",
-                        "courseTitle": "Introduction to Environmental Horticulture",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "AGS20",
-                        "courseTitle": "Plant Science",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "PLSC",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BOT121."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            }
+            null
         ]
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH26",
-                        "courseTitle": "College Algebra",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL2",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
+            null,
             {
                 "subject": "Concentration",
                 "course": null,
@@ -83,42 +20,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "EH70",
-                        "courseTitle": "Plant Propagation and Nursery Practices",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "PLSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM2",
-                        "courseTitle": "General Chemistry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CMST14",
-                        "courseTitle": "Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
+            null,
             {
                 "subject": "Concentration",
                 "course": null,
@@ -178,22 +80,7 @@
     },
     "6": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH18",
-                        "courseTitle": "Introduction to Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS221."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,

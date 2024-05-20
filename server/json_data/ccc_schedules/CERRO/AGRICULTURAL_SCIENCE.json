@@ -4,26 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE121."
-            },
+            null,
             {
                 "subject": "Math",
                 "course": [
@@ -61,26 +42,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC120."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ASCI112."
-            },
+            null,
             {
                 "subject": "Chemistry",
                 "course": [
@@ -106,14 +68,7 @@
     },
     "3": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGB202."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE141."
-            },
+            null,
             {
                 "subject": "Science",
                 "course": [
@@ -137,8 +92,10 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for AGB212."
+                "subject": "AGB",
+                "uniqueClass": false
             },
             {
                 "subject": "Plant Science Course",
@@ -172,8 +129,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Soil Science Course",

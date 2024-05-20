@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CPE123.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH150",
@@ -34,16 +41,15 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
+            },
+            {
                 "courses": [],
                 "note": "No articulation agreement found for CPE100."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE123."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
             }
         ]
     },
@@ -125,6 +131,13 @@
             },
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CPE133.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH151",
@@ -136,17 +149,37 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for CPE133."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
     "5": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CPE233.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for EE115.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for EE145.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -170,23 +203,32 @@
                 ],
                 "subject": "MATH",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE115."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE145."
             }
         ]
     },
     "6": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CPE203.",
+                "subject": "CPE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for EE215.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for EE245.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -215,18 +257,6 @@
                 ],
                 "subject": "MATH",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE245."
             }
         ]
     },

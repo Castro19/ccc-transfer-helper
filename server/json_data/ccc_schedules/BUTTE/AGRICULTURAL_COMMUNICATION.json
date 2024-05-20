@@ -4,111 +4,17 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH26",
-                        "courseTitle": "College Algebra",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC205."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            }
+            null
         ]
     },
     "2": {
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "EH20",
-                        "courseTitle": "Introduction to Environmental Horticulture",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "AGS20",
-                        "courseTitle": "Plant Science",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "PLSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL2",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC207."
-            }
+            null
         ]
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "AB22",
-                        "courseTitle": "Agricultural Economics",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "AGB",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CMST14",
-                        "courseTitle": "Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ASCI112."
-            },
+            null,
             {
                 "subject": "Animal Science Course",
                 "course": null,
@@ -119,22 +25,7 @@
     },
     "5": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "JOUR2",
-                        "courseTitle": "Introduction to Reporting and News Writing",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "JOUR",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN275."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -172,26 +63,7 @@
     },
     "6": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ECON2",
-                        "courseTitle": "Principles of Macroeconomics",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ECON",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN230."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC225."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -203,8 +75,10 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for AGB260."
+                "subject": "AGB",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",

@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for HIST100.",
+                "subject": "HIST",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "SPCH101",
@@ -15,10 +22,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HIST100."
             },
             {
                 "subject": "Free Elective",
@@ -82,8 +85,11 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for HIST201."
+                "note": "No articulation agreement found for HIST201.",
+                "subject": "HIST",
+                "uniqueClass": false
             },
             {
                 "subject": "Free Elective",
@@ -105,12 +111,18 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for HIST202."
+                "note": "No articulation agreement found for HIST202.",
+                "subject": "HIST",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Foreign Language",
@@ -129,8 +141,11 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for HIST213."
+                "note": "No articulation agreement found for HIST213.",
+                "subject": "HIST",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -159,11 +174,13 @@
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for HIST210."
                     },
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for HIST223."
                     }
                 ],
                 "uniqueClass": true,

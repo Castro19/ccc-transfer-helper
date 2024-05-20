@@ -6,6 +6,27 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR140.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR141.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BOT121.",
+                "subject": "BOT",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "SPCH101",
@@ -15,18 +36,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR140."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR141."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BOT121."
             },
             {
                 "subject": "GE",
@@ -40,6 +49,20 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR215.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for SS120.",
+                "subject": "SS",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "ENGL101",
@@ -49,14 +72,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS120."
             },
             {
                 "subject": "Statistics Course",
@@ -96,12 +111,18 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for NR204."
+                "note": "No articulation agreement found for NR204.",
+                "subject": "NR",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Calculus Course",
@@ -147,6 +168,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR208.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "CHEM101",
@@ -158,19 +186,17 @@
                 "uniqueClass": true
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for NR208."
-            },
-            {
                 "subject": "Surveying Course",
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for BRAE237."
                     },
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for BRAE239."
                     }
                 ],
                 "uniqueClass": true,
@@ -210,6 +236,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR260.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "GEOG155",
@@ -231,10 +264,6 @@
                 ],
                 "subject": "BIO",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR260."
             }
         ]
     }

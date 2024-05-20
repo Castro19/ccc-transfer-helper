@@ -6,6 +6,27 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE128.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE150.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE239.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH150",
@@ -17,25 +38,23 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BRAE128."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE150."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE239."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE129.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -71,15 +90,18 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE129."
             }
         ]
     },
     "3": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE152.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -105,17 +127,30 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BRAE152."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL147."
+                "note": "No articulation agreement found for ENGL147.",
+                "subject": "ENGL",
+                "uniqueClass": false
             }
         ]
     },
     "5": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE236.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE216.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -139,14 +174,6 @@
                 ],
                 "subject": "PHYS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE236."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE216."
             }
         ]
     },
@@ -224,7 +251,8 @@
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for CSC231."
                     },
                     {
                         "conjunction": null,
@@ -238,6 +266,20 @@
     },
     "7": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE232.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE234.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "AND",
                 "courses": [
@@ -266,14 +308,6 @@
                 ],
                 "subject": "ME",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE232."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE234."
             }
         ]
     }

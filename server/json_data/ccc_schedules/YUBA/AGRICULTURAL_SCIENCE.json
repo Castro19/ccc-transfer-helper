@@ -6,6 +6,20 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for AGC102.",
+                "subject": "AGC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE121.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "SPECH1",
@@ -15,14 +29,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE121."
             },
             {
                 "subject": "Math",
@@ -63,6 +69,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for PLSC120.",
+                "subject": "PLSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "AG45A",
@@ -84,10 +97,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC120."
             },
             {
                 "subject": "Chemistry",
@@ -126,12 +135,18 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for AGB202."
+                "note": "No articulation agreement found for AGB202.",
+                "subject": "AGB",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BRAE141."
+                "note": "No articulation agreement found for BRAE141.",
+                "subject": "BRAE",
+                "uniqueClass": false
             },
             {
                 "subject": "Science",
@@ -162,15 +177,19 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for AGB212."
+                "note": "No articulation agreement found for AGB212.",
+                "subject": "AGB",
+                "uniqueClass": false
             },
             {
                 "subject": "Plant Science Course",
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for PLSC190."
                     },
                     {
                         "conjunction": null,

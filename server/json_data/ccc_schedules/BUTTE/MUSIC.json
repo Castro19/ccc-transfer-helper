@@ -4,26 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MUS12",
-                        "courseTitle": "Music Theory II",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "MU",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU150."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            },
+            null,
             {
                 "subject": "Major Ensemble",
                 "course": null,
@@ -46,34 +27,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL2",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU150."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU103."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU106."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU121."
-            },
+            null,
             {
                 "subject": "Major Ensemble",
                 "course": null,
@@ -90,30 +44,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CMST14",
-                        "courseTitle": "Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU150."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU105."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU108."
-            },
+            null,
             {
                 "subject": "Major Ensemble",
                 "course": null,
@@ -137,8 +68,10 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MU250."
+                "subject": "MU",
+                "uniqueClass": false
             },
             {
                 "subject": "Major Ensemble",
@@ -169,8 +102,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MU250."
+                "subject": "MU",
+                "uniqueClass": false
             },
             {
                 "subject": "Major Ensemble",
@@ -207,8 +142,10 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MU250."
+                "subject": "MU",
+                "uniqueClass": false
             },
             {
                 "subject": "Major Ensemble",

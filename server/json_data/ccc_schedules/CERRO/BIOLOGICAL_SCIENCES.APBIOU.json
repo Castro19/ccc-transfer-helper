@@ -4,34 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOLC112",
-                        "courseTitle": "General Biology II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM127."
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": null,
@@ -42,51 +15,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOLC111",
-                        "courseTitle": "General Biology I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATHC151",
-                        "courseTitle": "Analytic Geometry and Calculus I",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATHC131",
-                        "courseTitle": "Basic Functions and Calculus for Business",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM128."
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": null,
@@ -97,30 +26,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC152",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO162."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM129."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": null,
@@ -132,8 +38,10 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO263."
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",
@@ -158,8 +66,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PHYS121."
+                "subject": "PHYS",
+                "uniqueClass": true
             },
             {
                 "subject": "Ecology",
@@ -183,22 +93,7 @@
     },
     "7": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC121",
-                        "courseTitle": "Elementary Probability and Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS122."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,

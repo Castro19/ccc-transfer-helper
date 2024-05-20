@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": true
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "ENGL101",
@@ -19,10 +26,6 @@
             {
                 "courses": [],
                 "note": "No articulation agreement found for PSY102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
             },
             {
                 "subject": "General Psychology",
@@ -135,8 +138,11 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "Free Elective",
@@ -175,11 +181,13 @@
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for ASCI112."
                     },
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for BIO161."
                     }
                 ],
                 "uniqueClass": true,

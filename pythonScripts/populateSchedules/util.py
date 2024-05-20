@@ -1,8 +1,9 @@
+"""
+"""
 
 import os
 import re
 import json
-from copy import deepcopy
 
 
 def is_lower_div(course: str) -> bool:
@@ -142,13 +143,15 @@ def find(courses: list, agreements: dict) -> dict:
     course_names = [x["course"] for x in courses]
     # Get course subject and uniqueClass fields
     # to be added to the dictionary later
-    # dd = [{key: val for key, val in x.items() if key != "course"} for x in courses]
-
-    dd = {}
-    subjects = list({x["subject"] for x in courses})
-    subjects = subjects[0] if len(subjects) == 1 else subjects
-    dd["subject"] = subjects
-    dd["uniqueClass"] = any([x["uniqueClass"] for x in courses])
+    extra_fields = {}
+    if "subject" in courses[0].keys():
+        subjects = list({x["subject"] for x in courses})
+        subjects = subjects[0] if len(subjects) == 1 else subjects
+        extra_fields["subject"] = subjects
+    # If there is a unique class in the course(s),
+    # mark the equivalent to be unique
+    if "uniqueClass" in courses[0].keys():
+        extra_fields["uniqueClass"] = any([x["uniqueClass"] for x in courses])
     # if "customDesc" in courses.keys():
     #     dd["customDesc"] = courses["customDesc"]
     for agreement in agreements["agreements"]:
@@ -157,10 +160,8 @@ def find(courses: list, agreements: dict) -> dict:
             # Find a match on receiving regardless of course ordering
             if set(course_names) == set([x["courseNumber"]for x in
                                          agreement["receiving"]["courses"]]):
-                # course_equivalencies = deepcopy(agreement["sending"])
-                # Add in the subject and uniqueClass fields
-                # agreement["sending"]["subject"] = course_subjects
-                # agreement["sending"]["uniqueClass"] = course_uniques
-                # course_equivalencies = 
-                # print(agreement["sending"])
-                return {**agreement["sending"], **dd}
+                # Add a note if there was no articulation agreement
+                if not agreement["sending"]["courses"]:
+                    agreement["sending"]["note"] = ("No articulation agreement"
+                        f" found for {', '.join(course_names)}.")
+                return {**agreement["sending"], **extra_fields}

@@ -5,6 +5,13 @@
     "1": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for MATE110.",
+                "subject": "MATE",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "AND",
                 "courses": [
                     {
@@ -34,21 +41,30 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MATE110."
+                "note": "No articulation agreement found for IME144.",
+                "subject": "IME",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for IME144."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for MATE120.",
+                "subject": "MATE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "AND",
                 "courses": [
@@ -91,10 +107,6 @@
                 "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for MATE120."
-            },
-            {
                 "subject": "GE",
                 "course": null,
                 "uniqueClass": false,
@@ -106,13 +118,8 @@
         "courses": [
             {
                 "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGE210",
-                        "courseTitle": "Properties of Materials",
-                        "courseUnits": "3.00"
-                    }
-                ],
+                "courses": [],
+                "note": "No articulation agreement found for MATE210, MATE215.",
                 "subject": "MATE",
                 "uniqueClass": false
             },
@@ -141,17 +148,30 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MATE215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
     "5": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for MATE232.",
+                "subject": "MATE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for MATE225.",
+                "subject": "MATE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -175,19 +195,25 @@
                 ],
                 "subject": "PHYS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE232."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE225."
             }
         ]
     },
     "6": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for MATE235.",
+                "subject": "MATE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for MATE280.",
+                "subject": "MATE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "AND",
                 "courses": [
@@ -228,14 +254,6 @@
                 ],
                 "subject": "ME",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE235."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE280."
             }
         ]
     },
@@ -243,23 +261,17 @@
         "courses": [
             {
                 "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGE260",
-                        "courseTitle": "Electric Circuits",
-                        "courseUnits": "3.00"
-                    }
-                ],
+                "courses": [],
+                "note": "No articulation agreement found for EE201, EE251.",
                 "subject": "EE",
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MATE245."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE251."
+                "note": "No articulation agreement found for MATE245.",
+                "subject": "MATE",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",

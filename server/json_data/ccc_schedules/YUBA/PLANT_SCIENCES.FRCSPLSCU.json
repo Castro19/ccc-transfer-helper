@@ -18,6 +18,20 @@
             },
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for PLSC101.",
+                "subject": "PLSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for PLSC120.",
+                "subject": "PLSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "SPECH1",
@@ -27,19 +41,18 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC120."
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for PLSC132.",
+                "subject": "PLSC",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -75,15 +88,25 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC132."
             }
         ]
     },
     "3": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for PLSC124.",
+                "subject": "PLSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for PLSC133.",
+                "subject": "PLSC",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "AND",
                 "courses": [
@@ -112,14 +135,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC124."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC133."
             }
         ]
     },
@@ -179,6 +194,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for SS221.",
+                "subject": "SS",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "STAT1",
@@ -188,10 +210,6 @@
                 ],
                 "subject": "STAT",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS221."
             },
             {
                 "subject": "GE",
@@ -204,8 +222,11 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PLSC190."
+                "note": "No articulation agreement found for PLSC190.",
+                "subject": "PLSC",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

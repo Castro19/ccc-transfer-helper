@@ -5,6 +5,13 @@
     "1": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for FSN101.",
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "OR",
                 "courses": [
                     {
@@ -19,6 +26,13 @@
                     }
                 ],
                 "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BIO161.",
+                "subject": "BIO",
                 "uniqueClass": false
             },
             {
@@ -39,16 +53,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for FSN101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO161."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
@@ -106,6 +115,13 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for FSN121.",
+                "subject": "FSN",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "AND",
                 "courses": [
                     {
@@ -123,12 +139,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for FSN121."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
@@ -195,8 +210,11 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for FSN281."
+                "note": "No articulation agreement found for FSN281.",
+                "subject": "FSN",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",

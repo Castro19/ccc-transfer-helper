@@ -5,12 +5,15 @@
     "1": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for HLTH101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for HLTH101."
             },
             {
                 "subject": "Health Issues",
@@ -59,6 +62,13 @@
     "2": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for HLTH265.",
+                "subject": "HLTH",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "AND",
                 "courses": [
                     {
@@ -103,22 +113,24 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HLTH265."
             }
         ]
     },
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO161."
+                "note": "No articulation agreement found for BIO161.",
+                "subject": "BIO",
+                "uniqueClass": true
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
@@ -152,6 +164,13 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for HLTH298.",
+                "subject": "HLTH",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "OR",
                 "courses": [
                     {
@@ -167,10 +186,6 @@
                 ],
                 "subject": "FSN",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HLTH298."
             },
             {
                 "subject": "Microbiology",
@@ -210,8 +225,11 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO231."
+                "note": "No articulation agreement found for BIO231.",
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "Communication",
@@ -233,8 +251,11 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO232."
+                "note": "No articulation agreement found for BIO232.",
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

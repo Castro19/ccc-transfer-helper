@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CSC123.",
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH1A",
@@ -27,10 +34,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC123."
             },
             {
                 "subject": "GE",
@@ -162,6 +165,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CSC203.",
+                "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "COMSC2",
@@ -170,6 +180,13 @@
                     }
                 ],
                 "subject": "CSC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for MATH241.",
+                "subject": "MATH",
                 "uniqueClass": false
             },
             {
@@ -188,14 +205,6 @@
                 ],
                 "subject": "CHEM",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATH241."
             }
         ]
     },
@@ -214,6 +223,13 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for MATH244.",
+                "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "AND",
                 "courses": [
                     {
@@ -229,10 +245,6 @@
                 ],
                 "subject": "CHEM",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATH244."
             }
         ]
     },

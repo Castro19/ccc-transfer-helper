@@ -4,30 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SOC2",
-                        "courseTitle": "Principles of Sociology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "SOC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL2",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -56,34 +33,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SOC4",
-                        "courseTitle": "Modern Social Problems",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "SOC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CMST14",
-                        "courseTitle": "Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -95,8 +45,10 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for SOC218."
+                "subject": "SOC",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -154,22 +106,7 @@
     },
     "6": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SOC20",
-                        "courseTitle": "Introduction to Race and Ethnicity",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "SOC",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SOC222."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,

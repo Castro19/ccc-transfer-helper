@@ -183,12 +183,18 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for CHEM216."
+                "note": "No articulation agreement found for CHEM216.",
+                "subject": "CHEM",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PHYS142."
+                "note": "No articulation agreement found for PHYS142.",
+                "subject": "PHYS",
+                "uniqueClass": false
             },
             {
                 "subject": "Free Elective",
@@ -200,6 +206,20 @@
     },
     "6": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CHEM217.",
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CHEM221.",
+                "subject": "CHEM",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -215,14 +235,6 @@
             {
                 "courses": [],
                 "note": "No articulation agreement found for CHEM203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM217."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM221."
             },
             {
                 "subject": "GE",
@@ -241,8 +253,11 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for CHEM218."
+                "note": "No articulation agreement found for CHEM218.",
+                "subject": "CHEM",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

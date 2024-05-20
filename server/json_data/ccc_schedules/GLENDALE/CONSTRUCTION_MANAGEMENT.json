@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CM102.",
+                "subject": "CM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH103",
@@ -14,6 +21,13 @@
                     }
                 ],
                 "subject": "MATH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for EDES123.",
+                "subject": "EDES",
                 "uniqueClass": false
             },
             {
@@ -27,19 +41,18 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CM102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EDES123."
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CM113, CM114.",
+                "subject": "CM",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "OR",
                 "courses": [
@@ -80,26 +93,24 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CM113."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CM114."
             }
         ]
     },
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for CM115."
+                "note": "No articulation agreement found for CM115.",
+                "subject": "CM",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "PHYS/CHEM",
@@ -138,11 +149,13 @@
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for BRAE239."
                     },
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for CM239."
                     }
                 ],
                 "uniqueClass": true,
@@ -152,6 +165,27 @@
     },
     "5": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CM214.",
+                "subject": "CM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CM232.",
+                "subject": "CM",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CM280.",
+                "subject": "CM",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -175,23 +209,18 @@
                 ],
                 "subject": "BUS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CM214."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CM232."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CM280."
             }
         ]
     },
     "6": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for ECON201.",
+                "subject": "ECON",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -205,15 +234,12 @@
                 "uniqueClass": true
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for ECON201."
-            },
-            {
                 "subject": "Choose One",
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for BUS212."
                     },
                     {
                         "conjunction": null,
@@ -241,6 +267,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for ARCE226.",
+                "subject": "ARCE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "ACCTG102",
@@ -250,10 +283,6 @@
                 ],
                 "subject": "BUS",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCE226."
             },
             {
                 "subject": "Statistics",

@@ -5,6 +5,20 @@
     "1": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for GRC101.",
+                "subject": "GRC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for GRC211.",
+                "subject": "GRC",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "OR",
                 "courses": [
                     {
@@ -22,21 +36,23 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for GRC101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for GRC211."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for GRC201.",
+                "subject": "GRC",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -50,10 +66,6 @@
                 "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for GRC201."
-            },
-            {
                 "subject": "GE",
                 "course": null,
                 "uniqueClass": false,
@@ -64,12 +76,18 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for GRC102."
+                "note": "No articulation agreement found for GRC102.",
+                "subject": "GRC",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for GRC203."
+                "note": "No articulation agreement found for GRC203.",
+                "subject": "GRC",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -88,8 +106,11 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Physics",
@@ -149,6 +170,13 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for GRC204.",
+                "subject": "GRC",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "OR",
                 "courses": [
                     {
@@ -164,10 +192,6 @@
                 ],
                 "subject": "STAT",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for GRC204."
             },
             {
                 "subject": "GE",

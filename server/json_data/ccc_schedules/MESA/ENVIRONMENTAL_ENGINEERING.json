@@ -5,190 +5,100 @@
     "1": {
         "courses": [
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH150",
-                        "courseTitle": "Calculus with Analytic Geometry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
+                "subject": "ENVE",
+                "course": "ENVE111",
+                "uniqueClass": false
+            },
+            {
                 "subject": "MATH",
+                "course": "MATH141",
                 "uniqueClass": false
             },
             {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM200",
-                        "courseTitle": "General Chemistry I - Lecture",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEM200L",
-                        "courseTitle": "General Chemistry I - Laboratory",
-                        "courseUnits": "2.00"
-                    }
-                ],
                 "subject": "CHEM",
+                "course": "CHEM124",
                 "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for ENVE111."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "subject": "COMS",
+                "course": "COMS101",
+                "uniqueClass": false
             }
         ]
     },
     "2": {
         "courses": [
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH151",
-                        "courseTitle": "Calculus with Analytic Geometry II",
-                        "courseUnits": "4.00"
-                    }
-                ],
+                "subject": "CE",
+                "course": "CE113",
+                "uniqueClass": false
+            },
+            {
                 "subject": "MATH",
+                "course": "MATH142",
                 "uniqueClass": false
             },
             {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM201",
-                        "courseTitle": "General Chemistry II - Lecture",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEM201L",
-                        "courseTitle": "General Chemistry II - Laboratory",
-                        "courseUnits": "2.00"
-                    }
-                ],
                 "subject": "CHEM",
+                "course": "CHEM125",
                 "uniqueClass": false
             },
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS195",
-                        "courseTitle": "Mechanics",
-                        "courseUnits": "5.00"
-                    }
-                ],
                 "subject": "PHYS",
+                "course": "PHYS141",
                 "uniqueClass": false
             },
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL101",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
                 "subject": "ENGL",
+                "course": "ENGL134",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE113."
             }
         ]
     },
     "3": {
         "courses": [
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS197",
-                        "courseTitle": "Waves, Optics and Modern Physics",
-                        "courseUnits": "5.00"
-                    }
-                ],
                 "subject": "PHYS",
+                "course": "PHYS142",
                 "uniqueClass": false
             },
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH151",
-                        "courseTitle": "Calculus with Analytic Geometry II",
-                        "courseUnits": "4.00"
-                    }
-                ],
                 "subject": "MATH",
+                "course": "MATH143",
                 "uniqueClass": false
             },
             {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM201",
-                        "courseTitle": "General Chemistry II - Lecture",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEM201L",
-                        "courseTitle": "General Chemistry II - Laboratory",
-                        "courseUnits": "2.00"
-                    }
-                ],
                 "subject": "CHEM",
+                "course": "CHEM126",
                 "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "subject": "COMS",
+                "course": "COMS126",
+                "uniqueClass": false
             }
         ]
     },
     "5": {
         "courses": [
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH252",
-                        "courseTitle": "Calculus with Analytic Geometry III",
-                        "courseUnits": "4.00"
-                    }
-                ],
+                "subject": "ENVE",
+                "course": "ENVE325",
+                "uniqueClass": false
+            },
+            {
                 "subject": "MATH",
+                "course": "MATH241",
                 "uniqueClass": false
             },
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS196",
-                        "courseTitle": "Electricity and Magnetism",
-                        "courseUnits": "5.00"
-                    }
-                ],
                 "subject": "PHYS",
+                "course": "PHYS143",
                 "uniqueClass": false
             },
             {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGE200",
-                        "courseTitle": "Statics",
-                        "courseUnits": "3.00"
-                    }
-                ],
                 "subject": "ME",
+                "course": "ME211",
                 "uniqueClass": false
             }
         ]
@@ -196,25 +106,24 @@
     "6": {
         "courses": [
             {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATH255",
-                        "courseTitle": "Differential Equations",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATH254",
-                        "courseTitle": "Introduction to Linear Algebra",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "MATH",
+                "subject": "CE",
+                "course": "CE204",
                 "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for CE204."
+                "subject": "ENVE",
+                "course": "ENVE309",
+                "uniqueClass": false
+            },
+            {
+                "subject": "ENVE",
+                "course": "ENVE331",
+                "uniqueClass": false
+            },
+            {
+                "subject": "MATH",
+                "course": "MATH244",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -227,35 +136,23 @@
     "7": {
         "courses": [
             {
-                "courses": [],
-                "note": "No articulation agreement found for CE207."
+                "subject": "CE",
+                "course": "CE207",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",
                 "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "BIOL205",
-                                "courseTitle": "General Microbiology",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "BIOL205",
-                                "courseTitle": "General Microbiology",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    }
+                    "MCRO221",
+                    "MCRO224"
                 ],
                 "uniqueClass": true,
                 "customDesc": "Choose one of the following: MCRO221, or MCRO224."
+            },
+            {
+                "subject": "CHEM",
+                "course": "CHEM312",
+                "uniqueClass": true
             },
             {
                 "subject": "GE",

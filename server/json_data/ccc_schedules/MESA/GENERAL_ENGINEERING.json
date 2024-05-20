@@ -46,13 +46,23 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for IME144.",
+                "subject": "IME",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -93,10 +103,6 @@
                 ],
                 "subject": "CHEM",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME144."
             }
         ]
     },
@@ -218,6 +224,13 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for CE204.",
+                "subject": "CE",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "AND",
                 "courses": [
                     {
@@ -235,12 +248,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for CE204."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -254,19 +266,10 @@
         "courses": [
             {
                 "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGE260",
-                        "courseTitle": "Electric Circuits",
-                        "courseUnits": "3.00"
-                    }
-                ],
+                "courses": [],
+                "note": "No articulation agreement found for EE201, EE251.",
                 "subject": "EE",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE251."
             },
             {
                 "subject": "Choose One",

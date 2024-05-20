@@ -5,8 +5,10 @@
     "1": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Intro-Level IS Course",
@@ -24,22 +26,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL2",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ISLA201."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -106,8 +93,10 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ISLA255."
+                "subject": "ISLA",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

@@ -25,11 +25,13 @@
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for HLTH255."
                     },
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for HLTH260."
                     }
                 ],
                 "uniqueClass": true,
@@ -68,6 +70,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for HLTH265.",
+                "subject": "HLTH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "CHEM101",
@@ -101,10 +110,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HLTH265."
             }
         ]
     },
@@ -123,8 +128,11 @@
                 "uniqueClass": true
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
@@ -159,6 +167,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for HLTH298.",
+                "subject": "HLTH",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "NUTR125",
@@ -168,10 +183,6 @@
                 ],
                 "subject": "FSN",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HLTH298."
             },
             {
                 "subject": "Microbiology",
@@ -211,8 +222,11 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO231."
+                "note": "No articulation agreement found for BIO231.",
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "Communication",
@@ -234,8 +248,11 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO232."
+                "note": "No articulation agreement found for BIO232.",
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

@@ -4,22 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM001",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HLTH101."
-            },
+            null,
             {
                 "subject": "Health Issues",
                 "course": [
@@ -66,58 +51,12 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM001A",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH010",
-                        "courseTitle": "Elementary Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL001A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HLTH265."
-            }
+            null
         ]
     },
     "3": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO161."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -149,22 +88,7 @@
     },
     "5": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "NUTR015",
-                        "courseTitle": "Human Nutrition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "FSN",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HLTH298."
-            },
+            null,
             {
                 "subject": "Microbiology",
                 "course": [
@@ -203,8 +127,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO231."
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "Communication",
@@ -226,8 +152,10 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO232."
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

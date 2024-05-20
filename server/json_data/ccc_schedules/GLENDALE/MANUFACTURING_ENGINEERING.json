@@ -6,6 +6,27 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for IME101.",
+                "subject": "IME",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for IME156.",
+                "subject": "IME",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for IME141.",
+                "subject": "IME",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH103",
@@ -39,23 +60,18 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME156."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME141."
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for IME144.",
+                "subject": "IME",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -101,15 +117,25 @@
                 ],
                 "subject": "CHEM",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME144."
             }
         ]
     },
     "3": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for IME142.",
+                "subject": "IME",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for IME223.",
+                "subject": "IME",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "AND",
                 "courses": [
@@ -155,14 +181,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME142."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME223."
             }
         ]
     },
@@ -170,25 +188,8 @@
         "courses": [
             {
                 "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR140",
-                        "courseTitle": "Materials Science and Engineering",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "MATE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR141",
-                        "courseTitle": "Materials Science and Engineering Laboratory",
-                        "courseUnits": "1.00"
-                    }
-                ],
+                "courses": [],
+                "note": "No articulation agreement found for MATE210, MATE215.",
                 "subject": "MATE",
                 "uniqueClass": false
             },
@@ -222,13 +223,23 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ENGL147."
+                "note": "No articulation agreement found for ENGL147.",
+                "subject": "ENGL",
+                "uniqueClass": false
             }
         ]
     },
     "6": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for IME244.",
+                "subject": "IME",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -291,21 +302,30 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for IME244."
+                "note": "No articulation agreement found for BIO213.",
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO213."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BMED213."
+                "note": "No articulation agreement found for BMED213.",
+                "subject": "BMED",
+                "uniqueClass": false
             }
         ]
     },
     "7": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for EE201, EE251.",
+                "subject": "EE",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -329,14 +349,6 @@
                 ],
                 "subject": "ME",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE201."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE251."
             },
             {
                 "subject": "GE",

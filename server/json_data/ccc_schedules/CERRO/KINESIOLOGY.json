@@ -4,30 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "KINSC101",
-                        "courseTitle": "Introduction to Kinesiology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "KINE",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
+            null,
             {
                 "subject": "Health Course",
                 "course": [
@@ -80,34 +57,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC121",
-                        "courseTitle": "Elementary Probability and Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM127."
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": null,
@@ -118,26 +68,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOLC111",
-                        "courseTitle": "General Biology I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM128."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -154,18 +85,7 @@
     },
     "5": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for KINE266."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO231."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS121."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -177,8 +97,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO232."
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",

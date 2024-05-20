@@ -4,14 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ITP100."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ITP125."
-            },
+            null,
             {
                 "subject": "Calculus",
                 "course": [
@@ -49,34 +42,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS002A",
-                        "courseTitle": "General Physics: Mechanics",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM001",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ITP233."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -108,34 +74,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS002B",
-                        "courseTitle": "General Physics: Electricity & Magnetism",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL001A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ITP150."
-            },
+            null,
             {
                 "subject": "Statistics",
                 "course": null,
@@ -146,21 +85,16 @@
     },
     "5": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ECON201."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
+            null
         ]
     },
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ITP211."
+                "subject": "ITP",
+                "uniqueClass": false
             },
             {
                 "subject": "Concentration",

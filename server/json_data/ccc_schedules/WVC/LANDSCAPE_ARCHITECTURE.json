@@ -4,72 +4,12 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH001",
-                        "courseTitle": "Pre-Calculus Algebra",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH002",
-                        "courseTitle": "Pre-Calculus Algebra and Trigonometry",
-                        "courseUnits": "6.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM001",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA170."
-            }
+            null
         ]
     },
     "2": {
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH000D",
-                        "courseTitle": "Trigonometry",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATH002",
-                        "courseTitle": "Pre-Calculus Algebra and Trigonometry",
-                        "courseUnits": "6.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA171."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA211."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -95,46 +35,12 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL001A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA202."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA212."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EDES123."
-            }
+            null
         ]
     },
     "5": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA243."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "Select two courses from the following",
                 "course": null,
@@ -145,14 +51,7 @@
     },
     "6": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA220."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA241."
-            },
+            null,
             {
                 "subject": "Select two courses from the following",
                 "course": null,
@@ -169,14 +68,7 @@
     },
     "7": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA204."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LA242."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [

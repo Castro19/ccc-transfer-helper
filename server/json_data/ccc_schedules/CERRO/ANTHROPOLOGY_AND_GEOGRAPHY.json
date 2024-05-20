@@ -4,34 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ANTHC111",
-                        "courseTitle": "Cultural Anthropology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ANT",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for GEOG150."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -42,42 +15,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ANTHC121",
-                        "courseTitle": "Biological Anthropology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ANT",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "GEOGC101",
-                        "courseTitle": "Physical Geography Lecture",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "GEOG",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -89,8 +27,10 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -149,8 +89,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for GEOG218."
+                "subject": "GEOG",
+                "uniqueClass": true
             },
             {
                 "subject": "Professional Prep for ANG",

@@ -15,7 +15,8 @@ def combinate(arr, n, combinations, find):
 
         r -= 1
     for thing in arr:
-        combinations.append({"courses": [],
+        combinations.append({"conjunction": None,
+                             "courses": [],
                              "note": f"No articulation agreement found for {thing['course']}."})
     return combinations
 
@@ -29,8 +30,11 @@ def recComb(arr, data, start, end, index, r, find):
 
     if index == r:
         fResult = find(data[:r])
+        
         return (ReturnType(fResult, [x for x in arr if x not in data[:r]])
-                if (fResult is not None and fResult["courses"]) else None)
+                if fResult else None)
+        # return (ReturnType(fResult, [x for x in arr if x not in data[:r]])
+        #         if (fResult is not None and fResult["courses"]) else None)
 
     i = start
 

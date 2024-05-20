@@ -4,95 +4,17 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH001",
-                        "courseTitle": "Pre-Calculus Algebra",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH002",
-                        "courseTitle": "Pre-Calculus Algebra and Trigonometry",
-                        "courseUnits": "6.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM001",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC205."
-            }
+            null
         ]
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM001A",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL001A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC207."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC120."
-            }
+            null
         ]
     },
     "3": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGB212."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ASCI112."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "Animal Science Course",
                 "course": null,
@@ -103,14 +25,7 @@
     },
     "5": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for JOUR203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN275."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -147,26 +62,7 @@
     },
     "6": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ECON001A",
-                        "courseTitle": "Principles of Macroeconomics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ECON",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN230."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC225."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -178,8 +74,10 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for AGB260."
+                "subject": "AGB",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",

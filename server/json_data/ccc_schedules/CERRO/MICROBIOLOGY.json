@@ -4,34 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOLC112",
-                        "courseTitle": "General Biology II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM127."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -42,119 +15,22 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOLC111",
-                        "courseTitle": "General Biology I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATHC151",
-                        "courseTitle": "Analytic Geometry and Calculus I",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATHC131",
-                        "courseTitle": "Basic Functions and Calculus for Business",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM128."
-            }
+            null
         ]
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC121",
-                        "courseTitle": "Elementary Probability and Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO263."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM129."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
+            null
         ]
     },
     "5": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOLC262",
-                        "courseTitle": "General Microbiology",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MCRO",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM216."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS121."
-            }
+            null
         ]
     },
     "6": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM217."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM220."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS122."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -171,14 +47,7 @@
     },
     "7": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MCRO225."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS123."
-            },
+            null,
             {
                 "subject": "Biochemistry",
                 "course": [

@@ -4,14 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SPAN201."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -28,30 +21,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPAN4",
-                        "courseTitle": "Fourth Semester Spanish",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "SPAN",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL2",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -112,8 +82,10 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for SPAN207."
+                "subject": "SPAN",
+                "uniqueClass": false
             },
             {
                 "subject": "Minor Course",
@@ -138,8 +110,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for SPAN233."
+                "subject": "SPAN",
+                "uniqueClass": false
             },
             {
                 "subject": "Minor Course",

@@ -4,14 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HIST100."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": [
@@ -31,26 +24,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL2",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HIST110."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HIST111."
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": [
@@ -65,8 +39,10 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for HIST201."
+                "subject": "HIST",
+                "uniqueClass": false
             },
             {
                 "subject": "Free Elective",
@@ -87,22 +63,7 @@
     },
     "5": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CMST14",
-                        "courseTitle": "Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HIST202."
-            },
+            null,
             {
                 "subject": "Foreign Language",
                 "course": null,
@@ -120,8 +81,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for HIST213."
+                "subject": "HIST",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

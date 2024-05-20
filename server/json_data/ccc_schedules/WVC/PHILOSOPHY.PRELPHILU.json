@@ -4,40 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "PHIL001",
-                        "courseTitle": "Introduction to Philosophy",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "PHIL003",
-                        "courseTitle": "Introduction to Ethics",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "PHIL005",
-                        "courseTitle": "Introduction to Social and Political Philosophy",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "PHIL",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL001A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -54,30 +21,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHIL002",
-                        "courseTitle": "Introduction to Logic",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "PHIL",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM001",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -95,8 +39,10 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PHIL241."
+                "subject": "PHIL",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",

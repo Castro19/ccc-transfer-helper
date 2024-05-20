@@ -4,39 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "BIOLC141",
-                        "courseTitle": "Environmental Studies Lecture",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "BIOLC145",
-                        "courseTitle": "Environmental Studies",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "NR",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR140."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -74,26 +42,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM127."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS120."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -130,26 +79,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOLC111",
-                        "courseTitle": "General Biology I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS121."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -169,14 +99,7 @@
     },
     "5": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR218."
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -206,8 +129,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO162."
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",
@@ -235,8 +160,10 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ASCI239."
+                "subject": "ASCI",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

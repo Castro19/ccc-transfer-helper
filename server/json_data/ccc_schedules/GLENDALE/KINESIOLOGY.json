@@ -43,7 +43,8 @@
                     },
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for HLTH260."
                     }
                 ],
                 "uniqueClass": true,
@@ -161,8 +162,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -181,16 +185,25 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for KINE266."
+                "note": "No articulation agreement found for KINE266.",
+                "subject": "KINE",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO231."
+                "note": "No articulation agreement found for BIO231.",
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PHYS121."
+                "note": "No articulation agreement found for PHYS121.",
+                "subject": "PHYS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -203,8 +216,11 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO232."
+                "note": "No articulation agreement found for BIO232.",
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",

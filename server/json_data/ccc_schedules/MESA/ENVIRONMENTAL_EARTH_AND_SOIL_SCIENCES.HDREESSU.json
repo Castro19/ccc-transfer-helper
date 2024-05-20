@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for NR140.",
+                "subject": "NR",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "GEOL100",
@@ -14,6 +21,13 @@
                     }
                 ],
                 "subject": "GEOL",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for ERSC144.",
+                "subject": "ERSC",
                 "uniqueClass": false
             },
             {
@@ -29,16 +43,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for NR140."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ERSC144."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
@@ -74,8 +83,11 @@
                 "uniqueClass": true
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Calculus I Course",
@@ -114,6 +126,13 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for SS120.",
+                "subject": "SS",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "AND",
                 "courses": [
                     {
@@ -146,10 +165,6 @@
                 ],
                 "subject": "NR",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS120."
             },
             {
                 "subject": "Calculus II Course",
@@ -188,6 +203,13 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for SS221.",
+                "subject": "SS",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "AND",
                 "courses": [
                     {
@@ -203,10 +225,6 @@
                 ],
                 "subject": "CHEM",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS221."
             },
             {
                 "subject": "College Physics",
@@ -266,15 +284,19 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ERSC223."
+                "note": "No articulation agreement found for ERSC223.",
+                "subject": "ERSC",
+                "uniqueClass": false
             },
             {
                 "subject": "Physics II Course",
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for PHYS122."
                     },
                     {
                         "conjunction": null,
@@ -301,8 +323,11 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for GEOL241."
+                "note": "No articulation agreement found for GEOL241.",
+                "subject": "GEOL",
+                "uniqueClass": true
             },
             {
                 "subject": "Statistics",

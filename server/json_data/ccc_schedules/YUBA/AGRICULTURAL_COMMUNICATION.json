@@ -6,6 +6,20 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for AGC102.",
+                "subject": "AGC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for AGC205.",
+                "subject": "AGC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH20",
@@ -27,19 +41,25 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC205."
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for AGC207.",
+                "subject": "AGC",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for PLSC120.",
+                "subject": "PLSC",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "OR",
                 "courses": [
@@ -68,19 +88,18 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGC207."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC120."
             }
         ]
     },
     "3": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for AGB212.",
+                "subject": "AGB",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -106,10 +125,6 @@
                 "uniqueClass": true
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for AGB212."
-            },
-            {
                 "subject": "Animal Science Course",
                 "course": null,
                 "uniqueClass": true,
@@ -120,12 +135,18 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for JOUR203."
+                "note": "No articulation agreement found for JOUR203.",
+                "subject": "JOUR",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for FSN275."
+                "note": "No articulation agreement found for FSN275.",
+                "subject": "FSN",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
@@ -197,12 +218,18 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for FSN230."
+                "note": "No articulation agreement found for FSN230.",
+                "subject": "FSN",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for AGC225."
+                "note": "No articulation agreement found for AGC225.",
+                "subject": "AGC",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -215,8 +242,11 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for AGB260."
+                "note": "No articulation agreement found for AGB260.",
+                "subject": "AGB",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",

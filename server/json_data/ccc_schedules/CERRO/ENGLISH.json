@@ -4,30 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": [
@@ -47,14 +24,7 @@
     },
     "2": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL202."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": [
@@ -68,22 +38,7 @@
     },
     "3": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC221",
-                        "courseTitle": "World Literature: Antiquity to 17th Century",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL203."
-            },
+            null,
             {
                 "subject": "Free Elective",
                 "course": [
@@ -104,8 +59,10 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ENGL204."
+                "subject": "ENGL",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",
@@ -141,14 +98,7 @@
     },
     "6": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL205."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL290."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,

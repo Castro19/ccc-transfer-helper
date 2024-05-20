@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for SPAN201.",
+                "subject": "SPAN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "SPCH101",
@@ -15,10 +22,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SPAN201."
             },
             {
                 "subject": "GE",
@@ -38,6 +41,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for SPAN202.",
+                "subject": "SPAN",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "ENGL101",
@@ -47,10 +57,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SPAN202."
             },
             {
                 "subject": "GE",
@@ -69,15 +75,19 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for SPAN203."
                     },
                     {
                         "conjunction": null,
@@ -110,8 +120,11 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for SPAN207."
+                "note": "No articulation agreement found for SPAN207.",
+                "subject": "SPAN",
+                "uniqueClass": false
             },
             {
                 "subject": "Minor Course",
@@ -136,8 +149,11 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for SPAN233."
+                "note": "No articulation agreement found for SPAN233.",
+                "subject": "SPAN",
+                "uniqueClass": false
             },
             {
                 "subject": "Minor Course",

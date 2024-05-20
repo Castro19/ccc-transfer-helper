@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BIO150.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "CHEM1A",
@@ -27,10 +34,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO150."
             },
             {
                 "subject": "Free Elective",
@@ -112,6 +115,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BIO162.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "CHEM1B",
@@ -147,10 +157,6 @@
                 "uniqueClass": false
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for BIO162."
-            },
-            {
                 "subject": "Free Elective",
                 "course": null,
                 "uniqueClass": true,
@@ -161,15 +167,19 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO263."
+                "note": "No articulation agreement found for BIO263.",
+                "subject": "BIO",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for CHEM216."
                     },
                     null
                 ],
@@ -187,8 +197,11 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PHYS121."
+                "note": "No articulation agreement found for PHYS121.",
+                "subject": "PHYS",
+                "uniqueClass": true
             },
             {
                 "subject": "Ecology",
@@ -225,8 +238,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PHYS122."
+                "note": "No articulation agreement found for PHYS122.",
+                "subject": "PHYS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",

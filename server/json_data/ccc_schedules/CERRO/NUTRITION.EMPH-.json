@@ -4,74 +4,12 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOLC111",
-                        "courseTitle": "General Biology I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC141",
-                        "courseTitle": "Precalculus: Algebra",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN202."
-            }
+            null
         ]
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN250."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM127."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -82,18 +20,7 @@
     },
     "3": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN121."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM128."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
+            null
         ]
     },
     "5": {
@@ -154,8 +81,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for FSN281."
+                "subject": "FSN",
+                "uniqueClass": false
             },
             {
                 "subject": "Choose One",

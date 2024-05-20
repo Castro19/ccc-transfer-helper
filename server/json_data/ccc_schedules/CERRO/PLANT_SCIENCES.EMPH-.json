@@ -4,62 +4,12 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BOT121."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC120."
-            }
+            null
         ]
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC141",
-                        "courseTitle": "Precalculus: Algebra",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM127."
-            },
+            null,
             {
                 "subject": "Concentration",
                 "course": null,
@@ -70,18 +20,7 @@
     },
     "3": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PLSC124."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM128."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "Concentration",
                 "course": null,
@@ -93,8 +32,10 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for SS120."
+                "subject": "SS",
+                "uniqueClass": false
             },
             {
                 "subject": "Elementary Spanish I, II, III, or Hispanic Language & Culture",
@@ -133,22 +74,7 @@
     },
     "6": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC121",
-                        "courseTitle": "Elementary Probability and Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS221."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,

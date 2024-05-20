@@ -5,16 +5,25 @@
     "1": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BRAE128."
+                "note": "No articulation agreement found for BRAE128.",
+                "subject": "BRAE",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BRAE150."
+                "note": "No articulation agreement found for BRAE150.",
+                "subject": "BRAE",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
@@ -65,6 +74,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE129.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "MATH121",
@@ -86,10 +102,6 @@
                 ],
                 "subject": "ENGL",
                 "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE129."
             },
             {
                 "subject": "Chemistry",
@@ -133,6 +145,13 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BRAE152.",
+                "subject": "BRAE",
+                "uniqueClass": false
+            },
+            {
                 "conjunction": "OR",
                 "courses": [
                     {
@@ -165,12 +184,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BRAE152."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL147."
+                "note": "No articulation agreement found for ENGL147.",
+                "subject": "ENGL",
+                "uniqueClass": true
             },
             {
                 "subject": "Animal or Plant Production Course",
@@ -189,16 +207,25 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BRAE142."
+                "note": "No articulation agreement found for BRAE142.",
+                "subject": "BRAE",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for SS120."
+                "note": "No articulation agreement found for SS120.",
+                "subject": "SS",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for AGB212."
+                "note": "No articulation agreement found for AGB212.",
+                "subject": "AGB",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -211,12 +238,18 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BRAE203."
+                "note": "No articulation agreement found for BRAE203.",
+                "subject": "BRAE",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for AGB260."
+                "note": "No articulation agreement found for AGB260.",
+                "subject": "AGB",
+                "uniqueClass": true
             },
             {
                 "subject": "Financial Accounting",
@@ -233,7 +266,8 @@
                     },
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for AGB214."
                     }
                 ],
                 "uniqueClass": true,

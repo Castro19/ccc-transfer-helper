@@ -6,6 +6,27 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for ASCI101.",
+                "subject": "ASCI",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for DSCI229.",
+                "subject": "DSCI",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for DSCI230.",
+                "subject": "DSCI",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "SPCH101",
@@ -15,23 +36,18 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ASCI101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for DSCI229."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for DSCI230."
             }
         ]
     },
     "2": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for DSCI233.",
+                "subject": "DSCI",
+                "uniqueClass": false
+            },
             {
                 "conjunction": "OR",
                 "courses": [
@@ -82,10 +98,6 @@
                 "uniqueClass": true
             },
             {
-                "courses": [],
-                "note": "No articulation agreement found for DSCI233."
-            },
-            {
                 "subject": "Approved Elective",
                 "course": null,
                 "uniqueClass": true,
@@ -95,6 +107,13 @@
     },
     "3": {
         "courses": [
+            {
+                "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for DSCI241.",
+                "subject": "DSCI",
+                "uniqueClass": false
+            },
             {
                 "conjunction": null,
                 "courses": [
@@ -108,12 +127,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for DSCI241."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -126,15 +144,19 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for DSCI202."
+                "note": "No articulation agreement found for DSCI202.",
+                "subject": "DSCI",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for DSCI102."
                     },
                     null
                 ],
@@ -179,8 +201,11 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for ASCI220."
+                "note": "No articulation agreement found for ASCI220.",
+                "subject": "ASCI",
+                "uniqueClass": false
             },
             {
                 "subject": "Approved Elective",

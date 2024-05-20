@@ -6,6 +6,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BIO150.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "CHEM101",
@@ -27,10 +34,6 @@
                 ],
                 "subject": "COMS",
                 "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO150."
             },
             {
                 "subject": "GE",
@@ -106,6 +109,13 @@
         "courses": [
             {
                 "conjunction": null,
+                "courses": [],
+                "note": "No articulation agreement found for BIO263.",
+                "subject": "BIO",
+                "uniqueClass": false
+            },
+            {
+                "conjunction": null,
                 "courses": [
                     {
                         "courseNumber": "CHEM102",
@@ -129,12 +139,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for BIO263."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": false
             }
         ]
     },
@@ -165,8 +174,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PHYS121."
+                "note": "No articulation agreement found for PHYS121.",
+                "subject": "PHYS",
+                "uniqueClass": false
             }
         ]
     },
@@ -174,23 +186,17 @@
         "courses": [
             {
                 "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM106",
-                        "courseTitle": "Organic Chemistry B",
-                        "courseUnits": "5.00"
-                    }
-                ],
+                "courses": [],
+                "note": "No articulation agreement found for CHEM217, CHEM220.",
                 "subject": "CHEM",
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for CHEM220."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS122."
+                "note": "No articulation agreement found for PHYS122.",
+                "subject": "PHYS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -209,12 +215,18 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MCRO225."
+                "note": "No articulation agreement found for MCRO225.",
+                "subject": "MCRO",
+                "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for PHYS123."
+                "note": "No articulation agreement found for PHYS123.",
+                "subject": "PHYS",
+                "uniqueClass": true
             },
             {
                 "subject": "Biochemistry",

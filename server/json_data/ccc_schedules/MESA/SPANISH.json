@@ -17,8 +17,11 @@
                 "uniqueClass": false
             },
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS101."
+                "note": "No articulation agreement found for COMS101.",
+                "subject": "COMS",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -77,15 +80,19 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for COMS126."
+                "note": "No articulation agreement found for COMS126.",
+                "subject": "COMS",
+                "uniqueClass": true
             },
             {
                 "subject": "Choose One",
                 "course": [
                     {
                         "conjunction": null,
-                        "courses": []
+                        "courses": [],
+                        "note": "No articulation agreement found for SPAN203."
                     },
                     {
                         "conjunction": null,
@@ -118,8 +125,11 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for SPAN207."
+                "note": "No articulation agreement found for SPAN207.",
+                "subject": "SPAN",
+                "uniqueClass": false
             },
             {
                 "subject": "Minor Course",
@@ -144,8 +154,11 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for SPAN233."
+                "note": "No articulation agreement found for SPAN233.",
+                "subject": "SPAN",
+                "uniqueClass": false
             },
             {
                 "subject": "Minor Course",

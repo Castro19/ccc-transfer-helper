@@ -4,26 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU150."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU104."
-            },
+            null,
             {
                 "subject": "Major Ensemble",
                 "course": null,
@@ -46,34 +27,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU150."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU103."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU106."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU121."
-            },
+            null,
             {
                 "subject": "Major Ensemble",
                 "course": null,
@@ -90,22 +44,7 @@
     },
     "3": {
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU150."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU105."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MU108."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "Major Ensemble",
                 "course": null,
@@ -129,8 +68,10 @@
     "5": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MU250."
+                "subject": "MU",
+                "uniqueClass": false
             },
             {
                 "subject": "Major Ensemble",
@@ -161,8 +102,10 @@
     "6": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MU250."
+                "subject": "MU",
+                "uniqueClass": false
             },
             {
                 "subject": "Major Ensemble",
@@ -199,8 +142,10 @@
     "7": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for MU250."
+                "subject": "MU",
+                "uniqueClass": false
             },
             {
                 "subject": "Major Ensemble",

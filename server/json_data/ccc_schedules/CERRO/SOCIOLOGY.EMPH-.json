@@ -4,30 +4,7 @@
     },
     "1": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SOCIC101",
-                        "courseTitle": "Introduction to Sociology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "SOC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
+            null,
             {
                 "subject": "Choose One",
                 "course": [
@@ -56,26 +33,7 @@
     },
     "2": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCHC101",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SOC111."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
@@ -87,8 +45,10 @@
     "3": {
         "courses": [
             {
+                "conjunction": null,
                 "courses": [],
-                "note": "No articulation agreement found for SOC218."
+                "subject": "SOC",
+                "uniqueClass": false
             },
             {
                 "subject": "GE",
@@ -146,22 +106,7 @@
     },
     "6": {
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SOCIC151",
-                        "courseTitle": "Perspectives on Race and Ethnicity",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "SOC",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SOC222."
-            },
+            null,
             {
                 "subject": "GE",
                 "course": null,
