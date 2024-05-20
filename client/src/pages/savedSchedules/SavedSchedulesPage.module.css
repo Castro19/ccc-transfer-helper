@@ -1,0 +1,32 @@
+.container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color for the entire page */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*can be 0.1 too */
+    max-width: 800px; /* Optional: max width to center the content */
+    margin: 0 auto; /* Center the container */
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  
+  .title {
+    font-size: 2.5rem; /* Large font size for the title */
+    color: #2c3e50; /* Dark color for the title */
+    text-align: center; /* Center-align the title */
+    margin-bottom: 20px; /* Space below the title */
+    font-family: 'Roboto', sans-serif; /* Use a professional font */
+    text-transform: uppercase; /* Make the title uppercase */
+    letter-spacing: 1.5px; /* Add spacing between letters */
+    position: relative; /* To position the decorative line */
+  }
+  
+  .title::after {
+    content: '';
+    display: block;
+    width: 100px; /* Width of the decorative line */
+    height: 3px; /* Height of the decorative line */
+    background-color: #2c3e50; /* Cal Poly dark green #1e4d2b */
+    margin: 10px auto 0; /* Center the line and add space above */
+    border-radius: 2px; /* Round the corners of the line */
+  }
