@@ -2,11 +2,7 @@ import { cn } from "@/lib/utils";
 import ClassRow from "./ClassRow";
 import { SemesterType } from "@/types";
 import { useScheduleDataContext } from "@/contexts/scheduleContext";
-import {
-  handleDragOver,
-  handleDragStart,
-  handleDrop
-} from "../helpers/drag";
+import { handleDragOver, handleDragStart, handleDrop } from "../helpers/drag";
 type SemesterCardProps = {
   semester: SemesterType;
   handleScheduleChange: (
@@ -17,11 +13,8 @@ type SemesterCardProps = {
   ) => void;
 };
 
-export const SemesterCard = ({
-  semester
-}: SemesterCardProps): JSX.Element => {
-  const { schedule, handleScheduleChange } =
-    useScheduleDataContext();
+export const SemesterCard = ({ semester }: SemesterCardProps): JSX.Element => {
+  const { schedule, handleScheduleChange } = useScheduleDataContext();
 
   const onValueChange = (
     semesterId: number,
@@ -45,24 +38,12 @@ export const SemesterCard = ({
             courseId={course.id} // Index of the course in the semester's course array
             initialCourseCode={course.courseCode}
             initialUnits={course.units}
-            onDragStart={(e) =>
-              handleDragStart(e, course.id, semester.id)
-            }
+            onDragStart={(e) => handleDragStart(e, course.id, semester.id)}
             onCourseCodeChange={(newCode) =>
-              onValueChange(
-                semester.id,
-                course.id,
-                "courseCode",
-                newCode
-              )
+              onValueChange(semester.id, course.id, "courseCode", newCode)
             }
             onUnitsChange={(newUnit) =>
-              onValueChange(
-                semester.id,
-                course.id,
-                "units",
-                newUnit
-              )
+              onValueChange(semester.id, course.id, "units", newUnit)
             }
             onDrop={(e: React.DragEvent<HTMLDivElement>) =>
               handleDrop(
@@ -83,18 +64,13 @@ export const SemesterCard = ({
 
 export const CardTitle = ({
   className,
-  children
+  children,
 }: {
   className?: string;
   children: React.ReactNode;
 }): JSX.Element => {
   return (
-    <h4
-      className={cn(
-        "text-white font-bold tracking-wide mt-4",
-        className
-      )}
-    >
+    <h4 className={cn("text-white font-bold tracking-wide mt-4", className)}>
       {children}
     </h4>
   );

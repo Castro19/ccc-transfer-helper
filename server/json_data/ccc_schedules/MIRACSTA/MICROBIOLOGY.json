@@ -1,317 +1,314 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM150",
-                        "courseTitle": "General Chemistry I: For Science Majors",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "CHEM150H",
-                        "courseTitle": "General Chemistry I : For Science Majors (Honors)",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM101",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO150."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "CHEM150",
+            "courseTitle": "General Chemistry I: For Science Majors",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM150H",
+            "courseTitle": "General Chemistry I : For Science Majors (Honors)",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "BIO204",
-                        "courseTitle": "Foundations of Biology: Biochemistry, Cell Biology, Genetics and Molecular Biology",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "BIO204H",
-                        "courseTitle": "Foundations of Biology: Biochemistry, Cell Biology, Genetics, and Molecular Biology(Honors)",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM151",
-                        "courseTitle": "General Chemistry II: For Science Majors",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "CHEM151H",
-                        "courseTitle": "General Chemistry II : For Science Majors (Honors)",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH115",
-                        "courseTitle": "Calculus with Applications",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "MATH150",
-                        "courseTitle": "Calculus and Analytic Geometry I",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "MATH150H",
-                        "courseTitle": "Calculus and Analytic Geometry I (Honors)",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL134."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMM101",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO150."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM151",
-                        "courseTitle": "General Chemistry II: For Science Majors",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH103",
-                        "courseTitle": "Statistics",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH103S",
-                        "courseTitle": "Statistics with Integrated Support",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "PSYC104",
-                        "courseTitle": "Statistics for Behavioral Science",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PSYC104H",
-                        "courseTitle": "Statistics for Behavioral Science (Honors)",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "BTEC180",
-                        "courseTitle": "Biostatistics",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "BTEC180H",
-                        "courseTitle": "Biostatistics (Honors)",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO263."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "BIO204",
+            "courseTitle": "Foundations of Biology: Biochemistry, Cell Biology, Genetics and Molecular Biology",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "BIO204H",
+            "courseTitle": "Foundations of Biology: Biochemistry, Cell Biology, Genetics, and Molecular Biology(Honors)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIO230",
-                        "courseTitle": "Introduction to Microbiology",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MCRO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM210",
-                        "courseTitle": "Organic Chemistry I: For Science Majors",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "CHEM210H",
-                        "courseTitle": "Organic Chemistry I: For Science Majors (Honors)",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS111",
-                        "courseTitle": "Introductory Physics I",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PHYS111H",
-                        "courseTitle": "Introductory Physics I (Honors)",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "CHEM151",
+            "courseTitle": "General Chemistry II: For Science Majors",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM151H",
+            "courseTitle": "General Chemistry II : For Science Majors (Honors)",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM211",
-                        "courseTitle": "Organic Chemistry II: For Science Majors",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "CHEM211H",
-                        "courseTitle": "Organic Chemistry II: For Science Majors (Honors)",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "PHYS112",
-                        "courseTitle": "Introductory Physics II",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PHYS112H",
-                        "courseTitle": "Introductory Physics II (Honors)",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM220."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "MATH115",
+            "courseTitle": "Calculus with Applications",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH150",
+            "courseTitle": "Calculus and Analytic Geometry I",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH150H",
+            "courseTitle": "Calculus and Analytic Geometry I (Honors)",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ENGL134."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "PHYS112",
-                        "courseTitle": "Introductory Physics II",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PHYS112H",
-                        "courseTitle": "Introductory Physics II (Honors)",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MCRO225."
-            },
-            {
-                "subject": "Biochemistry",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: CHEM314, or CHEM369.\r\n\r\nCHEM369 suggested for students who plan to pursue graduate school or a health professions career."
-            },
-            {
-                "subject": "Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Elective course can go here.\r\n\r\n19-21 units of Elective credit required in major. See catalog for course options and details. Consultation with an advisor is recommended before selecting Electives; bear in mind that selections may impact pursuit of post-baccalaureate studies and/or goals. At least 14-16 units must be upper-division (300-400 level) to ensure completion of the required minimum of 60 units of upper-division courses.\r\n\r\nIf BIO462 is used to meet the senior project requirement, it cannot also be counted as an Elective.\r\n\r\nStudents planning to attend graduate or professional schools are strongly advised to meet with their advisors to ensure that they meet necessary prerequisites for entry into these programs. Additional courses in math and chemistry may be necessary."
-            }
-        ]
-    }
+          {
+            "courseNumber": "CHEM151",
+            "courseTitle": "General Chemistry II: For Science Majors",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH103",
+            "courseTitle": "Statistics",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH103S",
+            "courseTitle": "Statistics with Integrated Support",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "PSYC104",
+            "courseTitle": "Statistics for Behavioral Science",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PSYC104H",
+            "courseTitle": "Statistics for Behavioral Science (Honors)",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "BTEC180",
+            "courseTitle": "Biostatistics",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "BTEC180H",
+            "courseTitle": "Biostatistics (Honors)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO263."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "BIO230",
+            "courseTitle": "Introduction to Microbiology",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MCRO",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CHEM210",
+            "courseTitle": "Organic Chemistry I: For Science Majors",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM210H",
+            "courseTitle": "Organic Chemistry I: For Science Majors (Honors)",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS111",
+            "courseTitle": "Introductory Physics I",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PHYS111H",
+            "courseTitle": "Introductory Physics I (Honors)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CHEM211",
+            "courseTitle": "Organic Chemistry II: For Science Majors",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM211H",
+            "courseTitle": "Organic Chemistry II: For Science Majors (Honors)",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "PHYS112",
+            "courseTitle": "Introductory Physics II",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PHYS112H",
+            "courseTitle": "Introductory Physics II (Honors)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM220."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "PHYS112",
+            "courseTitle": "Introductory Physics II",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PHYS112H",
+            "courseTitle": "Introductory Physics II (Honors)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MCRO225."
+      },
+      {
+        "subject": "Biochemistry",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: CHEM314, or CHEM369.\r\n\r\nCHEM369 suggested for students who plan to pursue graduate school or a health professions career."
+      },
+      {
+        "subject": "Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Elective course can go here.\r\n\r\n19-21 units of Elective credit required in major. See catalog for course options and details. Consultation with an advisor is recommended before selecting Electives; bear in mind that selections may impact pursuit of post-baccalaureate studies and/or goals. At least 14-16 units must be upper-division (300-400 level) to ensure completion of the required minimum of 60 units of upper-division courses.\r\n\r\nIf BIO462 is used to meet the senior project requirement, it cannot also be counted as an Elective.\r\n\r\nStudents planning to attend graduate or professional schools are strongly advised to meet with their advisors to ensure that they meet necessary prerequisites for entry into these programs. Additional courses in math and chemistry may be necessary."
+      }
+    ]
+  }
 }

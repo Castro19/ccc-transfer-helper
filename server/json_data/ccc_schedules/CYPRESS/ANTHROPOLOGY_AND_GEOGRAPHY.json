@@ -1,235 +1,232 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ANTH102C",
-                        "courseTitle": "Cultural Anthropology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ANT",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "GEOG160C",
-                        "courseTitle": "Cultural Geography",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "GEOG",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "ANTH102C",
+            "courseTitle": "Cultural Anthropology",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ANT",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "ANTH101C",
-                        "courseTitle": "Biological Anthropology",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "ANTH101LC",
-                        "courseTitle": "Biological Anthropology Lab",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "ANT",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "GEOG102C",
-                        "courseTitle": "Physical Geography",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "GEOG102LC",
-                        "courseTitle": "Physical Geography - Lab",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "GEOG",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL100C",
-                        "courseTitle": "College Writing",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "GEOG160C",
+            "courseTitle": "Cultural Geography",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "GEOG",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS101."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nIf a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "ANTH101C",
+            "courseTitle": "Biological Anthropology",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "ANTH101LC",
+            "courseTitle": "Biological Anthropology Lab",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "ANT",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ANTH103C",
-                        "courseTitle": "Introduction to Archaeology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ANT",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nIf a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "GEOG102C",
+            "courseTitle": "Physical Geography",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "GEOG102LC",
+            "courseTitle": "Physical Geography - Lab",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "GEOG",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "GEOG120C",
-                        "courseTitle": "Intro to Spatial Reasoning",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "GEOG230C",
-                        "courseTitle": "Introduction to GIS",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "GEOG",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Professional Prep for ANG",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: ANT384, or GEOG384."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "ENGL100C",
+            "courseTitle": "College Writing",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nIf a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH120C",
-                        "courseTitle": "Introduction to Probability and Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nIf a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nIf a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
-            }
-        ]
-    }
+          {
+            "courseNumber": "ANTH103C",
+            "courseTitle": "Introduction to Archaeology",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ANT",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nIf a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "GEOG120C",
+            "courseTitle": "Intro to Spatial Reasoning",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "GEOG230C",
+            "courseTitle": "Introduction to GIS",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "GEOG",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Professional Prep for ANG",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: ANT384, or GEOG384."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH120C",
+            "courseTitle": "Introduction to Probability and Statistics",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nIf a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nIf a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
+      }
+    ]
+  }
 }

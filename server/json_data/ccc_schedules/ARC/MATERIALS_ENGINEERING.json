@@ -1,292 +1,289 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR300",
-                        "courseTitle": "Introduction to Engineering",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "MATE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM400",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH400",
-                        "courseTitle": "Calculus I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM301",
-                        "courseTitle": "Introduction to Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME144."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "ENGR300",
+            "courseTitle": "Introduction to Engineering",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "MATE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM400",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "CHEM401",
-                        "courseTitle": "General Chemistry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH401",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGWR300",
-                        "courseTitle": "College Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE120."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "CHEM400",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR412",
-                        "courseTitle": "Properties of Materials",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH401",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS410",
-                        "courseTitle": "Mechanics of Solids and Fluids",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM311",
-                        "courseTitle": "Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "MATH400",
+            "courseTitle": "Calculus I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH402",
-                        "courseTitle": "Calculus III",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS421",
-                        "courseTitle": "Electricity and Magnetism",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE232."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE225."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "COMM301",
+            "courseTitle": "Introduction to Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME144."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATH410",
-                        "courseTitle": "Introduction to Linear Algebra",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATH420",
-                        "courseTitle": "Differential Equations",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS431",
-                        "courseTitle": "Heat, Waves, Light and Modern Physics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR420",
-                        "courseTitle": "Statics",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ME",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE235."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE280."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "CHEM400",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM401",
+            "courseTitle": "General Chemistry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR401",
-                        "courseTitle": "Introduction to Electrical Circuits and Devices",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "EE",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE245."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: STAT312, or STAT321.\r\n\r\nRequired in Major or Support; also satisfies General Education (GE) requirement."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    }
+          {
+            "courseNumber": "MATH401",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGWR300",
+            "courseTitle": "College Composition",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATE120."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGR412",
+            "courseTitle": "Properties of Materials",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH401",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS410",
+            "courseTitle": "Mechanics of Solids and Fluids",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMM311",
+            "courseTitle": "Argumentation and Debate",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH402",
+            "courseTitle": "Calculus III",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS421",
+            "courseTitle": "Electricity and Magnetism",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATE232."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATE225."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "MATH410",
+            "courseTitle": "Introduction to Linear Algebra",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "MATH420",
+            "courseTitle": "Differential Equations",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS431",
+            "courseTitle": "Heat, Waves, Light and Modern Physics",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGR420",
+            "courseTitle": "Statics",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ME",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATE235."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATE280."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGR401",
+            "courseTitle": "Introduction to Electrical Circuits and Devices",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "EE",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATE245."
+      },
+      {
+        "subject": "Choose One",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT312, or STAT321.\r\n\r\nRequired in Major or Support; also satisfies General Education (GE) requirement."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  }
 }

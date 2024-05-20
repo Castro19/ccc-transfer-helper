@@ -1,297 +1,297 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH150",
-                        "courseTitle": "Calculus with Analytic Geometry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE128."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE150."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE239."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "MATH150",
+            "courseTitle": "Calculus with Analytic Geometry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BRAE128."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BRAE150."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BRAE239."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS101."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH160",
-                        "courseTitle": "Calculus with Analytic Geometry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS121",
-                        "courseTitle": "Mechanics of Solids and Fluids",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "ENG110",
-                        "courseTitle": "Composition and Reading",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "ENG110H",
-                        "courseTitle": "Composition and Reading, Honors",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE129."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "MATH160",
+            "courseTitle": "Calculus with Analytic Geometry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH160",
-                        "courseTitle": "Calculus with Analytic Geometry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYS121",
-                        "courseTitle": "Mechanics of Solids and Fluids",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "PHYS123",
-                        "courseTitle": "Heat, Light and Modern Physics",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE152."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL147."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "PHYS121",
+            "courseTitle": "Mechanics of Solids and Fluids",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH200",
-                        "courseTitle": "Multivariable Calculus",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS122",
-                        "courseTitle": "Electricity and Magnetism",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE236."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE216."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "ENG110",
+            "courseTitle": "Composition and Reading",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "ENG110H",
+            "courseTitle": "Composition and Reading, Honors",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BRAE129."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM155",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATH210",
-                        "courseTitle": "Linear Algebra",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH220",
-                        "courseTitle": "Differential Equations",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR115",
-                        "courseTitle": "Statics and Strength of Materials",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ME",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "BMS127",
-                                "courseTitle": "Medical Microbiology",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BMS157",
-                                "courseTitle": "General Microbiology",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: BRAE220, or MCRO221."
-            },
-            {
-                "subject": "Computer Programming",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "CS133",
-                                "courseTitle": "Introduction to Programming for Engineers",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "CS137",
-                                "courseTitle": "C Programming",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: CSC231, CSC232, or CSC234."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "MATH160",
+            "courseTitle": "Calculus with Analytic Geometry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM156",
-                        "courseTitle": "General Chemistry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR116",
-                        "courseTitle": "Dynamics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ME",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE232."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE234."
-            }
-        ]
-    }
+          {
+            "courseNumber": "PHYS121",
+            "courseTitle": "Mechanics of Solids and Fluids",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "PHYS123",
+            "courseTitle": "Heat, Light and Modern Physics",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BRAE152."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ENGL147."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH200",
+            "courseTitle": "Multivariable Calculus",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS122",
+            "courseTitle": "Electricity and Magnetism",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BRAE236."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BRAE216."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM155",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "MATH210",
+            "courseTitle": "Linear Algebra",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH220",
+            "courseTitle": "Differential Equations",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGR115",
+            "courseTitle": "Statics and Strength of Materials",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ME",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "BMS127",
+                "courseTitle": "Medical Microbiology",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BMS157",
+                "courseTitle": "General Microbiology",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: BRAE220, or MCRO221."
+      },
+      {
+        "subject": "Computer Programming",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "CS133",
+                "courseTitle": "Introduction to Programming for Engineers",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "CS137",
+                "courseTitle": "C Programming",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: CSC231, CSC232, or CSC234."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM156",
+            "courseTitle": "General Chemistry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGR116",
+            "courseTitle": "Dynamics",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ME",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BRAE232."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BRAE234."
+      }
+    ]
+  }
 }

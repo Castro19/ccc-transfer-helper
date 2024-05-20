@@ -8,13 +8,13 @@ type DropdownOptionProps = {
 const DropdownOption = ({
   label,
   onClick,
-  isSelected
+  isSelected,
 }: DropdownOptionProps): JSX.Element => {
   return (
     <button
       onClick={onClick}
       style={{
-        backgroundColor: isSelected ? "lightgray" : "white"
+        backgroundColor: isSelected ? "lightgray" : "white",
       }}
     >
       {label}

@@ -1,278 +1,275 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH150AC",
-                        "courseTitle": "Calculus I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM111AC",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE100."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE123."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "MATH150AC",
+            "courseTitle": "Calculus I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIS223C",
-                        "courseTitle": "Visual/C++ Programming",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CIS226C",
-                        "courseTitle": "Java Programming",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CIS247C",
-                        "courseTitle": "Python Programming",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CSCI123C",
-                        "courseTitle": "Introduction to Programming Concepts in C++",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CPE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS221C",
-                        "courseTitle": "General Physics I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH150BC",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL100C",
-                        "courseTitle": "College Writing",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "CHEM111AC",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE100."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE123."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS101."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CSCI133C",
-                        "courseTitle": "Data Structures in C++",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CIS234C",
-                        "courseTitle": "Advanced Java Programming",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CIS275C",
-                        "courseTitle": "Advanced Python Programming",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CPE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH150BC",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE133."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "CIS223C",
+            "courseTitle": "Visual/C++ Programming",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CIS226C",
+            "courseTitle": "Java Programming",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CIS247C",
+            "courseTitle": "Python Programming",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CSCI123C",
+            "courseTitle": "Introduction to Programming Concepts in C++",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CPE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS222C",
-                        "courseTitle": "General Physics II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH250AC",
-                        "courseTitle": "Multivariable Calculus",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE115."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE145."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "PHYS221C",
+            "courseTitle": "General Physics I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS223C",
-                        "courseTitle": "General Physics III",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH250BC",
-                        "courseTitle": "Linear Algebra and Differential Equations",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE245."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "MATH150BC",
+            "courseTitle": "Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CSCI252C",
-                        "courseTitle": "Discrete Structures",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Computer Architecture Course",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: CPE315, or CPE333."
-            },
-            {
-                "subject": "Choose a Philosophy Course",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
-            }
-        ]
-    }
+          {
+            "courseNumber": "ENGL100C",
+            "courseTitle": "College Writing",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CSCI133C",
+            "courseTitle": "Data Structures in C++",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CIS234C",
+            "courseTitle": "Advanced Java Programming",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CIS275C",
+            "courseTitle": "Advanced Python Programming",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CPE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH150BC",
+            "courseTitle": "Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE133."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS222C",
+            "courseTitle": "General Physics II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH250AC",
+            "courseTitle": "Multivariable Calculus",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE233."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE115."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE145."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS223C",
+            "courseTitle": "General Physics III",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH250BC",
+            "courseTitle": "Linear Algebra and Differential Equations",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE203."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE215."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE245."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CSCI252C",
+            "courseTitle": "Discrete Structures",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Computer Architecture Course",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: CPE315, or CPE333."
+      },
+      {
+        "subject": "Choose a Philosophy Course",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+      }
+    ]
+  }
 }

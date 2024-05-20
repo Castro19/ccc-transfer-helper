@@ -1,234 +1,234 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ART106",
-                        "courseTitle": "Drawing in Color",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ART",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ART105",
-                        "courseTitle": "Introduction to Drawing",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ART",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ARTHS196",
-                        "courseTitle": "History of Medieval and Renaissance Art",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ART",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM120",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "ART106",
+            "courseTitle": "Drawing in Color",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ART",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "ART126",
-                                "courseTitle": "Painting I: Introduction to Painting",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "AND",
-                        "courses": [
-                            {
-                                "courseNumber": "ART126A",
-                                "courseTitle": "Introduction to Oil/Acrylic Painting A",
-                                "courseUnits": "1.50"
-                            },
-                            {
-                                "courseNumber": "ART126B",
-                                "courseTitle": "Introduction to Oil/Acrylic Painting B",
-                                "courseUnits": "1.50"
-                            }
-                        ]
-                    }
-                ],
-                "subject": "ART",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ART127",
-                        "courseTitle": "Painting II: Intermediate Painting",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ART",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART182."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "ART105",
+            "courseTitle": "Introduction to Drawing",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ART",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ART102",
-                        "courseTitle": "Introduction to Three-Dimensional Design and Sculpture",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ART",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL122",
-                        "courseTitle": "First-Year College Writing and Reading",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART183."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART213."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "ARTHS196",
+            "courseTitle": "History of Medieval and Renaissance Art",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ART",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "ART102",
-                        "courseTitle": "Introduction to Three-Dimensional Design and Sculpture",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "ART138",
-                        "courseTitle": "Sculpture I",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ART",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM121",
-                        "courseTitle": "Persuasion and Critical Thinking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART203."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "COMM120",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART224."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            }
-        ]
-    },
-    "7": {
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "ART126",
+                "courseTitle": "Painting I: Introduction to Painting",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "ART126A",
+                "courseTitle": "Introduction to Oil/Acrylic Painting A",
+                "courseUnits": "1.50"
+              },
+              {
+                "courseNumber": "ART126B",
+                "courseTitle": "Introduction to Oil/Acrylic Painting B",
+                "courseUnits": "1.50"
+              }
+            ]
+          }
+        ],
+        "subject": "ART",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ART260."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            }
-        ]
-    }
+          {
+            "courseNumber": "ART127",
+            "courseTitle": "Painting II: Intermediate Painting",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ART",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ART182."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ART102",
+            "courseTitle": "Introduction to Three-Dimensional Design and Sculpture",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ART",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL122",
+            "courseTitle": "First-Year College Writing and Reading",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ART183."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ART213."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "ART102",
+            "courseTitle": "Introduction to Three-Dimensional Design and Sculpture",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "ART138",
+            "courseTitle": "Sculpture I",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ART",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMM121",
+            "courseTitle": "Persuasion and Critical Thinking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ART203."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ART224."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ART260."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, B4, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division E, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      }
+    ]
+  }
 }

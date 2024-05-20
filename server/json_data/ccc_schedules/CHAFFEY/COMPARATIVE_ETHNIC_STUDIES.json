@@ -1,190 +1,190 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMSTD2",
-                        "courseTitle": "Fundamentals of Effective Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ES112."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "COMSTD2",
+            "courseTitle": "Fundamentals of Effective Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ES112."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL1A",
-                        "courseTitle": "Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ES114."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "ENGL1A",
+            "courseTitle": "Composition",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ES114."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "SCSCI10",
-                        "courseTitle": "Statistics for Social Science",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "STAT10",
-                        "courseTitle": "Elementary Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
-            }
-        ]
-    },
-    "5": {
-        "courses": [
-            {
-                "subject": "Survey Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Survey Elective course can go here.\r\n\r\nES Survey Electives: Select 2 courses from ES252, ES253, ES254, ES255, or ES256."
-            },
-            {
-                "subject": "Approved Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Approved Elective course can go here.\r\n\r\nApproved Electives can be selected from any unused ES course or from the Approved Electives list. Courses not on the Approved Electives list may still be selected, but are subject to department approval. A minimum of 8 units of Approved Electives must be at the 300-400 level. Be aware that some courses on this list may have prerequisites and that these prerequisites may need to be taken as Free Electives. Consultation with advisor is recommended prior to selecting electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. See catalog for course options.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            }
-        ]
-    },
-    "6": {
-        "courses": [
-            {
-                "subject": "Survey Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Survey Elective course can go here.\r\n\r\nES Survey Electives: Select 2 courses from ES252, ES253, ES254, ES255, or ES256."
-            },
-            {
-                "subject": "Approved Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Approved Elective course can go here.\r\n\r\nApproved Electives can be selected from any unused ES course or from the Approved Electives list. Courses not on the Approved Electives list may still be selected, but are subject to department approval. A minimum of 8 units of Approved Electives must be at the 300-400 level. Be aware that some courses on this list may have prerequisites and that these prerequisites may need to be taken as Free Electives. Consultation with advisor is recommended prior to selecting electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. See catalog for course options.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
-            }
-        ]
-    },
-    "7": {
-        "courses": [
-            {
-                "subject": "Cultural Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Cultural Elective course can go here.\r\n\r\nES Cultural Electives: Select 3 courses from ES320, ES321, ES322, ES323, or ES340."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
-            }
-        ]
-    }
+          {
+            "courseNumber": "SCSCI10",
+            "courseTitle": "Statistics for Social Science",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "STAT10",
+            "courseTitle": "Elementary Statistics",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "subject": "Survey Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Survey Elective course can go here.\r\n\r\nES Survey Electives: Select 2 courses from ES252, ES253, ES254, ES255, or ES256."
+      },
+      {
+        "subject": "Approved Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Approved Elective course can go here.\r\n\r\nApproved Electives can be selected from any unused ES course or from the Approved Electives list. Courses not on the Approved Electives list may still be selected, but are subject to department approval. A minimum of 8 units of Approved Electives must be at the 300-400 level. Be aware that some courses on this list may have prerequisites and that these prerequisites may need to be taken as Free Electives. Consultation with advisor is recommended prior to selecting electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. See catalog for course options.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "subject": "Survey Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Survey Elective course can go here.\r\n\r\nES Survey Electives: Select 2 courses from ES252, ES253, ES254, ES255, or ES256."
+      },
+      {
+        "subject": "Approved Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Approved Elective course can go here.\r\n\r\nApproved Electives can be selected from any unused ES course or from the Approved Electives list. Courses not on the Approved Electives list may still be selected, but are subject to department approval. A minimum of 8 units of Approved Electives must be at the 300-400 level. Be aware that some courses on this list may have prerequisites and that these prerequisites may need to be taken as Free Electives. Consultation with advisor is recommended prior to selecting electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. See catalog for course options.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "subject": "Cultural Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Cultural Elective course can go here.\r\n\r\nES Cultural Electives: Select 3 courses from ES320, ES321, ES322, ES323, or ES340."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D2, Lower-Division E, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with Ethnic Studies courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nSome Free Electives may need to be 300-400 level to ensure completion of required minimum of 60 units upper division. If a General Education (GE) course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree. Consult college advisor for additional information."
+      }
+    ]
+  }
 }

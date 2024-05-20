@@ -10,6 +10,7 @@
     "start:client": "cd client && npm run dev",
     "start:server": "cd server && node server.js",
     "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
+    "format": "prettier --write \"client/**/*.{js,jsx,ts,tsx,json,css,scss,md}\" && prettier --write \"server/**/*.{js,json,md}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,12 +18,12 @@
   "license": "ISC",
   "devDependencies": {
     "@types/react-icons": "^3.0.0",
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "prettier": "^3.2.5"
   },
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^11.1.7",
-    "prettier": "^3.2.5",
     "react-icons": "^5.1.0",
     "styled-components": "^6.1.8",
     "tailwind-merge": "^2.3.0"

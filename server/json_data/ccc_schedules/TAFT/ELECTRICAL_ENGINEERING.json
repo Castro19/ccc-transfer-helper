@@ -1,234 +1,231 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR1500",
-                        "courseTitle": "Introduction to Engineering",
-                        "courseUnits": "2.00"
-                    }
-                ],
-                "subject": "EE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH2100",
-                        "courseTitle": "Analytic Geometry and Calculus I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM2211",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM1511",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE151."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "ENGR1500",
+            "courseTitle": "Introduction to Engineering",
+            "courseUnits": "2.00"
+          }
+        ],
+        "subject": "EE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS2221",
-                        "courseTitle": "General Physics (Calculus)",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH2120",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL1500",
-                        "courseTitle": "Composition and Reading",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC101."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "MATH2100",
+            "courseTitle": "Analytic Geometry and Calculus I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS2222",
-                        "courseTitle": "General Physics II (Calculus)",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH2120",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "CHEM2211",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE211."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE241."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE133."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATH244."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "COMM1511",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE151."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH2130",
-                        "courseTitle": "Analytic Geometry and Calculus III",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE212."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE242."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO213."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BMED213."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "PHYS2221",
+            "courseTitle": "General Physics (Calculus)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS2223",
-                        "courseTitle": "General Physics III (Calculus)",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE255."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE295."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE228."
-            }
-        ]
-    }
+          {
+            "courseNumber": "MATH2120",
+            "courseTitle": "Analytic Geometry and Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL1500",
+            "courseTitle": "Composition and Reading",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CSC101."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS2222",
+            "courseTitle": "General Physics II (Calculus)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH2120",
+            "courseTitle": "Analytic Geometry and Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "Choose One",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE211."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE241."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE133."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS142."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATH244."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH2130",
+            "courseTitle": "Analytic Geometry and Calculus III",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE212."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE242."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE233."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO213."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BMED213."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS2223",
+            "courseTitle": "General Physics III (Calculus)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE255."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE295."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE228."
+      }
+    ]
+  }
 }

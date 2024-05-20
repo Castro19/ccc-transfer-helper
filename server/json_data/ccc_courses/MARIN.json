@@ -1,592 +1,592 @@
 {
-    "name": "College of Marin",
-    "code": "MARIN",
-    "id": 4,
-    "courses": [
-        {
-            "courseNumber": "ARCH100",
-            "courseTitle": "History of Architecture I",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ARCH101",
-            "courseTitle": "History of Architecture II",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ARCH102",
-            "courseTitle": "History of Architecture III",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART130",
-            "courseTitle": "Drawing and Composition I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ART112",
-            "courseTitle": "2-D Art and Design Foundations",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ART148",
-            "courseTitle": "Color Theory",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ART113",
-            "courseTitle": "3-D Art and Design Foundations",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ART190",
-            "courseTitle": "Black and White Photography I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ART180",
-            "courseTitle": "Sculpture I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ART101",
-            "courseTitle": "History of Western Art: Ancient - Medieval",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART102",
-            "courseTitle": "History of Western Art: Medieval - Nineteenth Century",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "BIOL110",
-            "courseTitle": "Introduction to Biology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "BIOL110L",
-            "courseTitle": "Introduction to Biology Laboratory",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "BIOL224",
-            "courseTitle": "Human Physiology",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "BIOL120",
-            "courseTitle": "Human Anatomy",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "BIOL240",
-            "courseTitle": "Microbiology",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "BUS107",
-            "courseTitle": "Business Law",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "BUS112",
-            "courseTitle": "Financial Accounting",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BUS113",
-            "courseTitle": "Managerial Accounting",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ECON102",
-            "courseTitle": "Principles of Microeconomics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ECON101",
-            "courseTitle": "Principles of Macroeconomics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CHEM131",
-            "courseTitle": "General Chemistry I",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "CHEM105",
-            "courseTitle": "Chemistry in the Human Environment",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CHEM105L",
-            "courseTitle": "Chemistry in the Human Environment: Laboratory",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "CHEM132",
-            "courseTitle": "General Chemistry II",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "CHEM115",
-            "courseTitle": "Survey of Organic and Biochemistry",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "CHEM231",
-            "courseTitle": "Organic Chemistry I",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "CHEM232",
-            "courseTitle": "Organic Chemistry II",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "COMM103",
-            "courseTitle": "Public Speaking",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGL151",
-            "courseTitle": "Advanced College Writing about Literature (1B)",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "COMM101",
-            "courseTitle": "Interpersonal Communication",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "COMP232",
-            "courseTitle": "Advanced Programming in JAVA",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "COMP130",
-            "courseTitle": "Introduction to Computer Programming Using C++",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "COMP235",
-            "courseTitle": "Advanced Programming in C++",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "COMP160",
-            "courseTitle": "Computer Organization: An Assembly Language Perspective",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGG150",
-            "courseTitle": "Programming in MATLAB for Engineers",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "COMP150",
-            "courseTitle": "Programming in MATLAB for Engineers",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ENGG220",
-            "courseTitle": "Electric Circuit Analysis",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGL150",
-            "courseTitle": "College Writing and Reading (1A)",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ENGL224",
-            "courseTitle": "Survey of World Literature Through 1650",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGL225",
-            "courseTitle": "Survey of World Literature Since 1650",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "BIOL100",
-            "courseTitle": "Nutrition",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HIST110",
-            "courseTitle": "Western Civilization I: To 1350",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HIST111",
-            "courseTitle": "Western Civilization II: 1350 to 1815",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HIST112",
-            "courseTitle": "Western Civilization III: the 19th and 20th Centuries",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PHYS207A",
-            "courseTitle": "Mechanics and Properties of Matter",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "MATH123",
-            "courseTitle": "Analytic Geometry and Calculus I",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "MATH124",
-            "courseTitle": "Analytic Geometry and Calculus II",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "ENGG235",
-            "courseTitle": "Engineering Mechanics: Statics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGG230",
-            "courseTitle": "Engineering Dynamics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH223",
-            "courseTitle": "Analytic Geometry and Calculus III",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "MATH224",
-            "courseTitle": "Elementary Differential Equations",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "MATH116",
-            "courseTitle": "Linear Algebra",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "MACH130A",
-            "courseTitle": "Welding I",
-            "courseUnits": "2.00"
-        },
-        {
-            "courseNumber": "MACH131A",
-            "courseTitle": "Welding II",
-            "courseUnits": "2.00"
-        },
-        {
-            "courseNumber": "ENGG125",
-            "courseTitle": "Introductory Engineering Graphics",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "MACH120",
-            "courseTitle": "Machine Technology I",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HED130",
-            "courseTitle": "Contemporary Health",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HED150",
-            "courseTitle": "Women's Health Issues",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "FIRE215",
-            "courseTitle": "Advanced First Aid/First Responder",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "GEOG125",
-            "courseTitle": "Introduction to Geographic Information Systems",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGG110A",
-            "courseTitle": "Introduction to the Engineering Profession",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "ENGG245",
-            "courseTitle": "Engineering Materials Science",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "MATH110",
-            "courseTitle": "Introduction to Mathematical Reasoning",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH105",
-            "courseTitle": "College Algebra",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "MATH109",
-            "courseTitle": "Pre-Calculus College Algebra and Trigonometry",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "MATH104",
-            "courseTitle": "Plane Trigonometry",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH121",
-            "courseTitle": "Calculus I with Applications",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH122",
-            "courseTitle": "Calculus II with Applications",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MUS112",
-            "courseTitle": "Theory II",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MUS121",
-            "courseTitle": "Ear Training I",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MUS122",
-            "courseTitle": "Ear Training II",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MUS211",
-            "courseTitle": "Theory III",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MUS221",
-            "courseTitle": "Ear Training III",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MUS222",
-            "courseTitle": "Ear Training IV",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MUS171",
-            "courseTitle": "Piano I",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "MUS177",
-            "courseTitle": "Jazz Ensemble",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "MUS168",
-            "courseTitle": "Community Symphonic Band",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "MUS167",
-            "courseTitle": "Symphony Orchestra",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "MUS163",
-            "courseTitle": "College Chorus",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "MUS183",
-            "courseTitle": "Chamber Singers",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "GEOG101",
-            "courseTitle": "The Physical Environment",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "BIOL138",
-            "courseTitle": "Introduction to Environmental Sciences",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "GEOL120",
-            "courseTitle": "Physical Geology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "GEOL120L",
-            "courseTitle": "Physical Geology Laboratory",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "PHYS108A",
-            "courseTitle": "General Physics I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "PHYS108B",
-            "courseTitle": "General Physics II",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "PHYS207C",
-            "courseTitle": "Heat, Light, Sound and Modern Physics",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "PHYS207B",
-            "courseTitle": "Electricity and Magnetism",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "POLS104",
-            "courseTitle": "International Relations",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "POLS103",
-            "courseTitle": "Political Theory",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSY140",
-            "courseTitle": "Family and Intimate Relationships",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC140",
-            "courseTitle": "Family and Intimate Relationships",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSY114",
-            "courseTitle": "The Psychology of Human Development: Lifespan",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSY110",
-            "courseTitle": "Introduction to Psychology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSY230",
-            "courseTitle": "Social Psychology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC230",
-            "courseTitle": "Social Psychology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ANTH102",
-            "courseTitle": "Introduction to Cultural Anthropology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ANTH110",
-            "courseTitle": "Introduction to Archaeology and Prehistory",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ANTH101",
-            "courseTitle": "Introduction to Physical/Biological Anthropology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "GEOG102",
-            "courseTitle": "The Human Environment",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC110",
-            "courseTitle": "Introduction to Sociology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC112",
-            "courseTitle": "Modern Social Problems",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ETST110",
-            "courseTitle": "Introduction to Ethnic Studies",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC130",
-            "courseTitle": "Race and Ethnicity",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH115",
-            "courseTitle": "Probability and Statistics",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "STAT115",
-            "courseTitle": "Introduction to Statistics for Business",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "DRAM152",
-            "courseTitle": "Introduction to Stage Costume",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "DRAM131",
-            "courseTitle": "Theory and Practice in Acting II",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "FREN101",
-            "courseTitle": "Elementary French I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "FREN102",
-            "courseTitle": "Elementary French II",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "FREN203",
-            "courseTitle": "Intermediate French III",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "FREN204",
-            "courseTitle": "Intermediate French IV",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN101",
-            "courseTitle": "Elementary Spanish I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN102",
-            "courseTitle": "Elementary Spanish II",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN203",
-            "courseTitle": "Intermediate Spanish III",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN204",
-            "courseTitle": "Intermediate Spanish IV",
-            "courseUnits": "4.00"
-        }
-    ]
+  "name": "College of Marin",
+  "code": "MARIN",
+  "id": 4,
+  "courses": [
+    {
+      "courseNumber": "ARCH100",
+      "courseTitle": "History of Architecture I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ARCH101",
+      "courseTitle": "History of Architecture II",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ARCH102",
+      "courseTitle": "History of Architecture III",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART130",
+      "courseTitle": "Drawing and Composition I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ART112",
+      "courseTitle": "2-D Art and Design Foundations",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ART148",
+      "courseTitle": "Color Theory",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ART113",
+      "courseTitle": "3-D Art and Design Foundations",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ART190",
+      "courseTitle": "Black and White Photography I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ART180",
+      "courseTitle": "Sculpture I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ART101",
+      "courseTitle": "History of Western Art: Ancient - Medieval",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART102",
+      "courseTitle": "History of Western Art: Medieval - Nineteenth Century",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIOL110",
+      "courseTitle": "Introduction to Biology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIOL110L",
+      "courseTitle": "Introduction to Biology Laboratory",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "BIOL224",
+      "courseTitle": "Human Physiology",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BIOL120",
+      "courseTitle": "Human Anatomy",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BIOL240",
+      "courseTitle": "Microbiology",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BUS107",
+      "courseTitle": "Business Law",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BUS112",
+      "courseTitle": "Financial Accounting",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BUS113",
+      "courseTitle": "Managerial Accounting",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ECON102",
+      "courseTitle": "Principles of Microeconomics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ECON101",
+      "courseTitle": "Principles of Macroeconomics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CHEM131",
+      "courseTitle": "General Chemistry I",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHEM105",
+      "courseTitle": "Chemistry in the Human Environment",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CHEM105L",
+      "courseTitle": "Chemistry in the Human Environment: Laboratory",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "CHEM132",
+      "courseTitle": "General Chemistry II",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHEM115",
+      "courseTitle": "Survey of Organic and Biochemistry",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CHEM231",
+      "courseTitle": "Organic Chemistry I",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHEM232",
+      "courseTitle": "Organic Chemistry II",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "COMM103",
+      "courseTitle": "Public Speaking",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL151",
+      "courseTitle": "Advanced College Writing about Literature (1B)",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "COMM101",
+      "courseTitle": "Interpersonal Communication",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COMP232",
+      "courseTitle": "Advanced Programming in JAVA",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "COMP130",
+      "courseTitle": "Introduction to Computer Programming Using C++",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "COMP235",
+      "courseTitle": "Advanced Programming in C++",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "COMP160",
+      "courseTitle": "Computer Organization: An Assembly Language Perspective",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGG150",
+      "courseTitle": "Programming in MATLAB for Engineers",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "COMP150",
+      "courseTitle": "Programming in MATLAB for Engineers",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGG220",
+      "courseTitle": "Electric Circuit Analysis",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL150",
+      "courseTitle": "College Writing and Reading (1A)",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGL224",
+      "courseTitle": "Survey of World Literature Through 1650",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL225",
+      "courseTitle": "Survey of World Literature Since 1650",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIOL100",
+      "courseTitle": "Nutrition",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST110",
+      "courseTitle": "Western Civilization I: To 1350",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST111",
+      "courseTitle": "Western Civilization II: 1350 to 1815",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST112",
+      "courseTitle": "Western Civilization III: the 19th and 20th Centuries",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHYS207A",
+      "courseTitle": "Mechanics and Properties of Matter",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "MATH123",
+      "courseTitle": "Analytic Geometry and Calculus I",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "MATH124",
+      "courseTitle": "Analytic Geometry and Calculus II",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "ENGG235",
+      "courseTitle": "Engineering Mechanics: Statics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGG230",
+      "courseTitle": "Engineering Dynamics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH223",
+      "courseTitle": "Analytic Geometry and Calculus III",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "MATH224",
+      "courseTitle": "Elementary Differential Equations",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH116",
+      "courseTitle": "Linear Algebra",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MACH130A",
+      "courseTitle": "Welding I",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "MACH131A",
+      "courseTitle": "Welding II",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "ENGG125",
+      "courseTitle": "Introductory Engineering Graphics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MACH120",
+      "courseTitle": "Machine Technology I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HED130",
+      "courseTitle": "Contemporary Health",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HED150",
+      "courseTitle": "Women's Health Issues",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "FIRE215",
+      "courseTitle": "Advanced First Aid/First Responder",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOG125",
+      "courseTitle": "Introduction to Geographic Information Systems",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGG110A",
+      "courseTitle": "Introduction to the Engineering Profession",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "ENGG245",
+      "courseTitle": "Engineering Materials Science",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH110",
+      "courseTitle": "Introduction to Mathematical Reasoning",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH105",
+      "courseTitle": "College Algebra",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH109",
+      "courseTitle": "Pre-Calculus College Algebra and Trigonometry",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "MATH104",
+      "courseTitle": "Plane Trigonometry",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH121",
+      "courseTitle": "Calculus I with Applications",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH122",
+      "courseTitle": "Calculus II with Applications",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS112",
+      "courseTitle": "Theory II",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS121",
+      "courseTitle": "Ear Training I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS122",
+      "courseTitle": "Ear Training II",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS211",
+      "courseTitle": "Theory III",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS221",
+      "courseTitle": "Ear Training III",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS222",
+      "courseTitle": "Ear Training IV",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS171",
+      "courseTitle": "Piano I",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "MUS177",
+      "courseTitle": "Jazz Ensemble",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "MUS168",
+      "courseTitle": "Community Symphonic Band",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "MUS167",
+      "courseTitle": "Symphony Orchestra",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "MUS163",
+      "courseTitle": "College Chorus",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "MUS183",
+      "courseTitle": "Chamber Singers",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "GEOG101",
+      "courseTitle": "The Physical Environment",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIOL138",
+      "courseTitle": "Introduction to Environmental Sciences",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "GEOL120",
+      "courseTitle": "Physical Geology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOL120L",
+      "courseTitle": "Physical Geology Laboratory",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "PHYS108A",
+      "courseTitle": "General Physics I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHYS108B",
+      "courseTitle": "General Physics II",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHYS207C",
+      "courseTitle": "Heat, Light, Sound and Modern Physics",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "PHYS207B",
+      "courseTitle": "Electricity and Magnetism",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "POLS104",
+      "courseTitle": "International Relations",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "POLS103",
+      "courseTitle": "Political Theory",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY140",
+      "courseTitle": "Family and Intimate Relationships",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC140",
+      "courseTitle": "Family and Intimate Relationships",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY114",
+      "courseTitle": "The Psychology of Human Development: Lifespan",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY110",
+      "courseTitle": "Introduction to Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY230",
+      "courseTitle": "Social Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC230",
+      "courseTitle": "Social Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANTH102",
+      "courseTitle": "Introduction to Cultural Anthropology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANTH110",
+      "courseTitle": "Introduction to Archaeology and Prehistory",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANTH101",
+      "courseTitle": "Introduction to Physical/Biological Anthropology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOG102",
+      "courseTitle": "The Human Environment",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC110",
+      "courseTitle": "Introduction to Sociology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC112",
+      "courseTitle": "Modern Social Problems",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ETST110",
+      "courseTitle": "Introduction to Ethnic Studies",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC130",
+      "courseTitle": "Race and Ethnicity",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH115",
+      "courseTitle": "Probability and Statistics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "STAT115",
+      "courseTitle": "Introduction to Statistics for Business",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "DRAM152",
+      "courseTitle": "Introduction to Stage Costume",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "DRAM131",
+      "courseTitle": "Theory and Practice in Acting II",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "FREN101",
+      "courseTitle": "Elementary French I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "FREN102",
+      "courseTitle": "Elementary French II",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "FREN203",
+      "courseTitle": "Intermediate French III",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "FREN204",
+      "courseTitle": "Intermediate French IV",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN101",
+      "courseTitle": "Elementary Spanish I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN102",
+      "courseTitle": "Elementary Spanish II",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN203",
+      "courseTitle": "Intermediate Spanish III",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN204",
+      "courseTitle": "Intermediate Spanish IV",
+      "courseUnits": "4.00"
+    }
+  ]
 }

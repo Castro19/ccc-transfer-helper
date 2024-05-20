@@ -1,321 +1,321 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOL6A",
-                        "courseTitle": "Form and Function in the Biological World",
-                        "courseUnits": "6.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1A",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "COMM1",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "COMM1H",
-                        "courseTitle": "Public Speaking - HONORS",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MSCI100."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "BIOL6A",
+            "courseTitle": "Form and Function in the Biological World",
+            "courseUnits": "6.00"
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1B",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "EWRT1A",
-                        "courseTitle": "Composition and Reading",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO161."
-            },
-            {
-                "subject": "Calculus I",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH1A",
-                                "courseTitle": "Calculus",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH1A",
-                                "courseTitle": "Calculus",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: MATH141, or MATH161.\r\n\r\nStudents emphasizing in Chemistry, Physics, or Engineering should take MATH141 and MATH142 instead of MATH161 and MATH162. GE Area B4 will be met with any of the following: MATH161, MATH162, MATH141, MATH142."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "CHEM1A",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOL6A",
-                        "courseTitle": "Form and Function in the Biological World",
-                        "courseUnits": "6.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1C",
-                        "courseTitle": "General Chemistry and Qualitative Analysis",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
-            {
-                "subject": "Calculus II",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH1B",
-                                "courseTitle": "Calculus",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH1B",
-                                "courseTitle": "Calculus",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: MATH142, or MATH162.\r\n\r\nStudents emphasizing in Chemistry, Physics, or Engineering should take MATH141 and MATH142 instead of MATH161 and MATH162. GE Area B4 will be met with any of the following: MATH161, MATH162, MATH141, MATH142."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "COMM1",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "COMM1H",
+            "courseTitle": "Public Speaking - HONORS",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MSCI100."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO263."
-            },
-            {
-                "subject": "Organic Chemistry I",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: CHEM216, or CHEM312.\r\n\r\nIf CHEM216 is taken, then some Free Electives may need to be 300-400 level to ensure completion of the required minimum of 60 units of upper-division."
-            },
-            {
-                "subject": "Physics I",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS2A",
-                                "courseTitle": "General Introductory Physics",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHYS121, or PHYS141.\r\n\r\nStudents emphasizing in Physics should take PHYS141, PHYS142, and PHYS143 instead of PHYS121, PHYS122, and PHSY123. GE Area B1 will be met with any of the following: PHYS121, PHYS122, PHYS141, or PHYS142."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "CHEM1B",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "PSYC15",
-                        "courseTitle": "Statistics and Research Methods in Social Science",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "SOC15",
-                        "courseTitle": "Statistics and Research Methods in Social Science",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH10",
-                        "courseTitle": "Introductory Statistics",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "MATH23",
-                        "courseTitle": "Engineering Statistics",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "subject": "Physics II",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS4C",
-                                "courseTitle": "Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics",
-                                "courseUnits": "6.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHYS122, or PHYS142.\r\n\r\nStudents emphasizing in Physics should take PHYS141, PHYS142, and PHYS143 instead of PHYS121, PHYS122, and PHSY123. GE Area B1 will be met with any of the following: PHYS121, PHYS122, PHYS141, or PHYS142."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "EWRT1A",
+            "courseTitle": "Composition and Reading",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO161."
+      },
+      {
+        "subject": "Calculus I",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH1A",
+                "courseTitle": "Calculus",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH1A",
+                "courseTitle": "Calculus",
+                "courseUnits": "5.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH141, or MATH161.\r\n\r\nStudents emphasizing in Chemistry, Physics, or Engineering should take MATH141 and MATH142 instead of MATH161 and MATH162. GE Area B4 will be met with any of the following: MATH161, MATH162, MATH141, MATH142."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PSC201."
-            },
-            {
-                "subject": "Physics III",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS2B",
-                                "courseTitle": "General Introductory Physics",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS4B",
-                                "courseTitle": "Physics for Scientists and Engineers: Electricity and Magnetism",
-                                "courseUnits": "6.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHYS123, or PHYS143.\r\n\r\nStudents emphasizing in Physics should take PHYS141, PHYS142, and PHYS143 instead of PHYS121, PHYS122, and PHSY123. GE Area B1 will be met with any of the following: PHYS121, PHYS122, PHYS141, or PHYS142."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    }
+          {
+            "courseNumber": "BIOL6A",
+            "courseTitle": "Form and Function in the Biological World",
+            "courseUnits": "6.00"
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM1C",
+            "courseTitle": "General Chemistry and Qualitative Analysis",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "Calculus II",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH1B",
+                "courseTitle": "Calculus",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH1B",
+                "courseTitle": "Calculus",
+                "courseUnits": "5.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH142, or MATH162.\r\n\r\nStudents emphasizing in Chemistry, Physics, or Engineering should take MATH141 and MATH142 instead of MATH161 and MATH162. GE Area B4 will be met with any of the following: MATH161, MATH162, MATH141, MATH142."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO263."
+      },
+      {
+        "subject": "Organic Chemistry I",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          null
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: CHEM216, or CHEM312.\r\n\r\nIf CHEM216 is taken, then some Free Electives may need to be 300-400 level to ensure completion of the required minimum of 60 units of upper-division."
+      },
+      {
+        "subject": "Physics I",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS2A",
+                "courseTitle": "General Introductory Physics",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          null
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHYS121, or PHYS141.\r\n\r\nStudents emphasizing in Physics should take PHYS141, PHYS142, and PHYS143 instead of PHYS121, PHYS122, and PHSY123. GE Area B1 will be met with any of the following: PHYS121, PHYS122, PHYS141, or PHYS142."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "PSYC15",
+            "courseTitle": "Statistics and Research Methods in Social Science",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "SOC15",
+            "courseTitle": "Statistics and Research Methods in Social Science",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH10",
+            "courseTitle": "Introductory Statistics",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH23",
+            "courseTitle": "Engineering Statistics",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": false
+      },
+      {
+        "subject": "Physics II",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS4C",
+                "courseTitle": "Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics",
+                "courseUnits": "6.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHYS122, or PHYS142.\r\n\r\nStudents emphasizing in Physics should take PHYS141, PHYS142, and PHYS143 instead of PHYS121, PHYS122, and PHSY123. GE Area B1 will be met with any of the following: PHYS121, PHYS122, PHYS141, or PHYS142."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PSC201."
+      },
+      {
+        "subject": "Physics III",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS2B",
+                "courseTitle": "General Introductory Physics",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS4B",
+                "courseTitle": "Physics for Scientists and Engineers: Electricity and Magnetism",
+                "courseUnits": "6.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHYS123, or PHYS143.\r\n\r\nStudents emphasizing in Physics should take PHYS141, PHYS142, and PHYS143 instead of PHYS121, PHYS122, and PHSY123. GE Area B1 will be met with any of the following: PHYS121, PHYS122, PHYS141, or PHYS142."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  }
 }

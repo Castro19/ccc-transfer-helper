@@ -1,293 +1,290 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHV21A",
-                        "courseTitle": "Calculus with Analytic Geometry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEMV01A",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEMV01AL",
-                        "courseTitle": "General Chemistry I Laboratory",
-                        "courseUnits": "2.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMMV01",
-                        "courseTitle": "Introduction to Speech Communication",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE111."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE151."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "MATHV21A",
+            "courseTitle": "Calculus with Analytic Geometry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CSV40",
-                        "courseTitle": "Beginning Java",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CSV30",
-                        "courseTitle": "Beginning C++",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CSV11",
-                        "courseTitle": "Programming Fundamentals",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYSV04",
-                        "courseTitle": "Mechanics for Scientists and Engineers",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PHYSV04L",
-                        "courseTitle": "Mechanics Laboratory for Scientists and Engineers",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHV21B",
-                        "courseTitle": "Calculus with Analytic Geometry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLV01A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "CHEMV01A",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CHEMV01AL",
+            "courseTitle": "General Chemistry I Laboratory",
+            "courseUnits": "2.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYSV05",
-                        "courseTitle": "Electricity and Magnetism for Scientists and Engineers",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PHYSV05L",
-                        "courseTitle": "Electricity and Magnetism Laboratory for Scientists and Engineers",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHV21B",
-                        "courseTitle": "Calculus with Analytic Geometry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMMV10",
-                        "courseTitle": "Critical Thinking in Oral Communication: Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "COMMV01",
+            "courseTitle": "Introduction to Speech Communication",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE111."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE151."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGRV16L",
-                        "courseTitle": "Electronic Circuits Laboratory",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "EE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATHV22",
-                        "courseTitle": "Introduction to Linear Algebra",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATHV23",
-                        "courseTitle": "Introduction to Differential Equations",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE211."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE133."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "CSV40",
+            "courseTitle": "Beginning Java",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CSV30",
+            "courseTitle": "Beginning C++",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CSV11",
+            "courseTitle": "Programming Fundamentals",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHV21C",
-                        "courseTitle": "Multivariable Calculus",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE212."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE242."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO213."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BMED213."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "PHYSV04",
+            "courseTitle": "Mechanics for Scientists and Engineers",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PHYSV04L",
+            "courseTitle": "Mechanics Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYSV06",
-                        "courseTitle": "Optics, Heat, and Modern Physics for Scientists and Engineers",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PHYSV06L",
-                        "courseTitle": "Optics, Heat and Modern Physics Laboratory for Scientists and Engineers",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE255."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE295."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE228."
-            }
-        ]
-    }
+          {
+            "courseNumber": "MATHV21B",
+            "courseTitle": "Calculus with Analytic Geometry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGLV01A",
+            "courseTitle": "English Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYSV05",
+            "courseTitle": "Electricity and Magnetism for Scientists and Engineers",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PHYSV05L",
+            "courseTitle": "Electricity and Magnetism Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATHV21B",
+            "courseTitle": "Calculus with Analytic Geometry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMMV10",
+            "courseTitle": "Critical Thinking in Oral Communication: Argumentation and Debate",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Choose One",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGRV16L",
+            "courseTitle": "Electronic Circuits Laboratory",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "EE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "MATHV22",
+            "courseTitle": "Introduction to Linear Algebra",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "MATHV23",
+            "courseTitle": "Introduction to Differential Equations",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE211."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE133."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS142."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATHV21C",
+            "courseTitle": "Multivariable Calculus",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE212."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE242."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE233."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO213."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BMED213."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYSV06",
+            "courseTitle": "Optics, Heat, and Modern Physics for Scientists and Engineers",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PHYSV06L",
+            "courseTitle": "Optics, Heat and Modern Physics Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE255."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE295."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE228."
+      }
+    ]
+  }
 }

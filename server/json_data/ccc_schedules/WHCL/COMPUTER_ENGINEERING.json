@@ -1,237 +1,234 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CIS002D",
-                        "courseTitle": "Introduction to Programming Concepts and Methodologies - JAVA",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CPE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH001A",
-                        "courseTitle": "Introduction to Calculus",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM001A",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COM001",
-                        "courseTitle": "Elements of Speech",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE100."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "CIS002D",
+            "courseTitle": "Introduction to Programming Concepts and Methodologies - JAVA",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CPE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSICS004A",
-                        "courseTitle": "Classical Mechanics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH001B",
-                        "courseTitle": "Calculus with Applications",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENG001",
-                        "courseTitle": "College Composition and Reading",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE101."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "MATH001A",
+            "courseTitle": "Introduction to Calculus",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH001B",
-                        "courseTitle": "Calculus with Applications",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE202."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE133."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "CHEM001A",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSICS004B",
-                        "courseTitle": "Electricity, Magnetism and Waves",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH002A",
-                        "courseTitle": "Multivariate Calculus",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE115."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE145."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "COM001",
+            "courseTitle": "Elements of Speech",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE100."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH003A",
-                        "courseTitle": "Linear Algebra I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE245."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "PHYSICS004A",
+            "courseTitle": "Classical Mechanics",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC248."
-            },
-            {
-                "subject": "Computer Architecture Course",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: CPE315, or CPE333."
-            },
-            {
-                "subject": "Choose a Philosophy Course",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
-            }
-        ]
-    }
+          {
+            "courseNumber": "MATH001B",
+            "courseTitle": "Calculus with Applications",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENG001",
+            "courseTitle": "College Composition and Reading",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE101."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH001B",
+            "courseTitle": "Calculus with Applications",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE202."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE133."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYSICS004B",
+            "courseTitle": "Electricity, Magnetism and Waves",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH002A",
+            "courseTitle": "Multivariate Calculus",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE233."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE115."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE145."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH003A",
+            "courseTitle": "Linear Algebra I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE203."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE215."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE245."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS142."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CSC248."
+      },
+      {
+        "subject": "Computer Architecture Course",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: CPE315, or CPE333."
+      },
+      {
+        "subject": "Choose a Philosophy Course",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+      }
+    ]
+  }
 }

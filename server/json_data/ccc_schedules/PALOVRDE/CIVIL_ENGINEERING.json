@@ -1,201 +1,201 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MAT220",
-                        "courseTitle": "Calculus I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE111."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BRAE239."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS101."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "MAT220",
+            "courseTitle": "Calculus I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CE111."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BRAE239."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS101."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MAT224",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENG101",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE112."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS141."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM124."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "MAT224",
+            "courseTitle": "Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MAT224",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE113."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM125."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "ENG101",
+            "courseTitle": "Reading and Composition",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CE112."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS141."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM124."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MAT226",
-                        "courseTitle": "Calculus III",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "GEL101",
-                        "courseTitle": "Physical Geology",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "GEOL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE222."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS143."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME211."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "MAT224",
+            "courseTitle": "Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CE113."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS142."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM125."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE204."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATH244."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE210."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME212."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "MAT226",
+            "courseTitle": "Calculus III",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE207."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE259."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO213."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BMED213."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    }
+          {
+            "courseNumber": "GEL101",
+            "courseTitle": "Physical Geology",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "GEOL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CE222."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS143."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ME211."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CE204."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATH244."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATE210."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATE215."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ME212."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CE207."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CE259."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO213."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BMED213."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  }
 }

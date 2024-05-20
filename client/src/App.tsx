@@ -1,10 +1,6 @@
 import "./App.css";
 import "./index.css";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import SchedulePage from "./pages/schedule/SchedulePage";
 
