@@ -2,6 +2,7 @@ import ScheduleList from "@/components/schedulePage/crudSchedules/scheduleList/S
 import { SemesterCourses } from "@/types";
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
+import styles from "./SavedSchedulesPage.module.css";
 
 type paramsType = {
   year: string;
@@ -33,8 +34,8 @@ const SavedSchedulesPage = (): JSX.Element => {
   const [scheduleList] = useState(scheduleListFormatted);
 
   return (
-    <div>
-      <p>SavedSchedulesPage</p>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Saved Schedules</h1>
       <ScheduleList savedSchedules={scheduleList} />
     </div>
   );
