@@ -10,6 +10,8 @@ import { useToast } from "@/components/ui/use-toast";
 import { useEffect, useRef, useState } from "react";
 import deleteScheduleById from "../deleteSchedule/deleteSchedule";
 
+import styles from "./SaveSchedule.module.css";
+
 interface SaveScheduleProps {
   schedule: SemesterType[];
   params: Readonly<Params<string>>;
@@ -69,7 +71,7 @@ const SaveSchedule = ({ schedule, params }: SaveScheduleProps): JSX.Element => {
   };
   return (
     <>
-      <Button variant="outline" onClick={handleSaveSchedule}>
+      <Button className={styles.but} onClick={handleSaveSchedule}>
         Save Schedule
       </Button>
     </>
