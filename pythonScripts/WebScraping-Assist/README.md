@@ -4,6 +4,8 @@
 
 - In this Github repo, I am using selenium and a firefox web driver to web scrape agreements display on Assist.org
 
+- Agreements are scraped, serialized, and saved as .json to json_files/calpolySchedules/
+
 # Installation
 
 This section covers the steps needed to install and set up the necessary environment to run the project.
@@ -64,5 +66,5 @@ pip install -r requirements.txt
 ## Run the Application
 
 ```
-python scraper.py
+python webScraper.py
 ```
