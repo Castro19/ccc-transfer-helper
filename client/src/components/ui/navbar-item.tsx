@@ -22,7 +22,7 @@ export const MenuItem = ({
   active: string | null;
   item: string;
   children?: React.ReactNode;
-}) => {
+}): JSX.Element => {
   return (
     <div onMouseEnter={() => setActive(item)} className="relative ">
       {/* <motion.img
@@ -76,6 +76,7 @@ export const Menu = ({
   );
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const HoveredLink = ({ children, onClick, ...rest }: any) => {
   return (
     <Link

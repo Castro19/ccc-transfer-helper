@@ -60,6 +60,8 @@ const CardMenu = ({
 
       fetchData();
     }
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ccc, setMajorList, setUnivList]);
 
   // 2. When the user selects their transfer university,:
