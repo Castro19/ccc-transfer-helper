@@ -1,233 +1,233 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOL100",
-                        "courseTitle": "General Biology",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "COMMST100",
-                        "courseTitle": "Elements of Public Speaking",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "COMMST100H",
-                        "courseTitle": "Elements of Public Speaking - Honors",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN125."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "BIOL100",
+            "courseTitle": "General Biology",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "HEALTH263",
-                        "courseTitle": "Nutrition and Health",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "FSN",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM150",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH250",
-                                "courseTitle": "Single Variable Calculus I",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH250",
-                                "courseTitle": "Single Variable Calculus I",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH141",
-                                "courseTitle": "Calculus for Business",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: MATH141, or MATH161."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMMST100",
+            "courseTitle": "Elements of Public Speaking",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "COMMST100H",
+            "courseTitle": "Elements of Public Speaking - Honors",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN102."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN125."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSIC110",
-                        "courseTitle": "General Physics I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMMST125",
-                        "courseTitle": "Critical Thinking through Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN250."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM128."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "HEALTH263",
+            "courseTitle": "Nutrition and Health",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "FSN",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH108",
-                        "courseTitle": "Statistics",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PSYCH108",
-                        "courseTitle": "Statistics",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH110",
-                        "courseTitle": "Introduction to Probability and Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Concentration",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Concentration course can go here."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "CHEM150",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN204."
-            },
-            {
-                "subject": "Concentration",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Concentration course can go here."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "ENGL101",
+            "courseTitle": "Freshman Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH250",
+                "courseTitle": "Single Variable Calculus I",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH250",
+                "courseTitle": "Single Variable Calculus I",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH141",
+                "courseTitle": "Calculus for Business",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH141, or MATH161."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MICRO102",
-                        "courseTitle": "Introductory Microbiology",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MICRO150",
-                        "courseTitle": "Medical Microbiology",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MCRO",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Concentration",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Concentration course can go here."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). Students interested in Blended program should pass GWR no later than Spring of Junior year and adjust their schedule to plan to complete FSN 330 in Fall of their Junior year. FSN330 is one of the prerequisite courses to be considered for the Blended program."
-            }
-        ]
-    }
+          {
+            "courseNumber": "PHYSIC110",
+            "courseTitle": "General Physics I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMMST125",
+            "courseTitle": "Critical Thinking through Argumentation and Debate",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN250."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM128."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH108",
+            "courseTitle": "Statistics",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PSYCH108",
+            "courseTitle": "Statistics",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH110",
+            "courseTitle": "Introduction to Probability and Statistics",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN204."
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MICRO102",
+            "courseTitle": "Introductory Microbiology",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MICRO150",
+            "courseTitle": "Medical Microbiology",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MCRO",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). Students interested in Blended program should pass GWR no later than Spring of Junior year and adjust their schedule to plan to complete FSN 330 in Fall of their Junior year. FSN330 is one of the prerequisite courses to be considered for the Blended program."
+      }
+    ]
+  }
 }

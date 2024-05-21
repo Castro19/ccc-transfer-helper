@@ -1,316 +1,313 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH3A",
-                        "courseTitle": "Calculus I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM45",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC123."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "MATH3A",
+            "courseTitle": "Calculus I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIS36A",
-                        "courseTitle": "Java Programming Language I",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "CIS6",
-                        "courseTitle": "Introduction to Computer Programming",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH3B",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL1A",
-                        "courseTitle": "Composition and Reading",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMM45",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CSC123."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH3B",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM5",
-                        "courseTitle": "Persuasion and Critical Thinking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC202."
-            },
-            {
-                "subject": "General Psychology",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PSYCH1A",
-                                "courseTitle": "Introduction to General Psychology",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PSYCH1A",
-                                "courseTitle": "Introduction to General Psychology",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PSY201 or PSY202."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "CIS36A",
+            "courseTitle": "Java Programming Language I",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CIS6",
+            "courseTitle": "Introduction to Computer Programming",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CIS20",
-                        "courseTitle": "Microcomputer Assembly Language",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH3C",
-                        "courseTitle": "Calculus III",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1A",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC203."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "MATH3B",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATH3E",
-                        "courseTitle": "Linear Algebra",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATH3F",
-                        "courseTitle": "Differential Equations",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1B",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC248."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "ENGL1A",
+            "courseTitle": "Composition and Reading",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1B",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: IME314 or IME315."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "PHIL20A",
-                                "courseTitle": "History of Ancient Greek Philosophy",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL20B",
-                                "courseTitle": "History of Modern European Philosophy",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "HUMAN30A",
-                                "courseTitle": "Human Values / Ethics",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL1",
-                                "courseTitle": "Introduction to Philosophy",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "PHIL31A",
-                                "courseTitle": "Human Values / Ethics",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL1",
-                                "courseTitle": "Introduction to Philosophy",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL20A",
-                                "courseTitle": "History of Ancient Greek Philosophy",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL20B",
-                                "courseTitle": "History of Modern European Philosophy",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHIL230 or PHIL231."
-            }
-        ]
-    }
+          {
+            "courseNumber": "MATH3B",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMM5",
+            "courseTitle": "Persuasion and Critical Thinking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CSC202."
+      },
+      {
+        "subject": "General Psychology",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PSYCH1A",
+                "courseTitle": "Introduction to General Psychology",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PSYCH1A",
+                "courseTitle": "Introduction to General Psychology",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PSY201 or PSY202."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CIS20",
+            "courseTitle": "Microcomputer Assembly Language",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH3C",
+            "courseTitle": "Calculus III",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM1A",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CSC203."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "MATH3E",
+            "courseTitle": "Linear Algebra",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "MATH3F",
+            "courseTitle": "Differential Equations",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM1B",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CSC248."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM1B",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Choose One",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: IME314 or IME315."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PHIL20A",
+                "courseTitle": "History of Ancient Greek Philosophy",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL20B",
+                "courseTitle": "History of Modern European Philosophy",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "HUMAN30A",
+                "courseTitle": "Human Values / Ethics",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL1",
+                "courseTitle": "Introduction to Philosophy",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PHIL31A",
+                "courseTitle": "Human Values / Ethics",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL1",
+                "courseTitle": "Introduction to Philosophy",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL20A",
+                "courseTitle": "History of Ancient Greek Philosophy",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL20B",
+                "courseTitle": "History of Modern European Philosophy",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHIL230 or PHIL231."
+      }
+    ]
+  }
 }

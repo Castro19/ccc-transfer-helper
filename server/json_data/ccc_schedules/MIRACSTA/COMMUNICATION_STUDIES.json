@@ -1,299 +1,293 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS100."
+      },
+      {
+        "subject": "Oral Communication",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "COMM101",
+                "courseTitle": "Public Speaking",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "COMM101",
+                "courseTitle": "Public Speaking",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: COMS101, or COMS102."
+      },
+      {
+        "subject": "Expository Writing",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: ENGL133, or ENGL134."
+      },
+      {
+        "subject": "Free Elective",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here. Recommended: Foreign Language 101."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS205."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "Statistics",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH103",
+                "courseTitle": "Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH103S",
+                "courseTitle": "Statistics with Integrated Support",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "PSYC104",
+                "courseTitle": "Statistics for Behavioral Science",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "PSYC104H",
+                "courseTitle": "Statistics for Behavioral Science (Honors)",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BTEC180",
+                "courseTitle": "Biostatistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BTEC180H",
+                "courseTitle": "Biostatistics (Honors)",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "SOC125",
+                "courseTitle": "Introduction to Statistics in Sociology",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BUS204",
+                "courseTitle": "Business Statistics",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "BUS204H",
+                "courseTitle": "Business Statistics (Honors)",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH103",
+                "courseTitle": "Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH103S",
+                "courseTitle": "Statistics with Integrated Support",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "PSYC104",
+                "courseTitle": "Statistics for Behavioral Science",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "PSYC104H",
+                "courseTitle": "Statistics for Behavioral Science (Honors)",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BTEC180",
+                "courseTitle": "Biostatistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BTEC180H",
+                "courseTitle": "Biostatistics (Honors)",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT217, or STAT218."
+      },
+      {
+        "subject": "Free Elective",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here. Recommended: Foreign Language 102."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS100."
-            },
-            {
-                "subject": "Oral Communication",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "COMM101",
-                                "courseTitle": "Public Speaking",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "COMM101",
-                                "courseTitle": "Public Speaking",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: COMS101, or COMS102."
-            },
-            {
-                "subject": "Expository Writing",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: ENGL133, or ENGL134."
-            },
-            {
-                "subject": "Free Elective",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here. Recommended: Foreign Language 101."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "COMM120",
+            "courseTitle": "Principles of Human Communication",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS208."
+      },
+      {
+        "subject": "Modern Language",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Modern Language (103-Level) course can go here. Refer to Catalog."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS205."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
-            {
-                "subject": "Statistics",
-                "course": [
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH103",
-                                "courseTitle": "Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH103S",
-                                "courseTitle": "Statistics with Integrated Support",
-                                "courseUnits": "5.00"
-                            },
-                            {
-                                "courseNumber": "PSYC104",
-                                "courseTitle": "Statistics for Behavioral Science",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "PSYC104H",
-                                "courseTitle": "Statistics for Behavioral Science (Honors)",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BTEC180",
-                                "courseTitle": "Biostatistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BTEC180H",
-                                "courseTitle": "Biostatistics (Honors)",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "SOC125",
-                                "courseTitle": "Introduction to Statistics in Sociology",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BUS204",
-                                "courseTitle": "Business Statistics",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "BUS204H",
-                                "courseTitle": "Business Statistics (Honors)",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH103",
-                                "courseTitle": "Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH103S",
-                                "courseTitle": "Statistics with Integrated Support",
-                                "courseUnits": "5.00"
-                            },
-                            {
-                                "courseNumber": "PSYC104",
-                                "courseTitle": "Statistics for Behavioral Science",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "PSYC104H",
-                                "courseTitle": "Statistics for Behavioral Science (Honors)",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BTEC180",
-                                "courseTitle": "Biostatistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BTEC180H",
-                                "courseTitle": "Biostatistics (Honors)",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: STAT217, or STAT218."
-            },
-            {
-                "subject": "Free Elective",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here. Recommended: Foreign Language 102."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMM106",
+            "courseTitle": "Group Communication",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM120",
-                        "courseTitle": "Principles of Human Communication",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS208."
-            },
-            {
-                "subject": "Modern Language",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Modern Language (103-Level) course can go here. Refer to Catalog."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            }
-        ]
-    },
-    "5": {
-        "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM106",
-                        "courseTitle": "Group Communication",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM207",
-                        "courseTitle": "Interpersonal Communication",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            }
-        ]
-    },
-    "6": {
-        "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS213."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            }
-        ]
-    },
-    "7": {
-        "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS250."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here."
-            }
-        ]
-    }
+          {
+            "courseNumber": "COMM207",
+            "courseTitle": "Interpersonal Communication",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS215."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS213."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS250."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here."
+      }
+    ]
+  }
 }

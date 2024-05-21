@@ -1,264 +1,264 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH261",
-                        "courseTitle": "Calculus I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM101",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM101",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME156."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME141."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "MATH261",
+            "courseTitle": "Calculus I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSICS037",
-                        "courseTitle": "Physics for Engineers and Scientists I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH262",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM102",
-                        "courseTitle": "General Chemistry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME144."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "CHEM101",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH262",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLISH101",
-                        "courseTitle": "College Reading and Composition I",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME142."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME223."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "COMM101",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME101."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME156."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME141."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSICS038",
-                        "courseTitle": "Physics for Engineers and Scientists II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH263",
-                        "courseTitle": "Calculus III",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE210."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATE215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL147."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "PHYSICS037",
+            "courseTitle": "Physics for Engineers and Scientists I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGGEN120",
-                        "courseTitle": "INTRODUCTION TO PROGRAMMING CONCEPTS AND METHODOLOGIES FOR ENGINEERS",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGGEN131",
-                        "courseTitle": "STATICS",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ME",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATH275",
-                        "courseTitle": "Ordinary Differential Equations",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATH270",
-                        "courseTitle": "Linear Algebra",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME244."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO213."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BMED213."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "MATH262",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE204."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME212."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE201."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE251."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    }
+          {
+            "courseNumber": "CHEM102",
+            "courseTitle": "General Chemistry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME144."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH262",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGLISH101",
+            "courseTitle": "College Reading and Composition I",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME142."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME223."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS142."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYSICS038",
+            "courseTitle": "Physics for Engineers and Scientists II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH263",
+            "courseTitle": "Calculus III",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATE210."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATE215."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ENGL147."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGGEN120",
+            "courseTitle": "INTRODUCTION TO PROGRAMMING CONCEPTS AND METHODOLOGIES FOR ENGINEERS",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGGEN131",
+            "courseTitle": "STATICS",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ME",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "MATH275",
+            "courseTitle": "Ordinary Differential Equations",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "MATH270",
+            "courseTitle": "Linear Algebra",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME244."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO213."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BMED213."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CE204."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ME212."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE201."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE251."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  }
 }

@@ -97,3 +97,34 @@
 ### Login UML Diagram
 
 ![UML Diagram for Login](https://live.staticflickr.com/65535/53724448378_2f1f586c3d.jpg)
+
+## Contributing
+
+We welcome contributions to our project! To ensure a consistent code style and quality, please follow these guidelines:
+
+### Coding Standards
+
+- Our current MEAN application has the following coding standards
+
+#### **Prettier Configuration:** Prettier is used to format our code.
+
+- The configuration is defined in the `.prettierrc` file at the root of the project:
+
+```json
+{
+  "singleQuote": false,
+  "trailingComma": "es5",
+  "printWidth": 80,
+  "tabWidth": 2,
+  "semi": true,
+  "jsxSingleQuote": false
+}
+```
+
+#### ESLint Configuration: Client
+
+- The ESLint configuration for the **client-side** code is defined in the file [`client/.eslintrc.cjs`](https://github.com/Castro19/ccc-transfer-helper/blob/main/client/.eslintrc.cjs)
+
+#### ESLint Configuration: Server
+
+- The ESLint configuartion for the **server-side** code is defined in the file [`server/eslint.config.js`](https://github.com/Castro19/ccc-transfer-helper/blob/TE4/server/eslint.config.js)

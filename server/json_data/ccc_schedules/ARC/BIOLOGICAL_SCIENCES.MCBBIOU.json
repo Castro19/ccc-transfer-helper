@@ -1,265 +1,262 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM400",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM301",
-                        "courseTitle": "Introduction to Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO150."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\n5 units of Free Electives required. SCM150 workshops for Math/Science courses recommended for remaining units."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "CHEM400",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOL400",
-                        "courseTitle": "Principles of Biology",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM400",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "CHEM401",
-                        "courseTitle": "General Chemistry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH350",
-                        "courseTitle": "Calculus for Life and Social Sciences I",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATH400",
-                        "courseTitle": "Calculus I",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "MATH355",
-                        "courseTitle": "Calculus for Biology and Medicine I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGWR300",
-                        "courseTitle": "College Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\n5 units of Free Electives required. SCM150 workshops for Math/Science courses recommended for remaining units."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMM301",
+            "courseTitle": "Introduction to Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO150."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\n5 units of Free Electives required. SCM150 workshops for Math/Science courses recommended for remaining units."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM401",
-                        "courseTitle": "General Chemistry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH351",
-                        "courseTitle": "Calculus for Life and Social Sciences II",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATH401",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM311",
-                        "courseTitle": "Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO162."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\n5 units of Free Electives required. SCM150 workshops for Math/Science courses recommended for remaining units."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "BIOL400",
+            "courseTitle": "Principles of Biology",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "BIOL442",
-                        "courseTitle": "General Microbiology and Public Health",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "BIOL440",
-                        "courseTitle": "General Microbiology",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MCRO",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO263."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM216."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "CHEM400",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM401",
+            "courseTitle": "General Chemistry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "STAT300",
-                        "courseTitle": "Introduction to Probability and Statistics",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PSYC330",
-                        "courseTitle": "Introductory Statistics for the Behavioral Sciences",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "STAT305",
-                        "courseTitle": "Statway, Part II",
-                        "courseUnits": "6.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM217."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM220."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "MATH350",
+            "courseTitle": "Calculus for Life and Social Sciences I",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "MATH400",
+            "courseTitle": "Calculus I",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH355",
+            "courseTitle": "Calculus for Biology and Medicine I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "subject": "Physiology",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: BIO361, BIO434, or BIO435."
-            },
-            {
-                "subject": "Ecology",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: BIO327, BIO363, BIO442; BOT326; MCRO436; MSCI300."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    }
+          {
+            "courseNumber": "ENGWR300",
+            "courseTitle": "College Composition",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\n5 units of Free Electives required. SCM150 workshops for Math/Science courses recommended for remaining units."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM401",
+            "courseTitle": "General Chemistry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH351",
+            "courseTitle": "Calculus for Life and Social Sciences II",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "MATH401",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMM311",
+            "courseTitle": "Argumentation and Debate",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO162."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\n5 units of Free Electives required. SCM150 workshops for Math/Science courses recommended for remaining units."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "BIOL442",
+            "courseTitle": "General Microbiology and Public Health",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "BIOL440",
+            "courseTitle": "General Microbiology",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MCRO",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO263."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM216."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "STAT300",
+            "courseTitle": "Introduction to Probability and Statistics",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PSYC330",
+            "courseTitle": "Introductory Statistics for the Behavioral Sciences",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "STAT305",
+            "courseTitle": "Statway, Part II",
+            "courseUnits": "6.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM217."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM220."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "subject": "Physiology",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: BIO361, BIO434, or BIO435."
+      },
+      {
+        "subject": "Ecology",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: BIO327, BIO363, BIO442; BOT326; MCRO436; MSCI300."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  }
 }

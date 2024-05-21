@@ -1,417 +1,417 @@
 {
-    "name": "West Hills College Coalinga",
-    "code": "WHC",
-    "id": 67,
-    "courses": [
-        {
-            "courseNumber": "ASCI012",
-            "courseTitle": "Introduction to Animal Science",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART005A",
-            "courseTitle": "Basic Drawing",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART042",
-            "courseTitle": "Art Appreciation",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART005B",
-            "courseTitle": "Intermediate Drawing",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART016A",
-            "courseTitle": "Survey of Western Art: Pre-History to Proto-Renaissance",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART016B",
-            "courseTitle": "Survey of Western Art History: Renaissance to the Present",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "BIO010",
-            "courseTitle": "Fundamentals of Biology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "BIO015",
-            "courseTitle": "Biology for Education",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "BIO001B",
-            "courseTitle": "Organismal Biology",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BIO001A",
-            "courseTitle": "Cell and Molecular Biology",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BIO035",
-            "courseTitle": "Human Physiology",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BIO032",
-            "courseTitle": "Human Anatomy",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BIO038",
-            "courseTitle": "Microbiology",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "AG014",
-            "courseTitle": "Tractor Operations",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CRPSCI019",
-            "courseTitle": "California Water",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "AET010",
-            "courseTitle": "Surveying",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CRPSCI006",
-            "courseTitle": "Introduction to Precision Agriculture",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BUS018",
-            "courseTitle": "Business Law",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BUS001A",
-            "courseTitle": "Beginning Principles of Accounting",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BUS001B",
-            "courseTitle": "Elementary Principles of Accounting",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ECON001B",
-            "courseTitle": "Microeconomics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ECON001A",
-            "courseTitle": "Macroeconomics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CHEM002A",
-            "courseTitle": "Introductory Chemistry",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "CHEM001A",
-            "courseTitle": "General Chemistry I",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "CHEM001B",
-            "courseTitle": "General Chemistry II",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "COM001",
-            "courseTitle": "Elements of Speech",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "COM003",
-            "courseTitle": "Argumentation and Debate",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENG003",
-            "courseTitle": "Critical Thinking and Writing",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "COM002",
-            "courseTitle": "Oral Interpretation of Literature",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "COM005",
-            "courseTitle": "Interpersonal Communication",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "COM004",
-            "courseTitle": "Small Group Dynamics and Presentation",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENG001A",
-            "courseTitle": "Composition and Reading",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENG002",
-            "courseTitle": "Introduction to Literature",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENG006",
-            "courseTitle": "Early American Literature",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "LING011",
-            "courseTitle": "Introduction to Linguistics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "NUT001",
-            "courseTitle": "Basic Nutrition",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HIST004A",
-            "courseTitle": "Western Civilization to 1700",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HIST004B",
-            "courseTitle": "Western Civilization from 1700",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HIST017A",
-            "courseTitle": "History of the United States 1492-1877",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HIST017B",
-            "courseTitle": "History of the United States 1865 to Present",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH001A",
-            "courseTitle": "Introduction to Calculus",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "MATH001B",
-            "courseTitle": "Calculus With Applications",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "MATH002A",
-            "courseTitle": "Multivariate Calculus",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "WT40",
-            "courseTitle": "Introduction to Welding",
-            "courseUnits": "2.00"
-        },
-        {
-            "courseNumber": "HE035",
-            "courseTitle": "Personal Health and Hygiene",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HS040",
-            "courseTitle": "Introduction to Public Health",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "KINES048",
-            "courseTitle": "First Aid and Safety",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSYCH029",
-            "courseTitle": "Introduction to Sport and Exercise Psychology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH045",
-            "courseTitle": "Contemporary Math",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH010A",
-            "courseTitle": "Structure & Concepts in Mathematics I",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH015",
-            "courseTitle": "Precalculus",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "MATH016",
-            "courseTitle": "Precalculus and Trigonometry",
-            "courseUnits": "6.00"
-        },
-        {
-            "courseNumber": "MATH002B",
-            "courseTitle": "Differential Equations",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "MUS042",
-            "courseTitle": "Music Appreciation",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ESCI002",
-            "courseTitle": "Introduction to Earth Science",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "GEOG001",
-            "courseTitle": "Physical Geography",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SLSCI021",
-            "courseTitle": "Introduction to Soil Science",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "PHIL001",
-            "courseTitle": "Introduction to Philosophy",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "GEOL001",
-            "courseTitle": "Physical Geology",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "GEOL003",
-            "courseTitle": "Historical Geology",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "PHYSICS002A",
-            "courseTitle": "Mechanics and Thermodynamics",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "PHYSICS002B",
-            "courseTitle": "Electricity, Magnetism, Optics and Modern Physics",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "CRPSCI001",
-            "courseTitle": "Introduction to Plant Science",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "POLSCI001",
-            "courseTitle": "American Government",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "POLSCI004",
-            "courseTitle": "Introduction to International Relations",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "POLSCI002",
-            "courseTitle": "Comparative Government",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "POLSCI005",
-            "courseTitle": "Introduction to Political Theory",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CD003",
-            "courseTitle": "Observation and Assessment",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CD012B",
-            "courseTitle": "Principles and Practices of Early Childhood Education Field Work",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC003",
-            "courseTitle": "Marriage and Family Relations",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSYCH003",
-            "courseTitle": "Developmental Psychology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSYCH001",
-            "courseTitle": "Introductory Psychology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HRCM001",
-            "courseTitle": "Introduction to Hospitality Management",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "GEOG003",
-            "courseTitle": "Cultural Geography",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC001",
-            "courseTitle": "Introduction to Sociology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC002",
-            "courseTitle": "Critical Thinking and Social Problems",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC005",
-            "courseTitle": "Cultural Sociology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH025",
-            "courseTitle": "Introduction to Statistics",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN001",
-            "courseTitle": "Elementary Spanish I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN002",
-            "courseTitle": "Elementary Spanish II",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN003",
-            "courseTitle": "Intermediate Spanish I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN004",
-            "courseTitle": "Intermediate Spanish II",
-            "courseUnits": "4.00"
-        }
-    ]
+  "name": "West Hills College Coalinga",
+  "code": "WHC",
+  "id": 67,
+  "courses": [
+    {
+      "courseNumber": "ASCI012",
+      "courseTitle": "Introduction to Animal Science",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART005A",
+      "courseTitle": "Basic Drawing",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART042",
+      "courseTitle": "Art Appreciation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART005B",
+      "courseTitle": "Intermediate Drawing",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART016A",
+      "courseTitle": "Survey of Western Art: Pre-History to Proto-Renaissance",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART016B",
+      "courseTitle": "Survey of Western Art History: Renaissance to the Present",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIO010",
+      "courseTitle": "Fundamentals of Biology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIO015",
+      "courseTitle": "Biology for Education",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIO001B",
+      "courseTitle": "Organismal Biology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIO001A",
+      "courseTitle": "Cell and Molecular Biology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIO035",
+      "courseTitle": "Human Physiology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIO032",
+      "courseTitle": "Human Anatomy",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIO038",
+      "courseTitle": "Microbiology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "AG014",
+      "courseTitle": "Tractor Operations",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CRPSCI019",
+      "courseTitle": "California Water",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "AET010",
+      "courseTitle": "Surveying",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CRPSCI006",
+      "courseTitle": "Introduction to Precision Agriculture",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BUS018",
+      "courseTitle": "Business Law",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BUS001A",
+      "courseTitle": "Beginning Principles of Accounting",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BUS001B",
+      "courseTitle": "Elementary Principles of Accounting",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ECON001B",
+      "courseTitle": "Microeconomics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ECON001A",
+      "courseTitle": "Macroeconomics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CHEM002A",
+      "courseTitle": "Introductory Chemistry",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CHEM001A",
+      "courseTitle": "General Chemistry I",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHEM001B",
+      "courseTitle": "General Chemistry II",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "COM001",
+      "courseTitle": "Elements of Speech",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COM003",
+      "courseTitle": "Argumentation and Debate",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENG003",
+      "courseTitle": "Critical Thinking and Writing",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COM002",
+      "courseTitle": "Oral Interpretation of Literature",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COM005",
+      "courseTitle": "Interpersonal Communication",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COM004",
+      "courseTitle": "Small Group Dynamics and Presentation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENG001A",
+      "courseTitle": "Composition and Reading",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENG002",
+      "courseTitle": "Introduction to Literature",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENG006",
+      "courseTitle": "Early American Literature",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "LING011",
+      "courseTitle": "Introduction to Linguistics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "NUT001",
+      "courseTitle": "Basic Nutrition",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST004A",
+      "courseTitle": "Western Civilization to 1700",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST004B",
+      "courseTitle": "Western Civilization from 1700",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST017A",
+      "courseTitle": "History of the United States 1492-1877",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST017B",
+      "courseTitle": "History of the United States 1865 to Present",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH001A",
+      "courseTitle": "Introduction to Calculus",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "MATH001B",
+      "courseTitle": "Calculus With Applications",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "MATH002A",
+      "courseTitle": "Multivariate Calculus",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "WT40",
+      "courseTitle": "Introduction to Welding",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "HE035",
+      "courseTitle": "Personal Health and Hygiene",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HS040",
+      "courseTitle": "Introduction to Public Health",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "KINES048",
+      "courseTitle": "First Aid and Safety",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSYCH029",
+      "courseTitle": "Introduction to Sport and Exercise Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH045",
+      "courseTitle": "Contemporary Math",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH010A",
+      "courseTitle": "Structure & Concepts in Mathematics I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH015",
+      "courseTitle": "Precalculus",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "MATH016",
+      "courseTitle": "Precalculus and Trigonometry",
+      "courseUnits": "6.00"
+    },
+    {
+      "courseNumber": "MATH002B",
+      "courseTitle": "Differential Equations",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MUS042",
+      "courseTitle": "Music Appreciation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ESCI002",
+      "courseTitle": "Introduction to Earth Science",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "GEOG001",
+      "courseTitle": "Physical Geography",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SLSCI021",
+      "courseTitle": "Introduction to Soil Science",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHIL001",
+      "courseTitle": "Introduction to Philosophy",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOL001",
+      "courseTitle": "Physical Geology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "GEOL003",
+      "courseTitle": "Historical Geology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHYSICS002A",
+      "courseTitle": "Mechanics and Thermodynamics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHYSICS002B",
+      "courseTitle": "Electricity, Magnetism, Optics and Modern Physics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CRPSCI001",
+      "courseTitle": "Introduction to Plant Science",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "POLSCI001",
+      "courseTitle": "American Government",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "POLSCI004",
+      "courseTitle": "Introduction to International Relations",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "POLSCI002",
+      "courseTitle": "Comparative Government",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "POLSCI005",
+      "courseTitle": "Introduction to Political Theory",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CD003",
+      "courseTitle": "Observation and Assessment",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CD012B",
+      "courseTitle": "Principles and Practices of Early Childhood Education Field Work",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC003",
+      "courseTitle": "Marriage and Family Relations",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSYCH003",
+      "courseTitle": "Developmental Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSYCH001",
+      "courseTitle": "Introductory Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HRCM001",
+      "courseTitle": "Introduction to Hospitality Management",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOG003",
+      "courseTitle": "Cultural Geography",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC001",
+      "courseTitle": "Introduction to Sociology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC002",
+      "courseTitle": "Critical Thinking and Social Problems",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC005",
+      "courseTitle": "Cultural Sociology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH025",
+      "courseTitle": "Introduction to Statistics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN001",
+      "courseTitle": "Elementary Spanish I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN002",
+      "courseTitle": "Elementary Spanish II",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN003",
+      "courseTitle": "Intermediate Spanish I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN004",
+      "courseTitle": "Intermediate Spanish II",
+      "courseUnits": "4.00"
+    }
+  ]
 }

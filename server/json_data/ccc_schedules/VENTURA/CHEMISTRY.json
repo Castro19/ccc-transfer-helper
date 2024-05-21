@@ -1,325 +1,325 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEMV01A",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEMV01AL",
-                        "courseTitle": "General Chemistry I Laboratory",
-                        "courseUnits": "2.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHV21A",
-                        "courseTitle": "Calculus with Analytic Geometry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMMV01",
-                        "courseTitle": "Introduction to Speech Communication",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here. Recommended: CHEM101.\r\n\r\nA total of 12-13 units of Free Elective credit are required for the default curriculum. The Chemistry Department strongly recommends that you take CHEM101, offered only in Fall quarter, and SCM150 for Math and Science elective credit in your first year."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "CHEMV01A",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CHEMV01AL",
+            "courseTitle": "General Chemistry I Laboratory",
+            "courseUnits": "2.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEMV01B",
-                        "courseTitle": "General Chemistry II",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEMV01BL",
-                        "courseTitle": "General Chemistry II Laboratory",
-                        "courseUnits": "2.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHV21B",
-                        "courseTitle": "Calculus with Analytic Geometry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLV01A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nA total of 12-13 units of Free Elective credit are required for the default curriculum. The Chemistry Department strongly recommends that you take CHEM101, offered only in Fall quarter, and SCM150 for Math and Science elective credit in your first year."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "MATHV21A",
+            "courseTitle": "Calculus with Analytic Geometry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEMV01B",
-                        "courseTitle": "General Chemistry II",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEMV01BL",
-                        "courseTitle": "General Chemistry II Laboratory",
-                        "courseUnits": "2.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHV21B",
-                        "courseTitle": "Calculus with Analytic Geometry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOLV04",
-                        "courseTitle": "Introduction to Cell and Molecular Biology",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMMV10",
-                        "courseTitle": "Critical Thinking in Oral Communication: Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nA total of 12-13 units of Free Elective credit are required for the default curriculum. The Chemistry Department strongly recommends that you take CHEM101, offered only in Fall quarter, and SCM150 for Math and Science elective credit in your first year."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "COMMV01",
+            "courseTitle": "Introduction to Speech Communication",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here. Recommended: CHEM101.\r\n\r\nA total of 12-13 units of Free Elective credit are required for the default curriculum. The Chemistry Department strongly recommends that you take CHEM101, offered only in Fall quarter, and SCM150 for Math and Science elective credit in your first year."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEMV12A",
-                        "courseTitle": "General Organic Chemistry I",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEMV12AL",
-                        "courseTitle": "General Organic Chemistry I Laboratory",
-                        "courseUnits": "2.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHV21C",
-                        "courseTitle": "Multivariable Calculus",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYSV04",
-                        "courseTitle": "Mechanics for Scientists and Engineers",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PHYSV04L",
-                        "courseTitle": "Mechanics Laboratory for Scientists and Engineers",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "CHEMV01B",
+            "courseTitle": "General Chemistry II",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CHEMV01BL",
+            "courseTitle": "General Chemistry II Laboratory",
+            "courseUnits": "2.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEMV12B",
-                        "courseTitle": "General Organic Chemistry II",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEMV12BL",
-                        "courseTitle": "General Organic Chemistry II Laboratory",
-                        "courseUnits": "2.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM221."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
-            },
-            {
-                "subject": "CSC/MATH/STAT Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: CSC232, CSC234, MATH206, MATH244, STAT218, or STAT312."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nA total of 12-13 units of Free Elective credit are required for the default curriculum. The Chemistry Department strongly recommends that you take CHEM101, offered only in Fall quarter, and SCM150 for Math and Science elective credit in your first year."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "MATHV21B",
+            "courseTitle": "Calculus with Analytic Geometry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEMV12A",
-                        "courseTitle": "General Organic Chemistry I",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEMV12AL",
-                        "courseTitle": "General Organic Chemistry I Laboratory",
-                        "courseUnits": "2.00"
-                    },
-                    {
-                        "courseNumber": "CHEMV12B",
-                        "courseTitle": "General Organic Chemistry II",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CHEMV12BL",
-                        "courseTitle": "General Organic Chemistry II Laboratory",
-                        "courseUnits": "2.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYSV05",
-                        "courseTitle": "Electricity and Magnetism for Scientists and Engineers",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PHYSV05L",
-                        "courseTitle": "Electricity and Magnetism Laboratory for Scientists and Engineers",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM203."
-            }
-        ]
-    }
+          {
+            "courseNumber": "ENGLV01A",
+            "courseTitle": "English Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, D2, Upper-Division D."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nA total of 12-13 units of Free Elective credit are required for the default curriculum. The Chemistry Department strongly recommends that you take CHEM101, offered only in Fall quarter, and SCM150 for Math and Science elective credit in your first year."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "CHEMV01B",
+            "courseTitle": "General Chemistry II",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CHEMV01BL",
+            "courseTitle": "General Chemistry II Laboratory",
+            "courseUnits": "2.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATHV21B",
+            "courseTitle": "Calculus with Analytic Geometry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "BIOLV04",
+            "courseTitle": "Introduction to Cell and Molecular Biology",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMMV10",
+            "courseTitle": "Critical Thinking in Oral Communication: Argumentation and Debate",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nA total of 12-13 units of Free Elective credit are required for the default curriculum. The Chemistry Department strongly recommends that you take CHEM101, offered only in Fall quarter, and SCM150 for Math and Science elective credit in your first year."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "CHEMV12A",
+            "courseTitle": "General Organic Chemistry I",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CHEMV12AL",
+            "courseTitle": "General Organic Chemistry I Laboratory",
+            "courseUnits": "2.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATHV21C",
+            "courseTitle": "Multivariable Calculus",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYSV04",
+            "courseTitle": "Mechanics for Scientists and Engineers",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PHYSV04L",
+            "courseTitle": "Mechanics Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "CHEMV12B",
+            "courseTitle": "General Organic Chemistry II",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CHEMV12BL",
+            "courseTitle": "General Organic Chemistry II Laboratory",
+            "courseUnits": "2.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM221."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS142."
+      },
+      {
+        "subject": "CSC/MATH/STAT Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: CSC232, CSC234, MATH206, MATH244, STAT218, or STAT312."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nA total of 12-13 units of Free Elective credit are required for the default curriculum. The Chemistry Department strongly recommends that you take CHEM101, offered only in Fall quarter, and SCM150 for Math and Science elective credit in your first year."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "CHEMV12A",
+            "courseTitle": "General Organic Chemistry I",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CHEMV12AL",
+            "courseTitle": "General Organic Chemistry I Laboratory",
+            "courseUnits": "2.00"
+          },
+          {
+            "courseNumber": "CHEMV12B",
+            "courseTitle": "General Organic Chemistry II",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CHEMV12BL",
+            "courseTitle": "General Organic Chemistry II Laboratory",
+            "courseUnits": "2.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYSV05",
+            "courseTitle": "Electricity and Magnetism for Scientists and Engineers",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PHYSV05L",
+            "courseTitle": "Electricity and Magnetism Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM203."
+      }
+    ]
+  }
 }

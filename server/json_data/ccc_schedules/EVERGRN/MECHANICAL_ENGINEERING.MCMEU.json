@@ -1,346 +1,346 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH071",
-                        "courseTitle": "Calculus I with Analytic Geometry",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "MATH066",
-                        "courseTitle": "Calculus I Late Transcendentals for STEM",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME128."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME163."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME142."
-            },
-            {
-                "subject": "Manufacturing Processes Elective",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: IME141, ITP341, or ME161."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "MATH071",
+            "courseTitle": "Calculus I with Analytic Geometry",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH066",
+            "courseTitle": "Calculus I Late Transcendentals for STEM",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ME128."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ME163."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME142."
+      },
+      {
+        "subject": "Manufacturing Processes Elective",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: IME141, ITP341, or ME161."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH072",
-                        "courseTitle": "Calculus II with Analytic Geometry",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "MATH067",
-                        "courseTitle": "Calculus II Late Transcendentals for STEM",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "PHYS004A",
-                        "courseTitle": "General Physics",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "PHYS007A",
-                        "courseTitle": "Calculus-Based General Physics for Scientists and Engineers - I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL001A",
-                        "courseTitle": "English Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMS020",
-                        "courseTitle": "Oral Communication",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME129."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME145."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "MATH072",
+            "courseTitle": "Calculus II with Analytic Geometry",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH067",
+            "courseTitle": "Calculus II Late Transcendentals for STEM",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR018",
-                        "courseTitle": "Engineering Design and Graphics",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ME",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH072",
-                        "courseTitle": "Calculus II with Analytic Geometry",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "MATH067",
-                        "courseTitle": "Calculus II Late Transcendentals for STEM",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "PHYS004C",
-                        "courseTitle": "General Physics",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "PHYS007C",
-                        "courseTitle": "Calculus-Based General Physics for Scientists and Engineers - III",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM001A",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for IME146."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "PHYS004A",
+            "courseTitle": "General Physics",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "PHYS007A",
+            "courseTitle": "Calculus-Based General Physics for Scientists and Engineers - I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR069",
-                        "courseTitle": "Statics",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ME",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH073",
-                        "courseTitle": "Multivariable Calculus",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "PHYS004B",
-                        "courseTitle": "General Physics",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "PHYS007B",
-                        "courseTitle": "Calculus-Based General Physics for Scientists and Engineers - II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM001B",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME251."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "ENGL001A",
+            "courseTitle": "English Composition",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR066",
-                        "courseTitle": "Properties of Materials",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "MATE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATH078",
-                        "courseTitle": "Differential Equations",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH079",
-                        "courseTitle": "Linear Algebra",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME212."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME234."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CE204."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "COMS020",
+            "courseTitle": "Oral Communication",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ME129."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME145."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ME236."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "ENGR050",
-                                "courseTitle": "Introduction to Computing",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: CSC231, or CSC234."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E.\r\n\r\nRecommended: ECON201."
-            }
-        ]
-    }
+          {
+            "courseNumber": "ENGR018",
+            "courseTitle": "Engineering Design and Graphics",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ME",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH072",
+            "courseTitle": "Calculus II with Analytic Geometry",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH067",
+            "courseTitle": "Calculus II Late Transcendentals for STEM",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "PHYS004C",
+            "courseTitle": "General Physics",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "PHYS007C",
+            "courseTitle": "Calculus-Based General Physics for Scientists and Engineers - III",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM001A",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for IME146."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGR069",
+            "courseTitle": "Statics",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ME",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH073",
+            "courseTitle": "Multivariable Calculus",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "PHYS004B",
+            "courseTitle": "General Physics",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "PHYS007B",
+            "courseTitle": "Calculus-Based General Physics for Scientists and Engineers - II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM001B",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ME251."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGR066",
+            "courseTitle": "Properties of Materials",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "MATE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "MATH078",
+            "courseTitle": "Differential Equations",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH079",
+            "courseTitle": "Linear Algebra",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ME212."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ME234."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CE204."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ME236."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "ENGR050",
+                "courseTitle": "Introduction to Computing",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: CSC231, or CSC234."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E.\r\n\r\nRecommended: ECON201."
+      }
+    ]
+  }
 }

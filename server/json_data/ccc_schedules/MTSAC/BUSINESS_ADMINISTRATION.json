@@ -1,250 +1,250 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "BUSL18",
-                        "courseTitle": "Business Law",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "BUSL19",
-                        "courseTitle": "Advanced Business Law",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "BUS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "BUSC1A",
-                        "courseTitle": "Principles of Economics - Macroeconomics",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "BUSC1AH",
-                        "courseTitle": "Principles of Economics - Macroeconomics - Honors",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ECON",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH110",
-                        "courseTitle": "Elementary Statistics",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATH110H",
-                        "courseTitle": "Elementary Statistics - Honors",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "BUSC17",
-                        "courseTitle": "Applied Business Statistics",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "PSYC10",
-                        "courseTitle": "Statistics for the Behavioral Sciences",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here. Recommended: BUS100."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "BUSL18",
+            "courseTitle": "Business Law",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "BUSL19",
+            "courseTitle": "Advanced Business Law",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "BUS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BUSA7",
-                        "courseTitle": "Principles of Accounting - Financial",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BUS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "SPCH1A",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "SPCH1AH",
-                        "courseTitle": "Public Speaking - Honors",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for STAT252."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "BUSC1A",
+            "courseTitle": "Principles of Economics - Macroeconomics",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "BUSC1AH",
+            "courseTitle": "Principles of Economics - Macroeconomics - Honors",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ECON",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BUSA8",
-                        "courseTitle": "Principles of Accounting - Managerial",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BUS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "BUSC1B",
-                        "courseTitle": "Principles of Economics - Microeconomics",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "BUSC1BH",
-                        "courseTitle": "Principles of Economics - Microeconomics - Honors",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ECON",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL1A",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "MATH110",
+            "courseTitle": "Elementary Statistics",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "MATH110H",
+            "courseTitle": "Elementary Statistics - Honors",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "BUSC17",
+            "courseTitle": "Applied Business Statistics",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "PSYC10",
+            "courseTitle": "Statistics for the Behavioral Sciences",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": false
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here. Recommended: BUS100."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BUS206."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "BUSA7",
+            "courseTitle": "Principles of Accounting - Financial",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "BUS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH140",
-                        "courseTitle": "Calculus for Business",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here. Recommended: ECON312."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "SPCH1A",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "SPCH1AH",
+            "courseTitle": "Public Speaking - Honors",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for STAT252."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here. Recommended: ECON313."
-            },
-            {
-                "subject": "Concentration Declaration Due",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Concentration Declaration is due at this time."
-            }
-        ]
-    }
+          {
+            "courseNumber": "BUSA8",
+            "courseTitle": "Principles of Accounting - Managerial",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "BUS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "BUSC1B",
+            "courseTitle": "Principles of Economics - Microeconomics",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "BUSC1BH",
+            "courseTitle": "Principles of Economics - Microeconomics - Honors",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ECON",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL1A",
+            "courseTitle": "Freshman Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BUS206."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH140",
+            "courseTitle": "Calculus for Business",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here. Recommended: ECON312."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, C1, Upper-Division C, D1, Upper-Division D, or E."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here. Recommended: ECON313."
+      },
+      {
+        "subject": "Concentration Declaration Due",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Concentration Declaration is due at this time."
+      }
+    ]
+  }
 }

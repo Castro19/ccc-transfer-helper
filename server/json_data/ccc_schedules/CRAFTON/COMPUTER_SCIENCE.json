@@ -1,304 +1,304 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH250",
-                        "courseTitle": "Single Variable Calculus I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "COMMST100",
-                        "courseTitle": "Elements of Public Speaking",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "COMMST100H",
-                        "courseTitle": "Elements of Public Speaking - Honors",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC123."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "MATH250",
+            "courseTitle": "Single Variable Calculus I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIS113",
-                        "courseTitle": "Java Programming",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CSCI110",
-                        "courseTitle": "Introduction to Computer Science I (C++)",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH251",
-                        "courseTitle": "Single Variable Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL101",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMMST100",
+            "courseTitle": "Elements of Public Speaking",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "COMMST100H",
+            "courseTitle": "Elements of Public Speaking - Honors",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CSC123."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CSCI120",
-                        "courseTitle": "Introduction to Computer Science II (C++)",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH251",
-                        "courseTitle": "Single Variable Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMMST125",
-                        "courseTitle": "Critical Thinking through Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Life Science Support Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Life Science\" Support Electives: BIO111, BIO161, BIO213 & BMED213; BOT121; MCRO221.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "CIS113",
+            "courseTitle": "Java Programming",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CSCI110",
+            "courseTitle": "Introduction to Computer Science I (C++)",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CSCI120",
-                        "courseTitle": "Introduction to Computer Science II (C++)",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSIC250",
-                        "courseTitle": "College Physics I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Linear Math",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH265",
-                                "courseTitle": "Linear Algebra",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "AND",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH265",
-                                "courseTitle": "Linear Algebra",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH266",
-                                "courseTitle": "Introduction to Ordinary Differential Equations",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: MATH206, or MATH244."
-            },
-            {
-                "subject": "Additional Science Support Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Additional Science\" Support Electives; BIO111, BIO161; BOT121; CHEM124; MCRO221; PHYS141.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "MATH251",
+            "courseTitle": "Single Variable Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CSCI200",
-                        "courseTitle": "Discrete Structures",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH200",
-                        "courseTitle": "Discrete Structures",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CSCI240",
-                        "courseTitle": "Computer Organization and Assembly Language Programming",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYSIC251",
-                        "courseTitle": "College Physics II",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "PHYSIC252",
-                        "courseTitle": "College Physics III",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "ENGL101",
+            "courseTitle": "Freshman Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYSIC251",
-                        "courseTitle": "College Physics II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "subject": "Philosophical Classics",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHIL101",
-                                "courseTitle": "Introduction to Philosophy",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHIL101",
-                                "courseTitle": "Introduction to Philosophy",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHIL230, or PHIL231."
-            }
-        ]
-    }
+          {
+            "courseNumber": "CSCI120",
+            "courseTitle": "Introduction to Computer Science II (C++)",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH251",
+            "courseTitle": "Single Variable Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMMST125",
+            "courseTitle": "Critical Thinking through Argumentation and Debate",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Life Science Support Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Life Science\" Support Electives: BIO111, BIO161, BIO213 & BMED213; BOT121; MCRO221.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CSCI120",
+            "courseTitle": "Introduction to Computer Science II (C++)",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYSIC250",
+            "courseTitle": "College Physics I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Linear Math",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH265",
+                "courseTitle": "Linear Algebra",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "MATH265",
+                "courseTitle": "Linear Algebra",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH266",
+                "courseTitle": "Introduction to Ordinary Differential Equations",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH206, or MATH244."
+      },
+      {
+        "subject": "Additional Science Support Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Additional Science\" Support Electives; BIO111, BIO161; BOT121; CHEM124; MCRO221; PHYS141.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CSCI200",
+            "courseTitle": "Discrete Structures",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH200",
+            "courseTitle": "Discrete Structures",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CSCI240",
+            "courseTitle": "Computer Organization and Assembly Language Programming",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYSIC251",
+            "courseTitle": "College Physics II",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "PHYSIC252",
+            "courseTitle": "College Physics III",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYSIC251",
+            "courseTitle": "College Physics II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "subject": "Philosophical Classics",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHIL101",
+                "courseTitle": "Introduction to Philosophy",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHIL101",
+                "courseTitle": "Introduction to Philosophy",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHIL230, or PHIL231."
+      }
+    ]
+  }
 }

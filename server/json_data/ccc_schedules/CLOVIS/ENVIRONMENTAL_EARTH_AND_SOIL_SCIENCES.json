@@ -1,277 +1,277 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "GEOL1",
-                        "courseTitle": "Physical Geology",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "GEOL",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM1",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR140."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ERSC144."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "GEOL1",
+            "courseTitle": "Physical Geology",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "GEOL",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1A",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "GEOG10",
-                        "courseTitle": "Introduction to Geographic Information Systems",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "NR",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BOT121."
-            },
-            {
-                "subject": "Calculus I Course",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH5A",
-                                "courseTitle": "Math Analysis I",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH5A",
-                                "courseTitle": "Math Analysis I",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: MATH141, or MATH161.\r\n\r\nStudents in the Geology concentration need to take MATH142 & MATH142 to meet prerequisites for courses in the concentration. Students interested in the Soil Geotechnical Studies are encouraged to take MATH141 & MATH142 to meet prerequisites for courses in that area."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMM1",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for NR140."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ERSC144."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1B",
-                        "courseTitle": "General Chemistry and Qualitative Analysis",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "ENGL1A",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "ENGL1AH",
-                        "courseTitle": "Honors Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS120."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "CHEM1A",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1B",
-                        "courseTitle": "General Chemistry and Qualitative Analysis",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS221."
-            },
-            {
-                "subject": "College Physics",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS2A",
-                                "courseTitle": "General Physics I",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS4A",
-                                "courseTitle": "Physics for Scientists and Engineers I",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHYS121, or PHYS141.\r\n\r\nStudents in the Geology concentration need to take PHYS141 to meet prerequisites for courses in the concentration. Students interested in the Soil Geotechnical Studies Approved Electives area need to take PHYS141 to meet prerequisites for courses in that area."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F.\r\n\r\nGEOG150: Human Geography recommended."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "GEOG10",
+            "courseTitle": "Introduction to Geographic Information Systems",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "NR",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BOT121."
+      },
+      {
+        "subject": "Calculus I Course",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH5A",
+                "courseTitle": "Math Analysis I",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH5A",
+                "courseTitle": "Math Analysis I",
+                "courseUnits": "5.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH141, or MATH161.\r\n\r\nStudents in the Geology concentration need to take MATH142 & MATH142 to meet prerequisites for courses in the concentration. Students interested in the Soil Geotechnical Studies are encouraged to take MATH141 & MATH142 to meet prerequisites for courses in that area."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ERSC223."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "CHEM1B",
+            "courseTitle": "General Chemistry and Qualitative Analysis",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for GEOL241."
-            },
-            {
-                "subject": "Statistics",
-                "course": [
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "STAT7",
-                                "courseTitle": "Elementary Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH11",
-                                "courseTitle": "Elementary Statistics",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "STAT7",
-                                "courseTitle": "Elementary Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH11",
-                                "courseTitle": "Elementary Statistics",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: STAT217, or STAT218."
-            },
-            {
-                "subject": "Approved Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Approved Elective course can go here.\r\n\r\nUnless a concentration is declared, the default will be a combination of Approved Electives and Free Electives. Students who do not declare a concentration are encouraged to use Approved Electives and Free Electives to earn a minor. See the Approved Electives Guide in the catalog for recommended minors."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
-            }
-        ]
-    }
+          {
+            "courseNumber": "ENGL1A",
+            "courseTitle": "Reading and Composition",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "ENGL1AH",
+            "courseTitle": "Honors Reading and Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for SS120."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM1B",
+            "courseTitle": "General Chemistry and Qualitative Analysis",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for SS221."
+      },
+      {
+        "subject": "College Physics",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS2A",
+                "courseTitle": "General Physics I",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS4A",
+                "courseTitle": "Physics for Scientists and Engineers I",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHYS121, or PHYS141.\r\n\r\nStudents in the Geology concentration need to take PHYS141 to meet prerequisites for courses in the concentration. Students interested in the Soil Geotechnical Studies Approved Electives area need to take PHYS141 to meet prerequisites for courses in that area."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F.\r\n\r\nGEOG150: Human Geography recommended."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ERSC223."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for GEOL241."
+      },
+      {
+        "subject": "Statistics",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "STAT7",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH11",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "STAT7",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH11",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT217, or STAT218."
+      },
+      {
+        "subject": "Approved Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Approved Elective course can go here.\r\n\r\nUnless a concentration is declared, the default will be a combination of Approved Electives and Free Electives. Students who do not declare a concentration are encouraged to use Approved Electives and Free Electives to earn a minor. See the Approved Electives Guide in the catalog for recommended minors."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
+      }
+    ]
+  }
 }

@@ -1,218 +1,215 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC180",
-                        "courseTitle": "Calculus 1",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEMC180",
-                        "courseTitle": "General Chemistry A",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "CHEMC180L",
-                        "courseTitle": "General Chemistry A Lab",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CMSTC110",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE100."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE123."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "MATHC180",
+            "courseTitle": "Calculus 1",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC185",
-                        "courseTitle": "Calculus 2",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGLC100",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS141."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "CHEMC180",
+            "courseTitle": "General Chemistry A",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CHEMC180L",
+            "courseTitle": "General Chemistry A Lab",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC185",
-                        "courseTitle": "Calculus 2",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE202."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE133."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "CMSTC110",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE100."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE123."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC280",
-                        "courseTitle": "Calculus 3",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE115."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE145."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS143."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "MATHC185",
+            "courseTitle": "Calculus 2",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATHC285",
-                        "courseTitle": "Introduction to Linear Algebra and Differential Equations",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE245."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "ENGLC100",
+            "courseTitle": "Freshman Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE101."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS141."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC248."
-            },
-            {
-                "subject": "Computer Architecture Course",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: CPE315, or CPE333."
-            },
-            {
-                "subject": "Choose a Philosophy Course",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
-            }
-        ]
-    }
+          {
+            "courseNumber": "MATHC185",
+            "courseTitle": "Calculus 2",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE202."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE133."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATHC280",
+            "courseTitle": "Calculus 3",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE233."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE115."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE145."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS143."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATHC285",
+            "courseTitle": "Introduction to Linear Algebra and Differential Equations",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE203."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE215."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE245."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS142."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CSC248."
+      },
+      {
+        "subject": "Computer Architecture Course",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: CPE315, or CPE333."
+      },
+      {
+        "subject": "Choose a Philosophy Course",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+      }
+    ]
+  }
 }

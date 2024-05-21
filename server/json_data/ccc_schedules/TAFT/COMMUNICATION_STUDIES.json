@@ -1,224 +1,218 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS100."
+      },
+      {
+        "subject": "Oral Communication",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "COMM1511",
+                "courseTitle": "Public Speaking",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "COMM1511",
+                "courseTitle": "Public Speaking",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: COMS101, or COMS102."
+      },
+      {
+        "subject": "Expository Writing",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "ENGL1500",
+                "courseTitle": "Composition and Reading",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: ENGL133, or ENGL134."
+      },
+      {
+        "subject": "Free Elective",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here. Recommended: Foreign Language 101."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS205."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "Statistics",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "STAT1510",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "STAT1510",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "5.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT217, or STAT218."
+      },
+      {
+        "subject": "Free Elective",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here. Recommended: Foreign Language 102."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS206."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS208."
+      },
+      {
+        "subject": "Modern Language",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Modern Language (103-Level) course can go here. Refer to Catalog."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS100."
-            },
-            {
-                "subject": "Oral Communication",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "COMM1511",
-                                "courseTitle": "Public Speaking",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "COMM1511",
-                                "courseTitle": "Public Speaking",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: COMS101, or COMS102."
-            },
-            {
-                "subject": "Expository Writing",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "ENGL1500",
-                                "courseTitle": "Composition and Reading",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: ENGL133, or ENGL134."
-            },
-            {
-                "subject": "Free Elective",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here. Recommended: Foreign Language 101."
-            }
-        ]
-    },
-    "2": {
-        "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS205."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
-            {
-                "subject": "Statistics",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "STAT1510",
-                                "courseTitle": "Elementary Statistics",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "STAT1510",
-                                "courseTitle": "Elementary Statistics",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: STAT217, or STAT218."
-            },
-            {
-                "subject": "Free Elective",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here. Recommended: Foreign Language 102."
-            }
-        ]
-    },
-    "3": {
-        "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS206."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS208."
-            },
-            {
-                "subject": "Modern Language",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Modern Language (103-Level) course can go here. Refer to Catalog."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            }
-        ]
-    },
-    "5": {
-        "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM1507",
-                        "courseTitle": "Small Group Discussion",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS211."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            }
-        ]
-    },
-    "6": {
-        "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS213."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            }
-        ]
-    },
-    "7": {
-        "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS250."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "Free Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here."
-            }
-        ]
-    }
+          {
+            "courseNumber": "COMM1507",
+            "courseTitle": "Small Group Discussion",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS211."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS215."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS213."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS250."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Lower-Division F, and GE Electives (8). Upper-Division B and Upper-Division C should be taken only after Junior standing is reached (90 units). <b>Upper-Division C cannot be fulfilled with COMS courses.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here."
+      }
+    ]
+  }
 }

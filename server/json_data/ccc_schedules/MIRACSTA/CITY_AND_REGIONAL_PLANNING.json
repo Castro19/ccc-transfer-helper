@@ -1,252 +1,252 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM101",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CRP212."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CRP216."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "COMM101",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CRP212."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CRP216."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH126",
-                        "courseTitle": "Pre-Calculus I: College Algebra",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH126S",
-                        "courseTitle": "Pre-Calculus I: College Algebra with Integrated Support",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CRP211."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ENGL134."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
-            }
-        ]
-    },
-    "3": {
-        "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CRP215."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH103",
-                                "courseTitle": "Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH103S",
-                                "courseTitle": "Statistics with Integrated Support",
-                                "courseUnits": "5.00"
-                            },
-                            {
-                                "courseNumber": "PSYC104",
-                                "courseTitle": "Statistics for Behavioral Science",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "PSYC104H",
-                                "courseTitle": "Statistics for Behavioral Science (Honors)",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BTEC180",
-                                "courseTitle": "Biostatistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BTEC180H",
-                                "courseTitle": "Biostatistics (Honors)",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "SOC125",
-                                "courseTitle": "Introduction to Statistics in Sociology",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BUS204",
-                                "courseTitle": "Business Statistics",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "BUS204H",
-                                "courseTitle": "Business Statistics (Honors)",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH103",
-                                "courseTitle": "Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH103S",
-                                "courseTitle": "Statistics with Integrated Support",
-                                "courseUnits": "5.00"
-                            },
-                            {
-                                "courseNumber": "PSYC104",
-                                "courseTitle": "Statistics for Behavioral Science",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "PSYC104H",
-                                "courseTitle": "Statistics for Behavioral Science (Honors)",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BTEC180",
-                                "courseTitle": "Biostatistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "BTEC180H",
-                                "courseTitle": "Biostatistics (Honors)",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: STAT217, or STAT218.\r\n\r\nRequired in Major or Support; also satisfies General Education (GE) requirement."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
-            }
-        ]
-    },
-    "5": {
-        "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CRP201."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CRP213."
-            },
-            {
-                "subject": "Approved Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Approved Elective course can go here.\r\n\r\n15 units required. See online catalog for Approved Elective course options. Consultation with advisor is recommended prior to selecting Approved Electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. If any of these courses are taken to meet a Major or Support requirement in the degree, it cannot be double-counted as an Approved Elective."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
-            }
-        ]
-    },
-    "6": {
-        "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CRP202."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CRP204."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    null,
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: NR306, BIO263, or LA220."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
-            }
-        ]
-    },
-    "7": {
-        "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CRP203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CRP214."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
-            }
-        ]
-    }
+          {
+            "courseNumber": "MATH126",
+            "courseTitle": "Pre-Calculus I: College Algebra",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH126S",
+            "courseTitle": "Pre-Calculus I: College Algebra with Integrated Support",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CRP211."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ENGL134."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CRP215."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH103",
+                "courseTitle": "Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH103S",
+                "courseTitle": "Statistics with Integrated Support",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "PSYC104",
+                "courseTitle": "Statistics for Behavioral Science",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "PSYC104H",
+                "courseTitle": "Statistics for Behavioral Science (Honors)",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BTEC180",
+                "courseTitle": "Biostatistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BTEC180H",
+                "courseTitle": "Biostatistics (Honors)",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "SOC125",
+                "courseTitle": "Introduction to Statistics in Sociology",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BUS204",
+                "courseTitle": "Business Statistics",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "BUS204H",
+                "courseTitle": "Business Statistics (Honors)",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH103",
+                "courseTitle": "Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH103S",
+                "courseTitle": "Statistics with Integrated Support",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "PSYC104",
+                "courseTitle": "Statistics for Behavioral Science",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "PSYC104H",
+                "courseTitle": "Statistics for Behavioral Science (Honors)",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BTEC180",
+                "courseTitle": "Biostatistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "BTEC180H",
+                "courseTitle": "Biostatistics (Honors)",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT217, or STAT218.\r\n\r\nRequired in Major or Support; also satisfies General Education (GE) requirement."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CRP201."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CRP213."
+      },
+      {
+        "subject": "Approved Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Approved Elective course can go here.\r\n\r\n15 units required. See online catalog for Approved Elective course options. Consultation with advisor is recommended prior to selecting Approved Electives; bear in mind your selections may impact pursuit of post-baccalaureate studies and/or goals. If any of these courses are taken to meet a Major or Support requirement in the degree, it cannot be double-counted as an Approved Elective."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CRP202."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CRP204."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          null,
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: NR306, BIO263, or LA220."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CRP203."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CRP214."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units)."
+      }
+    ]
+  }
 }

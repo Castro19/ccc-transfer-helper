@@ -1,262 +1,262 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ARCH101",
-                        "courseTitle": "Principles of Environmental Design",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "EDES",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH181",
-                        "courseTitle": "Calculus 1",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCH101",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH131."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH101."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "ARCH101",
+            "courseTitle": "Principles of Environmental Design",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "EDES",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH182",
-                        "courseTitle": "Calculus 2",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL101",
-                        "courseTitle": "Freshman Composition: Exposition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH132."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH101."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS141",
-                                "courseTitle": "General Physics 1",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS161",
-                                "courseTitle": "Engineering Physics 1",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHYS121, or PHYS141.\r\n\r\nPHYS121 and PHYS122 are trigonometry based. PHYS141 and PHYS142 are calculus based."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "MATH181",
+            "courseTitle": "Calculus 1",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "SPCH106",
-                        "courseTitle": "Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH133."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH101."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    {
-                        "conjunction": "AND",
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS141",
-                                "courseTitle": "General Physics 1",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "PHYS142",
-                                "courseTitle": "General Physics 2",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS162",
-                                "courseTitle": "Engineering Physics 2",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHYS122, or PHYS142.\r\n\r\nPHYS121 and PHYS122 are trigonometry based. PHYS141 and PHYS142 are calculus based."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, and F. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "SPCH101",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH131."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH101."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR152",
-                        "courseTitle": "Statics",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ARCE",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH251."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH241."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH217."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "MATH182",
+            "courseTitle": "Calculus 2",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR156",
-                        "courseTitle": "Strength of Materials",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ARCE",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH252."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH242."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH218."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "ENGL101",
+            "courseTitle": "Freshman Composition: Exposition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH132."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH101."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS141",
+                "courseTitle": "General Physics 1",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS161",
+                "courseTitle": "Engineering Physics 1",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHYS121, or PHYS141.\r\n\r\nPHYS121 and PHYS122 are trigonometry based. PHYS141 and PHYS142 are calculus based."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ARCH107",
-                        "courseTitle": "Sustainable Design Methods & Technology",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ARCH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH253."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCH219."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ARCE226."
-            }
-        ]
-    }
+          {
+            "courseNumber": "SPCH106",
+            "courseTitle": "Argumentation and Debate",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH133."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH101."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "PHYS141",
+                "courseTitle": "General Physics 1",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "PHYS142",
+                "courseTitle": "General Physics 2",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS162",
+                "courseTitle": "Engineering Physics 2",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHYS122, or PHYS142.\r\n\r\nPHYS121 and PHYS122 are trigonometry based. PHYS141 and PHYS142 are calculus based."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, Upper-Division B, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, and F. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: Upper-Division B, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGR152",
+            "courseTitle": "Statics",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ARCE",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH251."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH241."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH217."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGR156",
+            "courseTitle": "Strength of Materials",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ARCE",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH252."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH242."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH218."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ARCH107",
+            "courseTitle": "Sustainable Design Methods & Technology",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ARCH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH253."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCH219."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCE226."
+      }
+    ]
+  }
 }

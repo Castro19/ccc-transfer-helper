@@ -1,567 +1,567 @@
 {
-    "name": "Clovis Community College",
-    "code": "CLOVIS",
-    "id": 150,
-    "courses": [
-        {
-            "courseNumber": "ART7",
-            "courseTitle": "Beginning Drawing",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART2",
-            "courseTitle": "Art Appreciation",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART17",
-            "courseTitle": "Intermediate Drawing",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART9",
-            "courseTitle": "Beginning Painting: Oil and Acrylic",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART5",
-            "courseTitle": "Art History 1",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ART6",
-            "courseTitle": "Art History 2",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "BIOL3",
-            "courseTitle": "Introduction to Life Science",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BIOL10",
-            "courseTitle": "Introduction to Life Science Lecture",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "BIOL10L",
-            "courseTitle": "Introduction to Life Science Lab",
-            "courseUnits": "1.00"
-        },
-        {
-            "courseNumber": "BIOL11A",
-            "courseTitle": "Biology for Science Majors I",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "BIOL11B",
-            "courseTitle": "Biology for Science Majors II",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "BIOL22",
-            "courseTitle": "Human Physiology",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "BIOL20",
-            "courseTitle": "Human Anatomy",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BIOL31",
-            "courseTitle": "Microbiology",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "ENGR2",
-            "courseTitle": "Engineering Graphics",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "BA18",
-            "courseTitle": "Business Law and the Legal Environment",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ACCTG4A",
-            "courseTitle": "Financial Accounting",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ACCTG4B",
-            "courseTitle": "Managerial Accounting",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ECON1B",
-            "courseTitle": "Principles of Microeconomics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ECON1A",
-            "courseTitle": "Principles of Macroeconomics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CHEM3A",
-            "courseTitle": "Introductory General Chemistry",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "CHEM1A",
-            "courseTitle": "General Chemistry",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "CHEM1B",
-            "courseTitle": "General Chemistry and Qualitative Analysis",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "CHEM3B",
-            "courseTitle": "Introductory Organic and Biological Chemistry",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "CHEM28A",
-            "courseTitle": "Organic Chemistry I",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CHEM29A",
-            "courseTitle": "Organic Chemistry Laboratory I",
-            "courseUnits": "2.00"
-        },
-        {
-            "courseNumber": "CHEM28B",
-            "courseTitle": "Organic Chemistry II",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CHEM29B",
-            "courseTitle": "Organic Chemistry Laboratory II",
-            "courseUnits": "2.00"
-        },
-        {
-            "courseNumber": "COMM1",
-            "courseTitle": "Public Speaking",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGL3",
-            "courseTitle": "Critical Reading and Writing",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGL3H",
-            "courseTitle": "Honors Critical Reading and Writing",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "COMM2",
-            "courseTitle": "Interpersonal Communication",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGR40",
-            "courseTitle": "Programming for Scientists and Engineers",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "CSCI40",
-            "courseTitle": "Programming Concepts and Methodology I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "IS33",
-            "courseTitle": "Beginning Java Programming",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CSCI41",
-            "courseTitle": "Programming Concepts and Methodology II",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "CSCI45",
-            "courseTitle": "Computer Organization and Assembly Language Programming",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ENGR5",
-            "courseTitle": "Programming and Problem-Solving in MATLAB",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "CSCI26",
-            "courseTitle": "Discrete Mathematics for Computer Science",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ENGR6",
-            "courseTitle": "Electric Circuit Analysis with Lab",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ENGL1A",
-            "courseTitle": "Reading and Composition",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ENGL1AH",
-            "courseTitle": "Honors Reading and Composition",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ENGL46A",
-            "courseTitle": "British Literature to 1800",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGL43B",
-            "courseTitle": "American Literature: 1877 to Present",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGL46B",
-            "courseTitle": "British Literature from 1800 to the present",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGL44A",
-            "courseTitle": "World Literature to the Renaissance",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGL44B",
-            "courseTitle": "World Literature Since the Renaissance",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "LING10",
-            "courseTitle": "Introduction to Language",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "FN40",
-            "courseTitle": "Nutrition",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "FN35",
-            "courseTitle": "Nutrition and Health",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HIST1",
-            "courseTitle": "Western Civilization to 1648",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HIST2",
-            "courseTitle": "Western Civilization from 1648",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HIST20",
-            "courseTitle": "World History I to 1600",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PHYS4A",
-            "courseTitle": "Physics for Scientists and Engineers I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "PHYS4B",
-            "courseTitle": "Physics for Scientists and Engineers II",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "PHYS4C",
-            "courseTitle": "Physics for Scientists and Engineers III",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "MATH5A",
-            "courseTitle": "Math Analysis I",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "MATH5B",
-            "courseTitle": "Math Analysis II",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "ENGR8",
-            "courseTitle": "Statics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PHIL1C",
-            "courseTitle": "Ethics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PHIL1CH",
-            "courseTitle": "Honors Ethics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PHIL1",
-            "courseTitle": "Introduction to Philosophy",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH6",
-            "courseTitle": "Math Analysis III",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "MATH17",
-            "courseTitle": "Differential Equations and Linear Algebra",
-            "courseUnits": "5.00"
-        },
-        {
-            "courseNumber": "HLTH1",
-            "courseTitle": "Contemporary Health Issues",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "KINES22",
-            "courseTitle": "Introduction to Kinesiology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "HLTH2",
-            "courseTitle": "First Aid and Safety",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "GEOG10",
-            "courseTitle": "Introduction to Geographic Information Systems",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ENGR10",
-            "courseTitle": "Introduction to Engineering",
-            "courseUnits": "2.00"
-        },
-        {
-            "courseNumber": "ENGR4",
-            "courseTitle": "Engineering Materials",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH45",
-            "courseTitle": "Contemporary Mathematics",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH10A",
-            "courseTitle": "Structure and Concepts in Mathematics I",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MATH4B",
-            "courseTitle": "Precalculus",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "MATH4A",
-            "courseTitle": "Trigonometry",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "MUS12",
-            "courseTitle": "Music Appreciation",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "MUS31",
-            "courseTitle": "Concert Choir",
-            "courseUnits": "2.00 - 6.00"
-        },
-        {
-            "courseNumber": "MUS16",
-            "courseTitle": "Jazz History and Appreciation",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "GEOG5",
-            "courseTitle": "Physical Geography: Environmental Conditions",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "GEOG9",
-            "courseTitle": "Physical Geography: Land Formation",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PHIL4",
-            "courseTitle": "Introduction to Logic",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PHIL6",
-            "courseTitle": "Symbolic Logic",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "GEOL1",
-            "courseTitle": "Physical Geology",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "PHYS10",
-            "courseTitle": "Conceptual Physics",
-            "courseUnits": "3.50"
-        },
-        {
-            "courseNumber": "PHYS2A",
-            "courseTitle": "General Physics I",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "PHYS2B",
-            "courseTitle": "General Physics II",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "POLSCI5",
-            "courseTitle": "Comparative Government",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC32",
-            "courseTitle": "Courtship, Marriage, and Divorce: Family and Interpersonal Relationships",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSY38",
-            "courseTitle": "Lifespan Development",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSY2",
-            "courseTitle": "General Psychology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSY2H",
-            "courseTitle": "Honors General Psychology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "PSY5",
-            "courseTitle": "Social Psychology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ANTHRO2",
-            "courseTitle": "Cultural Anthropology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ANTHRO3",
-            "courseTitle": "Introduction to Archaeology and Prehistory",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "ANTHRO1",
-            "courseTitle": "Biological Anthropology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC1A",
-            "courseTitle": "Introduction to Sociology",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "SOC2",
-            "courseTitle": "American Minority Groups",
-            "courseUnits": "3.00"
-        },
-        {
-            "courseNumber": "STAT7",
-            "courseTitle": "Elementary Statistics",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "MATH11",
-            "courseTitle": "Elementary Statistics",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "FRENCH1",
-            "courseTitle": "Beginning French",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "FRENCH2",
-            "courseTitle": "High-Beginning French",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "FRENCH3",
-            "courseTitle": "Intermediate French",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "FRENCH4",
-            "courseTitle": "High-Intermediate French",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "GERMAN1",
-            "courseTitle": "Beginning German",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "GERMAN2",
-            "courseTitle": "High-Beginning German",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "GERMAN3",
-            "courseTitle": "Intermediate German",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "GERMAN4",
-            "courseTitle": "High-Intermediate German",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN1",
-            "courseTitle": "Beginning Spanish",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN2",
-            "courseTitle": "High-Beginning Spanish",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN3",
-            "courseTitle": "Intermediate Spanish",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN4",
-            "courseTitle": "High-Intermediate Spanish",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN4NS",
-            "courseTitle": "Spanish for Spanish Speakers",
-            "courseUnits": "4.00"
-        },
-        {
-            "courseNumber": "SPAN3NS",
-            "courseTitle": "Spanish for Spanish Speakers",
-            "courseUnits": "4.00"
-        }
-    ]
+  "name": "Clovis Community College",
+  "code": "CLOVIS",
+  "id": 150,
+  "courses": [
+    {
+      "courseNumber": "ART7",
+      "courseTitle": "Beginning Drawing",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART2",
+      "courseTitle": "Art Appreciation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART17",
+      "courseTitle": "Intermediate Drawing",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART9",
+      "courseTitle": "Beginning Painting: Oil and Acrylic",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART5",
+      "courseTitle": "Art History 1",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART6",
+      "courseTitle": "Art History 2",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIOL3",
+      "courseTitle": "Introduction to Life Science",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIOL10",
+      "courseTitle": "Introduction to Life Science Lecture",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIOL10L",
+      "courseTitle": "Introduction to Life Science Lab",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "BIOL11A",
+      "courseTitle": "Biology for Science Majors I",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BIOL11B",
+      "courseTitle": "Biology for Science Majors II",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BIOL22",
+      "courseTitle": "Human Physiology",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BIOL20",
+      "courseTitle": "Human Anatomy",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIOL31",
+      "courseTitle": "Microbiology",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "ENGR2",
+      "courseTitle": "Engineering Graphics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BA18",
+      "courseTitle": "Business Law and the Legal Environment",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ACCTG4A",
+      "courseTitle": "Financial Accounting",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ACCTG4B",
+      "courseTitle": "Managerial Accounting",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ECON1B",
+      "courseTitle": "Principles of Microeconomics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ECON1A",
+      "courseTitle": "Principles of Macroeconomics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CHEM3A",
+      "courseTitle": "Introductory General Chemistry",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CHEM1A",
+      "courseTitle": "General Chemistry",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHEM1B",
+      "courseTitle": "General Chemistry and Qualitative Analysis",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHEM3B",
+      "courseTitle": "Introductory Organic and Biological Chemistry",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CHEM28A",
+      "courseTitle": "Organic Chemistry I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CHEM29A",
+      "courseTitle": "Organic Chemistry Laboratory I",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "CHEM28B",
+      "courseTitle": "Organic Chemistry II",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CHEM29B",
+      "courseTitle": "Organic Chemistry Laboratory II",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "COMM1",
+      "courseTitle": "Public Speaking",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL3",
+      "courseTitle": "Critical Reading and Writing",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL3H",
+      "courseTitle": "Honors Critical Reading and Writing",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COMM2",
+      "courseTitle": "Interpersonal Communication",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGR40",
+      "courseTitle": "Programming for Scientists and Engineers",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CSCI40",
+      "courseTitle": "Programming Concepts and Methodology I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "IS33",
+      "courseTitle": "Beginning Java Programming",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CSCI41",
+      "courseTitle": "Programming Concepts and Methodology II",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CSCI45",
+      "courseTitle": "Computer Organization and Assembly Language Programming",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGR5",
+      "courseTitle": "Programming and Problem-Solving in MATLAB",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CSCI26",
+      "courseTitle": "Discrete Mathematics for Computer Science",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGR6",
+      "courseTitle": "Electric Circuit Analysis with Lab",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGL1A",
+      "courseTitle": "Reading and Composition",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGL1AH",
+      "courseTitle": "Honors Reading and Composition",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGL46A",
+      "courseTitle": "British Literature to 1800",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL43B",
+      "courseTitle": "American Literature: 1877 to Present",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL46B",
+      "courseTitle": "British Literature from 1800 to the present",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL44A",
+      "courseTitle": "World Literature to the Renaissance",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL44B",
+      "courseTitle": "World Literature Since the Renaissance",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "LING10",
+      "courseTitle": "Introduction to Language",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "FN40",
+      "courseTitle": "Nutrition",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "FN35",
+      "courseTitle": "Nutrition and Health",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST1",
+      "courseTitle": "Western Civilization to 1648",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST2",
+      "courseTitle": "Western Civilization from 1648",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST20",
+      "courseTitle": "World History I to 1600",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHYS4A",
+      "courseTitle": "Physics for Scientists and Engineers I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHYS4B",
+      "courseTitle": "Physics for Scientists and Engineers II",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHYS4C",
+      "courseTitle": "Physics for Scientists and Engineers III",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH5A",
+      "courseTitle": "Math Analysis I",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "MATH5B",
+      "courseTitle": "Math Analysis II",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGR8",
+      "courseTitle": "Statics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHIL1C",
+      "courseTitle": "Ethics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHIL1CH",
+      "courseTitle": "Honors Ethics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHIL1",
+      "courseTitle": "Introduction to Philosophy",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH6",
+      "courseTitle": "Math Analysis III",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "MATH17",
+      "courseTitle": "Differential Equations and Linear Algebra",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "HLTH1",
+      "courseTitle": "Contemporary Health Issues",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "KINES22",
+      "courseTitle": "Introduction to Kinesiology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HLTH2",
+      "courseTitle": "First Aid and Safety",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOG10",
+      "courseTitle": "Introduction to Geographic Information Systems",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGR10",
+      "courseTitle": "Introduction to Engineering",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "ENGR4",
+      "courseTitle": "Engineering Materials",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH45",
+      "courseTitle": "Contemporary Mathematics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH10A",
+      "courseTitle": "Structure and Concepts in Mathematics I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH4B",
+      "courseTitle": "Precalculus",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH4A",
+      "courseTitle": "Trigonometry",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MUS12",
+      "courseTitle": "Music Appreciation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS31",
+      "courseTitle": "Concert Choir",
+      "courseUnits": "2.00 - 6.00"
+    },
+    {
+      "courseNumber": "MUS16",
+      "courseTitle": "Jazz History and Appreciation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOG5",
+      "courseTitle": "Physical Geography: Environmental Conditions",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOG9",
+      "courseTitle": "Physical Geography: Land Formation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHIL4",
+      "courseTitle": "Introduction to Logic",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHIL6",
+      "courseTitle": "Symbolic Logic",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOL1",
+      "courseTitle": "Physical Geology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHYS10",
+      "courseTitle": "Conceptual Physics",
+      "courseUnits": "3.50"
+    },
+    {
+      "courseNumber": "PHYS2A",
+      "courseTitle": "General Physics I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHYS2B",
+      "courseTitle": "General Physics II",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "POLSCI5",
+      "courseTitle": "Comparative Government",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC32",
+      "courseTitle": "Courtship, Marriage, and Divorce: Family and Interpersonal Relationships",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY38",
+      "courseTitle": "Lifespan Development",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY2",
+      "courseTitle": "General Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY2H",
+      "courseTitle": "Honors General Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY5",
+      "courseTitle": "Social Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANTHRO2",
+      "courseTitle": "Cultural Anthropology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANTHRO3",
+      "courseTitle": "Introduction to Archaeology and Prehistory",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANTHRO1",
+      "courseTitle": "Biological Anthropology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC1A",
+      "courseTitle": "Introduction to Sociology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC2",
+      "courseTitle": "American Minority Groups",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "STAT7",
+      "courseTitle": "Elementary Statistics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH11",
+      "courseTitle": "Elementary Statistics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "FRENCH1",
+      "courseTitle": "Beginning French",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "FRENCH2",
+      "courseTitle": "High-Beginning French",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "FRENCH3",
+      "courseTitle": "Intermediate French",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "FRENCH4",
+      "courseTitle": "High-Intermediate French",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "GERMAN1",
+      "courseTitle": "Beginning German",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "GERMAN2",
+      "courseTitle": "High-Beginning German",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "GERMAN3",
+      "courseTitle": "Intermediate German",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "GERMAN4",
+      "courseTitle": "High-Intermediate German",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN1",
+      "courseTitle": "Beginning Spanish",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN2",
+      "courseTitle": "High-Beginning Spanish",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN3",
+      "courseTitle": "Intermediate Spanish",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN4",
+      "courseTitle": "High-Intermediate Spanish",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN4NS",
+      "courseTitle": "Spanish for Spanish Speakers",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN3NS",
+      "courseTitle": "Spanish for Spanish Speakers",
+      "courseUnits": "4.00"
+    }
+  ]
 }

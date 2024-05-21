@@ -1,281 +1,278 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGR100",
-                        "courseTitle": "Introduction to Engineering",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "EE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH251",
-                        "courseTitle": "Calculus with Analytic Geometry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM210",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM110",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "ENGR100",
+            "courseTitle": "Introduction to Engineering",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "EE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "COMP250",
-                        "courseTitle": "Intro to Object-Oriented Programming: C++",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "COMP284",
-                        "courseTitle": "Introduction to Object-Oriented Programming: Java",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS250",
-                        "courseTitle": "Physics with Calculus I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH252",
-                        "courseTitle": "Calculus with Analytic Geometry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL100",
-                        "courseTitle": "Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "MATH251",
+            "courseTitle": "Calculus with Analytic Geometry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS260",
-                        "courseTitle": "Physics with Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH252",
-                        "courseTitle": "Calculus with Analytic Geometry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM127",
-                        "courseTitle": "Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "CHEM210",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "ENGR260",
-                        "courseTitle": "Circuits and Devices",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "ENGR261",
-                        "courseTitle": "Circuits and Devices Laboratory",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "EE",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "MATH275",
-                        "courseTitle": "Ordinary Differential Equations",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATH270",
-                        "courseTitle": "Linear Algebra",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE133."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "COMM110",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH253",
-                        "courseTitle": "Calculus with Analytic Geometry III",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOL230",
-                        "courseTitle": "Introduction to Cell Biology: Core II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE212."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE242."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BMED213."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "COMP250",
+            "courseTitle": "Intro to Object-Oriented Programming: C++",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "COMP284",
+            "courseTitle": "Introduction to Object-Oriented Programming: Java",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS270",
-                        "courseTitle": "Physics with Calculus III",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE255."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE295."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE228."
-            }
-        ]
-    }
+          {
+            "courseNumber": "PHYS250",
+            "courseTitle": "Physics with Calculus I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH252",
+            "courseTitle": "Calculus with Analytic Geometry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL100",
+            "courseTitle": "Composition",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS260",
+            "courseTitle": "Physics with Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH252",
+            "courseTitle": "Calculus with Analytic Geometry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMM127",
+            "courseTitle": "Argumentation and Debate",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Choose One",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "ENGR260",
+            "courseTitle": "Circuits and Devices",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "ENGR261",
+            "courseTitle": "Circuits and Devices Laboratory",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "EE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "MATH275",
+            "courseTitle": "Ordinary Differential Equations",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "MATH270",
+            "courseTitle": "Linear Algebra",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE133."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS142."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH253",
+            "courseTitle": "Calculus with Analytic Geometry III",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "BIOL230",
+            "courseTitle": "Introduction to Cell Biology: Core II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE212."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE242."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE233."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BMED213."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS270",
+            "courseTitle": "Physics with Calculus III",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE255."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE295."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE228."
+      }
+    ]
+  }
 }

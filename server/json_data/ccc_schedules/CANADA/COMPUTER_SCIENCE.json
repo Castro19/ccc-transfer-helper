@@ -1,321 +1,321 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIS118",
-                        "courseTitle": "Introduction to Computer Science",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "CIS122",
-                        "courseTitle": "Introduction to Programming: Python",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH251",
-                        "courseTitle": "Analytical Geometry and Calculus I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM110",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "CIS118",
+            "courseTitle": "Introduction to Computer Science",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CIS122",
+            "courseTitle": "Introduction to Programming: Python",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIS118",
-                        "courseTitle": "Introduction to Computer Science",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "CIS250",
-                        "courseTitle": "Introduction to Object Oriented Programming: C++",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CIS284",
-                        "courseTitle": "Introduction to Object Oriented Programming-Java",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH252",
-                        "courseTitle": "Analytical Geometry and Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL100",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "MATH251",
+            "courseTitle": "Analytical Geometry and Calculus I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIS252",
-                        "courseTitle": "Introduction to Data Structures: C++",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CIS286",
-                        "courseTitle": "Introduction to Data Structures-Java",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH252",
-                        "courseTitle": "Analytical Geometry and Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
-            {
-                "subject": "Life Science Support Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Life Science\" Support Electives: BIO111, BIO161, BIO213 & BMED213; BOT121; MCRO221.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "COMM110",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIS284",
-                        "courseTitle": "Introduction to Object Oriented Programming-Java",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "CIS250",
-                        "courseTitle": "Introduction to Object Oriented Programming: C++",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS250",
-                        "courseTitle": "Physics with Calculus I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Linear Math",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH270",
-                                "courseTitle": "Linear Algebra",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "AND",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH270",
-                                "courseTitle": "Linear Algebra",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "MATH275",
-                                "courseTitle": "Ordinary Differential Equations",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: MATH206, or MATH244."
-            },
-            {
-                "subject": "Additional Science Support Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Additional Science\" Support Electives; BIO111, BIO161; BOT121; CHEM124; MCRO221; PHYS141.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "CIS118",
+            "courseTitle": "Introduction to Computer Science",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CIS250",
+            "courseTitle": "Introduction to Object Oriented Programming: C++",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CIS284",
+            "courseTitle": "Introduction to Object Oriented Programming-Java",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CIS262",
-                        "courseTitle": "Discrete Mathematics for Computer Science",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CIS242",
-                        "courseTitle": "Computer Architecture and Assembly Language",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PHYS142."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "MATH252",
+            "courseTitle": "Analytical Geometry and Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS260",
-                        "courseTitle": "Physics with Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "subject": "Philosophical Classics",
-                "course": [
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "PHIL160",
-                                "courseTitle": "History of Philosophy: Ancient and Medieval",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL240",
-                                "courseTitle": "Introduction to Ethics",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL100",
-                                "courseTitle": "Introduction to Philosophy",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "PHIL240",
-                                "courseTitle": "Introduction to Ethics",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL100",
-                                "courseTitle": "Introduction to Philosophy",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL160",
-                                "courseTitle": "History of Philosophy: Ancient and Medieval",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHIL230, or PHIL231."
-            }
-        ]
-    }
+          {
+            "courseNumber": "ENGL100",
+            "courseTitle": "Reading and Composition",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CIS252",
+            "courseTitle": "Introduction to Data Structures: C++",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CIS286",
+            "courseTitle": "Introduction to Data Structures-Java",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH252",
+            "courseTitle": "Analytical Geometry and Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "Life Science Support Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Life Science\" Support Electives: BIO111, BIO161, BIO213 & BMED213; BOT121; MCRO221.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CIS284",
+            "courseTitle": "Introduction to Object Oriented Programming-Java",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CIS250",
+            "courseTitle": "Introduction to Object Oriented Programming: C++",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS250",
+            "courseTitle": "Physics with Calculus I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Linear Math",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH270",
+                "courseTitle": "Linear Algebra",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "MATH270",
+                "courseTitle": "Linear Algebra",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "MATH275",
+                "courseTitle": "Ordinary Differential Equations",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH206, or MATH244."
+      },
+      {
+        "subject": "Additional Science Support Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Additional Science\" Support Electives; BIO111, BIO161; BOT121; CHEM124; MCRO221; PHYS141.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CIS262",
+            "courseTitle": "Discrete Mathematics for Computer Science",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CIS242",
+            "courseTitle": "Computer Architecture and Assembly Language",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS142."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS260",
+            "courseTitle": "Physics with Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "subject": "Philosophical Classics",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PHIL160",
+                "courseTitle": "History of Philosophy: Ancient and Medieval",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL240",
+                "courseTitle": "Introduction to Ethics",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL100",
+                "courseTitle": "Introduction to Philosophy",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PHIL240",
+                "courseTitle": "Introduction to Ethics",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL100",
+                "courseTitle": "Introduction to Philosophy",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL160",
+                "courseTitle": "History of Philosophy: Ancient and Medieval",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHIL230, or PHIL231."
+      }
+    ]
+  }
 }

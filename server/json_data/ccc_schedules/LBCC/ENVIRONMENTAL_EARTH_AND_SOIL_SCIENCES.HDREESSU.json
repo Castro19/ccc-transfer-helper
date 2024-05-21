@@ -1,359 +1,359 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "GEOL2",
-                        "courseTitle": "General Geology: Physical",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "GEOL",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIO5",
-                        "courseTitle": "Plant Biology",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "BOT",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM10",
-                        "courseTitle": "Elements of Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for NR140."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ERSC144."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "GEOL2",
+            "courseTitle": "General Geology: Physical",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "GEOL",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1A",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.50"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL1",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM60",
-                        "courseTitle": "Elements of Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Calculus I Course",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH60",
-                                "courseTitle": "First Calculus Course",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH60",
-                                "courseTitle": "First Calculus Course",
-                                "courseUnits": "5.00"
-                            },
-                            {
-                                "courseNumber": "MATH60H",
-                                "courseTitle": "Honors First Calculus Course",
-                                "courseUnits": "5.00"
-                            },
-                            {
-                                "courseNumber": "MATH47",
-                                "courseTitle": "Calculus for Business",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: MATH141, or MATH161."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "BIO5",
+            "courseTitle": "Plant Biology",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "BOT",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1A",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.50"
-                    },
-                    {
-                        "courseNumber": "CHEM1B",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.50"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "GEOG10",
-                        "courseTitle": "Introduction to Geographic Information Systems",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "NR",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS120."
-            },
-            {
-                "subject": "Calculus II Course",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH70",
-                                "courseTitle": "Second Calculus Course",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH70",
-                                "courseTitle": "Second Calculus Course",
-                                "courseUnits": "5.00"
-                            },
-                            {
-                                "courseNumber": "MATH70H",
-                                "courseTitle": "Honors Second Calculus Course",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: MATH142, or MATH162.\r\n\r\nIf a course is taken to meet a Major requirement, it cannot be double-counted in the concentration."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "COMM10",
+            "courseTitle": "Elements of Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for NR140."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ERSC144."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1B",
-                        "courseTitle": "General Chemistry",
-                        "courseUnits": "5.50"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for SS221."
-            },
-            {
-                "subject": "College Physics",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS2A",
-                                "courseTitle": "General Physics",
-                                "courseUnits": "4.50"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS3A",
-                                "courseTitle": "Physics for Sci & Eng. - Mechanics",
-                                "courseUnits": "5.50"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHYS121, or PHYS141."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F.\r\n\r\nGEOG150: Human Geography recommended."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "CHEM1A",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.50"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for ERSC223."
-            },
-            {
-                "subject": "Physics II Course",
-                "course": [
-                    {
-                        "conjunction": "AND",
-                        "courses": [
-                            {
-                                "courseNumber": "PHYS2A",
-                                "courseTitle": "General Physics",
-                                "courseUnits": "4.50"
-                            },
-                            {
-                                "courseNumber": "PHYS2B",
-                                "courseTitle": "General Physics",
-                                "courseUnits": "4.50"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHYS122, or PHYS142."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "ENGL1",
+            "courseTitle": "Reading and Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for GEOL241."
-            },
-            {
-                "subject": "Statistics",
-                "course": [
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "STAT1",
-                                "courseTitle": "Elementary Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "STAT1H",
-                                "courseTitle": "Honors Elementary Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH21B",
-                                "courseTitle": "Statistics Pathway B",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "STAT1",
-                                "courseTitle": "Elementary Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "STAT1H",
-                                "courseTitle": "Honors Elementary Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH21B",
-                                "courseTitle": "Statistics Pathway B",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: STAT217, or STAT218."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
-            }
-        ]
-    }
+          {
+            "courseNumber": "COMM60",
+            "courseTitle": "Elements of Argumentation and Debate",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Calculus I Course",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH60",
+                "courseTitle": "First Calculus Course",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH60",
+                "courseTitle": "First Calculus Course",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "MATH60H",
+                "courseTitle": "Honors First Calculus Course",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "MATH47",
+                "courseTitle": "Calculus for Business",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH141, or MATH161."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "CHEM1A",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.50"
+          },
+          {
+            "courseNumber": "CHEM1B",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.50"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "GEOG10",
+            "courseTitle": "Introduction to Geographic Information Systems",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "NR",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for SS120."
+      },
+      {
+        "subject": "Calculus II Course",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH70",
+                "courseTitle": "Second Calculus Course",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH70",
+                "courseTitle": "Second Calculus Course",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "MATH70H",
+                "courseTitle": "Honors Second Calculus Course",
+                "courseUnits": "5.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH142, or MATH162.\r\n\r\nIf a course is taken to meet a Major requirement, it cannot be double-counted in the concentration."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM1B",
+            "courseTitle": "General Chemistry",
+            "courseUnits": "5.50"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for SS221."
+      },
+      {
+        "subject": "College Physics",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS2A",
+                "courseTitle": "General Physics",
+                "courseUnits": "4.50"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PHYS3A",
+                "courseTitle": "Physics for Sci & Eng. - Mechanics",
+                "courseUnits": "5.50"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHYS121, or PHYS141."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F.\r\n\r\nGEOG150: Human Geography recommended."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ERSC223."
+      },
+      {
+        "subject": "Physics II Course",
+        "course": [
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "PHYS2A",
+                "courseTitle": "General Physics",
+                "courseUnits": "4.50"
+              },
+              {
+                "courseNumber": "PHYS2B",
+                "courseTitle": "General Physics",
+                "courseUnits": "4.50"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHYS122, or PHYS142."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for GEOL241."
+      },
+      {
+        "subject": "Statistics",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "STAT1",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "STAT1H",
+                "courseTitle": "Honors Elementary Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH21B",
+                "courseTitle": "Statistics Pathway B",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "STAT1",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "STAT1H",
+                "courseTitle": "Honors Elementary Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH21B",
+                "courseTitle": "Statistics Pathway B",
+                "courseUnits": "5.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT217, or STAT218."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, Upper-Division D, E, or F."
+      }
+    ]
+  }
 }

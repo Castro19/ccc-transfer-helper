@@ -1,221 +1,221 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIOL120",
-                        "courseTitle": "Introduction to Biological Science",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM130",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN125."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "BIOL120",
+            "courseTitle": "Introduction to Biological Science",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "HO152",
-                        "courseTitle": "Normal and Therapeutic Nutrition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "FSN",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL100",
-                        "courseTitle": "Freshman Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM127."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH170",
-                                "courseTitle": "Analytic Geometry and Calculus I",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH116",
-                                "courseTitle": "Calculus for Managerial, Biological and Social Sciences",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH170",
-                                "courseTitle": "Analytic Geometry and Calculus I",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: MATH141, or MATH161."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMM130",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN102."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN125."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS101",
-                        "courseTitle": "General Physics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM103",
-                        "courseTitle": "Argumentation, Persuasion, and Critical Thinking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN250."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM128."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "HO152",
+            "courseTitle": "Normal and Therapeutic Nutrition",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "FSN",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH190",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH112",
-                        "courseTitle": "Elementary Statistics",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH112S",
-                        "courseTitle": "Enhanced Elementary Statistics",
-                        "courseUnits": "4.50"
-                    },
-                    {
-                        "courseNumber": "PSYC210",
-                        "courseTitle": "Elementary Statistics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "ENGL100",
+            "courseTitle": "Freshman Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM127."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH170",
+                "courseTitle": "Analytic Geometry and Calculus I",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH116",
+                "courseTitle": "Calculus for Managerial, Biological and Social Sciences",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH170",
+                "courseTitle": "Analytic Geometry and Calculus I",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH141, or MATH161."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN204."
-            },
-            {
-                "subject": "Approved Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Approved Elective course can go here."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "PHYS101",
+            "courseTitle": "General Physics",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MICR200",
-                        "courseTitle": "Principles and Applications of Microbiology",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MCRO",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Approved Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Approved Elective course can go here."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). Students interested in Blended program should pass GWR no later than Spring of Junior year and adjust their schedule to plan to complete FSN 330 in Fall of their Junior year. FSN330 is one of the prerequisite courses to be considered for the Blended program."
-            }
-        ]
-    }
+          {
+            "courseNumber": "COMM103",
+            "courseTitle": "Argumentation, Persuasion, and Critical Thinking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN250."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM128."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH190",
+            "courseTitle": "Analytic Geometry and Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH112",
+            "courseTitle": "Elementary Statistics",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH112S",
+            "courseTitle": "Enhanced Elementary Statistics",
+            "courseUnits": "4.50"
+          },
+          {
+            "courseNumber": "PSYC210",
+            "courseTitle": "Elementary Statistics",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN204."
+      },
+      {
+        "subject": "Approved Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Approved Elective course can go here."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MICR200",
+            "courseTitle": "Principles and Applications of Microbiology",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MCRO",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Approved Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Approved Elective course can go here."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). Students interested in Blended program should pass GWR no later than Spring of Junior year and adjust their schedule to plan to complete FSN 330 in Fall of their Junior year. FSN330 is one of the prerequisite courses to be considered for the Blended program."
+      }
+    ]
+  }
 }

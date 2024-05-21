@@ -16,7 +16,7 @@ const DropdownMenu = ({
   listOfItems,
   isCollege,
   selectedValue,
-}: DropdownType) => {
+}: DropdownType): JSX.Element => {
   const [position, setPosition] = useState("popper");
 
   useEffect(() => {

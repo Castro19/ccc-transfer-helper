@@ -1,187 +1,187 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BUS294",
-                        "courseTitle": "Business Law",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "BUS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM120",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGB101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGB202."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "BUS294",
+            "courseTitle": "Business Law",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "BUS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL122",
-                        "courseTitle": "First-Year College Writing and Reading",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM121",
-                        "courseTitle": "Persuasion and Critical Thinking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGB212."
-            },
-            {
-                "subject": "Agricultural Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Agricultural Elective course can go here.\r\n\r\n<b>Agricultural Electives.</b> Select a course from the list in the catalog.\r\n\r\nIf a GE course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMM120",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGB101."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGB202."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BUSAC186",
-                        "courseTitle": "Financial Accounting",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "AGB",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH182",
-                        "courseTitle": "Calculus for Management, Life Science, and Social Science I",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR)."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "ENGL122",
+            "courseTitle": "First-Year College Writing and Reading",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "BUS240",
-                        "courseTitle": "Business Statistics",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "MATH142",
-                        "courseTitle": "Elementary Statistics with Probability",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "MATH144",
-                        "courseTitle": "Statway II",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for AGB260."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR)."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "COMM121",
+            "courseTitle": "Persuasion and Critical Thinking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGB212."
+      },
+      {
+        "subject": "Agricultural Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Agricultural Elective course can go here.\r\n\r\n<b>Agricultural Electives.</b> Select a course from the list in the catalog.\r\n\r\nIf a GE course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ECON220",
-                        "courseTitle": "Principles of Macroeconomics",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ECON",
-                "uniqueClass": false
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR)."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "BUSAC186",
+            "courseTitle": "Financial Accounting",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "AGB",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "subject": "Free Electives",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Free Elective course can go here.\r\n\r\nIf a GE course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
-            }
-        ]
-    }
+          {
+            "courseNumber": "MATH182",
+            "courseTitle": "Calculus for Management, Life Science, and Social Science I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "BUS240",
+            "courseTitle": "Business Statistics",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "MATH142",
+            "courseTitle": "Elementary Statistics with Probability",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH144",
+            "courseTitle": "Statway II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGB260."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ECON220",
+            "courseTitle": "Principles of Macroeconomics",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ECON",
+        "uniqueClass": false
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B1, B2, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "subject": "Free Electives",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here.\r\n\r\nIf a GE course is used to satisfy a Major or Support requirement, additional units of Free Electives may be needed to complete the total units required for the degree."
+      }
+    ]
+  }
 }
