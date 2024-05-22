@@ -1,6 +1,6 @@
 import { useAuth } from "@/contexts/authContext";
 import { SemesterType } from "@/types";
-import { Params } from "react-router-dom";
+import { Params, useNavigate } from "react-router-dom";
 import postSchedule from "./postSchedule";
 
 // Toast
@@ -10,12 +10,15 @@ import { useToast } from "@/components/ui/use-toast";
 import { useEffect, useRef, useState } from "react";
 import deleteScheduleById from "../deleteSchedule/deleteSchedule";
 
+import styles from "./SaveSchedule.module.css";
+
 interface SaveScheduleProps {
   schedule: SemesterType[];
   params: Readonly<Params<string>>;
 }
 
 const SaveSchedule = ({ schedule, params }: SaveScheduleProps): JSX.Element => {
+  const navigate = useNavigate();
   const [newScheduleSaved, setNewScheduleSaved] = useState<string | null>();
   const newScheduleSavedRef = useRef(newScheduleSaved);
 
@@ -25,6 +28,10 @@ const SaveSchedule = ({ schedule, params }: SaveScheduleProps): JSX.Element => {
   useEffect(() => {
     newScheduleSavedRef.current = newScheduleSaved;
   }, [newScheduleSaved]);
+
+  const goToRegister = async () => {
+    navigate("/register/login");
+  };
 
   const deleteSchedule = async () => {
     const responseData = await deleteScheduleById(newScheduleSavedRef.current);
@@ -52,15 +59,19 @@ const SaveSchedule = ({ schedule, params }: SaveScheduleProps): JSX.Element => {
     } else {
       toast({
         variant: "destructive",
-        title: "Uh oh! Something went wrong.",
+        title: "Uh oh! User is not logged in.",
         description: responseData.message,
-        action: <ToastAction altText="Try again">Try again</ToastAction>,
+        action: (
+          <ToastAction onClick={goToRegister} altText="Go Login">
+            Go Login
+          </ToastAction>
+        ),
       });
     }
   };
   return (
     <>
-      <Button variant="outline" onClick={handleSaveSchedule}>
+      <Button className={styles.but} onClick={handleSaveSchedule}>
         Save Schedule
       </Button>
     </>
