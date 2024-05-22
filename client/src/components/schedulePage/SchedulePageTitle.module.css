@@ -1,43 +1,43 @@
-  .container {
-    display: flex;
-    flex-direction: column;
-    
-    padding: 20px;
-    border-radius: 12px;
-    max-width: 800px; /* Optional: max width to center the content */
-    margin: 0 auto; /* Center the container */
-    margin-top: 12px;
-    margin-bottom: 12px;
-    row-gap: 15px;
-    color: #2c3e50; /* Dark color for the title */
-    text-align: center; /* Center-align the title */
-    margin-bottom: 20px; /* Space below the title */
-    font-family: 'Roboto', sans-serif; /* Use a professional font */
-    text-transform: uppercase; /* Make the title uppercase */
-    letter-spacing: 1.5px; /* Add spacing between letters */
-    position: relative; /* To position the decorative line */
-  }
+.container {
+  display: flex;
+  flex-direction: column;
 
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 800px; /* Optional: max width to center the content */
+  margin: 0 auto; /* Center the container */
+  margin-top: 12px;
+  margin-bottom: 12px;
+  row-gap: 15px;
+  color: #2c3e50; /* Dark color for the title */
+  text-align: center; /* Center-align the title */
+  margin-bottom: 20px; /* Space below the title */
+  font-family: "Roboto", sans-serif; /* Use a professional font */
+  text-transform: uppercase; /* Make the title uppercase */
+  letter-spacing: 1.5px; /* Add spacing between letters */
+}
 
-  .container::after {
-    content: '';
-    display: block;
-    width: 100px; /* Width of the decorative line */
-    height: 3px; /* Height of the decorative line */
-    background-color: #2c3e50; /* Cal Poly dark green #1e4d2b */
-    margin: 10px auto 0; /* Center the line and add space above */
-    border-radius: 2px; /* Round the corners of the line */
-  }
+.container::after {
+  content: "";
+  display: block;
+  width: 100px; /* Width of the decorative line */
+  height: 3px; /* Height of the decorative line */
+  background-color: #2c3e50; /* Cal Poly dark green #1e4d2b */
+  margin: 10px auto 0; /* Center the line and add space above */
+  border-radius: 2px; /* Round the corners of the line */
+}
 
-  .ccc {
-    font-weight: bold;
-    color: #2c3e50;
-    font-size: 1.2rem;
-  }
-  
-  .ccc, .header, .year {
-    font-weight: bold;
-    color: #2c3e50;
-    font-size: 1rem;
-    margin: 4px 0;
-  }
+.ccc {
+  font-weight: bold;
+  color: #2c3e50;
+  font-size: 1.2rem;
+}
+
+.ccc,
+.header,
+.year {
+  font-weight: bold;
+  color: #2c3e50;
+  font-size: 1rem;
+  margin: 4px 0;
+}
