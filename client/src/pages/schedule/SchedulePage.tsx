@@ -22,7 +22,7 @@ const SchedulePage = (): JSX.Element => {
   const [subjectClasses] = useState(initialData.subjectClasses);
   const [classList] = useState(initialData.classList);
   const [schedule, setSchedule] = useState(initialSemesters);
-
+  const [ge, setGe] = useState(initialData.ge);
   // Layout
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
@@ -89,6 +89,7 @@ const SchedulePage = (): JSX.Element => {
           isVisible={isSidebarVisible}
           setIsVisible={handleSidebarVisibility}
           subjectClasses={subjectClasses}
+          ge={ge}
           classList={classList}
           schedule={schedule}
         />

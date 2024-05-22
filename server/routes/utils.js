@@ -61,3 +61,11 @@ export async function getSchedule(
 
   return scheduleData;
 }
+
+export async function getGE(ccc) {
+  const filePath = `json_data/GE/${ccc}.json`;
+  const rawData = await fs.readFile(filePath, "utf8");
+  const dataGE = JSON.parse(rawData);
+
+  return dataGE;
+}
