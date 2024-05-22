@@ -1,4 +1,6 @@
 import { Fragment } from "react";
+import styles from "./SchedulePageTitle.module.css";
+
 
 type SchedulePageTitleProps = {
   selectedYear: string | null;
@@ -15,16 +17,21 @@ const SchedulePageTitle = ({
 }: SchedulePageTitleProps): JSX.Element => {
   return (
     <Fragment>
-      <h1 className="text-2xl font-bold text-center mt-4 mb-2">
+      <div className = {styles.container}>
+
+      
+      <h1 className={styles.header}>
         {selectedTransferCollege}: {selectedMajor}
       </h1>
-      <p className="text-center font-bold text-2xl text-gray-800 my-4">
+      <p className={styles.ccc}>
         Transferring from {selectedCCC}
       </p>
-      <p className="text-center font-bold text-2xl text-gray-800 my-4">
+      <p className={styles.year}>
         Starting year: {selectedYear}
       </p>
+      </div>
     </Fragment>
   );
 };
 export default SchedulePageTitle;
+

@@ -1,11 +1,32 @@
-.btn {
-  padding: 10px;
+.but {
+  padding: 10px 30px; /* Adjusted padding for better look */
   margin: 5px;
-  background-color: #007bff;
+  background-color: #202c3c; /* Primary button color */
   color: white;
   border: none;
   cursor: pointer;
-  width: 100%;
-  border: 5px;
-  border-radius: 20px;
+  width: 100%; /* Ensure full-width in its container */
+  border-radius: 20px; /* Rounded corners */
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease; /* Smooth transitions */
+  font-size: 14px; /* Larger text for better readability */
+  font-weight: bold; /* Bold text for emphasis */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-family: "Roboto", sans-serif;
+}
+
+.but:hover {
+  background-color: #121923; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.but:active {
+  background-color: #141c24; /* Even darker shade on click */
+  transform: translateY(0); /* Reset lift on click */
+}
+
+.but:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Custom focus ring */
 }
