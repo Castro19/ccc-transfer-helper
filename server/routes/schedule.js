@@ -9,6 +9,7 @@ import organizeClasses, {
   getClassList,
   getFileName,
   getSchedule,
+  getGE,
 } from "./utils.js";
 const router = express.Router();
 
@@ -25,6 +26,7 @@ router.get("/:ccc/:college/:major/", async (req, res) => {
     result["schedule"] = scheduleData;
     result["subjectClasses"] = organizeClasses(scheduleData);
     result["classList"] = await getClassList(ccc);
+    result["ge"] = await getGE(ccc);
     res.send(result);
   } catch (error) {
     console.error("Error fetching university data:", error);

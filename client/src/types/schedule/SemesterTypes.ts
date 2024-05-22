@@ -27,6 +27,7 @@ export type SemesterType = {
 };
 
 export type classData = {
+  course(course: any): boolean;
   courseNumber: string;
   courseTitle: string;
   courseUnits: string;
@@ -37,3 +38,20 @@ export type ScheduleData = {
   subjectClasses: SubjectType;
   classList: classData[];
 };
+
+export interface SubRequirement {
+  title: string;
+  requirements: (number | string)[]; // Could be a mix of numbers and strings
+  courses: classData[];
+}
+
+export interface Area {
+  title: string;
+  requirements: (number | string)[];
+  [key: string]: SubRequirement | (number | string)[] | string; // Allow string for title
+}
+
+export interface GE {
+  GE: Area[];
+  [key: string]: Area[]; // For areas like "Area A", "Area B", etc.
+}
