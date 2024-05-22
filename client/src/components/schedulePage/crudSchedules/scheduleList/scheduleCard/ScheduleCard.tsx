@@ -1,6 +1,7 @@
 import styles from "./ScheduleCard.module.css";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import calpolyLogo from "@/../public/imgs/calpoly.png";
 
 type ScheduleCardProps = {
   id: string;
