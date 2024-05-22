@@ -13,7 +13,7 @@ const SchedulePageTitle = ({
   selectedYear,
   selectedCCC,
   selectedTransferCollege,
-  selectedMajor
+  selectedMajor,
 }: SchedulePageTitleProps): JSX.Element => {
   return (
     <Fragment>

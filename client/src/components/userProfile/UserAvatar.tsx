@@ -4,9 +4,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
 export function UserAvatar(): JSX.Element {
-  const [userPhoto, setUserPhoto] = useState<string | null>(
-    null
-  );
+  const [userPhoto, setUserPhoto] = useState<string | null>(null);
 
   useEffect(() => {
     const auth = getAuth();
@@ -27,9 +25,7 @@ export function UserAvatar(): JSX.Element {
 
   return (
     <Avatar>
-      <AvatarImage
-        src={userPhoto || "../../../static/imgs/test.png"}
-      />
+      <AvatarImage src={userPhoto || "../../../static/imgs/test.png"} />
     </Avatar>
   );
 }

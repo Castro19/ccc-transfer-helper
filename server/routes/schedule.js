@@ -17,7 +17,7 @@ router.get("/:ccc/:college/:major/", async (req, res) => {
   try {
     const { ccc, college, major } = req.params;
     // Testing
-    // console.log(`Server Side: ${ccc}, ${college}, ${major}`);
+    console.log(`Server Side: ${ccc}, ${college}, ${major}`);
 
     // Format the major name to represent
     console.log("MAJOR FILE NAME: ", getFileName(major, ccc));

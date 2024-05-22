@@ -1,242 +1,242 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM1",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LS201."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LS230."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PSC101."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HIST201."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "COMM1",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for LS201."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for LS230."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PSC101."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for HIST201."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "ENGL1A",
-                        "courseTitle": "Reading and Composition",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "ENGL1AH",
-                        "courseTitle": "Honors Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LS211."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for HIST208."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PSC102."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "ENGL1A",
+            "courseTitle": "Reading and Composition",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "ENGL1AH",
+            "courseTitle": "Honors Reading and Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for LS211."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for HIST208."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PSC102."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "HIST20",
-                        "courseTitle": "World History I, to 1600",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "HIST",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LS214."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for PSC103."
-            },
-            {
-                "subject": "Statistics",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": []
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH11",
-                                "courseTitle": "Elementary Statistics",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "STAT7",
-                                "courseTitle": "Elementary Statistics",
-                                "courseUnits": "4.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: STAT137, or STAT217.\r\n\r\nStudents considering a Child Development or Psychology minor should consider taking STAT217."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "HIST20",
+            "courseTitle": "World History I, to 1600",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "HIST",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for LS214."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PSC103."
+      },
+      {
+        "subject": "Statistics",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH11",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "STAT7",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT137, or STAT217.\r\n\r\nStudents considering a Child Development or Psychology minor should consider taking STAT217."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH10A",
-                        "courseTitle": "Mathematics for Elementary School Teachers I",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "BIOL10",
-                        "courseTitle": "Introduction to Life Science Lecture",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "BIOL10L",
-                        "courseTitle": "Introduction to Life Science Lab",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LS250."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "MATH10A",
+            "courseTitle": "Mathematics for Elementary School Teachers I",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for LS255."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO211."
-            },
-            {
-                "subject": "General Psychology",
-                "course": [
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "PSY2",
-                                "courseTitle": "General Psychology",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PSY2H",
-                                "courseTitle": "Honors General Psychology",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "PSY2",
-                                "courseTitle": "General Psychology",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PSY2H",
-                                "courseTitle": "Honors General Psychology",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PSY201, or PSY202.\r\n\r\nRequired in Major; also satisfies GE."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "BIOL10",
+            "courseTitle": "Introduction to Life Science Lecture",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "BIOL10L",
+            "courseTitle": "Introduction to Life Science Lab",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for LS250."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for LS255."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO211."
+      },
+      {
+        "subject": "General Psychology",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PSY2",
+                "courseTitle": "General Psychology",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PSY2H",
+                "courseTitle": "Honors General Psychology",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PSY2",
+                "courseTitle": "General Psychology",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PSY2H",
+                "courseTitle": "Honors General Psychology",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PSY201, or PSY202.\r\n\r\nRequired in Major; also satisfies GE."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ASTRO10",
-                        "courseTitle": "Introduction to Astronomy",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ASTR",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CD207."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, Upper-Division C, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D (GEOG308) should be taken only after Junior standing is reached (90 units). NOTE: Some GE may be fulfilled in concentration courses or minors. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
-            },
-            {
-                "subject": "Declare your concentration",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Declare your Concentration around this time."
-            }
-        ]
-    }
+          {
+            "courseNumber": "ASTRO10",
+            "courseTitle": "Introduction to Astronomy",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ASTR",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CD207."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, Upper-Division C, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D (GEOG308) should be taken only after Junior standing is reached (90 units). NOTE: Some GE may be fulfilled in concentration courses or minors. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "Declare your concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Declare your Concentration around this time."
+      }
+    ]
+  }
 }

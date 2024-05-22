@@ -1,273 +1,270 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CIS254",
-                        "courseTitle": "Introduction to Object-Oriented Program Design",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "COMM110",
-                        "courseTitle": "Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATH141."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "CIS254",
+            "courseTitle": "Introduction to Object-Oriented Program Design",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIS278",
-                        "courseTitle": "(CS1) Programming Methods: C++",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "CIS255",
-                        "courseTitle": "(CS1) Programming Methods: Java",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "ENGL100",
-                        "courseTitle": "Composition and Reading",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "ENGL105",
-                        "courseTitle": "Composition with Support",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATH142."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": false,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMM110",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATH141."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CIS256",
-                        "courseTitle": "(CS2) Data Structures: Java",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "CIS279",
-                        "courseTitle": "(CS2) Data Structures: C ++",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATH143."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
-            {
-                "subject": "General Psychology",
-                "course": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PSYC100",
-                                "courseTitle": "General Psychology",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "PSYC100",
-                                "courseTitle": "General Psychology",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PSY201 or PSY202."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "CIS278",
+            "courseTitle": "(CS1) Programming Methods: C++",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CIS255",
+            "courseTitle": "(CS1) Programming Methods: Java",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CIS264",
-                        "courseTitle": "Computer Organization and Systems Programming",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CSC203."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATH241."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM124."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "ENGL100",
+            "courseTitle": "Composition and Reading",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "ENGL105",
+            "courseTitle": "Composition with Support",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATH142."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CIS262",
-                        "courseTitle": "Discrete Mathematics for Computer Science",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for MATH244."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM125."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "CIS256",
+            "courseTitle": "(CS2) Data Structures: Java",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CIS279",
+            "courseTitle": "(CS2) Data Structures: C ++",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATH143."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "General Psychology",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PSYC100",
+                "courseTitle": "General Psychology",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "PSYC100",
+                "courseTitle": "General Psychology",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PSY201 or PSY202."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CHEM126."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: IME314 or IME315."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "PHIL160",
-                                "courseTitle": "History of Ancient Philosophy",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL175",
-                                "courseTitle": "History of Modern Philosophy",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL244",
-                                "courseTitle": "Introduction to Ethics: Contemporary Social and Moral Issues",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL100",
-                                "courseTitle": "Introduction to Philosophy",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "PHIL244",
-                                "courseTitle": "Introduction to Ethics: Contemporary Social and Moral Issues",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL100",
-                                "courseTitle": "Introduction to Philosophy",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL160",
-                                "courseTitle": "History of Ancient Philosophy",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "PHIL175",
-                                "courseTitle": "History of Modern Philosophy",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: PHIL230 or PHIL231."
-            }
-        ]
-    }
+          {
+            "courseNumber": "CIS264",
+            "courseTitle": "Computer Organization and Systems Programming",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CSC203."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATH241."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM124."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CIS262",
+            "courseTitle": "Discrete Mathematics for Computer Science",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for MATH244."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM125."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CHEM126."
+      },
+      {
+        "subject": "Choose One",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: IME314 or IME315."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PHIL160",
+                "courseTitle": "History of Ancient Philosophy",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL175",
+                "courseTitle": "History of Modern Philosophy",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL244",
+                "courseTitle": "Introduction to Ethics: Contemporary Social and Moral Issues",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL100",
+                "courseTitle": "Introduction to Philosophy",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PHIL244",
+                "courseTitle": "Introduction to Ethics: Contemporary Social and Moral Issues",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL100",
+                "courseTitle": "Introduction to Philosophy",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL160",
+                "courseTitle": "History of Ancient Philosophy",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL175",
+                "courseTitle": "History of Modern Philosophy",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHIL230 or PHIL231."
+      }
+    ]
+  }
 }

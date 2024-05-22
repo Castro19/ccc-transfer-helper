@@ -1,305 +1,302 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH110A",
-                        "courseTitle": "Calculus I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CHEM103A",
-                        "courseTitle": "General Chemistry for Engineering",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "CHEM101A",
-                        "courseTitle": "General College Chemistry",
-                        "courseUnits": "6.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CMST1A",
-                        "courseTitle": "Elements of Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE111."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE151."
-            }
-        ]
-    },
-    "2": {
+          {
+            "courseNumber": "MATH110A",
+            "courseTitle": "Calculus I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "CS110A",
-                        "courseTitle": "Intro to Programming",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "CS110B",
-                        "courseTitle": "Programming Fundamentals: C++",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "CS111B",
-                        "courseTitle": "Programming Fundamentals: Java",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYC4A",
-                        "courseTitle": "Classical Mechanics for Scientists and Engineers",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "PHYC4AL",
-                        "courseTitle": "Mechanics Laboratory for Scientists and Engineers",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH110B",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "ENGL1A",
-                        "courseTitle": "College Reading and Composition",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "CHEM103A",
+            "courseTitle": "General Chemistry for Engineering",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM101A",
+            "courseTitle": "General College Chemistry",
+            "courseUnits": "6.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYC4B",
-                        "courseTitle": "Electromagnetism for Scientists and Engineers",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "PHYC4BL",
-                        "courseTitle": "Electromagnetism Laboratory for Scientists and Engineers",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH110B",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": true
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    null,
-                    null
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "CMST1A",
+            "courseTitle": "Elements of Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE111."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE151."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYC4C",
-                        "courseTitle": "Waves and Thermodynamics for Scientists and Engineers",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "PHYC4CL",
-                        "courseTitle": "Waves and Thermodynamics Laboratory for Scientists and Engineers",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "conjunction": null,
-                        "courses": [
-                            {
-                                "courseNumber": "MATH130",
-                                "courseTitle": "Linear Algebra and Differential Equations",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "AND",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH120",
-                                "courseTitle": "Linear Algebra",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "MATH125",
-                                "courseTitle": "Differential Equations",
-                                "courseUnits": "3.00"
-                            }
-                        ]
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE211."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE241."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE133."
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "CS110A",
+            "courseTitle": "Intro to Programming",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CS110B",
+            "courseTitle": "Programming Fundamentals: C++",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CS111B",
+            "courseTitle": "Programming Fundamentals: Java",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "MATH110C",
-                        "courseTitle": "Calculus III",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE212."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE242."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for CPE233."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BIO213."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for BMED213."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "PHYC4A",
+            "courseTitle": "Classical Mechanics for Scientists and Engineers",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "PHYC4AL",
+            "courseTitle": "Mechanics Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "AND",
-                "courses": [
-                    {
-                        "courseNumber": "PHYC4D",
-                        "courseTitle": "Modern Physics for Scientists and Engineers",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "PHYC4DL",
-                        "courseTitle": "Modern Physics Laboratory for Scientists and Engineers",
-                        "courseUnits": "1.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE255."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE295."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for EE228."
-            }
-        ]
-    }
+          {
+            "courseNumber": "MATH110B",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL1A",
+            "courseTitle": "College Reading and Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYC4B",
+            "courseTitle": "Electromagnetism for Scientists and Engineers",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "PHYC4BL",
+            "courseTitle": "Electromagnetism Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH110B",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "Choose One",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYC4C",
+            "courseTitle": "Waves and Thermodynamics for Scientists and Engineers",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "PHYC4CL",
+            "courseTitle": "Waves and Thermodynamics Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH130",
+                "courseTitle": "Linear Algebra and Differential Equations",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "MATH120",
+                "courseTitle": "Linear Algebra",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "MATH125",
+                "courseTitle": "Differential Equations",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE211."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE241."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE133."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH110C",
+            "courseTitle": "Calculus III",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE212."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE242."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE233."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO213."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BMED213."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYC4D",
+            "courseTitle": "Modern Physics for Scientists and Engineers",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "PHYC4DL",
+            "courseTitle": "Modern Physics Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE255."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE295."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE228."
+      }
+    ]
+  }
 }

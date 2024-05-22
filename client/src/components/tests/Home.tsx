@@ -17,8 +17,8 @@ const Home: React.FC = () => {
     <div className="flex items-center justify-center h-screen flex-col">
       <div className="space-y-4">
         <div className="text-2xl font-bold">
-          Hello {currentUser?.displayName || currentUser?.email}
-          , you are now logged in.
+          Hello {currentUser?.displayName || currentUser?.email}, you are now
+          logged in.
         </div>
         <div className="flex justify-center">
           <Button onClick={handleSignOut}> Sign Out</Button>

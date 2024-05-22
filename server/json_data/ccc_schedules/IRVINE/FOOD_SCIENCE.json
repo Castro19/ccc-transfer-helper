@@ -1,279 +1,279 @@
 {
-    "0": {
-        "courses": []
-    },
-    "1": {
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "conjunction": "AND",
-                        "courses": [
-                            {
-                                "courseNumber": "BIO1",
-                                "courseTitle": "The Life Sciences",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "BIO1L",
-                                "courseTitle": "The Life Sciences Laboratory",
-                                "courseUnits": "1.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "AND",
-                        "courses": [
-                            {
-                                "courseNumber": "BIO1H",
-                                "courseTitle": "The Life Sciences Honors",
-                                "courseUnits": "3.00"
-                            },
-                            {
-                                "courseNumber": "BIO1L",
-                                "courseTitle": "The Life Sciences Laboratory",
-                                "courseUnits": "1.00"
-                            }
-                        ]
-                    }
-                ],
-                "subject": "BIO",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "COMM1",
-                        "courseTitle": "Communication Fundamentals",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "COMM1H",
-                        "courseTitle": "Communication Fundamentals Honors",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN102."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN125."
-            }
-        ]
-    },
-    "2": {
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "BIO1",
+                "courseTitle": "The Life Sciences",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "BIO1L",
+                "courseTitle": "The Life Sciences Laboratory",
+                "courseUnits": "1.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "BIO1H",
+                "courseTitle": "The Life Sciences Honors",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "BIO1L",
+                "courseTitle": "The Life Sciences Laboratory",
+                "courseUnits": "1.00"
+              }
+            ]
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "NUT1",
-                        "courseTitle": "Principles of Nutrition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "FSN",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1A",
-                        "courseTitle": "General Chemistry I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": true
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "WR1",
-                        "courseTitle": "College Writing 1",
-                        "courseUnits": "4.00"
-                    },
-                    {
-                        "courseNumber": "WR1H",
-                        "courseTitle": "College Writing 1 Honors",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Choose One",
-                "course": [
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH3A",
-                                "courseTitle": "Analytic Geometry and Calculus I",
-                                "courseUnits": "5.00"
-                            },
-                            {
-                                "courseNumber": "MATH3AH",
-                                "courseTitle": "Analytic Geometry and Calculus I Honors",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    },
-                    {
-                        "conjunction": "OR",
-                        "courses": [
-                            {
-                                "courseNumber": "MATH11",
-                                "courseTitle": "A Brief Course in Calculus",
-                                "courseUnits": "4.00"
-                            },
-                            {
-                                "courseNumber": "MATH3A",
-                                "courseTitle": "Analytic Geometry and Calculus I",
-                                "courseUnits": "5.00"
-                            },
-                            {
-                                "courseNumber": "MATH3AH",
-                                "courseTitle": "Analytic Geometry and Calculus I Honors",
-                                "courseUnits": "5.00"
-                            }
-                        ]
-                    }
-                ],
-                "uniqueClass": true,
-                "customDesc": "Choose one of the following: MATH141, or MATH161."
-            }
-        ]
-    },
-    "3": {
+          {
+            "courseNumber": "COMM1",
+            "courseTitle": "Communication Fundamentals",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "COMM1H",
+            "courseTitle": "Communication Fundamentals Honors",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN102."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN125."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS2A",
-                        "courseTitle": "Introduction to Physics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "CHEM1B",
-                        "courseTitle": "General Chemistry II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "CHEM",
-                "uniqueClass": false
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN250."
-            },
-            {
-                "courses": [],
-                "note": "No articulation agreement found for COMS126."
-            }
-        ]
-    },
-    "5": {
+          {
+            "courseNumber": "NUT1",
+            "courseTitle": "Principles of Nutrition",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "FSN",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH3B",
-                        "courseTitle": "Analytic Geometry and Calculus II",
-                        "courseUnits": "5.00"
-                    },
-                    {
-                        "courseNumber": "MATH3BH",
-                        "courseTitle": "Analytic Geometry and Calculus II Honors",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": false
-            },
-            {
-                "conjunction": "OR",
-                "courses": [
-                    {
-                        "courseNumber": "MATH10",
-                        "courseTitle": "Introduction to Statistics",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "PSYC10",
-                        "courseTitle": "Statistical Methods in the Behavioral Sciences",
-                        "courseUnits": "3.00"
-                    },
-                    {
-                        "courseNumber": "PSYC10H",
-                        "courseTitle": "Statistical Methods in the Behavioral Sciences Honors",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "STAT",
-                "uniqueClass": false
-            }
-        ]
-    },
-    "6": {
+          {
+            "courseNumber": "CHEM1A",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": "OR",
         "courses": [
-            {
-                "courses": [],
-                "note": "No articulation agreement found for FSN204."
-            },
-            {
-                "subject": "Approved Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Approved Elective course can go here."
-            }
-        ]
-    },
-    "7": {
+          {
+            "courseNumber": "WR1",
+            "courseTitle": "College Writing 1",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "WR1H",
+            "courseTitle": "College Writing 1 Honors",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH3A",
+                "courseTitle": "Analytic Geometry and Calculus I",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "MATH3AH",
+                "courseTitle": "Analytic Geometry and Calculus I Honors",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH11",
+                "courseTitle": "A Brief Course in Calculus",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH3A",
+                "courseTitle": "Analytic Geometry and Calculus I",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "MATH3AH",
+                "courseTitle": "Analytic Geometry and Calculus I Honors",
+                "courseUnits": "5.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH141, or MATH161."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
         "courses": [
-            {
-                "conjunction": null,
-                "courses": [
-                    {
-                        "courseNumber": "BIO15",
-                        "courseTitle": "General Microbiology",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MCRO",
-                "uniqueClass": true
-            },
-            {
-                "subject": "Approved Elective",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "Any Approved Elective course can go here."
-            },
-            {
-                "subject": "GE",
-                "course": null,
-                "uniqueClass": true,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). Students interested in Blended program should pass GWR no later than Spring of Junior year and adjust their schedule to plan to complete FSN 330 in Fall of their Junior year. FSN330 is one of the prerequisite courses to be considered for the Blended program."
-            }
-        ]
-    }
+          {
+            "courseNumber": "PHYS2A",
+            "courseTitle": "Introduction to Physics",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM1B",
+            "courseTitle": "General Chemistry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN250."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH3B",
+            "courseTitle": "Analytic Geometry and Calculus II",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH3BH",
+            "courseTitle": "Analytic Geometry and Calculus II Honors",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH10",
+            "courseTitle": "Introduction to Statistics",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "PSYC10",
+            "courseTitle": "Statistical Methods in the Behavioral Sciences",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "PSYC10H",
+            "courseTitle": "Statistical Methods in the Behavioral Sciences Honors",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN204."
+      },
+      {
+        "subject": "Approved Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Approved Elective course can go here."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "BIO15",
+            "courseTitle": "General Microbiology",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MCRO",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Approved Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Approved Elective course can go here."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). Students interested in Blended program should pass GWR no later than Spring of Junior year and adjust their schedule to plan to complete FSN 330 in Fall of their Junior year. FSN330 is one of the prerequisite courses to be considered for the Blended program."
+      }
+    ]
+  }
 }
