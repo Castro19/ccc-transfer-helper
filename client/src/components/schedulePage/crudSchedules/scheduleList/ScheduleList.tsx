@@ -1,3 +1,4 @@
+import deleteScheduleById from "../deleteSchedule/deleteSchedule";
 import ScheduleCard from "./scheduleCard/ScheduleCard";
 
 interface savedScheduleType {
@@ -9,10 +10,38 @@ interface savedScheduleType {
 }
 interface ScheduleListProps {
   savedSchedules: savedScheduleType[];
+  setScheduleList: React.Dispatch<
+    React.SetStateAction<
+      {
+        id: string;
+        ccc: string;
+        univ: string;
+        major: string;
+        year: string;
+      }[]
+    >
+  >;
 }
 
-const ScheduleList = ({ savedSchedules }: ScheduleListProps): JSX.Element => {
+const ScheduleList = ({
+  savedSchedules,
+  setScheduleList,
+}: ScheduleListProps): JSX.Element => {
   console.log("SAVED SCHEDULES", savedSchedules);
+
+  const onDelete = async (id: string) => {
+    try {
+      const newSavedSchedule = savedSchedules.filter(
+        (schedule) => schedule.id !== id
+      );
+      setScheduleList(newSavedSchedule);
+      const result = await deleteScheduleById(id);
+      console.log("result ", result);
+    } catch (error) {
+      console.error("ERROR DELETING SCHEDULE: ", error.message);
+    }
+  };
+
   return (
     <>
       {savedSchedules.map((college, index) => (
@@ -23,6 +52,7 @@ const ScheduleList = ({ savedSchedules }: ScheduleListProps): JSX.Element => {
             univ={college.univ}
             major={college.major}
             year={college.year}
+            onDelete={onDelete}
           />
         </div>
       ))}
