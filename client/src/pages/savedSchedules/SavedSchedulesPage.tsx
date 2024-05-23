@@ -31,12 +31,15 @@ const SavedSchedulesPage = (): JSX.Element => {
     };
   });
   // Next steps: Create a handler function to modify the setScheduleList (change state and backend database)
-  const [scheduleList] = useState(scheduleListFormatted);
+  const [scheduleList, setScheduleList] = useState(scheduleListFormatted);
 
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Saved Schedules</h1>
-      <ScheduleList savedSchedules={scheduleList} />
+      <ScheduleList
+        savedSchedules={scheduleList}
+        setScheduleList={setScheduleList}
+      />
     </div>
   );
 };

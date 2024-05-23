@@ -40,6 +40,12 @@
   font-size: 1.2rem;
 }
 
+.containerCCC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /* .univ{
   align-items: center;
   display: flex;

@@ -14,6 +14,7 @@ export default async function deleteScheduleById(
       throw new Error("" + errorData.message);
     }
     const responseData = await response.json();
+    setTimeout(() => console.log("HELLO"), 1000);
     return responseData;
   } catch (error) {
     console.log(`Error: `);

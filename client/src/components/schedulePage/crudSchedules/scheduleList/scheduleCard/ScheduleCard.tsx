@@ -1,7 +1,7 @@
 import styles from "./ScheduleCard.module.css";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import calpolyLogo from "@/../public/imgs/calpoly.png";
+import { IoTrashBinOutline } from "react-icons/io5";
 
 type ScheduleCardProps = {
   id: string;
@@ -9,6 +9,7 @@ type ScheduleCardProps = {
   univ: string;
   major: string;
   year: string;
+  onDelete: (id: string) => Promise<void>;
 };
 
 const ScheduleCard = ({
@@ -17,6 +18,7 @@ const ScheduleCard = ({
   univ,
   major,
   year,
+  onDelete,
 }: ScheduleCardProps): JSX.Element => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -37,8 +39,19 @@ const ScheduleCard = ({
         )}
       </AnimatePresence>
       <div className={styles.header}></div>
+
       <div className={styles.content}>
-        <p className={styles.ccc}>CCC: {ccc}</p>
+        <div className={styles.containerCCC}>
+          <p className={styles.ccc}>CCC: {ccc}</p>
+          <button
+            onClick={() => onDelete(id)}
+            className=""
+            title="Delete Schedule"
+          >
+            <IoTrashBinOutline className="h-5 w-5 text-gray-900 hover:text-red-500" />
+          </button>
+        </div>
+
         <p className={styles.univ}>
           University: {univ}
           {/* { <img src={calpolyLogo} alt={`${univ} calpolyLogo`} className={styles.univImage} /> } */}
