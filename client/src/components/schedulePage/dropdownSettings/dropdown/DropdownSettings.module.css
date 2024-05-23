@@ -14,11 +14,13 @@
   cursor: pointer;
   width: 100%; /* Ensure full-width in its container */
   border-radius: 20px; /* Rounded corners */
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease; /* Smooth transitions */
   font-size: 14px; /* Larger text for better readability */
   font-weight: bold; /* Bold text for emphasis */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .button:hover {
@@ -30,7 +32,6 @@
   background-color: #141c24; /* Even darker shade on click */
   transform: translateY(0); /* Reset lift on click */
 }
-
 
 /* DropdownSettings.module.css */
 @keyframes popEffect {

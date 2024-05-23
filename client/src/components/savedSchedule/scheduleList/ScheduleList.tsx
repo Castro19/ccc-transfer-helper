@@ -1,5 +1,5 @@
-import deleteScheduleById from "../deleteSchedule/deleteSchedule";
-import ScheduleCard from "./scheduleCard/ScheduleCard";
+import { deleteScheduleById } from "../crudSchedule";
+import ScheduleCard from "../scheduleCard/ScheduleCard";
 
 interface savedScheduleType {
   id: string;

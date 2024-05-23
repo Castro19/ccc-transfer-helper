@@ -5,7 +5,7 @@ import DropdownMenu from "./DropdownMenu";
 // Context Variables:
 import { useCollege } from "@/contexts/collegeContext";
 // Helpers:
-import fetchUnivsById, { fetchMajors } from "./utils/getAssistData";
+import fetchUnivsById, { fetchMajors } from "../../pages/home/getAssistData";
 // Types
 import { MajorPair } from "@/types";
 

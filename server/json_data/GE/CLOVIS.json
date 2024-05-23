@@ -1,1563 +1,1512 @@
 {
-    "GE": [
-        {
-            "Area A": {
-                "title": "English Language Communication and Critical Thinking",
-                "requirements": [
-                    9,
-                    "units"
-                ],
-                "A1": {
-                    "title": "Oral Communication",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "COMM1",
-                            "courseTitle": "Public Speaking",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "COMM1H",
-                            "courseTitle": "Honors Public Speaking",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "COMM2",
-                            "courseTitle": "Interpersonal Communication",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "COMM4",
-                            "courseTitle": "Persuasion",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "COMM8",
-                            "courseTitle": "Group Communication",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "COMM25",
-                            "courseTitle": "Argumentation",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "A2": {
-                    "title": "Written Communication",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ENGL1A",
-                            "courseTitle": "Reading and Composition",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "ENGL1AH",
-                            "courseTitle": "Honors Reading and Composition",
-                            "courseUnits": "4.00"
-                        }
-                    ]
-                },
-                "A3": {
-                    "title": "Critical Thinking",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "COMM25",
-                            "courseTitle": "Argumentation",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "CSCI1",
-                            "courseTitle": "Critical Thinking and Computer Science",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL3",
-                            "courseTitle": "Critical Reading and Writing",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL3H",
-                            "courseTitle": "Honors Critical Reading and Writing",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL2",
-                            "courseTitle": "Critical Reasoning and Analytic Writing",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL4",
-                            "courseTitle": "Introduction to Logic",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL6",
-                            "courseTitle": "Symbolic Logic",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC1B",
-                            "courseTitle": "Critical Thinking about Social Problems",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                }
+  "GE": [
+    {
+      "Area A": {
+        "title": "English Language Communication and Critical Thinking",
+        "requirements": [9, "units"],
+        "A1": {
+          "title": "Oral Communication",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "COMM1",
+              "courseTitle": "Public Speaking",
+              "courseUnits": "3.00"
             },
-            "Area B": {
-                "title": "Scientific Inquiry and Quantitative Reasoning",
-                "requirements": [
-                    9,
-                    "units"
-                ],
-                "B1": {
-                    "title": "Physical Science",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "CHEM1A",
-                            "courseTitle": "General Chemistry",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "CHEM1B",
-                            "courseTitle": "General Chemistry and Qualitative Analysis",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "CHEM3A",
-                            "courseTitle": "Introductory General Chemistry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHEM3B",
-                            "courseTitle": "Introductory Organic and Biological Chemistry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHEM8",
-                            "courseTitle": "Elementary Organic Chemistry",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "CHEM10",
-                            "courseTitle": "Elementary Chemistry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHEM28A",
-                            "courseTitle": "Organic Chemistry I",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "CHEM28B",
-                            "courseTitle": "Organic Chemistry II",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOG1",
-                            "courseTitle": "Physical Geography",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOG5",
-                            "courseTitle": "Physical Geography: Environmental Conditions",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOG9",
-                            "courseTitle": "Physical Geography: Land Formation",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOG15",
-                            "courseTitle": "Introduction to Weather and Climate",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOL1",
-                            "courseTitle": "Physical Geology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GEOL2WL",
-                            "courseTitle": "Historical Geology with Lab",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GEOL4",
-                            "courseTitle": "California Geology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOL6",
-                            "courseTitle": "Environmental Geology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOL9",
-                            "courseTitle": "Introduction to Earth Science",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS2A",
-                            "courseTitle": "General Physics I",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS2B",
-                            "courseTitle": "General Physics II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4A",
-                            "courseTitle": "Physics for Scientists and Engineers I",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4B",
-                            "courseTitle": "Physics for Scientists and Engineers II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4C",
-                            "courseTitle": "Physics for Scientists and Engineers III",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS10",
-                            "courseTitle": "Conceptual Physics",
-                            "courseUnits": "3.50"
-                        },
-                        {
-                            "courseNumber": "SCI1A",
-                            "courseTitle": "Introductory Chemical and Physical Science",
-                            "courseUnits": "4.00"
-                        }
-                    ]
-                },
-                "B2": {
-                    "title": "Life Science",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ANTHRO1",
-                            "courseTitle": "Biological Anthropology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "BIOL1",
-                            "courseTitle": "Principles of Biology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL2",
-                            "courseTitle": "Environmental Science",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL3",
-                            "courseTitle": "Introduction to Life Science",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL5",
-                            "courseTitle": "Human Biology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL10",
-                            "courseTitle": "Introduction to Life Science Lecture",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "BIOL11A",
-                            "courseTitle": "Biology for Science Majors I",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIOL11B",
-                            "courseTitle": "Biology for Science Majors II",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIOL13",
-                            "courseTitle": "Environmental Science Lecture",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "BIOL20",
-                            "courseTitle": "Human Anatomy",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL22",
-                            "courseTitle": "Human Physiology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIOL25",
-                            "courseTitle": "Introduction to Anatomy & Physiology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "(Formerly\"IntroductiontoHumanAnatomy&Physiology\"priortoSu2023)",
-                            "courseTitle": "B3",
-                            "courseUnits": "F2019"
-                        },
-                        {
-                            "courseNumber": "BIOL31",
-                            "courseTitle": "Microbiology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "PSY36",
-                            "courseTitle": "Introduction to Biological Psychology",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "B3": {
-                    "title": "Laboratory Activity",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ANTHRO1L",
-                            "courseTitle": "Introduction to Biological Anthropology Lab",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "BIOL1",
-                            "courseTitle": "Principles of Biology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL2",
-                            "courseTitle": "Environmental Science",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL3",
-                            "courseTitle": "Introduction to Life Science",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL5",
-                            "courseTitle": "Human Biology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL10L",
-                            "courseTitle": "Introduction to Life Science Lab",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "BIOL11A",
-                            "courseTitle": "Biology for Science Majors I",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIOL11B",
-                            "courseTitle": "Biology for Science Majors II",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIOL13L",
-                            "courseTitle": "Environmental Science Lab",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "BIOL20",
-                            "courseTitle": "Human Anatomy",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL22",
-                            "courseTitle": "Human Physiology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIOL25",
-                            "courseTitle": "Introduction to Anatomy & Physiology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "(Formerly\"IntroductiontoHumanAnatomy&Physiology\"priortoSu2023)",
-                            "courseTitle": "B2",
-                            "courseUnits": "F2019"
-                        },
-                        {
-                            "courseNumber": "BIOL31",
-                            "courseTitle": "Microbiology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "CHEM1A",
-                            "courseTitle": "General Chemistry",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "CHEM1B",
-                            "courseTitle": "General Chemistry and Qualitative Analysis",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "CHEM3A",
-                            "courseTitle": "Introductory General Chemistry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHEM3B",
-                            "courseTitle": "Introductory Organic and Biological Chemistry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHEM10",
-                            "courseTitle": "Elementary Chemistry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHEM29A",
-                            "courseTitle": "Organic Chemistry Laboratory I",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "CHEM29B",
-                            "courseTitle": "Organic Chemistry Laboratory II",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "GEOG1L",
-                            "courseTitle": "Physical Geography, Laboratory",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "GEOL1",
-                            "courseTitle": "Physical Geology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GEOL2WL",
-                            "courseTitle": "Historical Geology with Lab",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GEOL9",
-                            "courseTitle": "Introduction to Earth Science",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS2A",
-                            "courseTitle": "General Physics I",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS2B",
-                            "courseTitle": "General Physics II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4A",
-                            "courseTitle": "Physics for Scientists and Engineers I",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4B",
-                            "courseTitle": "Physics for Scientists and Engineers II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4C",
-                            "courseTitle": "Physics for Scientists and Engineers III",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS10",
-                            "courseTitle": "Conceptual Physics",
-                            "courseUnits": "3.50"
-                        },
-                        {
-                            "courseNumber": "SCI1A",
-                            "courseTitle": "Introductory Chemical and Physical Science",
-                            "courseUnits": "4.00"
-                        }
-                    ]
-                },
-                "B4": {
-                    "title": "Mathematics/Quantitative Reasoning",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "BA39",
-                            "courseTitle": "Finite Mathematics for Business",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "CSCI26",
-                            "courseTitle": "Discrete Mathematics for Computer Science",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "MATH3A",
-                            "courseTitle": "College Algebra",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "MATH4A",
-                            "courseTitle": "Trigonometry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "MATH4B",
-                            "courseTitle": "Precalculus",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "MATH4P",
-                            "courseTitle": "Mathematics for College Students",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "MATH5A",
-                            "courseTitle": "Math Analysis I",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "MATH5B",
-                            "courseTitle": "Math Analysis II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "MATH6",
-                            "courseTitle": "Math Analysis III",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "MATH10A",
-                            "courseTitle": "Structure and Concepts in Mathematics I",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MATH10B",
-                            "courseTitle": "Structure and Concepts in Mathematics II",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MATH11",
-                            "courseTitle": "Elementary Statistics",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "MATH17",
-                            "courseTitle": "Differential Equations and Linear Algebra",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "MATH45",
-                            "courseTitle": "Contemporary Mathematics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY42",
-                            "courseTitle": "Statistics for the Behavioral Sciences",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "STAT7",
-                            "courseTitle": "Elementary Statistics",
-                            "courseUnits": "4.00"
-                        }
-                    ]
-                }
+            {
+              "courseNumber": "COMM1H",
+              "courseTitle": "Honors Public Speaking",
+              "courseUnits": "3.00"
             },
-            "Area C": {
-                "title": "Arts and Humanities",
-                "requirements": [
-                    9,
-                    "units"
-                ],
-                "C1": {
-                    "title": "Arts: (Arts, Cinema, Dance, Music, Theater)",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ART1",
-                            "courseTitle": "Art Basics: Two/Three Dimensional Design",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART2",
-                            "courseTitle": "Art Appreciation",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART5",
-                            "courseTitle": "Art History 1",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART6",
-                            "courseTitle": "Art History 2",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART6H",
-                            "courseTitle": "Honors Art History 2",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART26",
-                            "courseTitle": "Arts of Africa, Oceania, Indigenous North America",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "COMM12",
-                            "courseTitle": "Oral Interpretation of Literature",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "FILM1",
-                            "courseTitle": "Introduction to Film Studies",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "FILM2A",
-                            "courseTitle": "History of Cinema: 1895-1960",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "FILM2B",
-                            "courseTitle": "History of Cinema: 1960 to Present",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MUS12",
-                            "courseTitle": "Music Appreciation",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MUS16",
-                            "courseTitle": "Jazz History and Appreciation",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MUS16A",
-                            "courseTitle": "Hip Hop Music and Culture",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHOTO1",
-                            "courseTitle": "Introduction to Digital Photography",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "C2": {
-                    "title": "Humanities: (Literature, Philosophy, Languages Other than English)",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ANTHRO13",
-                            "courseTitle": "Anthropology of Magic, Witchcraft, and Religion",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART26",
-                            "courseTitle": "Arts of Africa, Oceania, Indigenous North America",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ASL1",
-                            "courseTitle": "Beginning American Sign Language",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "ASL2",
-                            "courseTitle": "High-Beginning American Sign Language",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "ASL3",
-                            "courseTitle": "Intermediate American Sign Language",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "ASL4",
-                            "courseTitle": "High-Intermediate American Sign Language",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHIN1",
-                            "courseTitle": "Beginning Chinese",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHIN2",
-                            "courseTitle": "High-Beginning Chinese",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "ENGL1B",
-                            "courseTitle": "Introduction to the Study of Literature",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL1BH",
-                            "courseTitle": "Honors Introduction to the Study of Literature",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL43A",
-                            "courseTitle": "American Literature: Origins through Reconstruction (1877)",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL43B",
-                            "courseTitle": "American Literature: 1877 to Present",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL44A",
-                            "courseTitle": "World Literature to the Renaissance",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL44B",
-                            "courseTitle": "World Literature Since the Renaissance",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL46A",
-                            "courseTitle": "British Literature to 1800",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL46B",
-                            "courseTitle": "British Literature from 1800 to the present",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL47",
-                            "courseTitle": "Shakespeare",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL49",
-                            "courseTitle": "Latinx Literature",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "FILM2A",
-                            "courseTitle": "History of Cinema: 1895-1960",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "FILM2B",
-                            "courseTitle": "History of Cinema: 1960 to Present",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "FRENCH1",
-                            "courseTitle": "Beginning French",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "FRENCH2",
-                            "courseTitle": "High-Beginning French",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "FRENCH3",
-                            "courseTitle": "Intermediate French",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "FRENCH4",
-                            "courseTitle": "High-Intermediate French",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GERMAN1",
-                            "courseTitle": "Beginning German",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GERMAN2",
-                            "courseTitle": "High-Beginning German",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GERMAN3",
-                            "courseTitle": "Intermediate German",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GERMAN4",
-                            "courseTitle": "High-Intermediate German",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "HIST1",
-                            "courseTitle": "Western Civilization to 1648",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST2",
-                            "courseTitle": "Western Civilization from 1648",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST11",
-                            "courseTitle": "History of the United States to 1877",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST12",
-                            "courseTitle": "History of the United States since 1865",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST12H",
-                            "courseTitle": "Honors History of the United States Since 1865",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST20",
-                            "courseTitle": "World History I to 1600",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST22",
-                            "courseTitle": "History of American Women",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST23",
-                            "courseTitle": "World History II Since 1500",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "(Formerly\"WorldHistoryII,Since1500\"priortoF2023)",
-                            "courseTitle": "D6",
-                            "courseUnits": "F2016"
-                        },
-                        {
-                            "courseNumber": "HIST31",
-                            "courseTitle": "A Survey of the History of Africa",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST33",
-                            "courseTitle": "A Survey of Latin America History",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "LING10",
-                            "courseTitle": "Introduction to Language",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MUS16A",
-                            "courseTitle": "Hip Hop Music and Culture",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL1",
-                            "courseTitle": "Introduction to Philosophy",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL1C",
-                            "courseTitle": "Ethics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL1CH",
-                            "courseTitle": "Honors Ethics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL1D",
-                            "courseTitle": "World Religions",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL3",
-                            "courseTitle": "Introduction to Social and Political Philosophy",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL3A",
-                            "courseTitle": "Ancient Philosophy",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SPAN1",
-                            "courseTitle": "Beginning Spanish",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "SPAN2",
-                            "courseTitle": "High-Beginning Spanish",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "SPAN3",
-                            "courseTitle": "Intermediate Spanish",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "SPAN3NS",
-                            "courseTitle": "Spanish for Spanish Speakers",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "SPAN4",
-                            "courseTitle": "High-Intermediate Spanish",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "SPAN4NS",
-                            "courseTitle": "Spanish for Spanish Speakers",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "SPAN15",
-                            "courseTitle": "Practical Spanish Conversation, Intermediate Level",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SPAN16",
-                            "courseTitle": "Practical Spanish Conversation, High-Intermediate Level",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                }
+            {
+              "courseNumber": "COMM2",
+              "courseTitle": "Interpersonal Communication",
+              "courseUnits": "3.00"
             },
-            "Area D": {
-                "title": "Social Sciences",
-                "requirements": [
-                    6,
-                    "units"
-                ],
-                "D": {
-                    "title": "Social Sciences",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "ANTHRO4",
-                            "courseTitle": "Introduction to Archaeology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ANTHRO13",
-                            "courseTitle": "Anthropology of Magic, Witchcraft, and Religion",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "CHDEV30",
-                            "courseTitle": "Child, Family and Community",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ECE4",
-                            "courseTitle": "Child, Family, and Community",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ETHNST32",
-                            "courseTitle": "A History of the Mexican American People",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:HIST32",
-                            "courseTitle": "F",
-                            "courseUnits": "F2022"
-                        },
-                        {
-                            "courseNumber": "ETHNST35",
-                            "courseTitle": "Introduction to Asian American Studies",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ETHNST51",
-                            "courseTitle": "Introduction to African American Studies",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOG2",
-                            "courseTitle": "Cultural Geography",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOG20",
-                            "courseTitle": "California Geography",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST31",
-                            "courseTitle": "A Survey of the History of Africa",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST32",
-                            "courseTitle": "A History of the Mexican American People",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:ETHNST32",
-                            "courseTitle": "D3",
-                            "courseUnits": "F2015"
-                        },
-                        {
-                            "courseNumber": "(Formerly\"HistoryoftheMexicanAmericanPeople\"priortoF2023)",
-                            "courseTitle": "D6",
-                            "courseUnits": "F2015"
-                        },
-                        {
-                            "courseNumber": "HIST33",
-                            "courseTitle": "A Survey of Latin America History",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST35",
-                            "courseTitle": "The History of East Asia: A Survey",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "IS20",
-                            "courseTitle": "Technology in Society",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "JOURN1",
-                            "courseTitle": "Introduction to Mass Communication",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY33",
-                            "courseTitle": "Personal and Social Adjustment",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC1B",
-                            "courseTitle": "Critical Thinking about Social Problems",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC3",
-                            "courseTitle": "Introduction to Social Justice Studies",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC11",
-                            "courseTitle": "Sociology of Gender",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D0": {
-                    "title": "Sociology and Criminology",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "SOC1A",
-                            "courseTitle": "Introduction to Sociology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC1B",
-                            "courseTitle": "Critical Thinking about Social Problems",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC2",
-                            "courseTitle": "American Minority Groups",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D1": {
-                    "title": "Anthropology and Archeology",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "ANTHRO1",
-                            "courseTitle": "Biological Anthropology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ANTHRO2",
-                            "courseTitle": "Cultural Anthropology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ANTHRO3",
-                            "courseTitle": "Introduction to Archaeology and Prehistory",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D2": {
-                    "title": "Economics",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "ECON1A",
-                            "courseTitle": "Principles of Macroeconomics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ECON1B",
-                            "courseTitle": "Principles of Microeconomics",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D3": {
-                    "title": "Ethnic Studies",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "HIST5",
-                            "courseTitle": "African People in the New World",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST32",
-                            "courseTitle": "A History of the Mexican American People",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:ETHNST32",
-                            "courseTitle": "D",
-                            "courseUnits": "F2022"
-                        },
-                        {
-                            "courseNumber": "(Formerly\"HistoryoftheMexicanAmericanPeople\"priortoF2023)",
-                            "courseTitle": "D6",
-                            "courseUnits": "F2015"
-                        },
-                        {
-                            "courseNumber": "SOC2",
-                            "courseTitle": "American Minority Groups",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D4": {
-                    "title": "Gender Studies",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "HIST22",
-                            "courseTitle": "History of American Women",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D5": {
-                    "title": "Geography",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "GEOG6",
-                            "courseTitle": "World Regional Geography",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOG40A",
-                            "courseTitle": "World Regional Geography A",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOG40B",
-                            "courseTitle": "World Regional Geography B",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D6": {
-                    "title": "History",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "HIST1",
-                            "courseTitle": "Western Civilization to 1648",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST2",
-                            "courseTitle": "Western Civilization from 1648",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST5",
-                            "courseTitle": "African People in the New World",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST11",
-                            "courseTitle": "History of the United States to 1877",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST12",
-                            "courseTitle": "History of the United States since 1865",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST12H",
-                            "courseTitle": "Honors History of the United States Since 1865",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST20",
-                            "courseTitle": "World History I to 1600",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST22",
-                            "courseTitle": "History of American Women",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST23",
-                            "courseTitle": "World History II Since 1500",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "(Formerly\"WorldHistoryII,Since1500\"priortoF2023)",
-                            "courseTitle": "C2",
-                            "courseUnits": "F2016"
-                        },
-                        {
-                            "courseNumber": "HIST32",
-                            "courseTitle": "A History of the Mexican American People",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:ETHNST32",
-                            "courseTitle": "D",
-                            "courseUnits": "F2022"
-                        },
-                        {
-                            "courseNumber": "(Formerly\"HistoryoftheMexicanAmericanPeople\"priortoF2023)",
-                            "courseTitle": "D3",
-                            "courseUnits": "F2015"
-                        }
-                    ]
-                },
-                "D7": {
-                    "title": "Interdisciplinary Social or Behavioral Science",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "CHDEV38",
-                            "courseTitle": "Lifespan Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:PSY38",
-                            "courseTitle": "E",
-                            "courseUnits": "F2015"
-                        },
-                        {
-                            "courseNumber": "CHDEV39",
-                            "courseTitle": "Child Growth and Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "COMM10",
-                            "courseTitle": "Intercultural Communication",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ECE2",
-                            "courseTitle": "Child Growth and Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyCHDEV39priortoF2021)",
-                            "courseTitle": "E",
-                            "courseUnits": "F2021"
-                        },
-                        {
-                            "courseNumber": "ECE14",
-                            "courseTitle": "Lifespan Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:PSY38",
-                            "courseTitle": "E",
-                            "courseUnits": "F2021"
-                        },
-                        {
-                            "courseNumber": "PSY38",
-                            "courseTitle": "Lifespan Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:ECE14",
-                            "courseTitle": "E",
-                            "courseUnits": "F2015"
-                        }
-                    ]
-                },
-                "D8": {
-                    "title": "Political Science, Government and Legal Institutions",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "CRIM13",
-                            "courseTitle": "The Constitution and Your Individual Rights",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "POLSCI2",
-                            "courseTitle": "American Government",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "POLSCI2H",
-                            "courseTitle": "Honors American Government",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "POLSCI3",
-                            "courseTitle": "Introduction to Political Theory and Thought",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "POLSCI5",
-                            "courseTitle": "Comparative Government",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "POLSCI24",
-                            "courseTitle": "International Relations",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D9": {
-                    "title": "Psychology",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "PSY2",
-                            "courseTitle": "General Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY2H",
-                            "courseTitle": "Honors General Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY5",
-                            "courseTitle": "Social Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY16",
-                            "courseTitle": "Abnormal Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY45",
-                            "courseTitle": "Introduction to Research Methods in Psychology",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                }
+            {
+              "courseNumber": "COMM4",
+              "courseTitle": "Persuasion",
+              "courseUnits": "3.00"
             },
-            "Area E": {
-                "title": "Lifelong Learning and Self-Development",
-                "requirements": [
-                    3,
-                    "units"
-                ],
-                "E": {
-                    "title": "Lifelong Learning and Self-Development",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "CHDEV38",
-                            "courseTitle": "Lifespan Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:PSY38",
-                            "courseTitle": "D7",
-                            "courseUnits": "F2015"
-                        },
-                        {
-                            "courseNumber": "CHDEV39",
-                            "courseTitle": "Child Growth and Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "COUN53",
-                            "courseTitle": "College and Life Management",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ECE2",
-                            "courseTitle": "Child Growth and Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyCHDEV39priortoF2021)",
-                            "courseTitle": "D7",
-                            "courseUnits": "F2021"
-                        },
-                        {
-                            "courseNumber": "ECE14",
-                            "courseTitle": "Lifespan Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:PSY38",
-                            "courseTitle": "D7",
-                            "courseUnits": "F2021"
-                        },
-                        {
-                            "courseNumber": "FN35",
-                            "courseTitle": "Nutrition and Health",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HLTH1",
-                            "courseTitle": "Contemporary Health Issues",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "INTDS50",
-                            "courseTitle": "College Success",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY2",
-                            "courseTitle": "General Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY2H",
-                            "courseTitle": "Honors General Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY25",
-                            "courseTitle": "Human Sexuality",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY38",
-                            "courseTitle": "Lifespan Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:ECE14",
-                            "courseTitle": "D7",
-                            "courseUnits": "F2015"
-                        },
-                        {
-                            "courseNumber": "SOC1A",
-                            "courseTitle": "Introduction to Sociology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC32",
-                            "courseTitle": "Courtship, Marriage, and Divorce: Family and Interpersonal Relationships",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                }
+            {
+              "courseNumber": "COMM8",
+              "courseTitle": "Group Communication",
+              "courseUnits": "3.00"
             },
-            "Area F": {
-                "title": "Ethnic Studies",
-                "requirements": [
-                    3,
-                    "units"
-                ],
-                "F": {
-                    "title": "Ethnic Studies",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ETHNST32",
-                            "courseTitle": "A History of the Mexican American People",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:HIST32",
-                            "courseTitle": "D",
-                            "courseUnits": "F2022"
-                        },
-                        {
-                            "courseNumber": "ETHNST35",
-                            "courseTitle": "Introduction to Asian American Studies",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ETHNST51",
-                            "courseTitle": "Introduction to African American Studies",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST32",
-                            "courseTitle": "A History of the Mexican American People",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:ETHNST32",
-                            "courseTitle": "D",
-                            "courseUnits": "F2022"
-                        },
-                        {
-                            "courseNumber": "(Formerly\"HistoryoftheMexicanAmericanPeople\"priortoF2023)",
-                            "courseTitle": "D3",
-                            "courseUnits": "F2015"
-                        }
-                    ]
-                }
+            {
+              "courseNumber": "COMM25",
+              "courseTitle": "Argumentation",
+              "courseUnits": "3.00"
             }
+          ]
+        },
+        "A2": {
+          "title": "Written Communication",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ENGL1A",
+              "courseTitle": "Reading and Composition",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "ENGL1AH",
+              "courseTitle": "Honors Reading and Composition",
+              "courseUnits": "4.00"
+            }
+          ]
+        },
+        "A3": {
+          "title": "Critical Thinking",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "COMM25",
+              "courseTitle": "Argumentation",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "CSCI1",
+              "courseTitle": "Critical Thinking and Computer Science",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL3",
+              "courseTitle": "Critical Reading and Writing",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL3H",
+              "courseTitle": "Honors Critical Reading and Writing",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL2",
+              "courseTitle": "Critical Reasoning and Analytic Writing",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL4",
+              "courseTitle": "Introduction to Logic",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL6",
+              "courseTitle": "Symbolic Logic",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC1B",
+              "courseTitle": "Critical Thinking about Social Problems",
+              "courseUnits": "3.00"
+            }
+          ]
         }
-    ]
+      },
+      "Area B": {
+        "title": "Scientific Inquiry and Quantitative Reasoning",
+        "requirements": [9, "units"],
+        "B1": {
+          "title": "Physical Science",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "CHEM1A",
+              "courseTitle": "General Chemistry",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "CHEM1B",
+              "courseTitle": "General Chemistry and Qualitative Analysis",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "CHEM3A",
+              "courseTitle": "Introductory General Chemistry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHEM3B",
+              "courseTitle": "Introductory Organic and Biological Chemistry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHEM8",
+              "courseTitle": "Elementary Organic Chemistry",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "CHEM10",
+              "courseTitle": "Elementary Chemistry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHEM28A",
+              "courseTitle": "Organic Chemistry I",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "CHEM28B",
+              "courseTitle": "Organic Chemistry II",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOG1",
+              "courseTitle": "Physical Geography",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOG5",
+              "courseTitle": "Physical Geography: Environmental Conditions",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOG9",
+              "courseTitle": "Physical Geography: Land Formation",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOG15",
+              "courseTitle": "Introduction to Weather and Climate",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOL1",
+              "courseTitle": "Physical Geology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GEOL2WL",
+              "courseTitle": "Historical Geology with Lab",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GEOL4",
+              "courseTitle": "California Geology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOL6",
+              "courseTitle": "Environmental Geology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOL9",
+              "courseTitle": "Introduction to Earth Science",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS2A",
+              "courseTitle": "General Physics I",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS2B",
+              "courseTitle": "General Physics II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4A",
+              "courseTitle": "Physics for Scientists and Engineers I",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4B",
+              "courseTitle": "Physics for Scientists and Engineers II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4C",
+              "courseTitle": "Physics for Scientists and Engineers III",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS10",
+              "courseTitle": "Conceptual Physics",
+              "courseUnits": "3.50"
+            },
+            {
+              "courseNumber": "SCI1A",
+              "courseTitle": "Introductory Chemical and Physical Science",
+              "courseUnits": "4.00"
+            }
+          ]
+        },
+        "B2": {
+          "title": "Life Science",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ANTHRO1",
+              "courseTitle": "Biological Anthropology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "BIOL1",
+              "courseTitle": "Principles of Biology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL2",
+              "courseTitle": "Environmental Science",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL3",
+              "courseTitle": "Introduction to Life Science",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL5",
+              "courseTitle": "Human Biology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL10",
+              "courseTitle": "Introduction to Life Science Lecture",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "BIOL11A",
+              "courseTitle": "Biology for Science Majors I",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIOL11B",
+              "courseTitle": "Biology for Science Majors II",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIOL13",
+              "courseTitle": "Environmental Science Lecture",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "BIOL20",
+              "courseTitle": "Human Anatomy",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL22",
+              "courseTitle": "Human Physiology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIOL25",
+              "courseTitle": "Introduction to Anatomy & Physiology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "(Formerly\"IntroductiontoHumanAnatomy&Physiology\"priortoSu2023)",
+              "courseTitle": "B3",
+              "courseUnits": "F2019"
+            },
+            {
+              "courseNumber": "BIOL31",
+              "courseTitle": "Microbiology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "PSY36",
+              "courseTitle": "Introduction to Biological Psychology",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "B3": {
+          "title": "Laboratory Activity",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ANTHRO1L",
+              "courseTitle": "Introduction to Biological Anthropology Lab",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "BIOL1",
+              "courseTitle": "Principles of Biology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL2",
+              "courseTitle": "Environmental Science",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL3",
+              "courseTitle": "Introduction to Life Science",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL5",
+              "courseTitle": "Human Biology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL10L",
+              "courseTitle": "Introduction to Life Science Lab",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "BIOL11A",
+              "courseTitle": "Biology for Science Majors I",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIOL11B",
+              "courseTitle": "Biology for Science Majors II",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIOL13L",
+              "courseTitle": "Environmental Science Lab",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "BIOL20",
+              "courseTitle": "Human Anatomy",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL22",
+              "courseTitle": "Human Physiology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIOL25",
+              "courseTitle": "Introduction to Anatomy & Physiology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "(Formerly\"IntroductiontoHumanAnatomy&Physiology\"priortoSu2023)",
+              "courseTitle": "B2",
+              "courseUnits": "F2019"
+            },
+            {
+              "courseNumber": "BIOL31",
+              "courseTitle": "Microbiology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "CHEM1A",
+              "courseTitle": "General Chemistry",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "CHEM1B",
+              "courseTitle": "General Chemistry and Qualitative Analysis",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "CHEM3A",
+              "courseTitle": "Introductory General Chemistry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHEM3B",
+              "courseTitle": "Introductory Organic and Biological Chemistry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHEM10",
+              "courseTitle": "Elementary Chemistry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHEM29A",
+              "courseTitle": "Organic Chemistry Laboratory I",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "CHEM29B",
+              "courseTitle": "Organic Chemistry Laboratory II",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "GEOG1L",
+              "courseTitle": "Physical Geography, Laboratory",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "GEOL1",
+              "courseTitle": "Physical Geology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GEOL2WL",
+              "courseTitle": "Historical Geology with Lab",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GEOL9",
+              "courseTitle": "Introduction to Earth Science",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS2A",
+              "courseTitle": "General Physics I",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS2B",
+              "courseTitle": "General Physics II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4A",
+              "courseTitle": "Physics for Scientists and Engineers I",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4B",
+              "courseTitle": "Physics for Scientists and Engineers II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4C",
+              "courseTitle": "Physics for Scientists and Engineers III",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS10",
+              "courseTitle": "Conceptual Physics",
+              "courseUnits": "3.50"
+            },
+            {
+              "courseNumber": "SCI1A",
+              "courseTitle": "Introductory Chemical and Physical Science",
+              "courseUnits": "4.00"
+            }
+          ]
+        },
+        "B4": {
+          "title": "Mathematics/Quantitative Reasoning",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "BA39",
+              "courseTitle": "Finite Mathematics for Business",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "CSCI26",
+              "courseTitle": "Discrete Mathematics for Computer Science",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "MATH3A",
+              "courseTitle": "College Algebra",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "MATH4A",
+              "courseTitle": "Trigonometry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "MATH4B",
+              "courseTitle": "Precalculus",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "MATH4P",
+              "courseTitle": "Mathematics for College Students",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "MATH5A",
+              "courseTitle": "Math Analysis I",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "MATH5B",
+              "courseTitle": "Math Analysis II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "MATH6",
+              "courseTitle": "Math Analysis III",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "MATH10A",
+              "courseTitle": "Structure and Concepts in Mathematics I",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MATH10B",
+              "courseTitle": "Structure and Concepts in Mathematics II",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MATH11",
+              "courseTitle": "Elementary Statistics",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "MATH17",
+              "courseTitle": "Differential Equations and Linear Algebra",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "MATH45",
+              "courseTitle": "Contemporary Mathematics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY42",
+              "courseTitle": "Statistics for the Behavioral Sciences",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "STAT7",
+              "courseTitle": "Elementary Statistics",
+              "courseUnits": "4.00"
+            }
+          ]
+        }
+      },
+      "Area C": {
+        "title": "Arts and Humanities",
+        "requirements": [9, "units"],
+        "C1": {
+          "title": "Arts: (Arts, Cinema, Dance, Music, Theater)",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ART1",
+              "courseTitle": "Art Basics: Two/Three Dimensional Design",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART2",
+              "courseTitle": "Art Appreciation",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART5",
+              "courseTitle": "Art History 1",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART6",
+              "courseTitle": "Art History 2",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART6H",
+              "courseTitle": "Honors Art History 2",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART26",
+              "courseTitle": "Arts of Africa, Oceania, Indigenous North America",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "COMM12",
+              "courseTitle": "Oral Interpretation of Literature",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "FILM1",
+              "courseTitle": "Introduction to Film Studies",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "FILM2A",
+              "courseTitle": "History of Cinema: 1895-1960",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "FILM2B",
+              "courseTitle": "History of Cinema: 1960 to Present",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MUS12",
+              "courseTitle": "Music Appreciation",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MUS16",
+              "courseTitle": "Jazz History and Appreciation",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MUS16A",
+              "courseTitle": "Hip Hop Music and Culture",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHOTO1",
+              "courseTitle": "Introduction to Digital Photography",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "C2": {
+          "title": "Humanities: (Literature, Philosophy, Languages Other than English)",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ANTHRO13",
+              "courseTitle": "Anthropology of Magic, Witchcraft, and Religion",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART26",
+              "courseTitle": "Arts of Africa, Oceania, Indigenous North America",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ASL1",
+              "courseTitle": "Beginning American Sign Language",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "ASL2",
+              "courseTitle": "High-Beginning American Sign Language",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "ASL3",
+              "courseTitle": "Intermediate American Sign Language",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "ASL4",
+              "courseTitle": "High-Intermediate American Sign Language",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHIN1",
+              "courseTitle": "Beginning Chinese",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHIN2",
+              "courseTitle": "High-Beginning Chinese",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "ENGL1B",
+              "courseTitle": "Introduction to the Study of Literature",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL1BH",
+              "courseTitle": "Honors Introduction to the Study of Literature",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL43A",
+              "courseTitle": "American Literature: Origins through Reconstruction (1877)",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL43B",
+              "courseTitle": "American Literature: 1877 to Present",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL44A",
+              "courseTitle": "World Literature to the Renaissance",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL44B",
+              "courseTitle": "World Literature Since the Renaissance",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL46A",
+              "courseTitle": "British Literature to 1800",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL46B",
+              "courseTitle": "British Literature from 1800 to the present",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL47",
+              "courseTitle": "Shakespeare",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL49",
+              "courseTitle": "Latinx Literature",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "FILM2A",
+              "courseTitle": "History of Cinema: 1895-1960",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "FILM2B",
+              "courseTitle": "History of Cinema: 1960 to Present",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "FRENCH1",
+              "courseTitle": "Beginning French",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "FRENCH2",
+              "courseTitle": "High-Beginning French",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "FRENCH3",
+              "courseTitle": "Intermediate French",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "FRENCH4",
+              "courseTitle": "High-Intermediate French",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GERMAN1",
+              "courseTitle": "Beginning German",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GERMAN2",
+              "courseTitle": "High-Beginning German",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GERMAN3",
+              "courseTitle": "Intermediate German",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GERMAN4",
+              "courseTitle": "High-Intermediate German",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "HIST1",
+              "courseTitle": "Western Civilization to 1648",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST2",
+              "courseTitle": "Western Civilization from 1648",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST11",
+              "courseTitle": "History of the United States to 1877",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST12",
+              "courseTitle": "History of the United States since 1865",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST12H",
+              "courseTitle": "Honors History of the United States Since 1865",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST20",
+              "courseTitle": "World History I to 1600",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST22",
+              "courseTitle": "History of American Women",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST23",
+              "courseTitle": "World History II Since 1500",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "(Formerly\"WorldHistoryII,Since1500\"priortoF2023)",
+              "courseTitle": "D6",
+              "courseUnits": "F2016"
+            },
+            {
+              "courseNumber": "HIST31",
+              "courseTitle": "A Survey of the History of Africa",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST33",
+              "courseTitle": "A Survey of Latin America History",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "LING10",
+              "courseTitle": "Introduction to Language",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MUS16A",
+              "courseTitle": "Hip Hop Music and Culture",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL1",
+              "courseTitle": "Introduction to Philosophy",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL1C",
+              "courseTitle": "Ethics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL1CH",
+              "courseTitle": "Honors Ethics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL1D",
+              "courseTitle": "World Religions",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL3",
+              "courseTitle": "Introduction to Social and Political Philosophy",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL3A",
+              "courseTitle": "Ancient Philosophy",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SPAN1",
+              "courseTitle": "Beginning Spanish",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "SPAN2",
+              "courseTitle": "High-Beginning Spanish",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "SPAN3",
+              "courseTitle": "Intermediate Spanish",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "SPAN3NS",
+              "courseTitle": "Spanish for Spanish Speakers",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "SPAN4",
+              "courseTitle": "High-Intermediate Spanish",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "SPAN4NS",
+              "courseTitle": "Spanish for Spanish Speakers",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "SPAN15",
+              "courseTitle": "Practical Spanish Conversation, Intermediate Level",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SPAN16",
+              "courseTitle": "Practical Spanish Conversation, High-Intermediate Level",
+              "courseUnits": "3.00"
+            }
+          ]
+        }
+      },
+      "Area D": {
+        "title": "Social Sciences",
+        "requirements": [6, "units"],
+        "D": {
+          "title": "Social Sciences",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "ANTHRO4",
+              "courseTitle": "Introduction to Archaeology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ANTHRO13",
+              "courseTitle": "Anthropology of Magic, Witchcraft, and Religion",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "CHDEV30",
+              "courseTitle": "Child, Family and Community",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ECE4",
+              "courseTitle": "Child, Family, and Community",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ETHNST32",
+              "courseTitle": "A History of the Mexican American People",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:HIST32",
+              "courseTitle": "F",
+              "courseUnits": "F2022"
+            },
+            {
+              "courseNumber": "ETHNST35",
+              "courseTitle": "Introduction to Asian American Studies",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ETHNST51",
+              "courseTitle": "Introduction to African American Studies",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOG2",
+              "courseTitle": "Cultural Geography",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOG20",
+              "courseTitle": "California Geography",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST31",
+              "courseTitle": "A Survey of the History of Africa",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST32",
+              "courseTitle": "A History of the Mexican American People",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:ETHNST32",
+              "courseTitle": "D3",
+              "courseUnits": "F2015"
+            },
+            {
+              "courseNumber": "(Formerly\"HistoryoftheMexicanAmericanPeople\"priortoF2023)",
+              "courseTitle": "D6",
+              "courseUnits": "F2015"
+            },
+            {
+              "courseNumber": "HIST33",
+              "courseTitle": "A Survey of Latin America History",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST35",
+              "courseTitle": "The History of East Asia: A Survey",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "IS20",
+              "courseTitle": "Technology in Society",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "JOURN1",
+              "courseTitle": "Introduction to Mass Communication",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY33",
+              "courseTitle": "Personal and Social Adjustment",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC1B",
+              "courseTitle": "Critical Thinking about Social Problems",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC3",
+              "courseTitle": "Introduction to Social Justice Studies",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC11",
+              "courseTitle": "Sociology of Gender",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D0": {
+          "title": "Sociology and Criminology",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "SOC1A",
+              "courseTitle": "Introduction to Sociology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC1B",
+              "courseTitle": "Critical Thinking about Social Problems",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC2",
+              "courseTitle": "American Minority Groups",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D1": {
+          "title": "Anthropology and Archeology",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "ANTHRO1",
+              "courseTitle": "Biological Anthropology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ANTHRO2",
+              "courseTitle": "Cultural Anthropology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ANTHRO3",
+              "courseTitle": "Introduction to Archaeology and Prehistory",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D2": {
+          "title": "Economics",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "ECON1A",
+              "courseTitle": "Principles of Macroeconomics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ECON1B",
+              "courseTitle": "Principles of Microeconomics",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D3": {
+          "title": "Ethnic Studies",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "HIST5",
+              "courseTitle": "African People in the New World",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST32",
+              "courseTitle": "A History of the Mexican American People",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:ETHNST32",
+              "courseTitle": "D",
+              "courseUnits": "F2022"
+            },
+            {
+              "courseNumber": "(Formerly\"HistoryoftheMexicanAmericanPeople\"priortoF2023)",
+              "courseTitle": "D6",
+              "courseUnits": "F2015"
+            },
+            {
+              "courseNumber": "SOC2",
+              "courseTitle": "American Minority Groups",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D4": {
+          "title": "Gender Studies",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "HIST22",
+              "courseTitle": "History of American Women",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D5": {
+          "title": "Geography",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "GEOG6",
+              "courseTitle": "World Regional Geography",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOG40A",
+              "courseTitle": "World Regional Geography A",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOG40B",
+              "courseTitle": "World Regional Geography B",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D6": {
+          "title": "History",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "HIST1",
+              "courseTitle": "Western Civilization to 1648",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST2",
+              "courseTitle": "Western Civilization from 1648",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST5",
+              "courseTitle": "African People in the New World",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST11",
+              "courseTitle": "History of the United States to 1877",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST12",
+              "courseTitle": "History of the United States since 1865",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST12H",
+              "courseTitle": "Honors History of the United States Since 1865",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST20",
+              "courseTitle": "World History I to 1600",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST22",
+              "courseTitle": "History of American Women",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST23",
+              "courseTitle": "World History II Since 1500",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "(Formerly\"WorldHistoryII,Since1500\"priortoF2023)",
+              "courseTitle": "C2",
+              "courseUnits": "F2016"
+            },
+            {
+              "courseNumber": "HIST32",
+              "courseTitle": "A History of the Mexican American People",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:ETHNST32",
+              "courseTitle": "D",
+              "courseUnits": "F2022"
+            },
+            {
+              "courseNumber": "(Formerly\"HistoryoftheMexicanAmericanPeople\"priortoF2023)",
+              "courseTitle": "D3",
+              "courseUnits": "F2015"
+            }
+          ]
+        },
+        "D7": {
+          "title": "Interdisciplinary Social or Behavioral Science",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "CHDEV38",
+              "courseTitle": "Lifespan Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:PSY38",
+              "courseTitle": "E",
+              "courseUnits": "F2015"
+            },
+            {
+              "courseNumber": "CHDEV39",
+              "courseTitle": "Child Growth and Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "COMM10",
+              "courseTitle": "Intercultural Communication",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ECE2",
+              "courseTitle": "Child Growth and Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "(FormerlyCHDEV39priortoF2021)",
+              "courseTitle": "E",
+              "courseUnits": "F2021"
+            },
+            {
+              "courseNumber": "ECE14",
+              "courseTitle": "Lifespan Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:PSY38",
+              "courseTitle": "E",
+              "courseUnits": "F2021"
+            },
+            {
+              "courseNumber": "PSY38",
+              "courseTitle": "Lifespan Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:ECE14",
+              "courseTitle": "E",
+              "courseUnits": "F2015"
+            }
+          ]
+        },
+        "D8": {
+          "title": "Political Science, Government and Legal Institutions",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "CRIM13",
+              "courseTitle": "The Constitution and Your Individual Rights",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "POLSCI2",
+              "courseTitle": "American Government",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "POLSCI2H",
+              "courseTitle": "Honors American Government",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "POLSCI3",
+              "courseTitle": "Introduction to Political Theory and Thought",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "POLSCI5",
+              "courseTitle": "Comparative Government",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "POLSCI24",
+              "courseTitle": "International Relations",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D9": {
+          "title": "Psychology",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "PSY2",
+              "courseTitle": "General Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY2H",
+              "courseTitle": "Honors General Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY5",
+              "courseTitle": "Social Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY16",
+              "courseTitle": "Abnormal Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY45",
+              "courseTitle": "Introduction to Research Methods in Psychology",
+              "courseUnits": "3.00"
+            }
+          ]
+        }
+      },
+      "Area E": {
+        "title": "Lifelong Learning and Self-Development",
+        "requirements": [3, "units"],
+        "E": {
+          "title": "Lifelong Learning and Self-Development",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "CHDEV38",
+              "courseTitle": "Lifespan Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:PSY38",
+              "courseTitle": "D7",
+              "courseUnits": "F2015"
+            },
+            {
+              "courseNumber": "CHDEV39",
+              "courseTitle": "Child Growth and Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "COUN53",
+              "courseTitle": "College and Life Management",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ECE2",
+              "courseTitle": "Child Growth and Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "(FormerlyCHDEV39priortoF2021)",
+              "courseTitle": "D7",
+              "courseUnits": "F2021"
+            },
+            {
+              "courseNumber": "ECE14",
+              "courseTitle": "Lifespan Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:PSY38",
+              "courseTitle": "D7",
+              "courseUnits": "F2021"
+            },
+            {
+              "courseNumber": "FN35",
+              "courseTitle": "Nutrition and Health",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HLTH1",
+              "courseTitle": "Contemporary Health Issues",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "INTDS50",
+              "courseTitle": "College Success",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY2",
+              "courseTitle": "General Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY2H",
+              "courseTitle": "Honors General Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY25",
+              "courseTitle": "Human Sexuality",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY38",
+              "courseTitle": "Lifespan Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:ECE14",
+              "courseTitle": "D7",
+              "courseUnits": "F2015"
+            },
+            {
+              "courseNumber": "SOC1A",
+              "courseTitle": "Introduction to Sociology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC32",
+              "courseTitle": "Courtship, Marriage, and Divorce: Family and Interpersonal Relationships",
+              "courseUnits": "3.00"
+            }
+          ]
+        }
+      },
+      "Area F": {
+        "title": "Ethnic Studies",
+        "requirements": [3, "units"],
+        "F": {
+          "title": "Ethnic Studies",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ETHNST32",
+              "courseTitle": "A History of the Mexican American People",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:HIST32",
+              "courseTitle": "D",
+              "courseUnits": "F2022"
+            },
+            {
+              "courseNumber": "ETHNST35",
+              "courseTitle": "Introduction to Asian American Studies",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ETHNST51",
+              "courseTitle": "Introduction to African American Studies",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST32",
+              "courseTitle": "A History of the Mexican American People",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:ETHNST32",
+              "courseTitle": "D",
+              "courseUnits": "F2022"
+            },
+            {
+              "courseNumber": "(Formerly\"HistoryoftheMexicanAmericanPeople\"priortoF2023)",
+              "courseTitle": "D3",
+              "courseUnits": "F2015"
+            }
+          ]
+        }
+      }
+    }
+  ]
 }

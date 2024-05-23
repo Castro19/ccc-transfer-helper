@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import { useParams, useLoaderData } from "react-router-dom";
 import SemesterCards from "@/components/schedulePage/semester/Semesters";
 import SchedulePageTitle from "@/components/schedulePage/SchedulePageTitle";
-import DropdownSettings from "@/components/schedulePage/settings/dropdownSettings/DropdownSettings";
+import DropdownSettings from "@/components/schedulePage/dropdownSettings/dropdown/DropdownSettings";
 import Sidebar from "@/components/layouts/Sidebar";
 import { ScheduleContext } from "@/contexts/scheduleContext";
 import { ScheduleData, initialSemesters } from "@/types";
 import styles from "./SchedulePage.module.css";
-import SaveSchedule from "@/components/schedulePage/crudSchedules/createSchedule/SaveSchedule";
+import SaveSchedule from "@/components/savedSchedule/createSchedule/SaveSchedule";
 
 const SchedulePage = (): JSX.Element => {
   const params = useParams();
@@ -22,7 +22,7 @@ const SchedulePage = (): JSX.Element => {
   const [subjectClasses] = useState(initialData.subjectClasses);
   const [classList] = useState(initialData.classList);
   const [schedule, setSchedule] = useState(initialSemesters);
-  const [ge, setGe] = useState(initialData.ge);
+  const [ge] = useState(initialData.ge);
   // Layout
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 

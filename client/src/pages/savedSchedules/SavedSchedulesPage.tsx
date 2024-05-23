@@ -1,4 +1,4 @@
-import ScheduleList from "@/components/schedulePage/crudSchedules/scheduleList/ScheduleList";
+import ScheduleList from "@/components/savedSchedule/scheduleList/ScheduleList";
 import { SemesterCourses } from "@/types";
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";

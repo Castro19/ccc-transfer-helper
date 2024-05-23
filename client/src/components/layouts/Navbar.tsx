@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import UserMenu from "../../userProfile/UserMenu";
+import UserMenu from "../userProfile/UserMenu";
 
 const CombinedNavbar = (): JSX.Element => {
   return (

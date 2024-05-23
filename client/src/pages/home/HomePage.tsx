@@ -1,7 +1,7 @@
 import CardMenu from "@/components/homePage/CardMenu";
 import HomePageTitle from "@/components/homePage/HomePageTitle";
 import { useCollege } from "@/contexts/collegeContext";
-import { fetchPDF } from "@/components/homePage/utils/getAssistData";
+import { fetchPDF } from "./getAssistData";
 
 const HomePage = (): JSX.Element => {
   // Context Variables

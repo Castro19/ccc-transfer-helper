@@ -1,14 +1,13 @@
 import { useAuth } from "@/contexts/authContext";
 import { SemesterType } from "@/types";
 import { Params, useNavigate } from "react-router-dom";
-import postSchedule from "./postSchedule";
 
 // Toast
 import { Button } from "@/components/ui/button";
 import { ToastAction } from "@/components/ui/toast";
 import { useToast } from "@/components/ui/use-toast";
 import { useEffect, useRef, useState } from "react";
-import deleteScheduleById from "../deleteSchedule/deleteSchedule";
+import { postSchedule, deleteScheduleById } from "../crudSchedule";
 
 import styles from "./SaveSchedule.module.css";
 

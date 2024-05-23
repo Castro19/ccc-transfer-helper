@@ -4,7 +4,9 @@ interface fetchScheduleDataParams {
   };
 }
 
-async function fetchSchedules({ params }: fetchScheduleDataParams) {
+export default async function fetchSchedules({
+  params,
+}: fetchScheduleDataParams) {
   console.log("PARAMS:", params);
 
   const { userId } = params;
@@ -21,4 +23,3 @@ async function fetchSchedules({ params }: fetchScheduleDataParams) {
     throw new Error("Failed to fetch schedule data");
   }
 }
-export default fetchSchedules;
