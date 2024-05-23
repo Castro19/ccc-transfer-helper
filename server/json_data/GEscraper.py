@@ -112,12 +112,17 @@ def extract_courses(area_table):
             course_title = tds[1].text.strip()
             course_units = tds[2].text.strip()
 
+            
+            if '(' in course_number or ':' in course_number: # Removes unwanted parts
+                continue
+
             if course_number:
                 area_courses.append({
                     'courseNumber': course_number,
                     'courseTitle': course_title,
                     'courseUnits': course_units
                 })
+        
         if area_courses:
             extracted_courses.append(area_courses)
     
