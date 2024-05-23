@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { FiEye, FiEyeOff } from "react-icons/fi";
-import { Label } from "../../../components/ui/label";
-import { Input } from "../../../components/ui/input";
-import { ErrorMessage } from "../../../components/register/ErrorMessage";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { ErrorMessage } from "@/components/register/ErrorMessage";
 import { cn } from "@/lib/utils";
 import { IconBrandGoogle } from "@tabler/icons-react";
 import {

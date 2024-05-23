@@ -1,4 +1,6 @@
 import React from "react";
+import "./index.css";
+// React router
 import ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
@@ -10,22 +12,19 @@ import { AuthProvider } from "./contexts/authContext/index.tsx";
 import { CollegeProvider } from "./contexts/collegeContext";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-
-import HomePage from "./pages/HomePage.tsx";
+// Pages
+import HomePage from "./pages/home/HomePage.tsx";
 import SchedulePage from "./pages/schedule/SchedulePage.tsx";
 import Register from "./pages/register/Register.tsx";
-import { SignupFormDemo } from "./pages/register/signup/SignUpForm.tsx";
-import { LoginFormDemo } from "./pages/register/login/LoginForm.tsx";
-import ErrorPage from "./pages/ErrorPage/ErrorPage.tsx";
-import Home from "./components/tests/Home.tsx";
+import { SignupFormDemo } from "./pages/register/SignUpForm.tsx";
+import { LoginFormDemo } from "./pages/register/LoginForm.tsx";
+import ErrorPage from "./pages/error/ErrorPage.tsx";
 import SavedSchedulesPage from "./pages/savedSchedules/SavedSchedulesPage.tsx";
 import Layout from "./components/layouts/Layouts.tsx";
-
 // Loaders:
-import { fetchColleges } from "./components/homePage/utils/getAssistData.ts";
-import fetchScheduleData from "./components/schedulePage/utils/fetchScheduleData.ts";
-import "./index.css";
-import fetchSchedules from "./components/schedulePage/crudSchedules/scheduleList/fetchSchedules.ts";
+import { fetchColleges } from "./pages/home/getAssistData.ts";
+import fetchScheduleData from "./pages/schedule/fetchScheduleData.ts";
+import fetchSchedules from "./pages/savedSchedules/fetchSchedules.ts";
 
 const router = createBrowserRouter([
   {
@@ -67,14 +66,6 @@ const router = createBrowserRouter([
     loader: fetchScheduleData,
   },
   {
-    path: "/home",
-    element: (
-      <Layout>
-        <Home />
-      </Layout>
-    ),
-  },
-  {
     path: "/savedSchedules/:userId",
     element: (
       <Layout>
@@ -82,14 +73,6 @@ const router = createBrowserRouter([
       </Layout>
     ),
     loader: fetchSchedules,
-  },
-  {
-    path: "/404",
-    element: (
-      <Layout>
-        <ErrorPage />
-      </Layout>
-    ),
   },
 ]);
 

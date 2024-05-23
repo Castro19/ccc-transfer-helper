@@ -4,13 +4,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import DraggableClass from "./DraggableClass/DraggableClass";
-import { ClassType, SemesterType, SubjectType } from "@/types";
+import DraggableClass from "../DraggableClass/DraggableClass";
+import { CourseType, SemesterType, SubjectType } from "@/types";
 import { useMemo } from "react";
-import { findUsedCourses } from "./helpers/findUsedCourses";
+import { findUsedCourses } from "../helpers/findUsedCourses";
 
 interface SubjectAccordionProps {
-  subjects: SubjectType[];
+  subjects: SubjectType;
   schedule: SemesterType[];
 }
 const SubjectAccordion = ({
@@ -29,7 +29,7 @@ const SubjectAccordion = ({
       {entries.map(([subject, classes]) => (
         <AccordionItem value={subject} key={subject}>
           <AccordionTrigger>{subject}</AccordionTrigger>
-          {classes.map((classItem: ClassType, index: number) => (
+          {classes.map((classItem: CourseType, index: number) => (
             <AccordionContent key={index}>
               <DraggableClass
                 classItem={classItem}

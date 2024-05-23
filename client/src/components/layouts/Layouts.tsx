@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import CombinedNavbar from "./navbar/CombinedNavbar";
+import Navbar from "./Navbar";
 import { Toaster } from "@/components/ui/toaster";
 
 type LayoutProps = {
@@ -8,7 +8,7 @@ type LayoutProps = {
 const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
     <div>
-      <CombinedNavbar />
+      <Navbar />
       <div>{children}</div>
       <Toaster />
     </div>

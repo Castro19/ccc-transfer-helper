@@ -1,54 +1,50 @@
 export type CourseType = {
   id?: number;
-  courseCode: string | null;
-  units: string;
-};
-
-export type ClassType = {
-  course: string;
+  courseCode?: string | null;
+  course?: string;
   units: string;
   subject?: string;
   inSchedule?: boolean;
+};
+
+export type ClassData = {
+  courseNumber: string;
+  courseTitle: string;
+  courseUnits: string;
 };
 
 export type SemesterCourses = {
   [key: string]: CourseType[];
 };
 
-export type SubjectType = {
-  subject: CourseType[];
-};
-
 export type SemesterType = {
   id: number;
   term: string;
   year: number;
-  courses: Array<CourseType>;
+  courses: CourseType[];
 };
 
-export type classData = {
-  course(course: any): boolean;
-  courseNumber: string;
-  courseTitle: string;
-  courseUnits: string;
+export type SubjectType = {
+  subject: CourseType[];
 };
 
 export type ScheduleData = {
   schedule: SemesterCourses;
-  subjectClasses: SubjectType;
-  classList: classData[];
+  subjectClasses: CourseType[];
+  classList: ClassData[];
 };
 
 export interface SubRequirement {
   title: string;
-  requirements: (number | string)[]; // Could be a mix of numbers and strings
-  courses: classData[];
+  requirements: (number | string)[];
+  courses: ClassData[];
 }
 
 export interface Area {
   title: string;
   requirements: (number | string)[];
-  [key: string]: SubRequirement | (number | string)[] | string; // Allow string for title
+  subRequirements?: SubRequirement[]; // Optional sub-requirements as an array
+  [key: string]: string | (number | string)[] | SubRequirement[] | undefined; // Index signature allowing specific types
 }
 
 export interface GE {

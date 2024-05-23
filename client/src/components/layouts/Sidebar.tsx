@@ -1,14 +1,14 @@
 import { MdClose, MdArrowRight } from "react-icons/md";
-import SubjectAccordion from "../schedulePage/sidebarClasses/SubjectAccordion";
+import SubjectAccordion from "../schedulePage/sidebarClasses/accordions/SubjectAccordion";
 import SearchbarClasses from "../schedulePage/sidebarClasses/SearchbarClasses/SearchbarClasses";
-import { GE, SemesterType, SubjectType, classData } from "@/types";
-import AccordionGE from "../schedulePage/sidebarClasses/AccordionGE";
+import { GE, SemesterType, SubjectType, ClassData } from "@/types";
+import AccordionGE from "../schedulePage/sidebarClasses/accordions/AccordionGE";
 type SidebarProps = {
   isVisible: boolean;
   setIsVisible: (isVisible: boolean) => void;
-  subjectClasses: SubjectType[];
+  subjectClasses: SubjectType;
   ge: GE;
-  classList: classData[];
+  classList: ClassData[];
   schedule: SemesterType[];
 };
 const Sidebar = ({
@@ -70,11 +70,7 @@ const Sidebar = ({
           </button>
           <h2 className="font-semibold text-xl">Classes</h2>
           <div className="mt-5">
-            <SubjectAccordion
-              subjects={subjectClasses}
-              schedule={schedule}
-              ge={ge}
-            />
+            <SubjectAccordion subjects={subjectClasses} schedule={schedule} />
           </div>
           <div className="mt-5">
             <AccordionGE ge={ge} schedule={schedule} />

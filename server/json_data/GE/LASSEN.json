@@ -1,1958 +1,1907 @@
 {
-    "GE": [
-        {
-            "Area A": {
-                "title": "English Language Communication and Critical Thinking",
-                "requirements": [
-                    9,
-                    "units"
-                ],
-                "A1": {
-                    "title": "Oral Communication",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "SPCH1",
-                            "courseTitle": "Public Speaking",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SPCH3",
-                            "courseTitle": "Public Speaking Performance",
-                            "courseUnits": "2.00 - 3.00"
-                        }
-                    ]
-                },
-                "A2": {
-                    "title": "Written Communication",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ENGL1",
-                            "courseTitle": "College Composition",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL8",
-                            "courseTitle": "Advanced Composition",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL9",
-                            "courseTitle": "Critical Thinking and Composition",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "A3": {
-                    "title": "Critical Thinking",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ENGL7",
-                            "courseTitle": "Argumentative Writing and Critical Thinking Through Literature",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "ENGL9",
-                            "courseTitle": "Critical Thinking and Composition",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL2",
-                            "courseTitle": "Critical Thinking",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SPCH4",
-                            "courseTitle": "Fundamentals of Argumentation and Persuasion",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                }
+  "GE": [
+    {
+      "Area A": {
+        "title": "English Language Communication and Critical Thinking",
+        "requirements": [9, "units"],
+        "A1": {
+          "title": "Oral Communication",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "SPCH1",
+              "courseTitle": "Public Speaking",
+              "courseUnits": "3.00"
             },
-            "Area B": {
-                "title": "Scientific Inquiry and Quantitative Reasoning",
-                "requirements": [
-                    9,
-                    "units"
-                ],
-                "B1": {
-                    "title": "Physical Science",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "AGR19",
-                            "courseTitle": "Introduction to Soil Science",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ASTR1",
-                            "courseTitle": "Introduction to Astronomy",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHEM1A",
-                            "courseTitle": "General Chemistry I",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "CHEM1B",
-                            "courseTitle": "General Chemistry II",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "CHEM8",
-                            "courseTitle": "Introduction to Organic and Biochemistry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHEM40",
-                            "courseTitle": "Survey of Chemistry and Physics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "CHEM45",
-                            "courseTitle": "Introduction to General Chemistry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GEOG1",
-                            "courseTitle": "Physical Geography",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "GEOL1",
-                            "courseTitle": "Physical Geology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GEOL5",
-                            "courseTitle": "Historical Geology & Paleontology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHSC1",
-                            "courseTitle": "General Physical Science",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHYS2A",
-                            "courseTitle": "General College Physics I",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS2B",
-                            "courseTitle": "General College Physics II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS2C",
-                            "courseTitle": "General Physics",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4A",
-                            "courseTitle": "Physics for Students of Science and Engineering Mechanics",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4B",
-                            "courseTitle": "Electricity & Magnetism for Science & Engineering Majors",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4C",
-                            "courseTitle": "Heat, Wave Motion, Sound, Light & Modern Topics for Sci/Engr",
-                            "courseUnits": "4.00"
-                        }
-                    ]
-                },
-                "B2": {
-                    "title": "Life Science",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "AGR10",
-                            "courseTitle": "Introduction to Animal Science",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "AGR20",
-                            "courseTitle": "Introduction to Plant Science",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "ANTH1",
-                            "courseTitle": "Biological Anthropology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "BIO1",
-                            "courseTitle": "Principles of Biology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO2",
-                            "courseTitle": "Principles of Zoology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIO3",
-                            "courseTitle": "Principles of Botany",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIO9A",
-                            "courseTitle": "Anatomy + Physiology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO9B",
-                            "courseTitle": "Anatomy + Physiology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO10",
-                            "courseTitle": "Natural History of Plants and Animals",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO18",
-                            "courseTitle": "Environmental Conservation",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "BIO20",
-                            "courseTitle": "Microbiology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIO25",
-                            "courseTitle": "Human Anatomy and Physiology I",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO26",
-                            "courseTitle": "Human Anatomy and Physiology II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO32",
-                            "courseTitle": "General Life Science",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "BIOL1",
-                            "courseTitle": "Principles of Molecular and Cellular Biology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO1priortoF1999)",
-                            "courseTitle": "B3",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL2",
-                            "courseTitle": "Principles of Zoology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO2priortoF1999)",
-                            "courseTitle": "B3",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL3",
-                            "courseTitle": "Principles of Botany",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO3priortoF1999)",
-                            "courseTitle": "B3",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL4",
-                            "courseTitle": "Principles of Evolutionary, Organismal, and Ecological Biology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIOL10",
-                            "courseTitle": "Natural History of Plants & Animals",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO10priortoF1999)",
-                            "courseTitle": "B3",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL18",
-                            "courseTitle": "Environmental Conservation",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "BIOL20",
-                            "courseTitle": "Microbiology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO20priortoF1999)",
-                            "courseTitle": "B3",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL21",
-                            "courseTitle": "Human Anatomy with Lab",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL22",
-                            "courseTitle": "Human Physiology with Lab",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL25",
-                            "courseTitle": "Human Anatomy and Physiology I",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO25priortoF1999)",
-                            "courseTitle": "B3",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL26",
-                            "courseTitle": "Human Anatomy and Physiology II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO26priortoF1999)",
-                            "courseTitle": "B3",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL32",
-                            "courseTitle": "General Biology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "BIOL32L",
-                            "courseTitle": "General Biology with Laboratory",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CONS1",
-                            "courseTitle": "Environmental Conservation 1",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "LIFESCI1",
-                            "courseTitle": "General Life Science",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "NTRLHIST1",
-                            "courseTitle": "Natural History of Plants & Animals",
-                            "courseUnits": "4.00"
-                        }
-                    ]
-                },
-                "B3": {
-                    "title": "Laboratory Activity",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "AGR10",
-                            "courseTitle": "Introduction to Animal Science",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "AGR19",
-                            "courseTitle": "Introduction to Soil Science",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "AGR20",
-                            "courseTitle": "Introduction to Plant Science",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "ANTH1L",
-                            "courseTitle": "Biological Anthropology Lab",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "ASTR1",
-                            "courseTitle": "Introduction to Astronomy",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO1",
-                            "courseTitle": "Principles of Biology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO2",
-                            "courseTitle": "Principles of Zoology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIO3",
-                            "courseTitle": "Principles of Botany",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIO9A",
-                            "courseTitle": "Anatomy + Physiology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO9B",
-                            "courseTitle": "Anatomy + Physiology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO10",
-                            "courseTitle": "Natural History of Plants and Animals",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO20",
-                            "courseTitle": "Microbiology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIO25",
-                            "courseTitle": "Human Anatomy and Physiology I",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIO26",
-                            "courseTitle": "Human Anatomy and Physiology II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL1",
-                            "courseTitle": "Principles of Molecular and Cellular Biology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO1priortoF1999)",
-                            "courseTitle": "B2",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL2",
-                            "courseTitle": "Principles of Zoology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO2priortoF1999)",
-                            "courseTitle": "B2",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL3",
-                            "courseTitle": "Principles of Botany",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO3priortoF1999)",
-                            "courseTitle": "B2",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL4",
-                            "courseTitle": "Principles of Evolutionary, Organismal, and Ecological Biology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "BIOL10",
-                            "courseTitle": "Natural History of Plants & Animals",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO10priortoF1999)",
-                            "courseTitle": "B2",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL20",
-                            "courseTitle": "Microbiology",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO20priortoF1999)",
-                            "courseTitle": "B2",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL21",
-                            "courseTitle": "Human Anatomy with Lab",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL22",
-                            "courseTitle": "Human Physiology with Lab",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "BIOL25",
-                            "courseTitle": "Human Anatomy and Physiology I",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO25priortoF1999)",
-                            "courseTitle": "B2",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL26",
-                            "courseTitle": "Human Anatomy and Physiology II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "(FormerlyBIO26priortoF1999)",
-                            "courseTitle": "B2",
-                            "courseUnits": "F1999"
-                        },
-                        {
-                            "courseNumber": "BIOL32L",
-                            "courseTitle": "General Biology with Laboratory",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHEM1A",
-                            "courseTitle": "General Chemistry I",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "CHEM1B",
-                            "courseTitle": "General Chemistry II",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "CHEM8",
-                            "courseTitle": "Introduction to Organic and Biochemistry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "CHEM40L",
-                            "courseTitle": "Teaching Laboratory for Survey of Chemistry and Physics",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "CHEM45",
-                            "courseTitle": "Introduction to General Chemistry",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GEOL1",
-                            "courseTitle": "Physical Geology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GEOL1L",
-                            "courseTitle": "General Geology Lab",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "GEOL2",
-                            "courseTitle": "Physical Geology Laboratory",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "GEOL5",
-                            "courseTitle": "Historical Geology & Paleontology",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "NTRLHIST1",
-                            "courseTitle": "Natural History of Plants & Animals",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS2A",
-                            "courseTitle": "General College Physics I",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS2B",
-                            "courseTitle": "General College Physics II",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS2C",
-                            "courseTitle": "General Physics",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4A",
-                            "courseTitle": "Physics for Students of Science and Engineering Mechanics",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4B",
-                            "courseTitle": "Electricity & Magnetism for Science & Engineering Majors",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHYS4C",
-                            "courseTitle": "Heat, Wave Motion, Sound, Light & Modern Topics for Sci/Engr",
-                            "courseUnits": "4.00"
-                        }
-                    ]
-                },
-                "B4": {
-                    "title": "Mathematics/Quantitative Reasoning",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "MATH1A",
-                            "courseTitle": "Analytic Geometry and Calculus I",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "MATH1B",
-                            "courseTitle": "Analytic Geometry and Calculus II",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "MATH1C",
-                            "courseTitle": "Analytic Geometry and Calculus III",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "MATH1D",
-                            "courseTitle": "Differential Equations",
-                            "courseUnits": "5.00"
-                        },
-                        {
-                            "courseNumber": "MATH6",
-                            "courseTitle": "Finite Mathematics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MATH7",
-                            "courseTitle": "Trigonometry",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MATH8",
-                            "courseTitle": "Advanced Algebra",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MATH11A",
-                            "courseTitle": "Concepts of Elementary School Mathematics I",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MATH11B",
-                            "courseTitle": "Concepts of Elementary School Mathematics II",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MATH40",
-                            "courseTitle": "Elementary Statistics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MATH60",
-                            "courseTitle": "Intermediate Algebra",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                }
-            },
-            "Area C": {
-                "title": "Arts and Humanities",
-                "requirements": [
-                    9,
-                    "units"
-                ],
-                "C1": {
-                    "title": "Arts: (Arts, Cinema, Dance, Music, Theater)",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ART1",
-                            "courseTitle": "Design and Composition",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART1A",
-                            "courseTitle": "Two-Dimensional Design",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART1B",
-                            "courseTitle": "Three-Dimensional Design",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART2",
-                            "courseTitle": "Drawing",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART3",
-                            "courseTitle": "Beginning Life Drawing",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART4",
-                            "courseTitle": "Beginning Black and White Photography (Lab)",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART4A",
-                            "courseTitle": "Beginning Photography",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART5",
-                            "courseTitle": "Intermediate Photography",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART6",
-                            "courseTitle": "Survey of Art History, Prehistoric to Renaissance",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART7",
-                            "courseTitle": "Survey of Art History, Renaissance through Contemporary",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART8",
-                            "courseTitle": "Art Appreciation",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART9",
-                            "courseTitle": "History of Asian Art",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART10",
-                            "courseTitle": "Beginning Oil/Acrylic Painting",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART10A",
-                            "courseTitle": "Beginning Painting",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART10A",
-                            "courseTitle": "Beginning Oil or Acrylic Painting I",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART10B",
-                            "courseTitle": "Beginning Oil or Acrylic Painting II",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART11",
-                            "courseTitle": "Beginning Watercolor Painting",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART11A",
-                            "courseTitle": "Beginning Watercolors I",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART11B",
-                            "courseTitle": "Beginning Watercolors II",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART14A",
-                            "courseTitle": "Advanced Oil or Acrylic Painting",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART14B",
-                            "courseTitle": "Advanced Oil or Acrylic Painting",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART15A",
-                            "courseTitle": "Advanced Watercolor Painting I",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART15B",
-                            "courseTitle": "Advanced Watercolor Painting II",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART18A",
-                            "courseTitle": "Advanced Life Drawing I",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART18B",
-                            "courseTitle": "Advanced Life Drawing II",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART18C",
-                            "courseTitle": "Advanced Life Drawing III",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART18D",
-                            "courseTitle": "Advanced Life Drawing IV",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART20",
-                            "courseTitle": "Advanced Photography",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART30",
-                            "courseTitle": "Introduction to Sculpture",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART30A",
-                            "courseTitle": "Introduction to Sculpture",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART31A",
-                            "courseTitle": "Intermediate Sculpture - Building Process",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART32",
-                            "courseTitle": "Intermediate Sculpture: Cutting Process",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART35",
-                            "courseTitle": "Glass Design",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART36A",
-                            "courseTitle": "Beginning Ceramics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART36B",
-                            "courseTitle": "Ceramics: Handbuilding II",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART37A",
-                            "courseTitle": "Ceramics: Wheelthrowing I",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART37B",
-                            "courseTitle": "Ceramics: Wheelthrowing II",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ART43",
-                            "courseTitle": "Beginning Jewelry Design",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART44A",
-                            "courseTitle": "Advanced Jewelry Making",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART44B",
-                            "courseTitle": "Advanced Jewelry Making",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART44C",
-                            "courseTitle": "Advanced Jewelry Making",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "ART44D",
-                            "courseTitle": "Advanced Jewelry Making",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "DRA40",
-                            "courseTitle": "Introduction to Acting",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "FILM1",
-                            "courseTitle": "History of the Cinema",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MUS6",
-                            "courseTitle": "Music History from Antiquity to 1750",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MUS7",
-                            "courseTitle": "Music History from 1750 to Modern Era",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "MUS12",
-                            "courseTitle": "Music Appreciation",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PE42",
-                            "courseTitle": "Fund Of Creative Movement and Dance",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE42A",
-                            "courseTitle": "Fund of Creative Movement and Dance",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE44A",
-                            "courseTitle": "Jazz Dancing",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE44E",
-                            "courseTitle": "Dance Production",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE44I",
-                            "courseTitle": "Dance Theory and Composition",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE45A",
-                            "courseTitle": "Modern Dance",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE46",
-                            "courseTitle": "Ballet",
-                            "courseUnits": "1.00"
-                        }
-                    ]
-                },
-                "C2": {
-                    "title": "Humanities: (Literature, Philosophy, Languages Other than English)",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ENGL2",
-                            "courseTitle": "Introduction to Literary Types",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL3",
-                            "courseTitle": "British Literature I",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL4",
-                            "courseTitle": "British Literature II",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL5",
-                            "courseTitle": "Survey of World Literature II",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL10",
-                            "courseTitle": "Shakespeare",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL11",
-                            "courseTitle": "Survey of American Literature I",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL12",
-                            "courseTitle": "Survey of American Literature II",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL22",
-                            "courseTitle": "Creative Writing",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL22A",
-                            "courseTitle": "Creative Writing",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL30",
-                            "courseTitle": "Masterpieces of Western Literature I",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL31",
-                            "courseTitle": "Masterpieces of Western Literature II",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL33",
-                            "courseTitle": "Studies in Fiction",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL33",
-                            "courseTitle": "Honors English Program",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL34",
-                            "courseTitle": "Studies in Poetry",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ENGL34",
-                            "courseTitle": "The Evolution of Modern Social Contracts",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "FREN1",
-                            "courseTitle": "First Course in French",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "FREN2",
-                            "courseTitle": "Second Course in French",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "FREN3",
-                            "courseTitle": "Third Course in French",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "FREN4",
-                            "courseTitle": "Fourth Course in French",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GRMN1",
-                            "courseTitle": "Introduction to German",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GRMN2",
-                            "courseTitle": "Second Course in German",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GRMN3",
-                            "courseTitle": "Third Course in German",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "GRMN4",
-                            "courseTitle": "Fourth Course in German",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "HIST14",
-                            "courseTitle": "World History, Beginning 1500",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST15",
-                            "courseTitle": "World History, 1500 to Present",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST16",
-                            "courseTitle": "U.S. History",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST17",
-                            "courseTitle": "Post Civil War - U.S. History",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HUM1",
-                            "courseTitle": "Western Civilization: Prehistoric to 1600",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HUM2",
-                            "courseTitle": "Western Civilization: 1600 to Present",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HUM3",
-                            "courseTitle": "Humanities through the Arts",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "IDS1",
-                            "courseTitle": "Introduction to American Sign Language",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "IDS2",
-                            "courseTitle": "Intermediate Sign Language",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "PHIL1",
-                            "courseTitle": "Introduction to Philosophy",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL4",
-                            "courseTitle": "Philosophy: Ethics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL10",
-                            "courseTitle": "Comparative World Religions",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PHIL20",
-                            "courseTitle": "Religious Studies: Introduction to Christianity",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SPAN1",
-                            "courseTitle": "First Course in Spanish",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "SPAN2",
-                            "courseTitle": "Second Course in Spanish",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "SPAN3",
-                            "courseTitle": "Third Course in Spanish",
-                            "courseUnits": "4.00"
-                        },
-                        {
-                            "courseNumber": "SPAN4",
-                            "courseTitle": "Fourth Course in Spanish",
-                            "courseUnits": "4.00"
-                        }
-                    ]
-                }
-            },
-            "Area D": {
-                "title": "Social Sciences",
-                "requirements": [
-                    6,
-                    "units"
-                ],
-                "D": {
-                    "title": "Social Sciences",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "AJ10",
-                            "courseTitle": "Criminology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "AJ12",
-                            "courseTitle": "Introduction to Criminal Justice",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "CD31",
-                            "courseTitle": "Child Development: Conception through Adolescence",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:PSY31",
-                            "courseTitle": "D7",
-                            "courseUnits": "F2008"
-                        },
-                        {
-                            "courseNumber": "ECON10",
-                            "courseTitle": "Macro-Economics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ECON11",
-                            "courseTitle": "Micro-Economics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ES1",
-                            "courseTitle": "Introduction to Ethnic Studies",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY1",
-                            "courseTitle": "Introduction to Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY18",
-                            "courseTitle": "Life Span Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY31",
-                            "courseTitle": "Child Development: Conception through Adolescence",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:CD31",
-                            "courseTitle": "D7",
-                            "courseUnits": "S2007"
-                        },
-                        {
-                            "courseNumber": "SOC3",
-                            "courseTitle": "Family Relations",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D0": {
-                    "title": "Sociology and Criminology",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "AJ20",
-                            "courseTitle": "Criminal Law",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "AJ25",
-                            "courseTitle": "Constitutional Law",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC1",
-                            "courseTitle": "Introduction to Sociology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC2",
-                            "courseTitle": "Social Problems",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D1": {
-                    "title": "Anthropology and Archeology",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "ANTH2",
-                            "courseTitle": "Cultural Anthropology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ANTH3",
-                            "courseTitle": "Introduction to Archaeology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ANTH8",
-                            "courseTitle": "The North American Indian",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D2": {
-                    "title": "Economics",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "AGR2",
-                            "courseTitle": "Agricultural Economics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ECON10",
-                            "courseTitle": "Macro-Economics",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ECON11",
-                            "courseTitle": "Micro-Economics",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D3": {
-                    "title": "Ethnic Studies",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "ANTH8",
-                            "courseTitle": "The North American Indian",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "ES1",
-                            "courseTitle": "Introduction to Ethnic Studies",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D4": {
-                    "title": "Gender Studies",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "SOC4",
-                            "courseTitle": "Introduction to Gender",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D5": {
-                    "title": "Geography",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "GEOG2",
-                            "courseTitle": "Cultural Geography",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D6": {
-                    "title": "History",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "HIST14",
-                            "courseTitle": "World History, Beginning 1500",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST15",
-                            "courseTitle": "World History, 1500 to Present",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST16",
-                            "courseTitle": "U.S. History",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST17",
-                            "courseTitle": "Post Civil War - U.S. History",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HIST18",
-                            "courseTitle": "California History",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HUM3",
-                            "courseTitle": "Humanities through the Arts",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D7": {
-                    "title": "Interdisciplinary Social or Behavioral Science",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "CD31",
-                            "courseTitle": "Child Development: Conception through Adolescence",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:PSY31",
-                            "courseTitle": "D",
-                            "courseUnits": "F2021"
-                        },
-                        {
-                            "courseNumber": "JOUR4",
-                            "courseTitle": "Mass Communication and Society",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY18",
-                            "courseTitle": "Life Span Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY31",
-                            "courseTitle": "Child Development: Conception through Adolescence",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:CD31",
-                            "courseTitle": "D",
-                            "courseUnits": "F2021"
-                        }
-                    ]
-                },
-                "D8": {
-                    "title": "Political Science, Government and Legal Institutions",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "AJ20",
-                            "courseTitle": "Criminal Law",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "AJ25",
-                            "courseTitle": "Constitutional Law",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PLSC1",
-                            "courseTitle": "American Institutions",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PLSC2",
-                            "courseTitle": "Comparative Government",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PLSC5",
-                            "courseTitle": "International Relations",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                },
-                "D9": {
-                    "title": "Psychology",
-                    "requirements": [],
-                    "courses": [
-                        {
-                            "courseNumber": "PSY1",
-                            "courseTitle": "Introduction to Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY2",
-                            "courseTitle": "Principles of Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY5",
-                            "courseTitle": "Introduction to Research Methods",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY6",
-                            "courseTitle": "Abnormal Psychology",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                }
-            },
-            "Area E": {
-                "title": "Lifelong Learning and Self-Development",
-                "requirements": [
-                    3,
-                    "units"
-                ],
-                "E": {
-                    "title": "Lifelong Learning and Self-Development",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "CARS2",
-                            "courseTitle": "Career Exploration",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "CD31",
-                            "courseTitle": "Child Development: Conception through Adolescence",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:PSY31",
-                            "courseTitle": "D",
-                            "courseUnits": "F2021"
-                        },
-                        {
-                            "courseNumber": "CG1",
-                            "courseTitle": "Strategies for Creating Success in College and in Life",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HLTH2",
-                            "courseTitle": "Personal Health",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HLTH25",
-                            "courseTitle": "Understanding Nutrition",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "HUS30",
-                            "courseTitle": "Pharmacology of Drugs of Abuse",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PE3A",
-                            "courseTitle": "Varsity Sports",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE3C",
-                            "courseTitle": "Women's Varsity Cross-country",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE4A",
-                            "courseTitle": "Mens Varsity Track & Field",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE4C",
-                            "courseTitle": "Women's Varsity Track & Field",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE5A",
-                            "courseTitle": "Mens Varsity Basketball",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE5C",
-                            "courseTitle": "Womens Varsity Basketball",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE6",
-                            "courseTitle": "Varsity Wrestling",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE6A",
-                            "courseTitle": "Varsity Wrestling",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE7",
-                            "courseTitle": "Varsity Baseball",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE7A",
-                            "courseTitle": "Intercollegiate Basketball",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE8",
-                            "courseTitle": "Varsity Golf",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE8A",
-                            "courseTitle": "Varsity Golf",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE9",
-                            "courseTitle": "Women's Varsity Volleyball",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE9A",
-                            "courseTitle": "Womens Varsity Volleyball",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE10",
-                            "courseTitle": "Women's Varsity Softball",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE10A",
-                            "courseTitle": "Women's Varsity Softball",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE11",
-                            "courseTitle": "Varsity Co-ed Compet. Rifle Shooting",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE13A",
-                            "courseTitle": "Fundamentals of Pistol Shooting",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE15",
-                            "courseTitle": "Introduction to Kinesiology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PE17",
-                            "courseTitle": "Swimming",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE17A",
-                            "courseTitle": "Swimming",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE19",
-                            "courseTitle": "Water Safety Instructors Course",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE20A",
-                            "courseTitle": "Baseball Skills",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE20E",
-                            "courseTitle": "Team Sports/Baseball",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE20I",
-                            "courseTitle": "Theory of Baseball",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE21A",
-                            "courseTitle": "Basketball Skills",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE21E",
-                            "courseTitle": "Team Sports/basketball",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE21I",
-                            "courseTitle": "Theory of Basketball",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE21K",
-                            "courseTitle": "Activities",
-                            "courseUnits": "0.50 - 1.00"
-                        },
-                        {
-                            "courseNumber": "PE22A",
-                            "courseTitle": "Co-Ed Volleyball Skills",
-                            "courseUnits": "0.50 - 1.00"
-                        },
-                        {
-                            "courseNumber": "PE22E",
-                            "courseTitle": "Team Sports/Volleyball",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE23A",
-                            "courseTitle": "Co-Ed Softball Skills",
-                            "courseUnits": "0.50 - 1.00"
-                        },
-                        {
-                            "courseNumber": "PE23E",
-                            "courseTitle": "Team Sports/Softball",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE23I",
-                            "courseTitle": "Theory of Softball",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE24A",
-                            "courseTitle": "Techniques of Track & Field",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE24I",
-                            "courseTitle": "Theory of Track and Field",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE25A",
-                            "courseTitle": "Freestyle Wrestling Skills",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE27",
-                            "courseTitle": "Care & Prevention of Athletic Injuries",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE28",
-                            "courseTitle": "Introduction to Sailing",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE29",
-                            "courseTitle": "Boat Cruising Navigation & Safety",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE30",
-                            "courseTitle": "Adaptive Physical Education",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE31",
-                            "courseTitle": "Racquetball",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE32A",
-                            "courseTitle": "Low Impact Aerobics",
-                            "courseUnits": "0.50 - 1.00"
-                        },
-                        {
-                            "courseNumber": "PE32C",
-                            "courseTitle": "Co-Ed Body Conditioning/Lapswim",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE32I",
-                            "courseTitle": "Co-ed Body Conditioning/Lapswim",
-                            "courseUnits": "1.50"
-                        },
-                        {
-                            "courseNumber": "PE32M",
-                            "courseTitle": "Co-ed Body Conditioning/Aqua Exerc.",
-                            "courseUnits": "0.50 - 1.00"
-                        },
-                        {
-                            "courseNumber": "PE33A",
-                            "courseTitle": "Womens Body Conditioning",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE34",
-                            "courseTitle": "Co-Ed Golf Skills",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE34A",
-                            "courseTitle": "Co-ed Golf",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE36",
-                            "courseTitle": "Cross Country Skiing",
-                            "courseUnits": "0.50 - 1.00"
-                        },
-                        {
-                            "courseNumber": "PE36A",
-                            "courseTitle": "Nordic Skiing",
-                            "courseUnits": "1.50"
-                        },
-                        {
-                            "courseNumber": "PE37A",
-                            "courseTitle": "Alpine Skiing",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE39A",
-                            "courseTitle": "Weight Training",
-                            "courseUnits": "0.50 - 1.00"
-                        },
-                        {
-                            "courseNumber": "PE39B",
-                            "courseTitle": "Fitness Center/Weight",
-                            "courseUnits": "0.50 - 1.00"
-                        },
-                        {
-                            "courseNumber": "PE39E",
-                            "courseTitle": "Fitness Center/weight Training",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE40A",
-                            "courseTitle": "Fundamentals of Rifle Shooting",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE40E",
-                            "courseTitle": "Compet. Sport Shooting Theory/rifle",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE42",
-                            "courseTitle": "Fund Of Creative Movement and Dance",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE42A",
-                            "courseTitle": "Fund of Creative Movement and Dance",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE43",
-                            "courseTitle": "Karate (Defensive Tactics)",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE43A",
-                            "courseTitle": "Karate (Defensive Tactics)",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE44A",
-                            "courseTitle": "Jazz Dancing",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE44B",
-                            "courseTitle": "Dance Production",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE44E",
-                            "courseTitle": "Dance Production",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE44I",
-                            "courseTitle": "Dance Theory and Composition",
-                            "courseUnits": "2.00"
-                        },
-                        {
-                            "courseNumber": "PE45",
-                            "courseTitle": "Modern Dance",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE45A",
-                            "courseTitle": "Modern Dance",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PE46",
-                            "courseTitle": "Ballet",
-                            "courseUnits": "1.00"
-                        },
-                        {
-                            "courseNumber": "PSY1",
-                            "courseTitle": "Introduction to Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY2",
-                            "courseTitle": "Principles of Psychology",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY18",
-                            "courseTitle": "Life Span Development",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY31",
-                            "courseTitle": "Child Development: Conception through Adolescence",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "Sameas:CD31",
-                            "courseTitle": "D",
-                            "courseUnits": "F2021"
-                        },
-                        {
-                            "courseNumber": "PSY32",
-                            "courseTitle": "Human Development in the Life Cycles: Adolescence to Old Age",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "PSY33",
-                            "courseTitle": "Psychology of Personal Adjustment",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC3",
-                            "courseTitle": "Family Relations",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SOC4AB",
-                            "courseTitle": "Sociology of Sexuality",
-                            "courseUnits": "3.00"
-                        },
-                        {
-                            "courseNumber": "SPCH2",
-                            "courseTitle": "Interpersonal Communication",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                }
-            },
-            "Area F": {
-                "title": "Ethnic Studies",
-                "requirements": [
-                    3,
-                    "units"
-                ],
-                "F": {
-                    "title": "Ethnic Studies",
-                    "requirements": [
-                        1,
-                        "class"
-                    ],
-                    "courses": [
-                        {
-                            "courseNumber": "ES1",
-                            "courseTitle": "Introduction to Ethnic Studies",
-                            "courseUnits": "3.00"
-                        }
-                    ]
-                }
+            {
+              "courseNumber": "SPCH3",
+              "courseTitle": "Public Speaking Performance",
+              "courseUnits": "2.00 - 3.00"
             }
+          ]
+        },
+        "A2": {
+          "title": "Written Communication",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ENGL1",
+              "courseTitle": "College Composition",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL8",
+              "courseTitle": "Advanced Composition",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL9",
+              "courseTitle": "Critical Thinking and Composition",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "A3": {
+          "title": "Critical Thinking",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ENGL7",
+              "courseTitle": "Argumentative Writing and Critical Thinking Through Literature",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "ENGL9",
+              "courseTitle": "Critical Thinking and Composition",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL2",
+              "courseTitle": "Critical Thinking",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SPCH4",
+              "courseTitle": "Fundamentals of Argumentation and Persuasion",
+              "courseUnits": "3.00"
+            }
+          ]
         }
-    ]
+      },
+      "Area B": {
+        "title": "Scientific Inquiry and Quantitative Reasoning",
+        "requirements": [9, "units"],
+        "B1": {
+          "title": "Physical Science",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "AGR19",
+              "courseTitle": "Introduction to Soil Science",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ASTR1",
+              "courseTitle": "Introduction to Astronomy",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHEM1A",
+              "courseTitle": "General Chemistry I",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "CHEM1B",
+              "courseTitle": "General Chemistry II",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "CHEM8",
+              "courseTitle": "Introduction to Organic and Biochemistry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHEM40",
+              "courseTitle": "Survey of Chemistry and Physics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "CHEM45",
+              "courseTitle": "Introduction to General Chemistry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GEOG1",
+              "courseTitle": "Physical Geography",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "GEOL1",
+              "courseTitle": "Physical Geology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GEOL5",
+              "courseTitle": "Historical Geology & Paleontology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHSC1",
+              "courseTitle": "General Physical Science",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHYS2A",
+              "courseTitle": "General College Physics I",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS2B",
+              "courseTitle": "General College Physics II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS2C",
+              "courseTitle": "General Physics",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4A",
+              "courseTitle": "Physics for Students of Science and Engineering Mechanics",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4B",
+              "courseTitle": "Electricity & Magnetism for Science & Engineering Majors",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4C",
+              "courseTitle": "Heat, Wave Motion, Sound, Light & Modern Topics for Sci/Engr",
+              "courseUnits": "4.00"
+            }
+          ]
+        },
+        "B2": {
+          "title": "Life Science",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "AGR10",
+              "courseTitle": "Introduction to Animal Science",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "AGR20",
+              "courseTitle": "Introduction to Plant Science",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "ANTH1",
+              "courseTitle": "Biological Anthropology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "BIO1",
+              "courseTitle": "Principles of Biology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO2",
+              "courseTitle": "Principles of Zoology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIO3",
+              "courseTitle": "Principles of Botany",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIO9A",
+              "courseTitle": "Anatomy + Physiology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO9B",
+              "courseTitle": "Anatomy + Physiology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO10",
+              "courseTitle": "Natural History of Plants and Animals",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO18",
+              "courseTitle": "Environmental Conservation",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "BIO20",
+              "courseTitle": "Microbiology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIO25",
+              "courseTitle": "Human Anatomy and Physiology I",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO26",
+              "courseTitle": "Human Anatomy and Physiology II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO32",
+              "courseTitle": "General Life Science",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "BIOL1",
+              "courseTitle": "Principles of Molecular and Cellular Biology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO1priortoF1999)",
+              "courseTitle": "B3",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL2",
+              "courseTitle": "Principles of Zoology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO2priortoF1999)",
+              "courseTitle": "B3",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL3",
+              "courseTitle": "Principles of Botany",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO3priortoF1999)",
+              "courseTitle": "B3",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL4",
+              "courseTitle": "Principles of Evolutionary, Organismal, and Ecological Biology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIOL10",
+              "courseTitle": "Natural History of Plants & Animals",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO10priortoF1999)",
+              "courseTitle": "B3",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL18",
+              "courseTitle": "Environmental Conservation",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "BIOL20",
+              "courseTitle": "Microbiology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO20priortoF1999)",
+              "courseTitle": "B3",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL21",
+              "courseTitle": "Human Anatomy with Lab",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL22",
+              "courseTitle": "Human Physiology with Lab",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL25",
+              "courseTitle": "Human Anatomy and Physiology I",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO25priortoF1999)",
+              "courseTitle": "B3",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL26",
+              "courseTitle": "Human Anatomy and Physiology II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO26priortoF1999)",
+              "courseTitle": "B3",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL32",
+              "courseTitle": "General Biology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "BIOL32L",
+              "courseTitle": "General Biology with Laboratory",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CONS1",
+              "courseTitle": "Environmental Conservation 1",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "LIFESCI1",
+              "courseTitle": "General Life Science",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "NTRLHIST1",
+              "courseTitle": "Natural History of Plants & Animals",
+              "courseUnits": "4.00"
+            }
+          ]
+        },
+        "B3": {
+          "title": "Laboratory Activity",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "AGR10",
+              "courseTitle": "Introduction to Animal Science",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "AGR19",
+              "courseTitle": "Introduction to Soil Science",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "AGR20",
+              "courseTitle": "Introduction to Plant Science",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "ANTH1L",
+              "courseTitle": "Biological Anthropology Lab",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "ASTR1",
+              "courseTitle": "Introduction to Astronomy",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO1",
+              "courseTitle": "Principles of Biology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO2",
+              "courseTitle": "Principles of Zoology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIO3",
+              "courseTitle": "Principles of Botany",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIO9A",
+              "courseTitle": "Anatomy + Physiology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO9B",
+              "courseTitle": "Anatomy + Physiology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO10",
+              "courseTitle": "Natural History of Plants and Animals",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO20",
+              "courseTitle": "Microbiology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIO25",
+              "courseTitle": "Human Anatomy and Physiology I",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIO26",
+              "courseTitle": "Human Anatomy and Physiology II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL1",
+              "courseTitle": "Principles of Molecular and Cellular Biology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO1priortoF1999)",
+              "courseTitle": "B2",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL2",
+              "courseTitle": "Principles of Zoology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO2priortoF1999)",
+              "courseTitle": "B2",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL3",
+              "courseTitle": "Principles of Botany",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO3priortoF1999)",
+              "courseTitle": "B2",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL4",
+              "courseTitle": "Principles of Evolutionary, Organismal, and Ecological Biology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "BIOL10",
+              "courseTitle": "Natural History of Plants & Animals",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO10priortoF1999)",
+              "courseTitle": "B2",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL20",
+              "courseTitle": "Microbiology",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO20priortoF1999)",
+              "courseTitle": "B2",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL21",
+              "courseTitle": "Human Anatomy with Lab",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL22",
+              "courseTitle": "Human Physiology with Lab",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "BIOL25",
+              "courseTitle": "Human Anatomy and Physiology I",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO25priortoF1999)",
+              "courseTitle": "B2",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL26",
+              "courseTitle": "Human Anatomy and Physiology II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "(FormerlyBIO26priortoF1999)",
+              "courseTitle": "B2",
+              "courseUnits": "F1999"
+            },
+            {
+              "courseNumber": "BIOL32L",
+              "courseTitle": "General Biology with Laboratory",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHEM1A",
+              "courseTitle": "General Chemistry I",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "CHEM1B",
+              "courseTitle": "General Chemistry II",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "CHEM8",
+              "courseTitle": "Introduction to Organic and Biochemistry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "CHEM40L",
+              "courseTitle": "Teaching Laboratory for Survey of Chemistry and Physics",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "CHEM45",
+              "courseTitle": "Introduction to General Chemistry",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GEOL1",
+              "courseTitle": "Physical Geology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GEOL1L",
+              "courseTitle": "General Geology Lab",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "GEOL2",
+              "courseTitle": "Physical Geology Laboratory",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "GEOL5",
+              "courseTitle": "Historical Geology & Paleontology",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "NTRLHIST1",
+              "courseTitle": "Natural History of Plants & Animals",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS2A",
+              "courseTitle": "General College Physics I",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS2B",
+              "courseTitle": "General College Physics II",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS2C",
+              "courseTitle": "General Physics",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4A",
+              "courseTitle": "Physics for Students of Science and Engineering Mechanics",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4B",
+              "courseTitle": "Electricity & Magnetism for Science & Engineering Majors",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHYS4C",
+              "courseTitle": "Heat, Wave Motion, Sound, Light & Modern Topics for Sci/Engr",
+              "courseUnits": "4.00"
+            }
+          ]
+        },
+        "B4": {
+          "title": "Mathematics/Quantitative Reasoning",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "MATH1A",
+              "courseTitle": "Analytic Geometry and Calculus I",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "MATH1B",
+              "courseTitle": "Analytic Geometry and Calculus II",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "MATH1C",
+              "courseTitle": "Analytic Geometry and Calculus III",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "MATH1D",
+              "courseTitle": "Differential Equations",
+              "courseUnits": "5.00"
+            },
+            {
+              "courseNumber": "MATH6",
+              "courseTitle": "Finite Mathematics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MATH7",
+              "courseTitle": "Trigonometry",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MATH8",
+              "courseTitle": "Advanced Algebra",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MATH11A",
+              "courseTitle": "Concepts of Elementary School Mathematics I",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MATH11B",
+              "courseTitle": "Concepts of Elementary School Mathematics II",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MATH40",
+              "courseTitle": "Elementary Statistics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MATH60",
+              "courseTitle": "Intermediate Algebra",
+              "courseUnits": "3.00"
+            }
+          ]
+        }
+      },
+      "Area C": {
+        "title": "Arts and Humanities",
+        "requirements": [9, "units"],
+        "C1": {
+          "title": "Arts: (Arts, Cinema, Dance, Music, Theater)",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ART1",
+              "courseTitle": "Design and Composition",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART1A",
+              "courseTitle": "Two-Dimensional Design",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART1B",
+              "courseTitle": "Three-Dimensional Design",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART2",
+              "courseTitle": "Drawing",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART3",
+              "courseTitle": "Beginning Life Drawing",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART4",
+              "courseTitle": "Beginning Black and White Photography (Lab)",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART4A",
+              "courseTitle": "Beginning Photography",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART5",
+              "courseTitle": "Intermediate Photography",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART6",
+              "courseTitle": "Survey of Art History, Prehistoric to Renaissance",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART7",
+              "courseTitle": "Survey of Art History, Renaissance through Contemporary",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART8",
+              "courseTitle": "Art Appreciation",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART9",
+              "courseTitle": "History of Asian Art",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART10",
+              "courseTitle": "Beginning Oil/Acrylic Painting",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART10A",
+              "courseTitle": "Beginning Painting",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART10A",
+              "courseTitle": "Beginning Oil or Acrylic Painting I",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART10B",
+              "courseTitle": "Beginning Oil or Acrylic Painting II",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART11",
+              "courseTitle": "Beginning Watercolor Painting",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART11A",
+              "courseTitle": "Beginning Watercolors I",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART11B",
+              "courseTitle": "Beginning Watercolors II",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART14A",
+              "courseTitle": "Advanced Oil or Acrylic Painting",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART14B",
+              "courseTitle": "Advanced Oil or Acrylic Painting",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART15A",
+              "courseTitle": "Advanced Watercolor Painting I",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART15B",
+              "courseTitle": "Advanced Watercolor Painting II",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART18A",
+              "courseTitle": "Advanced Life Drawing I",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART18B",
+              "courseTitle": "Advanced Life Drawing II",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART18C",
+              "courseTitle": "Advanced Life Drawing III",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART18D",
+              "courseTitle": "Advanced Life Drawing IV",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART20",
+              "courseTitle": "Advanced Photography",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART30",
+              "courseTitle": "Introduction to Sculpture",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART30A",
+              "courseTitle": "Introduction to Sculpture",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART31A",
+              "courseTitle": "Intermediate Sculpture - Building Process",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART32",
+              "courseTitle": "Intermediate Sculpture: Cutting Process",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART35",
+              "courseTitle": "Glass Design",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART36A",
+              "courseTitle": "Beginning Ceramics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART36B",
+              "courseTitle": "Ceramics: Handbuilding II",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART37A",
+              "courseTitle": "Ceramics: Wheelthrowing I",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART37B",
+              "courseTitle": "Ceramics: Wheelthrowing II",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ART43",
+              "courseTitle": "Beginning Jewelry Design",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART44A",
+              "courseTitle": "Advanced Jewelry Making",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART44B",
+              "courseTitle": "Advanced Jewelry Making",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART44C",
+              "courseTitle": "Advanced Jewelry Making",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "ART44D",
+              "courseTitle": "Advanced Jewelry Making",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "DRA40",
+              "courseTitle": "Introduction to Acting",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "FILM1",
+              "courseTitle": "History of the Cinema",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MUS6",
+              "courseTitle": "Music History from Antiquity to 1750",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MUS7",
+              "courseTitle": "Music History from 1750 to Modern Era",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "MUS12",
+              "courseTitle": "Music Appreciation",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PE42",
+              "courseTitle": "Fund Of Creative Movement and Dance",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE42A",
+              "courseTitle": "Fund of Creative Movement and Dance",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE44A",
+              "courseTitle": "Jazz Dancing",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE44E",
+              "courseTitle": "Dance Production",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE44I",
+              "courseTitle": "Dance Theory and Composition",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE45A",
+              "courseTitle": "Modern Dance",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE46",
+              "courseTitle": "Ballet",
+              "courseUnits": "1.00"
+            }
+          ]
+        },
+        "C2": {
+          "title": "Humanities: (Literature, Philosophy, Languages Other than English)",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ENGL2",
+              "courseTitle": "Introduction to Literary Types",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL3",
+              "courseTitle": "British Literature I",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL4",
+              "courseTitle": "British Literature II",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL5",
+              "courseTitle": "Survey of World Literature II",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL10",
+              "courseTitle": "Shakespeare",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL11",
+              "courseTitle": "Survey of American Literature I",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL12",
+              "courseTitle": "Survey of American Literature II",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL22",
+              "courseTitle": "Creative Writing",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL22A",
+              "courseTitle": "Creative Writing",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL30",
+              "courseTitle": "Masterpieces of Western Literature I",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL31",
+              "courseTitle": "Masterpieces of Western Literature II",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL33",
+              "courseTitle": "Studies in Fiction",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL33",
+              "courseTitle": "Honors English Program",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL34",
+              "courseTitle": "Studies in Poetry",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ENGL34",
+              "courseTitle": "The Evolution of Modern Social Contracts",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "FREN1",
+              "courseTitle": "First Course in French",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "FREN2",
+              "courseTitle": "Second Course in French",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "FREN3",
+              "courseTitle": "Third Course in French",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "FREN4",
+              "courseTitle": "Fourth Course in French",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GRMN1",
+              "courseTitle": "Introduction to German",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GRMN2",
+              "courseTitle": "Second Course in German",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GRMN3",
+              "courseTitle": "Third Course in German",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "GRMN4",
+              "courseTitle": "Fourth Course in German",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "HIST14",
+              "courseTitle": "World History, Beginning 1500",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST15",
+              "courseTitle": "World History, 1500 to Present",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST16",
+              "courseTitle": "U.S. History",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST17",
+              "courseTitle": "Post Civil War - U.S. History",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HUM1",
+              "courseTitle": "Western Civilization: Prehistoric to 1600",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HUM2",
+              "courseTitle": "Western Civilization: 1600 to Present",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HUM3",
+              "courseTitle": "Humanities through the Arts",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "IDS1",
+              "courseTitle": "Introduction to American Sign Language",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "IDS2",
+              "courseTitle": "Intermediate Sign Language",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "PHIL1",
+              "courseTitle": "Introduction to Philosophy",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL4",
+              "courseTitle": "Philosophy: Ethics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL10",
+              "courseTitle": "Comparative World Religions",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PHIL20",
+              "courseTitle": "Religious Studies: Introduction to Christianity",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SPAN1",
+              "courseTitle": "First Course in Spanish",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "SPAN2",
+              "courseTitle": "Second Course in Spanish",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "SPAN3",
+              "courseTitle": "Third Course in Spanish",
+              "courseUnits": "4.00"
+            },
+            {
+              "courseNumber": "SPAN4",
+              "courseTitle": "Fourth Course in Spanish",
+              "courseUnits": "4.00"
+            }
+          ]
+        }
+      },
+      "Area D": {
+        "title": "Social Sciences",
+        "requirements": [6, "units"],
+        "D": {
+          "title": "Social Sciences",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "AJ10",
+              "courseTitle": "Criminology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "AJ12",
+              "courseTitle": "Introduction to Criminal Justice",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "CD31",
+              "courseTitle": "Child Development: Conception through Adolescence",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:PSY31",
+              "courseTitle": "D7",
+              "courseUnits": "F2008"
+            },
+            {
+              "courseNumber": "ECON10",
+              "courseTitle": "Macro-Economics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ECON11",
+              "courseTitle": "Micro-Economics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ES1",
+              "courseTitle": "Introduction to Ethnic Studies",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY1",
+              "courseTitle": "Introduction to Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY18",
+              "courseTitle": "Life Span Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY31",
+              "courseTitle": "Child Development: Conception through Adolescence",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:CD31",
+              "courseTitle": "D7",
+              "courseUnits": "S2007"
+            },
+            {
+              "courseNumber": "SOC3",
+              "courseTitle": "Family Relations",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D0": {
+          "title": "Sociology and Criminology",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "AJ20",
+              "courseTitle": "Criminal Law",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "AJ25",
+              "courseTitle": "Constitutional Law",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC1",
+              "courseTitle": "Introduction to Sociology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC2",
+              "courseTitle": "Social Problems",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D1": {
+          "title": "Anthropology and Archeology",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "ANTH2",
+              "courseTitle": "Cultural Anthropology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ANTH3",
+              "courseTitle": "Introduction to Archaeology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ANTH8",
+              "courseTitle": "The North American Indian",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D2": {
+          "title": "Economics",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "AGR2",
+              "courseTitle": "Agricultural Economics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ECON10",
+              "courseTitle": "Macro-Economics",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ECON11",
+              "courseTitle": "Micro-Economics",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D3": {
+          "title": "Ethnic Studies",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "ANTH8",
+              "courseTitle": "The North American Indian",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "ES1",
+              "courseTitle": "Introduction to Ethnic Studies",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D4": {
+          "title": "Gender Studies",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "SOC4",
+              "courseTitle": "Introduction to Gender",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D5": {
+          "title": "Geography",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "GEOG2",
+              "courseTitle": "Cultural Geography",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D6": {
+          "title": "History",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "HIST14",
+              "courseTitle": "World History, Beginning 1500",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST15",
+              "courseTitle": "World History, 1500 to Present",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST16",
+              "courseTitle": "U.S. History",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST17",
+              "courseTitle": "Post Civil War - U.S. History",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HIST18",
+              "courseTitle": "California History",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HUM3",
+              "courseTitle": "Humanities through the Arts",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D7": {
+          "title": "Interdisciplinary Social or Behavioral Science",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "CD31",
+              "courseTitle": "Child Development: Conception through Adolescence",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:PSY31",
+              "courseTitle": "D",
+              "courseUnits": "F2021"
+            },
+            {
+              "courseNumber": "JOUR4",
+              "courseTitle": "Mass Communication and Society",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY18",
+              "courseTitle": "Life Span Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY31",
+              "courseTitle": "Child Development: Conception through Adolescence",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:CD31",
+              "courseTitle": "D",
+              "courseUnits": "F2021"
+            }
+          ]
+        },
+        "D8": {
+          "title": "Political Science, Government and Legal Institutions",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "AJ20",
+              "courseTitle": "Criminal Law",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "AJ25",
+              "courseTitle": "Constitutional Law",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PLSC1",
+              "courseTitle": "American Institutions",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PLSC2",
+              "courseTitle": "Comparative Government",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PLSC5",
+              "courseTitle": "International Relations",
+              "courseUnits": "3.00"
+            }
+          ]
+        },
+        "D9": {
+          "title": "Psychology",
+          "requirements": [],
+          "courses": [
+            {
+              "courseNumber": "PSY1",
+              "courseTitle": "Introduction to Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY2",
+              "courseTitle": "Principles of Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY5",
+              "courseTitle": "Introduction to Research Methods",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY6",
+              "courseTitle": "Abnormal Psychology",
+              "courseUnits": "3.00"
+            }
+          ]
+        }
+      },
+      "Area E": {
+        "title": "Lifelong Learning and Self-Development",
+        "requirements": [3, "units"],
+        "E": {
+          "title": "Lifelong Learning and Self-Development",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "CARS2",
+              "courseTitle": "Career Exploration",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "CD31",
+              "courseTitle": "Child Development: Conception through Adolescence",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:PSY31",
+              "courseTitle": "D",
+              "courseUnits": "F2021"
+            },
+            {
+              "courseNumber": "CG1",
+              "courseTitle": "Strategies for Creating Success in College and in Life",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HLTH2",
+              "courseTitle": "Personal Health",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HLTH25",
+              "courseTitle": "Understanding Nutrition",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "HUS30",
+              "courseTitle": "Pharmacology of Drugs of Abuse",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PE3A",
+              "courseTitle": "Varsity Sports",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE3C",
+              "courseTitle": "Women's Varsity Cross-country",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE4A",
+              "courseTitle": "Mens Varsity Track & Field",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE4C",
+              "courseTitle": "Women's Varsity Track & Field",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE5A",
+              "courseTitle": "Mens Varsity Basketball",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE5C",
+              "courseTitle": "Womens Varsity Basketball",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE6",
+              "courseTitle": "Varsity Wrestling",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE6A",
+              "courseTitle": "Varsity Wrestling",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE7",
+              "courseTitle": "Varsity Baseball",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE7A",
+              "courseTitle": "Intercollegiate Basketball",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE8",
+              "courseTitle": "Varsity Golf",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE8A",
+              "courseTitle": "Varsity Golf",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE9",
+              "courseTitle": "Women's Varsity Volleyball",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE9A",
+              "courseTitle": "Womens Varsity Volleyball",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE10",
+              "courseTitle": "Women's Varsity Softball",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE10A",
+              "courseTitle": "Women's Varsity Softball",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE11",
+              "courseTitle": "Varsity Co-ed Compet. Rifle Shooting",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE13A",
+              "courseTitle": "Fundamentals of Pistol Shooting",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE15",
+              "courseTitle": "Introduction to Kinesiology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PE17",
+              "courseTitle": "Swimming",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE17A",
+              "courseTitle": "Swimming",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE19",
+              "courseTitle": "Water Safety Instructors Course",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE20A",
+              "courseTitle": "Baseball Skills",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE20E",
+              "courseTitle": "Team Sports/Baseball",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE20I",
+              "courseTitle": "Theory of Baseball",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE21A",
+              "courseTitle": "Basketball Skills",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE21E",
+              "courseTitle": "Team Sports/basketball",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE21I",
+              "courseTitle": "Theory of Basketball",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE21K",
+              "courseTitle": "Activities",
+              "courseUnits": "0.50 - 1.00"
+            },
+            {
+              "courseNumber": "PE22A",
+              "courseTitle": "Co-Ed Volleyball Skills",
+              "courseUnits": "0.50 - 1.00"
+            },
+            {
+              "courseNumber": "PE22E",
+              "courseTitle": "Team Sports/Volleyball",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE23A",
+              "courseTitle": "Co-Ed Softball Skills",
+              "courseUnits": "0.50 - 1.00"
+            },
+            {
+              "courseNumber": "PE23E",
+              "courseTitle": "Team Sports/Softball",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE23I",
+              "courseTitle": "Theory of Softball",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE24A",
+              "courseTitle": "Techniques of Track & Field",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE24I",
+              "courseTitle": "Theory of Track and Field",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE25A",
+              "courseTitle": "Freestyle Wrestling Skills",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE27",
+              "courseTitle": "Care & Prevention of Athletic Injuries",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE28",
+              "courseTitle": "Introduction to Sailing",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE29",
+              "courseTitle": "Boat Cruising Navigation & Safety",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE30",
+              "courseTitle": "Adaptive Physical Education",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE31",
+              "courseTitle": "Racquetball",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE32A",
+              "courseTitle": "Low Impact Aerobics",
+              "courseUnits": "0.50 - 1.00"
+            },
+            {
+              "courseNumber": "PE32C",
+              "courseTitle": "Co-Ed Body Conditioning/Lapswim",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE32I",
+              "courseTitle": "Co-ed Body Conditioning/Lapswim",
+              "courseUnits": "1.50"
+            },
+            {
+              "courseNumber": "PE32M",
+              "courseTitle": "Co-ed Body Conditioning/Aqua Exerc.",
+              "courseUnits": "0.50 - 1.00"
+            },
+            {
+              "courseNumber": "PE33A",
+              "courseTitle": "Womens Body Conditioning",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE34",
+              "courseTitle": "Co-Ed Golf Skills",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE34A",
+              "courseTitle": "Co-ed Golf",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE36",
+              "courseTitle": "Cross Country Skiing",
+              "courseUnits": "0.50 - 1.00"
+            },
+            {
+              "courseNumber": "PE36A",
+              "courseTitle": "Nordic Skiing",
+              "courseUnits": "1.50"
+            },
+            {
+              "courseNumber": "PE37A",
+              "courseTitle": "Alpine Skiing",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE39A",
+              "courseTitle": "Weight Training",
+              "courseUnits": "0.50 - 1.00"
+            },
+            {
+              "courseNumber": "PE39B",
+              "courseTitle": "Fitness Center/Weight",
+              "courseUnits": "0.50 - 1.00"
+            },
+            {
+              "courseNumber": "PE39E",
+              "courseTitle": "Fitness Center/weight Training",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE40A",
+              "courseTitle": "Fundamentals of Rifle Shooting",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE40E",
+              "courseTitle": "Compet. Sport Shooting Theory/rifle",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE42",
+              "courseTitle": "Fund Of Creative Movement and Dance",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE42A",
+              "courseTitle": "Fund of Creative Movement and Dance",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE43",
+              "courseTitle": "Karate (Defensive Tactics)",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE43A",
+              "courseTitle": "Karate (Defensive Tactics)",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE44A",
+              "courseTitle": "Jazz Dancing",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE44B",
+              "courseTitle": "Dance Production",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE44E",
+              "courseTitle": "Dance Production",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE44I",
+              "courseTitle": "Dance Theory and Composition",
+              "courseUnits": "2.00"
+            },
+            {
+              "courseNumber": "PE45",
+              "courseTitle": "Modern Dance",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE45A",
+              "courseTitle": "Modern Dance",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PE46",
+              "courseTitle": "Ballet",
+              "courseUnits": "1.00"
+            },
+            {
+              "courseNumber": "PSY1",
+              "courseTitle": "Introduction to Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY2",
+              "courseTitle": "Principles of Psychology",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY18",
+              "courseTitle": "Life Span Development",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY31",
+              "courseTitle": "Child Development: Conception through Adolescence",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "Sameas:CD31",
+              "courseTitle": "D",
+              "courseUnits": "F2021"
+            },
+            {
+              "courseNumber": "PSY32",
+              "courseTitle": "Human Development in the Life Cycles: Adolescence to Old Age",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "PSY33",
+              "courseTitle": "Psychology of Personal Adjustment",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC3",
+              "courseTitle": "Family Relations",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SOC4AB",
+              "courseTitle": "Sociology of Sexuality",
+              "courseUnits": "3.00"
+            },
+            {
+              "courseNumber": "SPCH2",
+              "courseTitle": "Interpersonal Communication",
+              "courseUnits": "3.00"
+            }
+          ]
+        }
+      },
+      "Area F": {
+        "title": "Ethnic Studies",
+        "requirements": [3, "units"],
+        "F": {
+          "title": "Ethnic Studies",
+          "requirements": [1, "class"],
+          "courses": [
+            {
+              "courseNumber": "ES1",
+              "courseTitle": "Introduction to Ethnic Studies",
+              "courseUnits": "3.00"
+            }
+          ]
+        }
+      }
+    }
+  ]
 }

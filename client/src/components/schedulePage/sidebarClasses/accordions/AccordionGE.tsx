@@ -5,10 +5,10 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"; // Make sure the path is correct for your project
-import { classData, GE, SemesterType } from "@/types"; // Your GERequirements type or wherever you defined Course
-import { findUsedCourses } from "./helpers/findUsedCourses";
-import DraggableClass from "./DraggableClass/DraggableClass";
-import { prepareFormattedAccordionData } from "./helpers/formatClasses";
+import { GE, SemesterType } from "@/types"; // Your GERequirements type or wherever you defined Course
+import { findUsedCourses } from "../helpers/findUsedCourses";
+import DraggableClass from "../DraggableClass/DraggableClass";
+import { prepareFormattedAccordionData } from "../helpers/formatClasses";
 // ui
 import {
   Tooltip,

@@ -1,4 +1,4 @@
-import { GE, classData } from "@/types";
+import { GE, ClassData, SubRequirement, Area } from "@/types";
 
 interface formatClassListReturnType {
   value: string;
@@ -8,7 +8,7 @@ interface formatClassListReturnType {
 }
 
 export function formatClassList(
-  classList: classData[]
+  classList: ClassData[]
 ): formatClassListReturnType[] {
   const formattedList = classList
     .sort((a, b) => {
@@ -35,7 +35,15 @@ export function formatClassList(
   return formattedList;
 }
 
-export function prepareFormattedAccordionData(geData) {
+interface prepareFormattedAccordionDataReturnType {
+  title: string;
+  subAreas: Area | SubRequirement;
+  requirements: SubRequirement;
+}
+
+export function prepareFormattedAccordionData(
+  geData: GE
+): prepareFormattedAccordionDataReturnType[] {
   // First, format the GE data
   const formattedGE = Object.entries(geData.GE).map(([, areaVal]) => {
     const obj = Object.entries(areaVal).filter(

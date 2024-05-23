@@ -2,7 +2,11 @@ import { cn } from "@/lib/utils";
 import ClassRow from "./ClassRow";
 import { SemesterType } from "@/types";
 import { useScheduleDataContext } from "@/contexts/scheduleContext";
-import { handleDragOver, handleDragStart, handleDrop } from "../helpers/drag";
+import {
+  handleDragOver,
+  handleDragStart,
+  handleDrop,
+} from "../dragHelpers/drag";
 type SemesterCardProps = {
   semester: SemesterType;
   handleScheduleChange: (

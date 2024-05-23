@@ -1,4 +1,4 @@
-import { SemesterType, classData } from "@/types";
+import { SemesterType, ClassData } from "@/types";
 import { formatClassList } from "../helpers/formatClasses";
 import DraggableClass from "../DraggableClass/DraggableClass";
 import {
@@ -13,7 +13,7 @@ import { findUsedCourses } from "../helpers/findUsedCourses";
 import styles from "./SearchbarClasses.module.css";
 
 type SearchbarClassesProps = {
-  classList: classData[];
+  classList: ClassData[];
   schedule: SemesterType[];
 };
 const SearchbarClasses = ({
@@ -23,7 +23,6 @@ const SearchbarClasses = ({
   const [isInputFocused, setIsInputFocused] = useState(false);
 
   const formattedList = formatClassList(classList);
-  console.log("CLASSLIST IN SEARCHBAR CLASSES: ", formattedList);
 
   useEffect(() => {
     // Add event listener to handle clicks outside the component

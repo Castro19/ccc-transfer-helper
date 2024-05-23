@@ -1,16 +1,19 @@
 import express from "express";
+// MongoDB service functions
 import {
   addSchedule,
   deleteSchedule,
   fetchSchedules,
 } from "../db/models/schedule/scheduleServices.js";
-
-import organizeClasses, {
-  getClassList,
+// Helpers
+import organizeClasses from "../helpers/format.js";
+import {
   getFileName,
+  getClassList,
   getSchedule,
   getGE,
-} from "./utils.js";
+} from "../helpers/readFile.js";
+
 const router = express.Router();
 
 router.get("/:ccc/:college/:major/", async (req, res) => {
