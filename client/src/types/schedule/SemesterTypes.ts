@@ -1,4 +1,5 @@
 export type CourseType = {
+  courseTitle: string;
   id?: number;
   courseCode?: string | null;
   course?: string;
@@ -34,20 +35,46 @@ export type ScheduleData = {
   classList: ClassData[];
 };
 
-export interface SubRequirement {
+// GE Areas
+export interface SubArea {
   title: string;
-  requirements: (number | string)[];
+  requirements?: [number, string] | []; // Optional sub-requirements as an array1
   courses: ClassData[];
 }
 
 export interface Area {
   title: string;
-  requirements: (number | string)[];
-  subRequirements?: SubRequirement[]; // Optional sub-requirements as an array
-  [key: string]: string | (number | string)[] | SubRequirement[] | undefined; // Index signature allowing specific types
+  requirements: [number, string]; // Optional sub-requirements as an array1
+  subAreas: { [key: string]: SubArea }; // Explicitly define subAreas
 }
 
-export interface GE {
+export interface GEDataType {
   GE: Area[];
-  [key: string]: Area[]; // For areas like "Area A", "Area B", etc.
 }
+
+export type GEAccordionSubArea = {
+  title: string;
+  requirementsText: string;
+  requirements: [number, string]; // Optional sub-requirements as an array1
+  subjects: { [key: string]: CourseType[] };
+  completed: boolean; // Indicates if this area is completed
+  completedCourses: CompletedCourse[]; // Courses that satisfy the area
+  completedSubjects?: string[];
+};
+
+export type CompletedCourse = {
+  course: string;
+  courseTitle: string;
+  subjectCode: string;
+  units: number;
+};
+
+export type GEAccordionArea = {
+  title: string;
+  requirementsText: string;
+  requirements: [number, string]; // Requirements as a tuple
+  subAreas: { [key: string]: GEAccordionSubArea }; // Subareas if any
+  completed: boolean; // Indicates if this area is completed
+  completedCourses: CompletedCourse[]; // Courses that satisfy the area
+  currentUnitCount: number;
+};

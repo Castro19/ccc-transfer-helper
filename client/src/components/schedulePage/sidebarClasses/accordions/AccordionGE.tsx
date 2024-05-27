@@ -1,14 +1,24 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"; // Make sure the path is correct for your project
-import { GE, SemesterType } from "@/types"; // Your GERequirements type or wherever you defined Course
-import { findUsedCourses } from "../helpers/findUsedCourses";
+import { FaSquareCheck } from "react-icons/fa6";
+import {
+  GEAccordionArea,
+  GEAccordionSubArea,
+  GEDataType,
+  SemesterType,
+} from "@/types"; // Your GERequirements type or wherever you defined Course
+import { findGeCompletion, findUsedCourses } from "../helpers/findUsedCourses";
 import DraggableClass from "../DraggableClass/DraggableClass";
-import { prepareFormattedAccordionData } from "../helpers/formatClasses";
+import {
+  formatGEData,
+  prepareFormattedAccordionData,
+  // prepareGeReqs,
+} from "../helpers/formatClasses";
 // ui
 import {
   Tooltip,
@@ -18,37 +28,46 @@ import {
 } from "@/components/ui/tooltip";
 
 interface AccordionGEProps {
-  ge: GE;
+  ge: GEDataType;
   schedule: SemesterType[];
 }
 
 const AccordionGE: React.FC<AccordionGEProps> = ({ ge, schedule }) => {
-  console.log("ge.GE", ge.GE);
-
-  // Function to get used courses from the schedule
-  const getUsedCourses = useMemo(() => {
-    return findUsedCourses(schedule);
-  }, [schedule]); // Recompute when schedule changes
-
-  const accordionData = prepareFormattedAccordionData(ge);
+  const formattedGE = formatGEData(ge);
+  const accordionDataFormatted = prepareFormattedAccordionData(formattedGE);
+  const [accordionData, setAccordionData] = useState<GEAccordionArea[]>(
+    accordionDataFormatted
+  );
 
   console.log("ACCORDION DATA: ", accordionData);
+
+  // Function to get used courses from the schedule
+  const usedCourses = useMemo(() => {
+    const usedCourses = findUsedCourses(schedule);
+    const updatedAccordionData = findGeCompletion(usedCourses, accordionData);
+    console.log("UPDATED ACCORDION DATA: ", accordionData);
+    setAccordionData(updatedAccordionData);
+
+    return usedCourses;
+  }, [accordionData, schedule]); // Recompute when schedule changes
+
   return (
     <Accordion type="multiple">
-      {accordionData.map(({ title, subAreas, requirements }) => (
+      {accordionData.map(({ title, subAreas, requirementsText, completed }) => (
         <AccordionItem value={title} key={title}>
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
                 <AccordionTrigger className="text-left align-top whitespace-normal">
                   {title}
+                  {completed && <FaSquareCheck style={{ color: "#2ECC71" }} />}
                 </AccordionTrigger>
               </TooltipTrigger>
               <TooltipContent
                 side="top"
                 className="bg-white p-2 rounded shadow-lg max-w-xs break-words w-3/4"
               >
-                <p>{requirements}</p>
+                <p>{requirementsText}</p>
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
@@ -56,24 +75,32 @@ const AccordionGE: React.FC<AccordionGEProps> = ({ ge, schedule }) => {
             <Accordion type="multiple">
               {Object.entries(subAreas)
                 .filter(([key]) => key !== "requirements")
-                .map(
-                  ([
-                    subAreaKey,
-                    { subjects, title: subAreaTitle, requirements },
-                  ]) => (
+                .map(([subAreaKey, subAreaValue]) => {
+                  const {
+                    subjects,
+                    title: subAreaTitle,
+                    requirementsText,
+                    completed: subAreaCompleted,
+                    completedSubjects: subjectsCompleted,
+                  } = subAreaValue as unknown as GEAccordionSubArea; // Type Assertion
+                  console.log("COMPLETED:::", completed);
+                  return (
                     <AccordionItem value={subAreaKey} key={subAreaKey}>
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger asChild>
                             <AccordionTrigger className="text-left align-top whitespace-normal">
                               {subAreaTitle}
+                              {subAreaCompleted && (
+                                <FaSquareCheck style={{ color: "#2ECC71" }} />
+                              )}
                             </AccordionTrigger>
                           </TooltipTrigger>
                           <TooltipContent
                             side="top"
                             className="bg-white p-2 rounded shadow-lg max-w-xs break-words w-3/4"
                           >
-                            <p>{requirements}</p>
+                            <p>{requirementsText}</p>
                           </TooltipContent>
                         </Tooltip>
                       </TooltipProvider>
@@ -90,6 +117,13 @@ const AccordionGE: React.FC<AccordionGEProps> = ({ ge, schedule }) => {
                                     <TooltipTrigger asChild>
                                       <AccordionTrigger className="text-left align-top whitespace-normal">
                                         {subjectTitle}
+                                        {subjectsCompleted.includes(
+                                          subjectTitle
+                                        ) && (
+                                          <FaSquareCheck
+                                            style={{ color: "#2ECC71" }}
+                                          />
+                                        )}
                                       </AccordionTrigger>
                                     </TooltipTrigger>
                                     <TooltipContent
@@ -101,11 +135,11 @@ const AccordionGE: React.FC<AccordionGEProps> = ({ ge, schedule }) => {
                                   </Tooltip>
                                 </TooltipProvider>
                                 <AccordionContent>
-                                  {courses.map((classData, idx2) => (
+                                  {courses.map((classData, idx2: number) => (
                                     <div className="mb-2 last:mb-0" key={idx2}>
                                       <DraggableClass
                                         classItem={classData}
-                                        isInUse={getUsedCourses.has(
+                                        isInUse={usedCourses.has(
                                           classData.course
                                         )}
                                       />
@@ -118,8 +152,8 @@ const AccordionGE: React.FC<AccordionGEProps> = ({ ge, schedule }) => {
                         </Accordion>
                       </AccordionContent>
                     </AccordionItem>
-                  )
-                )}
+                  );
+                })}
             </Accordion>
           </AccordionContent>
         </AccordionItem>
