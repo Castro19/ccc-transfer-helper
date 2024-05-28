@@ -2,6 +2,8 @@ import styles from "./ScheduleCard.module.css";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { IoTrashBinOutline } from "react-icons/io5";
+import { CiEdit } from "react-icons/ci";
+import { useNavigate } from "react-router-dom";
 
 type ScheduleCardProps = {
   id: string;
@@ -20,8 +22,13 @@ const ScheduleCard = ({
   year,
   onDelete,
 }: ScheduleCardProps): JSX.Element => {
+  const navigate = useNavigate();
   const [isHovered, setIsHovered] = useState(false);
 
+  const onScheduleClick = () => {
+    console.log("Clicked on schedule: ", id);
+    navigate(`/schedules/${id}`);
+  };
   return (
     <div
       className={styles.container}
@@ -58,7 +65,13 @@ const ScheduleCard = ({
         </p>
 
         <p className={styles.major}>Major: {major}</p>
-        <p className={styles.year}>Year: {year}</p>
+        <div className={styles.containerCCC}>
+          <p className={styles.year}>Year: {year}</p>
+
+          <button onClick={onScheduleClick} className="" title="Go to Schedule">
+            <CiEdit className="h-5 w-5 text-gray-900 hover:text-green-700" />
+          </button>
+        </div>
         {/* <p className={styles.id}>Schedule ID: {id}</p> */}
       </div>
     </div>

@@ -8,8 +8,11 @@ import {
   Navigate,
 } from "react-router-dom";
 // Context Providers
-import { AuthProvider } from "./contexts/authContext/index.tsx";
-import { CollegeProvider } from "./contexts/collegeContext";
+import {
+  AuthProvider,
+  LayoutProvider,
+  CollegeProvider,
+} from "./contexts/index.ts";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 // Pages
@@ -23,7 +26,10 @@ import SavedSchedulesPage from "./pages/savedSchedules/SavedSchedulesPage.tsx";
 import Layout from "./components/layouts/Layouts.tsx";
 // Loaders:
 import { fetchColleges } from "./pages/home/getAssistData.ts";
-import fetchScheduleData from "./pages/schedule/fetchScheduleData.ts";
+import {
+  fetchScheduleData,
+  loadScheduleData,
+} from "./pages/schedule/fetchScheduleData.ts";
 import fetchSchedules from "./pages/savedSchedules/fetchSchedules.ts";
 
 const router = createBrowserRouter([
@@ -55,6 +61,17 @@ const router = createBrowserRouter([
     ],
   },
   {
+    path: "/schedules/:id",
+    element: (
+      <DndProvider backend={HTML5Backend}>
+        <Layout>
+          <SchedulePage />
+        </Layout>
+      </DndProvider>
+    ),
+    loader: loadScheduleData,
+  },
+  {
     path: "/schedule/:year/:ccc/:cccCode/:college/:major",
     element: (
       <DndProvider backend={HTML5Backend}>
@@ -79,9 +96,11 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <AuthProvider>
-      <CollegeProvider>
-        <RouterProvider router={router} />
-      </CollegeProvider>
+      <LayoutProvider>
+        <CollegeProvider>
+          <RouterProvider router={router} />
+        </CollegeProvider>
+      </LayoutProvider>
     </AuthProvider>
   </React.StrictMode>
 );

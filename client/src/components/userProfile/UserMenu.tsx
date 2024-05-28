@@ -13,7 +13,6 @@ const UserMenu = (): JSX.Element => {
   }
   const [active, setActive] = useState<string | null>(null);
   const navigate = useNavigate();
-
   const handleSignOut = () => {
     doSignOut().then(() => {
       navigate("/");

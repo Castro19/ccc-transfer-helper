@@ -2,10 +2,15 @@ import CardMenu from "@/components/homePage/CardMenu";
 import HomePageTitle from "@/components/homePage/HomePageTitle";
 import { useCollege } from "@/contexts/collegeContext";
 import { fetchPDF } from "./getAssistData";
+import { UnivHome } from "@/types";
+import { useLayout } from "@/contexts";
 
 const HomePage = (): JSX.Element => {
   // Context Variables
-  const { year, ccc, univ, major } = useCollege();
+  const { year, ccc, univ, major } = useCollege() as UnivHome;
+  const { handleSidebarVisibility } = useLayout();
+
+  handleSidebarVisibility(false);
 
   // 4.) Button Handler Functions:
   // 4a. Button to get their ASSIST PDF

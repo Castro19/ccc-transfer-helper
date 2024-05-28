@@ -12,7 +12,7 @@ export const createSchedule = async (scheduleData) => {
   }
 };
 
-// Read
+// Read (fetch all schedules associated w/ a user )
 export const fetchSchedulesByUserId = async (userId) => {
   try {
     const query = {
@@ -23,6 +23,45 @@ export const fetchSchedulesByUserId = async (userId) => {
     throw new Error("Error Fetching Schedule: " + error.message);
   }
 };
+
+export const getSchedule = async (scheduleId) => {
+  try {
+    return await scheduleCollection.findOne({
+      _id: new ObjectId(scheduleId),
+    });
+  } catch (error) {
+    throw new Error(
+      `Error Fetching Schedule (${scheduleId}): ` + error.message
+    );
+  }
+};
+
+export const putSchedule = async (scheduleId, schedule, userId) => {
+  try {
+    const result = await scheduleCollection.updateOne(
+      {
+        _id: new ObjectId(scheduleId),
+        userId: userId, // Ensure only the owner can update
+      },
+      {
+        $set: {
+          schedule: schedule,
+        },
+      }
+    );
+    if (result.matchedCount === 0) {
+      throw new Error(
+        "No schedule found with the provided ID, or you do not have permission to update this schedule."
+      );
+    }
+    return result;
+  } catch (error) {
+    throw new Error(
+      `Error Fetching Schedule (${scheduleId}): ` + error.message
+    );
+  }
+};
+
 export const deleteScheduleById = async (scheduleId) => {
   try {
     const result = await scheduleCollection.deleteOne({

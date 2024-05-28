@@ -21,9 +21,9 @@ export type DropdownType = {
 
 export interface CollegeContextType {
   year: number | undefined;
-  ccc: Univ | undefined;
-  univ: Univ | undefined;
-  major: MajorPair | undefined;
+  ccc: Univ | string | undefined;
+  univ: Univ | string | undefined;
+  major: MajorPair | string | undefined;
   handleSelectedYear: (collegeYear: string) => void;
   handleSelectedCommunityCollege: (collegeCode: string) => void;
   handleSelectedTransferCollege: (collegeCode: string) => void;
@@ -34,3 +34,17 @@ export interface CollegeContextType {
   majorList: MajorPair[];
   setMajorList: React.Dispatch<React.SetStateAction<MajorPair[]>>;
 }
+
+export type UnivHome = {
+  univ: Univ;
+  ccc: Univ;
+  year: number;
+  major: MajorPair;
+};
+
+export type UnivSaved = {
+  univ: string;
+  ccc: string;
+  year: number;
+  major: string;
+};

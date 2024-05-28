@@ -26,13 +26,28 @@ export type SemesterType = {
 };
 
 export type SubjectType = {
-  subject: CourseType[];
+  [key: string]: CourseType[];
+};
+
+type SavedScheduleData = {
+  _id: string;
+  userId: string;
+  schedule: SemesterType[];
+  params: {
+    year: string;
+    ccc: string;
+    cccCode: string;
+    college: string;
+    major: string;
+  };
 };
 
 export type ScheduleData = {
   schedule: SemesterCourses;
-  subjectClasses: CourseType[];
+  subjectClasses: { [key: string]: CourseType[] };
   classList: ClassData[];
+  savedSchedule?: SavedScheduleData;
+  ge: GEDataType;
 };
 
 // GE Areas
