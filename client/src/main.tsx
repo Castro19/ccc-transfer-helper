@@ -8,8 +8,11 @@ import {
   Navigate,
 } from "react-router-dom";
 // Context Providers
-import { AuthProvider } from "./contexts/authContext/index.tsx";
-import { CollegeProvider } from "./contexts/collegeContext";
+import {
+  AuthProvider,
+  LayoutProvider,
+  CollegeProvider,
+} from "./contexts/index.ts";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 // Pages
@@ -93,9 +96,11 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <AuthProvider>
-      <CollegeProvider>
-        <RouterProvider router={router} />
-      </CollegeProvider>
+      <LayoutProvider>
+        <CollegeProvider>
+          <RouterProvider router={router} />
+        </CollegeProvider>
+      </LayoutProvider>
     </AuthProvider>
   </React.StrictMode>
 );

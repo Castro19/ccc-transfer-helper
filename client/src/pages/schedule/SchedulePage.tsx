@@ -1,62 +1,79 @@
 import { useEffect, useState } from "react";
 import { useParams, useLoaderData } from "react-router-dom";
-import SemesterCards from "@/components/schedulePage/semester/Semesters";
+// Context:
+import { ScheduleContext } from "@/contexts/scheduleContext";
+import { useCollege, useLayout } from "@/contexts";
+// Components:
+import Sidebar from "@/components/layouts/Sidebar";
 import SchedulePageTitle from "@/components/schedulePage/SchedulePageTitle";
 import DropdownSettings from "@/components/schedulePage/dropdownSettings/dropdown/DropdownSettings";
-import Sidebar from "@/components/layouts/Sidebar";
-import { ScheduleContext } from "@/contexts/scheduleContext";
-import { ScheduleData, SemesterType, initialSemesters } from "@/types";
-import styles from "./SchedulePage.module.css";
+import SemesterCards from "@/components/schedulePage/semester/Semesters";
 import SaveSchedule from "@/components/savedSchedule/createSchedule/SaveSchedule";
+// Types
+import { ScheduleData, SemesterType, initialSemesters } from "@/types";
+
+import styles from "./SchedulePage.module.css";
 
 const SchedulePage = (): JSX.Element => {
+  const [isNew, setIsNew] = useState<boolean>(true); // Represents if it is a schedule we are editing or a new schedule we would want to save.
+
+  // Load in Data from our loader
   const params = useParams();
   const initialData = useLoaderData() as ScheduleData;
   console.log("Initial Data: ", initialData);
 
+  const { isSidebarVisible, handleSidebarVisibility } = useLayout();
+  const {
+    year,
+    handleSelectedYear,
+    ccc,
+    handleSelectedCommunityCollege,
+    univ,
+    handleSelectedTransferCollege,
+    major,
+    handleSelectedMajor,
+  } = useCollege();
+  // Make these context
   const [schedule, setSchedule] = useState<SemesterType[] | null>(null);
   const [subjectClasses] = useState(initialData.subjectClasses);
   const [classList] = useState(initialData.classList);
   const [ge] = useState(initialData.ge);
 
-  const [selectedYear, setSelectedYear] = useState<string | undefined>();
-  const [selectedCCC, setSelectedCCC] = useState<string | undefined>();
-  const [selectedTransferCollege, setSelectedTransferCollege] = useState<
-    string | undefined
-  >();
-  const [selectedMajor, setSelectedMajor] = useState<string | undefined>();
-  const [isNew, setIsNew] = useState<boolean>(true); // Represents if it is a schedule we are editing or a new schedule we would want to save.
   console.log("PARAMS: ", params);
   useEffect(() => {
     if (initialData.savedSchedule) {
-      setSelectedYear(initialData.savedSchedule.params.year);
-      setSelectedCCC(initialData.savedSchedule.params.ccc);
-      setSelectedTransferCollege(initialData.savedSchedule.params.college);
-      setSelectedMajor(initialData.savedSchedule.params.major);
+      handleSelectedYear(initialData.savedSchedule.params.year);
+      handleSelectedCommunityCollege(initialData.savedSchedule.params.cccCode);
+      handleSelectedTransferCollege(initialData.savedSchedule.params.college);
+      handleSelectedMajor(initialData.savedSchedule.params.major);
       setSchedule(initialData.savedSchedule.schedule);
       setIsNew(false);
     } else {
-      setSelectedYear(params.year);
-      setSelectedCCC(params.ccc);
-      setSelectedTransferCollege(params.college);
-      setSelectedMajor(params.major);
+      handleSelectedYear(params.year);
+      handleSelectedCommunityCollege(params.cccCode);
+      handleSelectedTransferCollege(params.college);
+      handleSelectedMajor(params.major);
       setSchedule(initialSemesters); // Ensure initialSemesters is defined
     }
 
     // Optionally, if you want to log or use the selected params
     console.log(
-      `Year: ${selectedYear}, CCC: ${selectedCCC}, College: ${selectedTransferCollege}, Major: ${selectedMajor}`
+      `Year: ${year}, CCC: ${ccc}, College: ${univ}, Major: ${major}`
     );
-  }, [initialData, params]);
+  }, [
+    ccc,
+    handleSelectedCommunityCollege,
+    handleSelectedMajor,
+    handleSelectedTransferCollege,
+    handleSelectedYear,
+    initialData,
+    major,
+    params,
+    univ,
+    year,
+  ]);
 
   // Initialize state for schedule and classes
-
-  // Layout
-  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-
-  const handleSidebarVisibility = (isVisible: boolean) => {
-    setIsSidebarVisible(isVisible);
-  };
 
   const handleScheduleChange = (
     semesterId: number,
@@ -128,10 +145,12 @@ const SchedulePage = (): JSX.Element => {
           >
             <div className={styles.contentArea}>
               <SchedulePageTitle
-                selectedYear={selectedYear}
-                selectedCCC={selectedCCC}
-                selectedTransferCollege={selectedTransferCollege}
-                selectedMajor={selectedMajor}
+                selectedYear={year}
+                selectedCCC={
+                  ccc ? (typeof ccc === "object" ? ccc.name : ccc) : "N/A"
+                }
+                selectedTransferCollege={univ}
+                selectedMajor={major}
               />
               <div className={styles.toolbar}>
                 <DropdownSettings />

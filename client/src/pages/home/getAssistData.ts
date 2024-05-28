@@ -15,7 +15,7 @@ export async function fetchColleges(): Promise<Univ[]> {
   }
 }
 
-export default async function fetchUnivsById(ccc_info: Univ) {
+export default async function fetchUnivsById(ccc_info: Univ | string) {
   try {
     const response = await fetch(
       `http://localhost:8000/agreements/${ccc_info["code"]}_${ccc_info["id"]}/`
@@ -30,7 +30,7 @@ export default async function fetchUnivsById(ccc_info: Univ) {
   }
 }
 
-export async function fetchMajors(ccc_info: Univ, univ_info: Univ) {
+export async function fetchMajors(ccc_info: Univ | string, univ_info: Univ) {
   try {
     const response = await fetch(
       `http://localhost:8000/agreements/${ccc_info["code"]}_${ccc_info["id"]}/${univ_info["code"]}_${univ_info["id"]}/`

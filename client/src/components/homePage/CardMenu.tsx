@@ -7,7 +7,7 @@ import { useCollege } from "@/contexts/collegeContext";
 // Helpers:
 import fetchUnivsById, { fetchMajors } from "../../pages/home/getAssistData";
 // Types
-import { MajorPair } from "@/types";
+import { MajorPair, UnivHome } from "@/types";
 
 interface CardMenuProps {
   handlePDF: () => void;
@@ -22,11 +22,8 @@ const CardMenu = ({
   // Context Variables
   const {
     handleSelectedYear,
-    ccc,
     handleSelectedCommunityCollege,
-    univ,
     handleSelectedTransferCollege,
-    major,
     handleSelectedMajor,
     // lists
     CCCList,
@@ -36,6 +33,7 @@ const CardMenu = ({
     setMajorList,
   } = useCollege();
 
+  const { ccc, univ, major } = useCollege() as UnivHome;
   // Use Effects: Handle when state vars change:
   // 1. When the user selects a new CCC, do:
   // 1a. Reset State vars

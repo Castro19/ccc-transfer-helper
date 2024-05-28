@@ -20,10 +20,10 @@ export const CollegeProvider = ({
   const [majorList, setMajorList] = useState<MajorPair[]>([]);
   //  1b. The 4 selected items from the homepage
   const [year, setYear] = useState<number | undefined>();
-  const [ccc, setCCC] = useState<Univ>();
+  const [ccc, setCCC] = useState<Univ | string>();
   useState<Univ>();
-  const [univ, setUniv] = useState<Univ | undefined>();
-  const [major, setMajor] = useState<MajorPair>();
+  const [univ, setUniv] = useState<Univ | string | undefined>();
+  const [major, setMajor] = useState<MajorPair | string>();
 
   // 2.) Selection Handler Functions: When the user selects from the dropdowns
   // 2a. Select their starting year
@@ -44,16 +44,24 @@ export const CollegeProvider = ({
     const chosenTransferCollege = univList.find(
       (college) => college.code === collegeCode
     );
-    setUniv(chosenTransferCollege);
+    if (chosenTransferCollege) {
+      setUniv(chosenTransferCollege);
+    } else {
+      setUniv(collegeCode);
+    }
   };
 
   // 2d. Select their major
   const handleSelectedMajor = (collegeMajor: string) => {
+    console.log("MAJOR: ", collegeMajor);
     const chosenMajor: MajorPair | undefined = majorList.find(
       (major) => major.major === collegeMajor
     );
-
-    setMajor(chosenMajor);
+    if (chosenMajor) {
+      setMajor(chosenMajor);
+    } else {
+      setMajor(collegeMajor);
+    }
   };
 
   // 3. Create our provider and pass down the necessary values to it.

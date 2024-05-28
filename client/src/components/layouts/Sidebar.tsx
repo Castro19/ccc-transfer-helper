@@ -1,13 +1,13 @@
 import { MdClose, MdArrowRight } from "react-icons/md";
 import SubjectAccordion from "../schedulePage/sidebarClasses/accordions/SubjectAccordion";
 import SearchbarClasses from "../schedulePage/sidebarClasses/SearchbarClasses/SearchbarClasses";
-import { GE, SemesterType, SubjectType, ClassData } from "@/types";
+import { GEDataType, SemesterType, SubjectType, ClassData } from "@/types";
 import AccordionGE from "../schedulePage/sidebarClasses/accordions/AccordionGE";
 type SidebarProps = {
   isVisible: boolean;
   setIsVisible: (isVisible: boolean) => void;
   subjectClasses: SubjectType;
-  ge: GE;
+  ge: GEDataType;
   classList: ClassData[];
   schedule: SemesterType[];
 };

@@ -3,6 +3,7 @@ import { SemesterCourses } from "@/types";
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import styles from "./SavedSchedulesPage.module.css";
+import { useLayout } from "@/contexts";
 
 type paramsType = {
   year: string;
@@ -20,6 +21,9 @@ type savedSchedule = {
 
 const SavedSchedulesPage = (): JSX.Element => {
   const savedSchedules = useLoaderData() as savedSchedule[];
+  const { handleSidebarVisibility } = useLayout();
+  handleSidebarVisibility(false);
+
   console.log("SS: ", savedSchedules);
   const scheduleListFormatted = savedSchedules.map((schedule) => {
     return {

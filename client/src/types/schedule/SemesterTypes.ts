@@ -26,7 +26,7 @@ export type SemesterType = {
 };
 
 export type SubjectType = {
-  subject: CourseType[];
+  [key: string]: CourseType[];
 };
 
 type SavedScheduleData = {
@@ -36,6 +36,7 @@ type SavedScheduleData = {
   params: {
     year: string;
     ccc: string;
+    cccCode: string;
     college: string;
     major: string;
   };
@@ -43,7 +44,7 @@ type SavedScheduleData = {
 
 export type ScheduleData = {
   schedule: SemesterCourses;
-  subjectClasses: CourseType[];
+  subjectClasses: { [key: string]: CourseType[] };
   classList: ClassData[];
   savedSchedule?: SavedScheduleData;
   ge: GEDataType;

@@ -1,11 +1,13 @@
 import { Fragment } from "react";
 import styles from "./SchedulePageTitle.module.css";
+import { MajorPair, Univ } from "@/types";
+// import { Univ } from "@/types";
 
 type SchedulePageTitleProps = {
-  selectedYear: string | null;
+  selectedYear: number | null;
   selectedCCC: string | null;
-  selectedTransferCollege: string | null;
-  selectedMajor: string | null;
+  selectedTransferCollege: string | Univ | null;
+  selectedMajor: MajorPair | string | null;
 };
 
 const SchedulePageTitle = ({
@@ -18,7 +20,10 @@ const SchedulePageTitle = ({
     <Fragment>
       <div className={styles.container}>
         <h1 className={styles.header}>
-          {selectedTransferCollege}: {selectedMajor}
+          {selectedTransferCollege &&
+          typeof selectedTransferCollege === "object"
+            ? `${selectedTransferCollege.name}: ${selectedMajor}`
+            : `${selectedTransferCollege}: ${selectedMajor}`}
         </h1>
         <p className={styles.ccc}>Transferring from {selectedCCC}</p>
         <p className={styles.year}>Starting year: {selectedYear}</p>
