@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -6,19 +6,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"; // Make sure the path is correct for your project
 import { FaSquareCheck } from "react-icons/fa6";
-import {
-  GEAccordionArea,
-  GEAccordionSubArea,
-  GEDataType,
-  SemesterType,
-} from "@/types"; // Your GERequirements type or wherever you defined Course
+import { GEAccordionSubArea } from "@/types"; // Your GERequirements type or wherever you defined Course
 import { findGeCompletion, findUsedCourses } from "../helpers/findUsedCourses";
 import DraggableClass from "../DraggableClass/DraggableClass";
-import {
-  formatGEData,
-  prepareFormattedAccordionData,
-  // prepareGeReqs,
-} from "../helpers/formatClasses";
+
 // ui
 import {
   Tooltip,
@@ -26,34 +17,26 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { useSchedule } from "@/contexts";
+import { ScheduleContextType } from "@/contexts/scheduleContext";
 
-interface AccordionGEProps {
-  ge: GEDataType;
-  schedule: SemesterType[];
-}
-
-const AccordionGE: React.FC<AccordionGEProps> = ({ ge, schedule }) => {
-  const formattedGE = formatGEData(ge);
-  const accordionDataFormatted = prepareFormattedAccordionData(formattedGE);
-  const [accordionData, setAccordionData] = useState<GEAccordionArea[]>(
-    accordionDataFormatted
-  );
-
-  console.log("ACCORDION DATA: ", accordionData);
+const AccordionGE = (): JSX.Element => {
+  const { accordionGE, updateAccordionGE, schedule } =
+    useSchedule() as ScheduleContextType;
+  console.log("ACCORDION DATA: ", accordionGE);
 
   // Function to get used courses from the schedule
   const usedCourses = useMemo(() => {
     const usedCourses = findUsedCourses(schedule);
-    const updatedAccordionData = findGeCompletion(usedCourses, accordionData);
-    console.log("UPDATED ACCORDION DATA: ", accordionData);
-    setAccordionData(updatedAccordionData);
-
+    const updatedAccordionData = findGeCompletion(usedCourses, accordionGE);
+    console.log("UPDATED ACCORDION DATA: ", accordionGE);
+    updateAccordionGE(updatedAccordionData);
     return usedCourses;
-  }, [accordionData, schedule]); // Recompute when schedule changes
+  }, [accordionGE, schedule, updateAccordionGE]); // Recompute when schedule changes
 
   return (
     <Accordion type="multiple">
-      {accordionData.map(({ title, subAreas, requirementsText, completed }) => (
+      {accordionGE.map(({ title, subAreas, requirementsText, completed }) => (
         <AccordionItem value={title} key={title}>
           <TooltipProvider>
             <Tooltip>

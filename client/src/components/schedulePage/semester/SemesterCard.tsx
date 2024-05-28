@@ -1,25 +1,18 @@
 import { cn } from "@/lib/utils";
 import ClassRow from "./ClassRow";
 import { SemesterType } from "@/types";
-import { useScheduleDataContext } from "@/contexts/scheduleContext";
 import {
   handleDragOver,
   handleDragStart,
   handleDrop,
 } from "../dragHelpers/drag";
+import { useSchedule } from "@/contexts";
 type SemesterCardProps = {
   semester: SemesterType;
-  handleScheduleChange: (
-    semesterId: number,
-    courseId: number,
-    type: string,
-    newValue: string
-  ) => void;
 };
 
 export const SemesterCard = ({ semester }: SemesterCardProps): JSX.Element => {
-  const { schedule, handleScheduleChange } = useScheduleDataContext();
-
+  const { schedule, handleScheduleChange } = useSchedule();
   const onValueChange = (
     semesterId: number,
     courseId: number,

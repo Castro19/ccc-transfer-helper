@@ -1,9 +1,10 @@
-import { CourseType } from "@/types";
 import { RiDragMove2Fill } from "react-icons/ri";
 import handleDragStartFromSidebar from "../../dragHelpers/sidebarDrag";
 import styles from "./DraggableClass.module.css";
+import { formatClassListReturnType } from "../helpers/formatClasses";
+
 type DraggableClassProps = {
-  classItem: CourseType;
+  classItem: formatClassListReturnType;
   isInUse: boolean;
 };
 const DraggableClass = ({

@@ -12,6 +12,7 @@ import {
   AuthProvider,
   LayoutProvider,
   CollegeProvider,
+  ScheduleProvider,
 } from "./contexts/index.ts";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
@@ -98,7 +99,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <AuthProvider>
       <LayoutProvider>
         <CollegeProvider>
-          <RouterProvider router={router} />
+          <ScheduleProvider>
+            <RouterProvider router={router} />
+          </ScheduleProvider>
         </CollegeProvider>
       </LayoutProvider>
     </AuthProvider>

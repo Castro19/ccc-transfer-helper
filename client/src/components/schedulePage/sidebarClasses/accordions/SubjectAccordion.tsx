@@ -5,19 +5,16 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import DraggableClass from "../DraggableClass/DraggableClass";
-import { CourseType, SemesterType, SubjectType } from "@/types";
+import { CourseType } from "@/types";
 import { useMemo } from "react";
 import { findUsedCourses } from "../helpers/findUsedCourses";
+import { useSchedule } from "@/contexts";
+import { ScheduleContextType } from "@/contexts/scheduleContext";
 
-interface SubjectAccordionProps {
-  subjects: SubjectType;
-  schedule: SemesterType[];
-}
-const SubjectAccordion = ({
-  subjects,
-  schedule,
-}: SubjectAccordionProps): JSX.Element => {
-  const entries = Object.entries(subjects);
+const SubjectAccordion = (): JSX.Element => {
+  const { subjectClasses, schedule } = useSchedule() as ScheduleContextType;
+
+  const entries = Object.entries(subjectClasses);
 
   // Function to get used courses from the schedule
   const getUsedCourses = useMemo(() => {
