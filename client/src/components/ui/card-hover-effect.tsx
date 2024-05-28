@@ -2,10 +2,11 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { SemesterCard } from "../schedulePage/semester/SemesterCard";
-import { useScheduleDataContext } from "@/contexts/scheduleContext";
+import { useSchedule } from "@/contexts";
+// import { useScheduleDataContext } from "@/contexts/scheduleContext";`
 
-export const HoverEffect = () => {
-  const { schedule } = useScheduleDataContext();
+export const HoverEffect = (): JSX.Element => {
+  const { schedule } = useSchedule();
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
@@ -39,7 +40,7 @@ export const HoverEffect = () => {
               />
             )}
           </AnimatePresence>
-          <SemesterCard hoveredIndex={hoveredIndex} semester={semester} />
+          <SemesterCard semester={semester} />
         </div>
       ))}
     </div>

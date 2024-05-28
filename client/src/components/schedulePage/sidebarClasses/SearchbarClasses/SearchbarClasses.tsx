@@ -1,4 +1,3 @@
-import { SemesterType, ClassData } from "@/types";
 import { formatClassList } from "../helpers/formatClasses";
 import DraggableClass from "../DraggableClass/DraggableClass";
 import {
@@ -11,15 +10,11 @@ import {
 import { useEffect, useMemo, useState } from "react";
 import { findUsedCourses } from "../helpers/findUsedCourses";
 import styles from "./SearchbarClasses.module.css";
+import { useSchedule } from "@/contexts";
+import { ScheduleContextType } from "@/contexts/scheduleContext";
 
-type SearchbarClassesProps = {
-  classList: ClassData[];
-  schedule: SemesterType[];
-};
-const SearchbarClasses = ({
-  classList,
-  schedule,
-}: SearchbarClassesProps): JSX.Element => {
+const SearchbarClasses = (): JSX.Element => {
+  const { classList, schedule } = useSchedule() as ScheduleContextType;
   const [isInputFocused, setIsInputFocused] = useState(false);
 
   const formattedList = formatClassList(classList);

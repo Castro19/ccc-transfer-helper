@@ -1,6 +1,6 @@
 import { GEDataType, ClassData, Area, GEAccordionArea, SubArea } from "@/types";
 
-interface formatClassListReturnType {
+export interface formatClassListReturnType {
   value: string;
   label: string;
   course: string;

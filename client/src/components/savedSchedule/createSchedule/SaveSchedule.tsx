@@ -1,5 +1,4 @@
 import { useAuth } from "@/contexts/authContext";
-import { SemesterType } from "@/types";
 import { Params, useNavigate } from "react-router-dom";
 
 // Toast
@@ -14,19 +13,15 @@ import {
 } from "../crudSchedule";
 
 import styles from "./SaveSchedule.module.css";
+import { useSchedule } from "@/contexts";
 
-interface SaveScheduleProps {
-  schedule: SemesterType[];
-  isNew: boolean;
+type SaveScheduleProps = {
   params: Readonly<Params<string>>;
-}
+};
 
-const SaveSchedule = ({
-  schedule,
-  isNew,
-  params,
-}: SaveScheduleProps): JSX.Element => {
+const SaveSchedule = ({ params }: SaveScheduleProps): JSX.Element => {
   const navigate = useNavigate();
+  const { schedule, isNew } = useSchedule();
   const [newScheduleSaved, setNewScheduleSaved] = useState<string | null>();
   const newScheduleSavedRef = useRef(newScheduleSaved);
 
