@@ -32,7 +32,6 @@ const ScheduleCard = ({
   return (
     <div
       className={styles.container}
-      onClick={onScheduleClick}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -69,11 +68,7 @@ const ScheduleCard = ({
         <div className={styles.containerCCC}>
           <p className={styles.year}>Year: {year}</p>
 
-          <button
-            onClick={onScheduleClick}
-            className=""
-            title="Delete Schedule"
-          >
+          <button onClick={onScheduleClick} className="" title="Go to Schedule">
             <CiEdit className="h-5 w-5 text-gray-900 hover:text-green-700" />
           </button>
         </div>
