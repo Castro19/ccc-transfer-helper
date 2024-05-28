@@ -5,24 +5,52 @@ import SchedulePageTitle from "@/components/schedulePage/SchedulePageTitle";
 import DropdownSettings from "@/components/schedulePage/dropdownSettings/dropdown/DropdownSettings";
 import Sidebar from "@/components/layouts/Sidebar";
 import { ScheduleContext } from "@/contexts/scheduleContext";
-import { ScheduleData, initialSemesters } from "@/types";
+import { ScheduleData, SemesterType, initialSemesters } from "@/types";
 import styles from "./SchedulePage.module.css";
 import SaveSchedule from "@/components/savedSchedule/createSchedule/SaveSchedule";
 
 const SchedulePage = (): JSX.Element => {
   const params = useParams();
-  const selectedYear = params.year;
-  const selectedCCC = params.ccc;
-  const selectedTransferCollege = params.college;
-  const selectedMajor = params.major;
-
   const initialData = useLoaderData() as ScheduleData;
+  console.log("Initial Data: ", initialData);
 
-  // Initialize state for schedule and classes
+  const [schedule, setSchedule] = useState<SemesterType[] | null>(null);
   const [subjectClasses] = useState(initialData.subjectClasses);
   const [classList] = useState(initialData.classList);
-  const [schedule, setSchedule] = useState(initialSemesters);
   const [ge] = useState(initialData.ge);
+
+  const [selectedYear, setSelectedYear] = useState<string | undefined>();
+  const [selectedCCC, setSelectedCCC] = useState<string | undefined>();
+  const [selectedTransferCollege, setSelectedTransferCollege] = useState<
+    string | undefined
+  >();
+  const [selectedMajor, setSelectedMajor] = useState<string | undefined>();
+  const [isNew, setIsNew] = useState<boolean>(true); // Represents if it is a schedule we are editing or a new schedule we would want to save.
+  console.log("PARAMS: ", params);
+  useEffect(() => {
+    if (initialData.savedSchedule) {
+      setSelectedYear(initialData.savedSchedule.params.year);
+      setSelectedCCC(initialData.savedSchedule.params.ccc);
+      setSelectedTransferCollege(initialData.savedSchedule.params.college);
+      setSelectedMajor(initialData.savedSchedule.params.major);
+      setSchedule(initialData.savedSchedule.schedule);
+      setIsNew(false);
+    } else {
+      setSelectedYear(params.year);
+      setSelectedCCC(params.ccc);
+      setSelectedTransferCollege(params.college);
+      setSelectedMajor(params.major);
+      setSchedule(initialSemesters); // Ensure initialSemesters is defined
+    }
+
+    // Optionally, if you want to log or use the selected params
+    console.log(
+      `Year: ${selectedYear}, CCC: ${selectedCCC}, College: ${selectedTransferCollege}, Major: ${selectedMajor}`
+    );
+  }, [initialData, params]);
+
+  // Initialize state for schedule and classes
+
   // Layout
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
@@ -36,11 +64,10 @@ const SchedulePage = (): JSX.Element => {
     type: string,
     newValue: string
   ) => {
+    if (!schedule) return;
+
     // Create a deep copy of the schedule
     const newSchedule = [...schedule];
-
-    // Deep copy of the card obj that needs to be updated
-    const updatedCourses = [...newSchedule[semesterId].courses];
 
     // Find the semester by ID
     const semesterIndex = newSchedule.findIndex(
@@ -62,14 +89,12 @@ const SchedulePage = (): JSX.Element => {
 
     // Create new copy of the course obj and update specific field
     const updatedCourse = {
-      ...updatedCourses[courseIndex],
+      ...newSchedule[semesterIndex].courses[courseIndex],
       [type]: newValue,
     };
 
-    updatedCourses[courseIndex] = updatedCourse;
-
     // Update the specific field in the course
-    newSchedule[semesterIndex].courses = updatedCourses;
+    newSchedule[semesterIndex].courses[courseIndex] = updatedCourse;
 
     // Update the state with the new schedule
     setSchedule(newSchedule);
@@ -78,51 +103,56 @@ const SchedulePage = (): JSX.Element => {
   useEffect(() => {
     console.log("Subject Classes: ", subjectClasses);
     console.log("Schedule: ", schedule);
-    // console.log("CLASS LIST: ", classList);
   }, [schedule, subjectClasses]);
 
   return (
     <ScheduleContext.Provider value={{ schedule, handleScheduleChange }}>
-      <div className={styles.container}>
-        {/* Sidebar Component with toggle function */}
-        <Sidebar
-          isVisible={isSidebarVisible}
-          setIsVisible={handleSidebarVisibility}
-          subjectClasses={subjectClasses}
-          ge={ge}
-          classList={classList}
-          schedule={schedule}
-        />
-        {/* Main Content Area */}
-        <div
-          className={`${styles.mainContent} ${
-            isSidebarVisible
-              ? styles.mainContentWithSidebar
-              : styles.mainContentWithoutSidebar
-          }`}
-        >
-          <div className={styles.contentArea}>
-            <SchedulePageTitle
-              selectedYear={selectedYear}
-              selectedCCC={selectedCCC}
-              selectedTransferCollege={selectedTransferCollege}
-              selectedMajor={selectedMajor}
-            />
-            <div className={styles.toolbar}>
-              <DropdownSettings />
+      {schedule && (
+        <div className={styles.container}>
+          {/* Sidebar Component with toggle function */}
+          <Sidebar
+            isVisible={isSidebarVisible}
+            setIsVisible={handleSidebarVisibility}
+            subjectClasses={subjectClasses}
+            ge={ge}
+            classList={classList}
+            schedule={schedule}
+          />
+          {/* Main Content Area */}
+          <div
+            className={`${styles.mainContent} ${
+              isSidebarVisible
+                ? styles.mainContentWithSidebar
+                : styles.mainContentWithoutSidebar
+            }`}
+          >
+            <div className={styles.contentArea}>
+              <SchedulePageTitle
+                selectedYear={selectedYear}
+                selectedCCC={selectedCCC}
+                selectedTransferCollege={selectedTransferCollege}
+                selectedMajor={selectedMajor}
+              />
+              <div className={styles.toolbar}>
+                <DropdownSettings />
+              </div>
             </div>
-          </div>
 
-          <div className={styles.contentPadding}>
-            <SemesterCards />
-          </div>
-          <div className={styles.saveScheduleContainer}>
-            <div className={styles.saveSchedule}>
-              <SaveSchedule schedule={schedule} params={params} />
+            <div className={styles.contentPadding}>
+              <SemesterCards />
+            </div>
+            <div className={styles.saveScheduleContainer}>
+              <div className={styles.saveSchedule}>
+                <SaveSchedule
+                  schedule={schedule}
+                  params={params}
+                  isNew={isNew}
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
     </ScheduleContext.Provider>
   );
 };

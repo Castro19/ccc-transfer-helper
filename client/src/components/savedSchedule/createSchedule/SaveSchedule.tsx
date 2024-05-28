@@ -7,16 +7,25 @@ import { Button } from "@/components/ui/button";
 import { ToastAction } from "@/components/ui/toast";
 import { useToast } from "@/components/ui/use-toast";
 import { useEffect, useRef, useState } from "react";
-import { postSchedule, deleteScheduleById } from "../crudSchedule";
+import {
+  postSchedule,
+  deleteScheduleById,
+  updateSchedule,
+} from "../crudSchedule";
 
 import styles from "./SaveSchedule.module.css";
 
 interface SaveScheduleProps {
   schedule: SemesterType[];
+  isNew: boolean;
   params: Readonly<Params<string>>;
 }
 
-const SaveSchedule = ({ schedule, params }: SaveScheduleProps): JSX.Element => {
+const SaveSchedule = ({
+  schedule,
+  isNew,
+  params,
+}: SaveScheduleProps): JSX.Element => {
   const navigate = useNavigate();
   const [newScheduleSaved, setNewScheduleSaved] = useState<string | null>();
   const newScheduleSavedRef = useRef(newScheduleSaved);
@@ -41,20 +50,37 @@ const SaveSchedule = ({ schedule, params }: SaveScheduleProps): JSX.Element => {
     console.log(
       `SAVING SCHEDULE ${schedule} for ${currentUser?.uid} with params: ${params}`
     );
-    const responseData = await postSchedule(currentUser?.uid, schedule, params);
+    let responseData;
+    if (isNew) {
+      responseData = await postSchedule(currentUser?.uid, schedule, params);
+    } else {
+      responseData = await updateSchedule(currentUser?.uid, schedule, params);
+    }
     console.log("POST SCHEDULE RESPONSE: ", responseData.scheduleId);
     setNewScheduleSaved(responseData.scheduleId);
 
     if (currentUser) {
-      toast({
-        title: "Scheduled Added",
-        description: `Schedule transferring from ${params.ccc} to ${params.college} with the major ${params.major} is saved!`,
-        action: (
-          <ToastAction onClick={deleteSchedule} altText="Delete Schedule">
-            Undo
-          </ToastAction>
-        ),
-      });
+      if (isNew) {
+        toast({
+          title: "Scheduled Added",
+          description: `Schedule transferring from ${params.ccc} to ${params.college} with the major ${params.major} is saved!`,
+          action: (
+            <ToastAction onClick={deleteSchedule} altText="Delete Schedule">
+              Undo
+            </ToastAction>
+          ),
+        });
+      } else {
+        toast({
+          title: "Scheduled Updated",
+          description: `Schedule is updated!`,
+          action: (
+            <ToastAction onClick={deleteSchedule} altText="Delete Schedule">
+              Undo
+            </ToastAction>
+          ),
+        });
+      }
     } else {
       toast({
         variant: "destructive",
@@ -71,7 +97,7 @@ const SaveSchedule = ({ schedule, params }: SaveScheduleProps): JSX.Element => {
   return (
     <>
       <Button className={styles.but} onClick={handleSaveSchedule}>
-        Save Schedule
+        {isNew ? "Save Schedule" : "Update Schedule"}
       </Button>
     </>
   );

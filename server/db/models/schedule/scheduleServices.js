@@ -24,6 +24,31 @@ export const fetchSchedules = async (userId) => {
   }
 };
 
+// read
+export const fetchScheduleById = async (scheduleId) => {
+  try {
+    const result = await scheduleModel.getSchedule(scheduleId);
+    return result;
+  } catch (error) {
+    throw new Error("Service error: " + error.message);
+  }
+};
+
+// Update
+export const updateSchedule = async (scheduleId, schedule, userId) => {
+  try {
+    const result = await scheduleModel.putSchedule(
+      scheduleId,
+      schedule,
+      userId
+    );
+    return result;
+  } catch (error) {
+    throw new Error("Service error: " + error.message);
+  }
+};
+
+// Delete
 export const deleteSchedule = async (scheduleId) => {
   try {
     await scheduleModel.deleteScheduleById(scheduleId);

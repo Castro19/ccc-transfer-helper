@@ -29,6 +29,35 @@ export async function postSchedule(
   }
   return responseData;
 }
+export async function updateSchedule(
+  userId: string,
+  schedule: SemesterType[],
+  params: Readonly<Params<string>>
+): Promise<postScheduleReturnType> {
+  console.log("PARAMSSS: ", params);
+  const scheduleId = params.id;
+  const options = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      userId,
+      schedule,
+      scheduleId,
+    }),
+  };
+  const response = await fetch(
+    `http://localhost:8000/schedules/${scheduleId}`,
+    options
+  );
+  const responseData = await response.json();
+
+  if (!response.ok) {
+    console.log(`Error: `, responseData.message);
+  }
+  return responseData;
+}
 
 interface deleteScheduleReturnType {
   message: string;

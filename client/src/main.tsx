@@ -23,7 +23,10 @@ import SavedSchedulesPage from "./pages/savedSchedules/SavedSchedulesPage.tsx";
 import Layout from "./components/layouts/Layouts.tsx";
 // Loaders:
 import { fetchColleges } from "./pages/home/getAssistData.ts";
-import fetchScheduleData from "./pages/schedule/fetchScheduleData.ts";
+import {
+  fetchScheduleData,
+  loadScheduleData,
+} from "./pages/schedule/fetchScheduleData.ts";
 import fetchSchedules from "./pages/savedSchedules/fetchSchedules.ts";
 
 const router = createBrowserRouter([
@@ -53,6 +56,17 @@ const router = createBrowserRouter([
       { path: "signup", element: <SignupFormDemo /> },
       { path: "login", element: <LoginFormDemo /> },
     ],
+  },
+  {
+    path: "/schedules/:id",
+    element: (
+      <DndProvider backend={HTML5Backend}>
+        <Layout>
+          <SchedulePage />
+        </Layout>
+      </DndProvider>
+    ),
+    loader: loadScheduleData,
   },
   {
     path: "/schedule/:year/:ccc/:cccCode/:college/:major",
