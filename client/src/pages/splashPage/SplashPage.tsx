@@ -1,8 +1,15 @@
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { SparklesCore } from "@/components/ui/sparkles";
+
+import { TextRevealCard } from "@/components/ui/text-reveal-card";
+import { TextRevealCardTitle } from "@/components/ui/text-reveal-card";
+import { TextRevealCardDescription } from "@/components/ui/text-reveal-card";
+
+import { LampContainer } from "@/components/ui/lamp";
 // import styles from "./SplashPage.module.css";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+
 
 const SplashPage = () => {
   const navigate = useNavigate();
@@ -22,12 +29,45 @@ const SplashPage = () => {
           }}
           className="relative flex flex-col gap-4 items-center justify-center px-4"
         >
+          
+          
           <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-            California Community College Transfer Helper
+          <div className="h-[20rem]  flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <h1 className="md:text-7xl text-3xl lg:text-1xl font-bold text-center text-white relative z-20 ">
+        
+      California Community College Transfer Helper
+      </h1>
+      
+      <div className="w-[40rem] h-40 relative">
+        
+        
+        {/* Gradients */}
+       
+        
+ 
+        {/* Radial Gradient to prevent sharp edges */}
+        {/* <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"> */}
+        <div className="font-extralight text-base md:text-4xl dark:text-white py-4">
+          - <b>Generate</b> Academic Schedules 
+          <br></br>
+          - <b>Save</b> Academic Schedules
+          <br></br>
+          - <b>View</b> your General-Ed Completion 
+          <br></br>
+
+          {/* </div> */}
+        </div>
+      </div>
+    </div>
+    
+          <div className="md:text-3xl text-2xl lg:text-1xl font-bold text-center text-white relative z-20 dark:text-white">
+            All in Seconds
+
           </div>
-          <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
-            And this, is chemical burn.
+          
+  
           </div>
+
           <button
             onClick={goToHomePage}
             className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
@@ -39,22 +79,7 @@ const SplashPage = () => {
           </button>
         </motion.div>
       </AuroraBackground>
-      <div className="h-[40rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-        <div className="w-full absolute inset-0 h-screen">
-          <SparklesCore
-            id="tsparticlesfullpage"
-            background="transparent"
-            minSize={0.6}
-            maxSize={1.4}
-            particleDensity={100}
-            className="w-full h-full"
-            particleColor="#FFFFFF"
-          />
-        </div>
-        <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
-          Build great products
-        </h1>
-      </div>
+      
     </div>
   );
 };
