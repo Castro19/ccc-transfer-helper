@@ -32,13 +32,13 @@ const SplashPage = () => {
           
           
           <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-          <div className="h-[20rem]  flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-7xl text-3xl lg:text-1xl font-bold text-center text-white relative z-20 ">
+          <div className="flex flex-col items-center justify-center  rounded-md">
+      <h1 className="md:text-7xl text-3xl lg:text-1xl font-bold text-center dark:text-white relative z-20 ">
         
       California Community College Transfer Helper
       </h1>
       
-      <div className="w-[40rem] h-40 relative">
+      <div className="relative">
         
         
         {/* Gradients */}
@@ -48,11 +48,11 @@ const SplashPage = () => {
         {/* Radial Gradient to prevent sharp edges */}
         {/* <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"> */}
         <div className="font-extralight text-base md:text-4xl dark:text-white py-4">
-          - <b>Generate</b> Academic Schedules 
+          <b>Generate</b> Academic Schedules 
           <br></br>
-          - <b>Save</b> Academic Schedules
+          <b>Save</b> Academic Schedules
           <br></br>
-          - <b>View</b> your General-Ed Completion 
+          <b>View</b> your General-Ed Completion 
           <br></br>
 
           {/* </div> */}
@@ -60,7 +60,7 @@ const SplashPage = () => {
       </div>
     </div>
     
-          <div className="md:text-3xl text-2xl lg:text-1xl font-bold text-center text-white relative z-20 dark:text-white">
+          <div className="md:text-3xl text-2xl lg:text-1xl font-bold text-center dark:text-white relative z-20 ">
             All in Seconds
 
           </div>
