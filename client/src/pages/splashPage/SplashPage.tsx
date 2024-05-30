@@ -1,17 +1,10 @@
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import { SparklesCore } from "@/components/ui/sparkles";
 
-import { TextRevealCard } from "@/components/ui/text-reveal-card";
-import { TextRevealCardTitle } from "@/components/ui/text-reveal-card";
-import { TextRevealCardDescription } from "@/components/ui/text-reveal-card";
-
-import { LampContainer } from "@/components/ui/lamp";
 // import styles from "./SplashPage.module.css";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-
-const SplashPage = () => {
+const SplashPage = (): JSX.Element => {
   const navigate = useNavigate();
   const goToHomePage = () => {
     navigate("/home");
@@ -29,43 +22,23 @@ const SplashPage = () => {
           }}
           className="relative flex flex-col gap-4 items-center justify-center px-4"
         >
-          
-          
           <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-          <div className="flex flex-col items-center justify-center  rounded-md">
-      <h1 className="md:text-7xl text-3xl lg:text-1xl font-bold text-center dark:text-white relative z-20 ">
-        
-      California Community College Transfer Helper
-      </h1>
-      
-      <div className="relative">
-        
-        
-        {/* Gradients */}
-       
-        
- 
-        {/* Radial Gradient to prevent sharp edges */}
-        {/* <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"> */}
-        <div className="font-extralight text-base md:text-4xl dark:text-white py-4">
-          <b>Generate</b> Academic Schedules 
-          <br></br>
-          <b>Save</b> Academic Schedules
-          <br></br>
-          <b>View</b> your General-Ed Completion 
-          <br></br>
+            <div className="flex flex-col items-center justify-center  rounded-md">
+              <h1 className="md:text-7xl text-3xl lg:text-1xl font-bold text-center dark:text-white relative z-20 mb-10 ">
+                California Community College Transfer Helper
+              </h1>
 
-          {/* </div> */}
-        </div>
-      </div>
-    </div>
-    
-          <div className="md:text-3xl text-2xl lg:text-1xl font-bold text-center dark:text-white relative z-20 ">
-            All in Seconds
-
-          </div>
-          
-  
+              <div className="relative">
+                <div className="flex flex-col font-extralight text-base md:text-5xl dark:text-white py-4">
+                  <b className="my-2">Generate Academic Schedules </b>
+                  <b className="my-2">Save Academic Schedules </b>
+                  <b className="my-2">View your General-Ed Completion </b>
+                  <div className="md:text-5xl text-2xl lg:text-1xl my-4 font-bold text-center dark:text-white relative z-20 ">
+                    All in Seconds
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <button
@@ -79,7 +52,6 @@ const SplashPage = () => {
           </button>
         </motion.div>
       </AuroraBackground>
-      
     </div>
   );
 };
