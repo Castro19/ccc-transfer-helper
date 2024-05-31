@@ -10,7 +10,7 @@ const CombinedNavbar = (): JSX.Element => {
         className={`max-w-7xl mx-auto flex justify-between items-center transition-all ease-in-out duration-300 ${isSidebarVisible ? "ml-72" : "ml-0"}`}
       >
         <div className="flex items-center space-x-4">
-          <NavLink to="/" className="text-3xl hover:text-gray-300">
+          <NavLink to="/home" className="text-3xl hover:text-gray-300">
             California Community College Transfer Helper
           </NavLink>
         </div>

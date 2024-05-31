@@ -25,6 +25,7 @@ import { LoginFormDemo } from "./pages/register/LoginForm.tsx";
 import ErrorPage from "./pages/error/ErrorPage.tsx";
 import SavedSchedulesPage from "./pages/savedSchedules/SavedSchedulesPage.tsx";
 import Layout from "./components/layouts/Layouts.tsx";
+import SplashPage from "./pages/splashPage/SplashPage.tsx";
 // Loaders:
 import { fetchColleges } from "./pages/home/getAssistData.ts";
 import {
@@ -35,7 +36,7 @@ import fetchSchedules from "./pages/savedSchedules/fetchSchedules.ts";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/home",
     element: (
       <Layout>
         <HomePage />
@@ -91,6 +92,10 @@ const router = createBrowserRouter([
       </Layout>
     ),
     loader: fetchSchedules,
+  },
+  {
+    path: "/",
+    element: <SplashPage />,
   },
 ]);
 
