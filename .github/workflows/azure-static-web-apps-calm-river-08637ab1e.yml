@@ -15,16 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Node.js version
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v3
         with:
-          node-version: "20"
-
-      - name: Install dependencies
-        run: npm install --prefix client
-
+          submodules: true
+          lfs: false
       - name: Set environment variables
         run: |
           echo "NODE_ENV=production" >> $GITHUB_ENV
