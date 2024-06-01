@@ -1,8 +1,16 @@
+"""
+"""
+
 import json
 from copy import deepcopy
+from util import join_path, construct_path, load_json, save_json
 
 
-def removeDuplicates(dct : dict):
+SCHEDULE_PATH = construct_path("server/json_data/ccc_schedules", 2)
+# OUTPUT_PATH = construct_path()
+
+
+def removeDuplicates(dct: dict) -> dict:
 
     exists = set()
     or_exists = set()
@@ -11,8 +19,8 @@ def removeDuplicates(dct : dict):
 
         cpy = deepcopy(term["courses"])
         for course_object in term["courses"]:
-            #print(course_object)
-            if "courses" in  course_object.keys():
+            # print(course_object)
+            if "courses" in course_object.keys():
                 existing = True
                 inner_cpy = deepcopy(course_object["courses"])
                 for course in course_object["courses"]:
@@ -30,264 +38,168 @@ def removeDuplicates(dct : dict):
                             inner_cpy.remove(course)
                 course_object["courses"] = inner_cpy
         term["courses"] = cpy
-                        
+
     return dct
 
-dct = {
-    "0": {
-        "courses": []
-    },
-    "1": {
-        "courses": [
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "CISP360",
-                        "courseTitle": "Introduction to Structured Programming",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": False
-            },
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "MATH400",
-                        "courseTitle": "Calculus I",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": False
-            },
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "COMM301",
-                        "courseTitle": "Introduction to Public Speaking",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": False
-            },
-            {
-                "subject": "GE",
-                "course": None,
-                "uniqueClass": False,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "2": {
+
+def select_course(courses: dict) -> dict:
+    print(courses)
+    print()
+    if "courseNumber" in courses.keys():
+        return courses
+    elif courses["conjunction"] is None:
+        print("None")
+        return courses["courses"]
+    elif courses["conjunction"] == "AND":
+        print("AND")
+        return courses["courses"]
+    elif courses["conjunction"] == "OR":
+        print("OR")
+        for course in courses["courses"]:
+            return select_course(course)
+
+def select_course(courses: dict) -> dict:
+    print(courses)
+    if "courseNumber" in courses:
+        # Base case: return the course itself with units converted to float for comparison
+        return {
+            "courseNumber": courses["courseNumber"],
+            "courseTitle": courses["courseTitle"],
+            "courseUnits": float(courses["courseUnits"])
+        }
+    elif "conjunction" in courses:
+        if courses["conjunction"] == "AND":
+            # Combine courses by summing units
+            combined_course = {}
+            total_units = 0
+            for course in courses["courses"]:
+                selected_course = select_course(course)
+                if not combined_course:
+                    combined_course = selected_course
+                else:
+                    combined_course["courseTitle"] += " and " + selected_course["courseTitle"]
+                    total_units += selected_course["courseUnits"]
+            combined_course["courseUnits"] = total_units
+            return combined_course
+        elif courses["conjunction"] in ["OR", None]:
+            # Select the course with the minimum units
+            min_course = None
+            for course in courses["courses"]:
+                selected_course = select_course(course)
+                if not min_course or selected_course["courseUnits"] < min_course["courseUnits"]:
+                    min_course = selected_course
+            return min_course
+
+
+def count_units(data):
+    term_units = {}
+
+    for term, term_data in data.items():
+        # print(data)
+        # print(term_data)
+        # print(term)
+        total_units = 0.0
+
+        for course_data in term_data.get('courses', []):
+            # print(course_data)
+            con = course_data.get('conjunction')
+            # print(con)
+
+            sub = course_data.get('subject')
+            # if(course_data.get('subject') == 'GE' or course_data.get('subject') == 'Choose One' or course.info.get('subject') == 'Free Elective'):
+            if sub == 'GE' or sub == 'Choose One' or sub == 'Free Elective':
+                # total_units = float(total_units) + float(4)
+                total_units += 4.0
+
+            if con == "OR":
+            # print(course_info.get('courses', []))
+                max_units = max(
+                (float(course.get('courseUnits', 0)) for course in course_data.get('courses', [])), default=0.0)
+
+                total_units += max_units
+
+            else:
+            # print(course_info)
+                for course in course_data.get('courses', []):
+                    # print(course)
+                    if course is not None:
+                        # if 'courseUnits' in course:
+                            # print(str(course['courseNumber']) + " " + str(course['courseUnits']) )
+                            total_units = float(total_units) +  float(course.get('courseUnits'))
+                            # print(course.get('courseUnits'))
+
+            term_units[term] = total_units
+
+    return term_units
+
+if __name__ == "__main__":
+
+    courses = {
+        "conjunction": "OR",
         "courses": [
             {
                 "conjunction": "OR",
                 "courses": [
                     {
-                        "courseNumber": "CISP360",
-                        "courseTitle": "Introduction to Structured Programming",
-                        "courseUnits": "4.00"
+                        "courseNumber": "MATH107",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "5.00"
                     },
                     {
-                        "courseNumber": "CISP400",
-                        "courseTitle": "Object Oriented Programming with C++",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": False
-            },
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "MATH401",
-                        "courseTitle": "Calculus II",
+                        "courseNumber": "MATH107H",
+                        "courseTitle": "Honors Linear Algebra",
                         "courseUnits": "5.00"
                     }
-                ],
-                "subject": "MATH",
-                "uniqueClass": False
+                ]
             },
             {
-                "conjunction": None,
+                "conjunction": "OR",
                 "courses": [
                     {
-                        "courseNumber": "ENGWR300",
-                        "courseTitle": "College Composition",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "ENGL",
-                "uniqueClass": False
-            },
-            {
-                "subject": "GE",
-                "course": None,
-                "uniqueClass": False,
-                "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, Lower-Division E, and Lower-Division F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, Unites States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, Upper-Division D, or E."
-            }
-        ]
-    },
-    "3": {
-        "courses": [
-            {
-                "conjunction": None,
-                "courses": [
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH108",
+                                "courseTitle": "Ordinary Differential Equations",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH107",
+                                "courseTitle": "Linear Algebra",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
                     {
-                        "courseNumber": "CISP430",
-                        "courseTitle": "Data Structures",
-                        "courseUnits": "4.00"
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH108H",
+                                "courseTitle": "Honors Ordinary Differential Equations",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH107H",
+                                "courseTitle": "Honors Linear Algebra",
+                                "courseUnits": "5.00"
+                            }
+                        ]
                     }
-                ],
-                "subject": "CSC",
-                "uniqueClass": False
-            },
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "MATH401",
-                        "courseTitle": "Calculus II",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "MATH",
-                "uniqueClass": False
-            },
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "COMM311",
-                        "courseTitle": "Argumentation and Debate",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "COMS",
-                "uniqueClass": True
-            },
-            {
-                "subject": "Life Science Support Elective",
-                "course": None,
-                "uniqueClass": True,
-                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Life Science\" Support Electives: BIO111, BIO161, BIO213 & BMED213; BOT121; MCRO221.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
-            }
-        ]
-    },
-    "5": {
-        "courses": [
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "CISP400",
-                        "courseTitle": "Object Oriented Programming with C++",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": False
-            },
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS410",
-                        "courseTitle": "Mechanics of Solids and Fluids",
-                        "courseUnits": "5.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": True
-            },
-            {
-                "subject": "Linear Math",
-                "course": [
-                    "MATH206",
-                    "MATH244"
-                ],
-                "uniqueClass": True,
-                "customDesc": "Choose one of the following: MATH206, or MATH244."
-            },
-            {
-                "subject": "Additional Science Support Elective",
-                "course": None,
-                "uniqueClass": True,
-                "customDesc": "Any Life Science Support Elective course can go here.\r\n\r\nCannot double count units.\r\n\r\nSelect 4 units from the following \"Additional Science\" Support Electives; BIO111, BIO161; BOT121; CHEM124; MCRO221; PHYS141.\r\n\r\nNo double-counting is allowed between Additional Science Support Elective and Life Science SUpport Elective or Physical Science Support Elective."
-            }
-        ]
-    },
-    "6": {
-        "courses": [
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "CISP440",
-                        "courseTitle": "Discrete Structures for Computer Science",
-                        "courseUnits": "3.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": False
-            },
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "CISP310",
-                        "courseTitle": "Assembly Language Programming for Microcomputers",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "CSC",
-                "uniqueClass": False
-            },
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS431",
-                        "courseTitle": "Heat, Waves, Light and Modern Physics",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": False
-            }
-        ]
-    },
-    "7": {
-        "courses": [
-            {
-                "conjunction": None,
-                "courses": [
-                    {
-                        "courseNumber": "PHYS421",
-                        "courseTitle": "Electricity and Magnetism",
-                        "courseUnits": "4.00"
-                    }
-                ],
-                "subject": "PHYS",
-                "uniqueClass": False
-            },
-            {
-                "subject": "Philosophical Classics",
-                "course": [
-                    "PHIL230",
-                    "PHIL231"
-                ],
-                "uniqueClass": True,
-                "customDesc": "Choose one of the following: PHIL230, or PHIL231."
+                ]
             }
         ]
     }
-}
 
-print(json.dumps(removeDuplicates(dct),indent=4))
+    print(select_course(courses))
+
+    # print(courses)
+
+    inputs = load_json(join_path([SCHEDULE_PATH, "GLENDALE/COMPUTER_SCIENCE.json"]))
+    # print(inputs)
+
+    print(count_units(inputs))
+
+    # outputs = removeDuplicates(inputs)
+    # save_json(outputs, construct_path("test.json"))
+
+    # print(json.dumps(removeDuplicates(dct), indent=4))

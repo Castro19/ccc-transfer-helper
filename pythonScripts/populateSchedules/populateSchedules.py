@@ -18,6 +18,8 @@ Note:
     lower division course must be changed.
 """
 
+# Change GE course field to courseNumber
+# terms should be numbered based on semesters not quarters
 
 import os
 import re
