@@ -22,7 +22,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "21.2" # Specify your Node.js version
+          node-version: "20" # Specify your Node.js version
       - name: Install dependencies
         run: npm install
         working-directory: client # Path to your client directory
