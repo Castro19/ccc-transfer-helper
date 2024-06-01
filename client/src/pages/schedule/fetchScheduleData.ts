@@ -1,12 +1,7 @@
-interface fetchScheduleDataParams {
-  params: {
-    cccCode: string;
-    college: string;
-    major: string;
-  };
-}
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export async function fetchScheduleData({ params }: fetchScheduleDataParams) {
+import { LoaderFunction } from "react-router-dom";
+
+export const fetchScheduleData: LoaderFunction = async (args) => {
+  const { params } = args;
   console.log("PARAMS:", params);
   const { cccCode, college, major } = params;
   try {
@@ -19,15 +14,12 @@ export async function fetchScheduleData({ params }: fetchScheduleDataParams) {
   } catch (error) {
     throw new Error("Failed to fetch schedule data");
   }
-}
-
-type loadScheduleDataParams = {
-  params: {
-    id: string;
-  };
 };
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export async function loadScheduleData({ params }: loadScheduleDataParams) {
+
+// This type assumes 'params' is directly under the first argument as required by react-router
+export const loadScheduleData: LoaderFunction = async (args) => {
+  // Extract params directly inside the function to adhere to type expectations
+  const { params } = args;
   const { id } = params;
 
   try {
@@ -39,4 +31,4 @@ export async function loadScheduleData({ params }: loadScheduleDataParams) {
   } catch (error) {
     throw new Error(`Failed to fetch schedule data: ${id}`);
   }
-}
+};

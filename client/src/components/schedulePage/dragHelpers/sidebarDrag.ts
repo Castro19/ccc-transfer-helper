@@ -1,7 +1,7 @@
-import { ClassType } from "@/types";
+import { CourseType } from "@/types";
 export default function handleDragStartFromSidebar(
   e: React.DragEvent<HTMLDivElement>,
-  course: ClassType
+  course: CourseType
 ): void {
   const dragData = {
     course: course.course,

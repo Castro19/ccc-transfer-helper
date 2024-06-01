@@ -36,9 +36,9 @@ router.get("/:codeId/", async (req, res) => {
 
 router.get("/:codeId/:univCodeId/", async (req, res) => {
   try {
-    const { codeId, univCodeId } = req.params;
+    const { codeId } = req.params;
     const [code, id] = codeId.split("_");
-    const [univCode, univId] = univCodeId.split("_");
+    // const [univCode, univId] = univCodeId.split("_");
 
     // Eventually use the univ code and univ id when we have more universities
     const rawData = await fs.readFile(
