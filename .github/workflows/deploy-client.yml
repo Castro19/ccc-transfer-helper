@@ -18,12 +18,12 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install Client dependencies
+        run: cd client && npm install
         working-directory: client
 
       - name: Build the app
-        run: npm run build
+        run: cd client && npm run build
         working-directory: client
 
       - name: Deploy to Azure Static Web Apps

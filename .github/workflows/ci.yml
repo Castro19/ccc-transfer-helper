@@ -15,13 +15,13 @@ jobs:
           node-version: "20"
 
       - name: Install Client Dependencies
-        run: cd Client && npm install
+        run: cd client && npm install
 
       - name: Run lint
-        run: cd Client && npm run lint
+        run: cd client && npm run lint
 
       - name: Build Client
-        run: cd Client && npm run build
+        run: cd client && npm run build
 
   server-setup:
     needs: client-build-and-lint

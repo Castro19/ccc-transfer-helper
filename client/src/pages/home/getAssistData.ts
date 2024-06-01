@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { Univ } from "@/types";
 export async function fetchColleges(): Promise<Univ[]> {
   try {
@@ -51,7 +52,7 @@ function getPDFUrl(key: string | number): string {
   } else {
     const parts = key.split("/");
     if (parts.length === 6) {
-      const [year, agreement, , institution, , guid] = parts;
+      const [year, agreement, , institution] = parts;
       return `https://assist.org/transfer/results?year=${year}&institution=${institution}&agreement=${agreement}&agreementType=from&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=${encodeURIComponent(
         key
       )}`;
