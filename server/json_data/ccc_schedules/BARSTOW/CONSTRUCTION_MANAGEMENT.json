@@ -1,0 +1,229 @@
+{
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH4A",
+            "courseTitle": "Calculus I",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMM1",
+            "courseTitle": "Elements of Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM102."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EDES123."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH4B",
+            "courseTitle": "Calculus II",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL1A",
+            "courseTitle": "English Composition and Reading",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM113."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM114."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS141."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM115."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "PHYS/CHEM",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHYS142, CHEM124, or CHEM127."
+      },
+      {
+        "subject": "Surveying",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: BRAE239, or CM239."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "BADM1",
+            "courseTitle": "Business Law I",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "BUS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM214."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM232."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM280."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCE211."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ECON201."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCE212."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "ACCT1A",
+                "courseTitle": "Principles of Accounting",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "ACCT1B",
+                "courseTitle": "Principles of Accounting",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: BUS212, or BUS214."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCE226."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BUS215."
+      },
+      {
+        "subject": "Statistics",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH2",
+                "courseTitle": "Introduction to Statistics",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          null
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT251, or STAT312."
+      }
+    ]
+  }
+}

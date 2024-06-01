@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Image } from "lucide-react";
 import UserAvatar from "../userProfile/UserAvatar";
 const transition = {
   type: "spring",
@@ -23,7 +22,7 @@ export const MenuItem = ({
   active: string | null;
   item: string;
   children?: React.ReactNode;
-}) => {
+}): JSX.Element => {
   return (
     <div onMouseEnter={() => setActive(item)} className="relative ">
       {/* <motion.img
@@ -43,11 +42,11 @@ export const MenuItem = ({
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
-                className="bg-white dark:bg-gray-800 backdrop-blur-lg rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700 shadow-xl"
+                className="bg-white dark:bg-gray-800 backdrop-blur-lg rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-xl"
               >
                 <motion.div
                   layout // layout ensures smooth animation
-                  className="w-max h-full p-4"
+                  className="w-max h-full p-2"
                 >
                   {children}
                 </motion.div>
@@ -77,38 +76,7 @@ export const Menu = ({
   );
 };
 
-export const ProductItem = ({
-  title,
-  description,
-  href,
-  src,
-}: {
-  title: string;
-  description: string;
-  href: string;
-  src: string;
-}) => {
-  return (
-    <Link href={href} className="flex space-x-2">
-      <Image
-        src={src}
-        width={140}
-        height={70}
-        alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl"
-      />
-      <div>
-        <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
-          {title}
-        </h4>
-        <p className="text-neutral-700 text-sm max-w-[10rem] dark:text-neutral-300">
-          {description}
-        </p>
-      </div>
-    </Link>
-  );
-};
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const HoveredLink = ({ children, onClick, ...rest }: any) => {
   return (
     <Link

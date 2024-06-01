@@ -1,4 +1,6 @@
 import React from "react";
+import "./index.css";
+// React router
 import ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
@@ -6,27 +8,35 @@ import {
   Navigate,
 } from "react-router-dom";
 // Context Providers
-import { AuthProvider } from "./contexts/authContext/index.tsx";
-import { CollegeProvider } from "./contexts/collegeContext";
+import {
+  AuthProvider,
+  LayoutProvider,
+  CollegeProvider,
+  ScheduleProvider,
+} from "./contexts/index.ts";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-
-import HomePage from "./pages/HomePage.tsx";
+// Pages
+import HomePage from "./pages/home/HomePage.tsx";
 import SchedulePage from "./pages/schedule/SchedulePage.tsx";
 import Register from "./pages/register/Register.tsx";
-import { SignupFormDemo } from "./pages/register/signup/SignUpForm.tsx";
-import { LoginFormDemo } from "./pages/register/login/LoginForm.tsx";
-import ErrorPage from "./pages/ErrorPage/ErrorPage.tsx";
-import Home from "./components/tests/Home.tsx";
+import { SignupFormDemo } from "./pages/register/SignUpForm.tsx";
+import { LoginFormDemo } from "./pages/register/LoginForm.tsx";
+import ErrorPage from "./pages/error/ErrorPage.tsx";
+import SavedSchedulesPage from "./pages/savedSchedules/SavedSchedulesPage.tsx";
 import Layout from "./components/layouts/Layouts.tsx";
+import SplashPage from "./pages/splashPage/SplashPage.tsx";
 // Loaders:
-import { fetchColleges } from "./components/homePage/utils/getAssistData.ts";
-import fetchScheduleData from "./components/schedulePage/utils/fetchScheduleData.ts";
-import "./index.css";
+import { fetchColleges } from "./pages/home/getAssistData.ts";
+import {
+  fetchScheduleData,
+  loadScheduleData,
+} from "./pages/schedule/fetchScheduleData.ts";
+import fetchSchedules from "./pages/savedSchedules/fetchSchedules.ts";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/home",
     element: (
       <Layout>
         <HomePage />
@@ -53,7 +63,18 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/schedule/:year/:ccc/:college/:major",
+    path: "/schedules/:id",
+    element: (
+      <DndProvider backend={HTML5Backend}>
+        <Layout>
+          <SchedulePage />
+        </Layout>
+      </DndProvider>
+    ),
+    loader: loadScheduleData,
+  },
+  {
+    path: "/schedule/:year/:ccc/:cccCode/:college/:major",
     element: (
       <DndProvider backend={HTML5Backend}>
         <Layout>
@@ -64,29 +85,30 @@ const router = createBrowserRouter([
     loader: fetchScheduleData,
   },
   {
-    path: "/home",
+    path: "/savedSchedules/:userId",
     element: (
       <Layout>
-        <Home />
+        <SavedSchedulesPage />
       </Layout>
     ),
+    loader: fetchSchedules,
   },
   {
-    path: "/404",
-    element: (
-      <Layout>
-        <ErrorPage />
-      </Layout>
-    ),
+    path: "/",
+    element: <SplashPage />,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <AuthProvider>
-      <CollegeProvider>
-        <RouterProvider router={router} />
-      </CollegeProvider>
+      <LayoutProvider>
+        <CollegeProvider>
+          <ScheduleProvider>
+            <RouterProvider router={router} />
+          </ScheduleProvider>
+        </CollegeProvider>
+      </LayoutProvider>
     </AuthProvider>
   </React.StrictMode>
 );

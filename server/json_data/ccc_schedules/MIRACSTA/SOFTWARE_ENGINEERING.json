@@ -1,0 +1,329 @@
+{
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH150",
+            "courseTitle": "Calculus and Analytic Geometry I",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH150H",
+            "courseTitle": "Calculus and Analytic Geometry I (Honors)",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMM101",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CSC123."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CS150",
+            "courseTitle": "C++ Programming",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CS111",
+            "courseTitle": "Introduction to Computer Science I: Java",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH155",
+            "courseTitle": "Calculus and Analytic Geometry II",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH155H",
+            "courseTitle": "Calculus and Analytical Geometry II (Honors)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ENGL134."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, Lower-Division C Elective, Upper-Division C, D1, Area D Elective, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). USCP requirement can be satisfied by some (but not all) courses within GE categories: C1, Upper-Division C, D1, D2, or Upper-Division D."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CS113",
+            "courseTitle": "Basic Data Structures and Algorithms",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH155",
+            "courseTitle": "Calculus and Analytic Geometry II",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH155H",
+            "courseTitle": "Calculus and Analytical Geometry II (Honors)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "General Psychology",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PSYC100",
+                "courseTitle": "Psychology of Personal Growth",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PSYC101",
+                "courseTitle": "General Psychology",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PSYC101H",
+                "courseTitle": "General Psychology (Honors)",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PSYC100",
+                "courseTitle": "Psychology of Personal Growth",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PSYC101",
+                "courseTitle": "General Psychology",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PSYC101H",
+                "courseTitle": "General Psychology (Honors)",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PSY201 or PSY202."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CS112",
+            "courseTitle": "Introduction to Computer Science II: Java",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CS220",
+            "courseTitle": "Computer Architecture and Assembly Language",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH260",
+            "courseTitle": "Calculus and Analytic Geometry III",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH260H",
+            "courseTitle": "Calculus and Analytic Geometry III (Honors)",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CHEM150",
+            "courseTitle": "General Chemistry I: For Science Majors",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM150H",
+            "courseTitle": "General Chemistry I : For Science Majors (Honors)",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CS226",
+            "courseTitle": "Discrete Structures",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "MATH265",
+            "courseTitle": "Differential Equations",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "MATH270",
+            "courseTitle": "Linear Algebra",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CHEM151",
+            "courseTitle": "General Chemistry II: For Science Majors",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM151H",
+            "courseTitle": "General Chemistry II : For Science Majors (Honors)",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM151",
+            "courseTitle": "General Chemistry II: For Science Majors",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Choose One",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: IME314 or IME315."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHIL230 or PHIL231."
+      }
+    ]
+  }
+}

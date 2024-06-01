@@ -40,10 +40,10 @@ import json
 import re
 
 from groupCourses import group_course_mappings
-from util import contruct_path
+from util import construct_path
 
 # Set to true to use Chrome instead of Firefox
-CHROME = True
+CHROME = False
 # Sets selenium browser to headless mode (no gui)
 HEADLESS_MODE = True
 # Name of the file which contains url data for every CCC

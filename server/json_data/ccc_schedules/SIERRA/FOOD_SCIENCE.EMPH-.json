@@ -1,0 +1,230 @@
+{
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "BIOL11",
+            "courseTitle": "Concepts of Biology",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "BIO",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMM1",
+            "courseTitle": "Fundamentals of Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN102."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN125."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "NUTF10",
+            "courseTitle": "Principles of Nutrition",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "FSN",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "CHEM1A",
+                "courseTitle": "General Chemistry I",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "CHEM3A",
+                "courseTitle": "General Chemistry I - Part 1",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "CHEM3B",
+                "courseTitle": "General Chemistry I - Part 2",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL1A",
+            "courseTitle": "College Reading, Writing, and Research",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH30",
+                "courseTitle": "Analytical Geometry and Calculus I",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "MATH16A",
+                "courseTitle": "Calculus for Social and Life Sciences",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH30",
+                "courseTitle": "Analytical Geometry and Calculus I",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH141, or MATH161."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "CHEM1A",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM1B",
+            "courseTitle": "General Chemistry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN250."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS121."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH13",
+            "courseTitle": "Elementary Statistics",
+            "courseUnits": "4.00 - 6.00"
+          }
+        ],
+        "subject": "STAT",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN204."
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "BIOL4",
+            "courseTitle": "Microbiology",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MCRO",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, Upper-Division B, C1, C2, Lower-Division C Elective, Upper-Division C, D1, D2, Upper-Division D, F, and GE Elective. Upper-Division B, Upper-Division C, and Upper-Division D should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR). Students interested in Blended program should pass GWR no later than Spring of Junior year and adjust their schedule to plan to complete FSN 330 in Fall of their Junior year. FSN330 is one of the prerequisite courses to be considered for the Blended program."
+      }
+    ]
+  }
+}

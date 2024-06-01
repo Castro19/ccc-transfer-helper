@@ -1,0 +1,279 @@
+{
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH101",
+            "courseTitle": "College Algebra",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "MATH244",
+            "courseTitle": "Pre-Calculus with Trigonometry",
+            "courseUnits": "6.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "COMM103",
+            "courseTitle": "Oral Communication",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "COMM104",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGC102."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGC205."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM200",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL115",
+            "courseTitle": "College Composition: Reading and Writing Analytically",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGC207."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PLSC120."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGB212."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ASCI112."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "Animal Science Course",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Animal Science Course can go here.\r\n\r\nSelect one course from: ASCI221, ASCI222, ASCI223, ASCI224, ASCI225; DSCI230."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "JOUR151",
+            "courseTitle": "News Report & Writing",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "JOUR",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN275."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "BIOL100",
+                "courseTitle": "Principles of Biology",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "BIOL101",
+                "courseTitle": "Principles of Biology Laboratory",
+                "courseUnits": "1.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "BIOL211",
+                "courseTitle": "Introduction to Cell and Molecular Biology",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: BIO111, or BIO161."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR) requirements."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ECON101",
+            "courseTitle": "Principles of Economics I",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "ECON",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for FSN230."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGC225."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": false,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR) requirements."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGB260."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PSYC270",
+                "courseTitle": "Statistics for the Behavioral Sciences",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "SOC270",
+                "courseTitle": "Statistics for the Behavioral Sciences",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "MATH119",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PSYC270",
+                "courseTitle": "Statistics for the Behavioral Sciences",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "SOC270",
+                "courseTitle": "Statistics for the Behavioral Sciences",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "MATH119",
+                "courseTitle": "Elementary Statistics",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT217, or STAT218."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "LNT134",
+                "courseTitle": "Introduction to Soil Science",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: SS120, or SS130."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Lower-Division E, and F. Upper-Division C should be taken only after Junior standing is reached (90 units). Refer to online catalog for GE course selection, United States Cultural Pluralism (USCP) and Graduation Writing Requirement (GWR) requirements."
+      }
+    ]
+  }
+}

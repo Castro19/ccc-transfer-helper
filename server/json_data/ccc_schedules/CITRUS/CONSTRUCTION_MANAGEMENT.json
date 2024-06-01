@@ -1,0 +1,243 @@
+{
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH190",
+            "courseTitle": "Calculus with Analytic Geometry I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM102."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EDES123."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS101."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH191",
+            "courseTitle": "Calculus with Analytic Geometry II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHYS201",
+            "courseTitle": "Physics A: Mechanics",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL101",
+            "courseTitle": "Reading and Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM113."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM114."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM115."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "PHYS/CHEM",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "CHEM111",
+                "courseTitle": "General Chemistry I",
+                "courseUnits": "5.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHYS142, CHEM124, or CHEM127."
+      },
+      {
+        "subject": "Surveying",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: BRAE239, or CM239."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "BUS160",
+            "courseTitle": "Business Law and the Legal Environment I",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "BUS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM214."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM232."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CM280."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCE211."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ECON201."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCE212."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": []
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "ACCT101",
+                "courseTitle": "Financial Accounting",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "ACCT101H",
+                "courseTitle": "Financial Accounting - Honors",
+                "courseUnits": "4.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: BUS212, or BUS214."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, B2, C1, C2, Lower-Division C Elective, Upper-Division C, D1, F, and GE Elective. Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ACCT102",
+            "courseTitle": "Managerial Accounting",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "BUS",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for ARCE226."
+      },
+      {
+        "subject": "Statistics",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH165",
+                "courseTitle": "Introductory Statistics",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          null
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT251, or STAT312."
+      }
+    ]
+  }
+}

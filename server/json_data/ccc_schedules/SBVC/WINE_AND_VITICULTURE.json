@@ -1,0 +1,281 @@
+{
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "COMMST100",
+            "courseTitle": "Elements of Public Speaking",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "COMMST100H",
+            "courseTitle": "Elements of Public Speaking - Honors",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for WVIT102."
+      },
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "ECON208",
+                "courseTitle": "Business and Economic Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH108",
+                "courseTitle": "Introduction to Probability and Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "PSYCH105",
+                "courseTitle": "Statistics for the Behavioral Sciences",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "ECON200",
+                "courseTitle": "Principles of Macroeconomics",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "ECON200H",
+                "courseTitle": "Principles of Macroeconomics - Honors",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT218 or ECON222.\r\n\r\nSTAT218 and ECON222 are each required and cannot be repeated for credit."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). <b>NOTE: GE Area B2 is included in concentrations.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CHEM150",
+            "courseTitle": "General Chemistry I",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM150H",
+            "courseTitle": "General Chemistry I - Honors",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "ENGL101",
+            "courseTitle": "Freshman Composition",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "ENGL101H",
+            "courseTitle": "Freshman Composition - Honors",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for SS120."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for AGB214."
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for WVIT202."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BOT121."
+      },
+      {
+        "subject": "Calculus",
+        "course": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH250",
+                "courseTitle": "Single Variable Calculus I",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: MATH161, MATH141, or MATH221."
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "COMMST125",
+            "courseTitle": "Critical Thinking through Argumentation and Debate",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for WVIT233."
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "subject": "Choose One",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "ECON208",
+                "courseTitle": "Business and Economic Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "MATH108",
+                "courseTitle": "Introduction to Probability and Statistics",
+                "courseUnits": "4.00"
+              },
+              {
+                "courseNumber": "PSYCH105",
+                "courseTitle": "Statistics for the Behavioral Sciences",
+                "courseUnits": "4.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "ECON200",
+                "courseTitle": "Principles of Macroeconomics",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "ECON200H",
+                "courseTitle": "Principles of Macroeconomics - Honors",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: STAT218 or ECON222.\r\n\r\nSTAT218 and ECON222 are each required and cannot be repeated for credit."
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      },
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "subject": "Concentration",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Concentration course can go here."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). <b>NOTE: GE Area B2 is included in concentrations.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "GE",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "One course from each of the following GE areas must be completed: A1, A2, A3, C1, C2, Lower-Division C Elective, Upper-Division C, D1, Upper-Division D, Lower-Division E, F, and GE Elective. Upper-Division C and Upper-Division D should be taken only after Junior standing is reached (90 units). <b>NOTE: GE Area B2 is included in concentrations.</b> Refer to online catalog for GE course selection and Graduation Writing Requirement (GWR)."
+      },
+      {
+        "subject": "Free Elective",
+        "course": null,
+        "uniqueClass": true,
+        "customDesc": "Any Free Elective course can go here."
+      }
+    ]
+  }
+}

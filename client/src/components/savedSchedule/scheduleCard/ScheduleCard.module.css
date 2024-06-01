@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 16px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.container:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  background-color: #1e4d2b;
+  height: 40px;
+  border-bottom: 2px solid #14532d;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  overflow-y: auto;
+  max-height: calc(100% - 40px);
+  z-index: 2;
+}
+
+.ccc {
+  font-weight: bold;
+  color: #2c3e50;
+  font-size: 1.2rem;
+}
+
+.containerCCC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .univ{
+  align-items: center;
+  display: flex;
+  margin: var(--spacing-small) 0;
+} */
+.univ,
+.major,
+.year,
+.id {
+  color: #555;
+  font-size: 1rem;
+  margin: 4px 0;
+}
+
+p {
+  margin: 4px 0;
+}
+
+.hoverBackground {
+  inset: 0;
+  border-radius: 12px;
+  z-index: 0;
+  /* background: rgba(255, 255, 255, 0.1); Optional: subtle background change on hover */
+  pointer-events: none; /* Prevent interaction with the background */
+}
+
+/* .univImage {
+  width: 100%;
+  max-width: 100px; 
+  height: auto;
+  margin: var(--spacing-small) 0;
+} */

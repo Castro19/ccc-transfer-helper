@@ -1,0 +1,289 @@
+{
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH103",
+            "courseTitle": "Calculus and Analytic Geometry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CHEM101",
+            "courseTitle": "General Chemistry A",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "SPCH101",
+            "courseTitle": "Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE111."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE151."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CS/IS135",
+            "courseTitle": "Programming in C/C++",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "CS/IS139",
+            "courseTitle": "JAVA",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHY101",
+            "courseTitle": "Physics for Scientists and Engineers: A",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH104",
+            "courseTitle": "Calculus and Analytic Geometry",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH104H",
+            "courseTitle": "Honors Calculus and Analytic Geometry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL101",
+            "courseTitle": "Introduction to College Reading and Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "PHY102",
+            "courseTitle": "Physics for Scientists and Engineers: B",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": true
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH104",
+            "courseTitle": "Calculus and Analytic Geometry",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH104H",
+            "courseTitle": "Honors Calculus and Analytic Geometry",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": true
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      },
+      {
+        "subject": "Choose One",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: EE113 & EE143, or EE112 & IME156.\r\n\r\nTransfer students take EE112 (2) & IME156 (2) or EE112 (2) & EE143 (1) & one additional unit of Free Elective."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHY101",
+            "courseTitle": "Physics for Scientists and Engineers: A",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "PHY103",
+            "courseTitle": "Physics for Scientists and Engineers: C",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "MATH108",
+                "courseTitle": "Ordinary Differential Equations",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "MATH107",
+                "courseTitle": "Linear Algebra",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "MATH108H",
+                "courseTitle": "Honors Ordinary Differential Equations",
+                "courseUnits": "5.00"
+              },
+              {
+                "courseNumber": "MATH107H",
+                "courseTitle": "Honors Linear Algebra",
+                "courseUnits": "5.00"
+              }
+            ]
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE211."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE241."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE133."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "MATH105",
+            "courseTitle": "Multivariable and Vector Calculus",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "MATH105H",
+            "courseTitle": "Honors Multivariable and Vector Calculus",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE212."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE242."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE233."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BIO213."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for BMED213."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE255."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE295."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE228."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for PHYS211."
+      }
+    ]
+  }
+}

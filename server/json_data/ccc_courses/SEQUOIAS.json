@@ -1,0 +1,807 @@
+{
+  "name": "College of the Sequoias",
+  "code": "SEQUOIAS",
+  "id": 6,
+  "courses": [
+    {
+      "courseNumber": "AGMT103",
+      "courseTitle": "Intro to Agriculture Business",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "AGMT102",
+      "courseTitle": "Agriculture Sales and Marketing",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "AGMT001",
+      "courseTitle": "Agriculture Economics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "AGMT104",
+      "courseTitle": "Agriculture Accounting",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ASCI001",
+      "courseTitle": "Intro to Animal Science",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ASCI126",
+      "courseTitle": "Meat Science",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ASCI140",
+      "courseTitle": "Beginning Equitation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ASCI103",
+      "courseTitle": "Feeds and Feeding",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ASCI111",
+      "courseTitle": "Beef Cattle Science",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ASCI110",
+      "courseTitle": "Swine Science",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ASCI112",
+      "courseTitle": "Small Ruminant Science",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ASCI022",
+      "courseTitle": "Horse Husbandry",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ASCI002",
+      "courseTitle": "Livestock Selection/Evaluation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "DSCI103",
+      "courseTitle": "Commercial Dairy Herd Mgmt",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "DSCI104",
+      "courseTitle": "Breed/Select of Dairy Cattle",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ARCH020",
+      "courseTitle": "Visual Communication 1",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ARCH021",
+      "courseTitle": "Visual Communication 2",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ARCH120",
+      "courseTitle": "Freehand Drawing",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ARCH010",
+      "courseTitle": "Architectural Design 1",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ARCH011",
+      "courseTitle": "Architectural Design 2",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ARCH013",
+      "courseTitle": "Architectural Design 3",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ARCH014",
+      "courseTitle": "Architectural Design 4",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ART008",
+      "courseTitle": "Drawing Fundamentals",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART006",
+      "courseTitle": "Color and Design",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART007",
+      "courseTitle": "Advanced Color and Design",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART001",
+      "courseTitle": "Art Appreciation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART066",
+      "courseTitle": "Beginning Sculpture",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART009",
+      "courseTitle": "Drawing Composition",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART043",
+      "courseTitle": "Beginning Studio Painting",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART002",
+      "courseTitle": "Art History/Ancient -Gothic",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART003",
+      "courseTitle": "Art History/Gothic-Modern",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIOL020",
+      "courseTitle": "Frontiers in Biology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIOL001",
+      "courseTitle": "Principles of Biology 1",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BIOL002",
+      "courseTitle": "Principles of Biology 2",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BIOL030",
+      "courseTitle": "Human Anatomy",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIOL031",
+      "courseTitle": "Human Physiology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIOL021",
+      "courseTitle": "Plant Biology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIOL040",
+      "courseTitle": "General Microbiology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGR004",
+      "courseTitle": "Circuit Analysis",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BUS018",
+      "courseTitle": "Business Law",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ACCT101",
+      "courseTitle": "Essentials of Accounting",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "ACCT001",
+      "courseTitle": "Financial Accounting",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ACCT002",
+      "courseTitle": "Managerial Accounting",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ECON025",
+      "courseTitle": "Introduction to Economics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ECON040",
+      "courseTitle": "Principles of Microeconomics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ECON050",
+      "courseTitle": "Principles of Macroeconomics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CHEM020",
+      "courseTitle": "Intro to General Chemistry",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CHEM001",
+      "courseTitle": "General Chemistry 1",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHEM002",
+      "courseTitle": "General Chemistry 2",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHEM021",
+      "courseTitle": "Organic/Biological Chemistry",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CHEM012",
+      "courseTitle": "Organic Chemistry 1",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHEM013",
+      "courseTitle": "Organic Chemistry 2",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "COMM001",
+      "courseTitle": "Fundamentals/Public Speaking",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL002",
+      "courseTitle": "Logic and Composition",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COMM004",
+      "courseTitle": "Interpersonal Communication",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COMM008",
+      "courseTitle": "Group Communication",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CSCI001",
+      "courseTitle": "Programming Concepts/Method 1",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "COMP006",
+      "courseTitle": "Programming Fundamentals",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CSCI002",
+      "courseTitle": "Programming Concepts/Method 2",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CSCI005",
+      "courseTitle": "Computer Arch & Organization",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGR020",
+      "courseTitle": "MATLAB Programming",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CSCI020",
+      "courseTitle": "MATLAB Programming",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CSCI006",
+      "courseTitle": "Discrete Structures",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL001",
+      "courseTitle": "College Reading & Composition",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGL015",
+      "courseTitle": "Survey of British Lit 1",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL016",
+      "courseTitle": "Survey of British Lit 2",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL044",
+      "courseTitle": "World Literature 1",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGL045",
+      "courseTitle": "World Literature 2",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "LING111",
+      "courseTitle": "Introduction to Language",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "NUTR018",
+      "courseTitle": "Nutrition",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST004",
+      "courseTitle": "Western Civilization to 1648",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST005",
+      "courseTitle": "Western Civilization Since 1648",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIST025",
+      "courseTitle": "World History to 1500",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHYS055",
+      "courseTitle": "Physics 1: Mechanics & Waves",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH065",
+      "courseTitle": "Calculus 1",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH066",
+      "courseTitle": "Calculus 2",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ENGR002",
+      "courseTitle": "Statics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH067",
+      "courseTitle": "Calculus 3",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH080",
+      "courseTitle": "Linear Algebra",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH081",
+      "courseTitle": "Differential Equations",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "AGTC106",
+      "courseTitle": "Agriculture Welding",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "WELD171",
+      "courseTitle": "Specialty Metals Welding",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "WELD175",
+      "courseTitle": "Metal Working for Engineers",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "ENGR001",
+      "courseTitle": "Engineering Graphics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ITEC100",
+      "courseTitle": "Industrial Maintenance Technology, Option A",
+      "courseUnits": "15.00"
+    },
+    {
+      "courseNumber": "JOUR001",
+      "courseTitle": "Writing for News Media",
+      "courseUnits": "3.50"
+    },
+    {
+      "courseNumber": "JOUR007",
+      "courseTitle": "Mass Communications",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HW001",
+      "courseTitle": "Personal & Community Health",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "KINE001",
+      "courseTitle": "Introduction to Kinesiology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HW003",
+      "courseTitle": "First Aid/CPR/AED",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "KINE088",
+      "courseTitle": "Sport and Exercise Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENGR110",
+      "courseTitle": "Introduction to Engineering",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "ENGR003",
+      "courseTitle": "Materials Sci & Engineering",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH010",
+      "courseTitle": "Structure & Concepts 1",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH070",
+      "courseTitle": "Precalculus",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "MATH035",
+      "courseTitle": "Precalculus A",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MATH054",
+      "courseTitle": "Precalculus B",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MUS005",
+      "courseTitle": "Theory & Musicianship 2",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MUS006",
+      "courseTitle": "Theory & Musicianship 3",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MUS007",
+      "courseTitle": "Theory & Musicianship 4",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MUS010",
+      "courseTitle": "Music Appreciation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS013",
+      "courseTitle": "Music of the World",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS020AD",
+      "courseTitle": "Piano",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "MUS030",
+      "courseTitle": "Beginning Voice",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "MUS072AD",
+      "courseTitle": "Jazz Orchestra",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "MUS062",
+      "courseTitle": "Woodwind Instruments",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "MUS074AD",
+      "courseTitle": "Symphonic Band",
+      "courseUnits": "1.00 - 2.00"
+    },
+    {
+      "courseNumber": "MUS054AD",
+      "courseTitle": "Symphony Orchestra",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "MUS034AD",
+      "courseTitle": "Concert Choir",
+      "courseUnits": "1.00 - 2.00"
+    },
+    {
+      "courseNumber": "MUS011",
+      "courseTitle": "Music Appreciation/Jazz",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOG001",
+      "courseTitle": "Physical Geography",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "AG004",
+      "courseTitle": "Soil Science",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHIL001",
+      "courseTitle": "Introductory Philosophy",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHIL025",
+      "courseTitle": "Critical Thinking",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHIL020",
+      "courseTitle": "Introductory Logic",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEOL001",
+      "courseTitle": "Physical Geology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHYS020",
+      "courseTitle": "General Physics 1",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "PHYS021",
+      "courseTitle": "General Physics 2",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "PHYS056",
+      "courseTitle": "Physics 2: E&M and Heat",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHYS057",
+      "courseTitle": "Physics 3: Modern Physics",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "PLSI001",
+      "courseTitle": "Intro to Plant Science",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "OH109",
+      "courseTitle": "Landscape Maintenance",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "OH105",
+      "courseTitle": "Plant Propagation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "OH007",
+      "courseTitle": "Principles of Landscape Design",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "OH111",
+      "courseTitle": "Floral Design",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "OH001",
+      "courseTitle": "Basic Ornamental Horticulture",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "OH002",
+      "courseTitle": "Plant Identification 1",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "OH003",
+      "courseTitle": "Plant Identification 2",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "POLS010",
+      "courseTitle": "California Govt. and Politics",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "POLS008",
+      "courseTitle": "International Relations",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "POLS006",
+      "courseTitle": "Comparative Politics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "POLS011",
+      "courseTitle": "Political Theory and Thought",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC026",
+      "courseTitle": "Marriage and Family Life",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CFS080",
+      "courseTitle": "Lifespan Development",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY001",
+      "courseTitle": "General Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY005",
+      "courseTitle": "Social Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANTH010",
+      "courseTitle": "Cultural Anthropology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANTH012",
+      "courseTitle": "Archaeology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANTH011",
+      "courseTitle": "Biological Anthropology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC001",
+      "courseTitle": "Introduction to Sociology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC002",
+      "courseTitle": "Social Problems",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BUS020",
+      "courseTitle": "Business Statistics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MATH021",
+      "courseTitle": "Introduction to Statistics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SSCI025",
+      "courseTitle": "Statistics-Social Sciences",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "DANC050",
+      "courseTitle": "Ballet 1",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "DANC054",
+      "courseTitle": "Modern Dance 1",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "DANC058",
+      "courseTitle": "Jazz Dance 1",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "DANC051",
+      "courseTitle": "Ballet 2",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "DANC059",
+      "courseTitle": "Jazz Dance 2",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "DRAM001",
+      "courseTitle": "Intro to the Theatre",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "DRAM002",
+      "courseTitle": "Fundamentals of Acting 1",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "DRAM012",
+      "courseTitle": "Costuming",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "DRAM013",
+      "courseTitle": "Beginning Stagecraft",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "DRAM017",
+      "courseTitle": "Makeup",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SPAN001",
+      "courseTitle": "Beginning Spanish",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN002",
+      "courseTitle": "Elementary Spanish",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN003",
+      "courseTitle": "Intermediate Spanish",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN004",
+      "courseTitle": "Advanced Spanish",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN022",
+      "courseTitle": "Span 2 for Spanish Speakers",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "SPAN012",
+      "courseTitle": "Hispanic Literature",
+      "courseUnits": "3.00"
+    }
+  ]
+}

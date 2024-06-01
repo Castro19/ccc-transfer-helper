@@ -1,0 +1,63 @@
+/* DraggableClass.module.css */
+.draggableClass {
+  display: flex;
+  align-items: center; /* Centers items vertically within the container */
+  justify-content: space-between; /* Ensures spacing between elements */
+  column-gap: 0.5rem; /* Maintains a gap between the course and unit */
+  padding: 0.5rem 1rem; /* Adds padding around the text for better visibility */
+  width: 100%; /* Ensures it takes full width of the container */
+  height: 40px; /* Set a fixed height for uniformity */
+  border-radius: 0.375rem; /* Rounded corners for a button-like appearance */
+  background-color: #aec9ff; /* Light grey background */
+  border: 1px solid #83a1dd; /* Border color to enhance visibility */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+  cursor: grab; /* Indicates the item can be grabbed */
+  transition:
+    background-color 200ms,
+    box-shadow 200ms; /* Smooth transitions for hover and active states */
+}
+
+.draggableClass:hover {
+  background-color: #9ab3e4; /* Light grey background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slightly larger shadow on hover */
+}
+
+.draggableClass:active {
+  background-color: #859bc6; /* Light grey background */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); /* Smaller shadow to simulate being pressed */
+  cursor: grabbing; /* Changes cursor to grabbing when the element is being dragged */
+}
+
+.inUse {
+  background-color: #ffc9c9; /* Light red background indicates the class is in use */
+  color: #bf0000; /* Darker text to ensure readability */
+  border: 1px solid #ff6b6b; /* Border color to enhance visibility */
+}
+
+.inUse:hover {
+  background-color: #e7b6b6; /* Light red background indicates the class is in use */
+}
+
+.inUse:active {
+  background-color: #cba0a0; /* Light red background indicates the class is in use */
+}
+
+.course {
+  flex: 1; /* Allow course name to grow and shrink as needed */
+  font-weight: 500; /* Slightly bolder font for the course name */
+  color: #374151; /* Dark grey for text, for better readability */
+}
+
+.unit {
+  flex-shrink: 0; /* Prevent units from shrinking */
+  font-size: 0.875rem; /* Smaller font size for units */
+  color: #6b7280; /* Medium grey for units, distinguishing it from the course name */
+}
+
+.dragIcon {
+  flex-shrink: 0; /* Prevent the icon from shrinking */
+  color: #1c1d20; /* Dark grey for text, for better readability */
+  margin-left: 1rem; /* Space between icon and text */
+  font-size: 1.25rem; /* Slightly larger icon for visibility */
+  min-width: 1.25rem; /* Ensure the icon has a minimum width */
+}

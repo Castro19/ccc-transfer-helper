@@ -21,10 +21,7 @@ const TestingBackend = (): JSX.Element => {
   };
   return (
     <div>
-      <button
-        className="bg-blue-100"
-        onClick={handleTestRequest}
-      >
+      <button className="bg-blue-100" onClick={handleTestRequest}>
         Msg: {msg}
       </button>
     </div>

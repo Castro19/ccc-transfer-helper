@@ -1,0 +1,94 @@
+/* DropdownSettings.module.css */
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns the button to the start of the flex container */
+  width: 75%;
+}
+.button {
+  padding: 10px 30px; /* Adjusted padding for better look */
+  margin: 5px;
+  background-color: #202c3c; /* Primary button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Ensure full-width in its container */
+  border-radius: 20px; /* Rounded corners */
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease; /* Smooth transitions */
+  font-size: 14px; /* Larger text for better readability */
+  font-weight: bold; /* Bold text for emphasis */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-family: "Roboto", sans-serif;
+}
+
+.button:hover {
+  background-color: #121923;
+  transform: translateY(-2px);
+}
+
+.but:active {
+  background-color: #141c24; /* Even darker shade on click */
+  transform: translateY(0); /* Reset lift on click */
+}
+
+/* DropdownSettings.module.css */
+@keyframes popEffect {
+  0% {
+    transform: scale(0.5); /* Start at half size */
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1); /* Slightly larger than normal to create a pop */
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1); /* Scale back to normal size */
+    opacity: 1;
+  }
+}
+
+.dropdownContent {
+  transform-origin: top center;
+  animation: popEffect 0.3s ease-out forwards; /* Use forwards to maintain the final state */
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  opacity: 0; /* Start fully transparent */
+  width: 100%;
+}
+
+.dropdownContentClosed {
+  display: none;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  width: 100%; /* Ensures dropdown content takes full width of its container */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* DropdownSettings.module.css */
+.submitButton {
+  padding: 10px;
+  margin-top: 10px; /* Space from the last option */
+  background-color: #4caf50; /* Green background */
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.submitButton:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

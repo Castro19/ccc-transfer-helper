@@ -1,0 +1,652 @@
+{
+  "name": "Hartnell College",
+  "code": "HARTNELL",
+  "id": 123,
+  "courses": [
+    {
+      "courseNumber": "ABT49",
+      "courseTitle": "Introduction to Agriculture Business",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ABT52",
+      "courseTitle": "Sales and Service in Agribusiness",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ABT53",
+      "courseTitle": "Agribusiness Economics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BUS1A",
+      "courseTitle": "Financial Accounting",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CMA70",
+      "courseTitle": "Architectural Design and Visual Communication I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CMA71",
+      "courseTitle": "Architectural Design and Visual Communication II",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CMA72",
+      "courseTitle": "Architectural Design and Visual Communication III",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART3",
+      "courseTitle": "Drawing and Composition",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART12A",
+      "courseTitle": "Design",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART10",
+      "courseTitle": "Art Appreciation",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHO2",
+      "courseTitle": "Beginning Black and White Photography",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART6A",
+      "courseTitle": "Watercolor and Gouache",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART1A",
+      "courseTitle": "Art History Survey I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ART1B",
+      "courseTitle": "Art History Survey II",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIO10",
+      "courseTitle": "General Biology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIO1",
+      "courseTitle": "Fundamental Biological Concepts",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BIO2",
+      "courseTitle": "General Zoology",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BIO3",
+      "courseTitle": "General Botany",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "BIO5",
+      "courseTitle": "Human Anatomy",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BIO6",
+      "courseTitle": "Introductory Physiology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BIO6L",
+      "courseTitle": "Physiology Laboratory",
+      "courseUnits": "2.00"
+    },
+    {
+      "courseNumber": "BIO27",
+      "courseTitle": "Principles of Microbiology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MFGT70",
+      "courseTitle": "Introduction to Mechanized Agriculture",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MFGT75",
+      "courseTitle": "Agricultural Machinery Management",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "EGN6",
+      "courseTitle": "Circuit Analysis",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "EGN11",
+      "courseTitle": "Surveying",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "BUS18",
+      "courseTitle": "Legal Environment of Business",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "BUS1B",
+      "courseTitle": "Managerial Accounting",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "ECO5",
+      "courseTitle": "Principles of Microeconomics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ECO1",
+      "courseTitle": "Principles of Macroeconomics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CHM22",
+      "courseTitle": "The Science of Chemistry",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CHM1A",
+      "courseTitle": "General Chemistry I",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHM1B",
+      "courseTitle": "General Chemistry II",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHM12A",
+      "courseTitle": "Organic Chemistry I",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "CHM12B",
+      "courseTitle": "Organic Chemistry II",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "EGN5",
+      "courseTitle": "Programming and Problem-Solving in MATLAB",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COM1",
+      "courseTitle": "Introduction to Public Speaking",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHL15",
+      "courseTitle": "Critical Thinking and Logic",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COM8",
+      "courseTitle": "Interpersonal Communication",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COM5",
+      "courseTitle": "Professional & Leadership Communication",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COM3",
+      "courseTitle": "Survey of Human Communication",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "COM2",
+      "courseTitle": "Argumentation and Debate",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CSS1",
+      "courseTitle": "Intro to Computer Science & Programming Fundamentals",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CSS2A",
+      "courseTitle": "Object Oriented Programming",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CSS2B",
+      "courseTitle": "Data Structures and Algorithims",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CSS3",
+      "courseTitle": "Computer Architecture and Assembly Language Programming",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CSS4",
+      "courseTitle": "Programming for Scientists and Engineers",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "EGN7L",
+      "courseTitle": "Computer Interface with the Physical World Laboratory",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "CSS7",
+      "courseTitle": "Discrete Structures",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "CMA51",
+      "courseTitle": "Introduction to Construction Management and Architecture",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "CMA53",
+      "courseTitle": "Sustainable Construction Materials and Methods",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENG1A",
+      "courseTitle": "College Composition and Reading",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENG46A",
+      "courseTitle": "Survey of British Literature I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENG46B",
+      "courseTitle": "Survey of British Literature II",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENG44A",
+      "courseTitle": "World Literature I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ENG44B",
+      "courseTitle": "World Literature II",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "NUTR1",
+      "courseTitle": "Nutrition",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ABT93",
+      "courseTitle": "Product Processing & Cooling",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIS4A",
+      "courseTitle": "Western Civilization A",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIS4B",
+      "courseTitle": "Western Civilization B",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HIS5A",
+      "courseTitle": "World History A",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHY4C",
+      "courseTitle": "General Physics III/ Waves, Heat, Light, Sound and Modern Physics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHY4A",
+      "courseTitle": "General Physics I/ Mechanics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MAT3A",
+      "courseTitle": "Analytic Geometry and Calculus I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MAT3B",
+      "courseTitle": "Analytic Geometry and Calculus II",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "EGN8",
+      "courseTitle": "Statics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHL10",
+      "courseTitle": "Ethics",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PHL2",
+      "courseTitle": "Introduction to Philosophy",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MAT3C",
+      "courseTitle": "Analytic Geometry and Calculus III",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MAT4",
+      "courseTitle": "Linear Algebra",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MAT5",
+      "courseTitle": "Differential Equations",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HED2",
+      "courseTitle": "Individual Health & Wellness",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HED6",
+      "courseTitle": "Multicultural Health Beliefs",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HED7",
+      "courseTitle": "Women's Health",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HES1",
+      "courseTitle": "Introduction to Public Health",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PETH1",
+      "courseTitle": "Introduction to Kinesiology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "HED55",
+      "courseTitle": "Health Education- Advanced First Aid",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PETH4",
+      "courseTitle": "Mental Skills for Sports Performance",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "EGN1",
+      "courseTitle": "Introduction to Engineering",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "EGN4",
+      "courseTitle": "Materials Science and Engineering",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MAT10",
+      "courseTitle": "Math for Liberal Arts",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MAT12",
+      "courseTitle": "Number Systems",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MAT25",
+      "courseTitle": "Pre-Calculus",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "MAT27",
+      "courseTitle": "Accelerated Pre-Calculus & Trigonometry for STEM",
+      "courseUnits": "6.00"
+    },
+    {
+      "courseNumber": "MAT24",
+      "courseTitle": "Trigonometry",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MAT2",
+      "courseTitle": "Calculus for Managerial, Life, and Social Sciences",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "EGN2",
+      "courseTitle": "Engineering Graphics and Design",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS1A",
+      "courseTitle": "Music Appreciation-Historical Perspective",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MUS13A",
+      "courseTitle": "Beginning Piano I",
+      "courseUnits": "1.50"
+    },
+    {
+      "courseNumber": "MUS26",
+      "courseTitle": "Jazz Ensemble",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "MUS21",
+      "courseTitle": "Hartnell Chamber Singers",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "MUS20",
+      "courseTitle": "Hartnell College Choir",
+      "courseUnits": "1.00"
+    },
+    {
+      "courseNumber": "GEG1",
+      "courseTitle": "Introduction to Geography: Physical Elements",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ABT90",
+      "courseTitle": "Soil Science",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ABT98",
+      "courseTitle": "Fertilizers and Plant Nutrition",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEL2",
+      "courseTitle": "Introduction to Geology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "GEL1",
+      "courseTitle": "Physical Geology",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "GEL6",
+      "courseTitle": "History of the Earth",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHY10",
+      "courseTitle": "Introduction to Physics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHY2A",
+      "courseTitle": "College Physics I",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHY2B",
+      "courseTitle": "College Physics II",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "PHY4B",
+      "courseTitle": "General Physics II/ Electricity and Magnetism",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "OCN1",
+      "courseTitle": "Oceanography",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ABT96",
+      "courseTitle": "Vegetable Crop Production",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ABT97",
+      "courseTitle": "Vineyard Production and Management",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "POL3",
+      "courseTitle": "Introduction to International Relations",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY25",
+      "courseTitle": "Developmental Psychology: Lifespan",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY2",
+      "courseTitle": "General Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "PSY6",
+      "courseTitle": "Social Psychology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANT2",
+      "courseTitle": "Introduction to Cultural Anthropology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANT3",
+      "courseTitle": "Introduction to Archeology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "ANT1",
+      "courseTitle": "Introduction to Biological Anthropology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC1",
+      "courseTitle": "Introduction to Sociology",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC5",
+      "courseTitle": "Introduction to Social Problems",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SOC42",
+      "courseTitle": "The Sociology of Minority Relations",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "MAT13",
+      "courseTitle": "Elementary Statistics",
+      "courseUnits": "4.00"
+    },
+    {
+      "courseNumber": "TAC1",
+      "courseTitle": "Introduction to Theatre",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "TAC10",
+      "courseTitle": "Acting I",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "TAC11",
+      "courseTitle": "Acting II",
+      "courseUnits": "3.00"
+    },
+    {
+      "courseNumber": "SPA1",
+      "courseTitle": "Elementary Spanish",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "SPA1S",
+      "courseTitle": "Elementary Spanish for Spanish Speakers",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "SPA1X",
+      "courseTitle": "Elementary Spanish for Chicano Students",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "SPA2",
+      "courseTitle": "Elementary Spanish",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "SPA2S",
+      "courseTitle": "Elementary Spanish for Spanish Speakers",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "SPA2X",
+      "courseTitle": "Elementary Spanish for Chicano Students",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "SPA3",
+      "courseTitle": "Intermediate Spanish",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "SPA3S",
+      "courseTitle": "Intermediate Spanish for Spanish Speakers",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "SPA4",
+      "courseTitle": "Intermediate Spanish",
+      "courseUnits": "5.00"
+    },
+    {
+      "courseNumber": "SPA4S",
+      "courseTitle": "Intermediate Spanish for Spanish Speakers",
+      "courseUnits": "5.00"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "0": {
+    "courses": []
+  },
+  "1": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CS110A",
+            "courseTitle": "Intro to Programming",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CPE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH110A",
+            "courseTitle": "Calculus I",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CHEM103A",
+            "courseTitle": "General Chemistry for Engineering",
+            "courseUnits": "5.00"
+          },
+          {
+            "courseNumber": "CHEM101A",
+            "courseTitle": "General College Chemistry",
+            "courseUnits": "6.00"
+          }
+        ],
+        "subject": "CHEM",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "CMST1A",
+            "courseTitle": "Elements of Public Speaking",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "COMS",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE100."
+      }
+    ]
+  },
+  "2": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CS110A",
+            "courseTitle": "Intro to Programming",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CS110B",
+            "courseTitle": "Programming Fundamentals: C++",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CS111B",
+            "courseTitle": "Programming Fundamentals: Java",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CPE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYC4A",
+            "courseTitle": "Classical Mechanics for Scientists and Engineers",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "PHYC4AL",
+            "courseTitle": "Mechanics Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH110B",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "ENGL1A",
+            "courseTitle": "College Reading and Composition",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "ENGL",
+        "uniqueClass": false
+      }
+    ]
+  },
+  "3": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CS110C",
+            "courseTitle": "Data Structures and Algorithms: C++",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CS111C",
+            "courseTitle": "Data Structures and Algorithms: Java",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CPE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH110B",
+            "courseTitle": "Calculus II",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE133."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for COMS126."
+      }
+    ]
+  },
+  "5": {
+    "courses": [
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYC4B",
+            "courseTitle": "Electromagnetism for Scientists and Engineers",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "PHYC4BL",
+            "courseTitle": "Electromagnetism Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH110C",
+            "courseTitle": "Calculus III",
+            "courseUnits": "5.00"
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for CPE233."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE115."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE145."
+      }
+    ]
+  },
+  "6": {
+    "courses": [
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "courseNumber": "CS111B",
+            "courseTitle": "Programming Fundamentals: Java",
+            "courseUnits": "4.00"
+          },
+          {
+            "courseNumber": "CS110B",
+            "courseTitle": "Programming Fundamentals: C++",
+            "courseUnits": "4.00"
+          }
+        ],
+        "subject": "CPE",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "AND",
+        "courses": [
+          {
+            "courseNumber": "PHYC4C",
+            "courseTitle": "Waves and Thermodynamics for Scientists and Engineers",
+            "courseUnits": "3.00"
+          },
+          {
+            "courseNumber": "PHYC4CL",
+            "courseTitle": "Waves and Thermodynamics Laboratory for Scientists and Engineers",
+            "courseUnits": "1.00"
+          }
+        ],
+        "subject": "PHYS",
+        "uniqueClass": false
+      },
+      {
+        "conjunction": "OR",
+        "courses": [
+          {
+            "conjunction": null,
+            "courses": [
+              {
+                "courseNumber": "MATH130",
+                "courseTitle": "Linear Algebra and Differential Equations",
+                "courseUnits": "5.00"
+              }
+            ]
+          },
+          {
+            "conjunction": "AND",
+            "courses": [
+              {
+                "courseNumber": "MATH120",
+                "courseTitle": "Linear Algebra",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "MATH125",
+                "courseTitle": "Differential Equations",
+                "courseUnits": "3.00"
+              }
+            ]
+          }
+        ],
+        "subject": "MATH",
+        "uniqueClass": false
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE215."
+      },
+      {
+        "courses": [],
+        "note": "No articulation agreement found for EE245."
+      }
+    ]
+  },
+  "7": {
+    "courses": [
+      {
+        "conjunction": null,
+        "courses": [
+          {
+            "courseNumber": "MATH115",
+            "courseTitle": "Discrete Mathematics",
+            "courseUnits": "3.00"
+          }
+        ],
+        "subject": "CSC",
+        "uniqueClass": true
+      },
+      {
+        "subject": "Computer Architecture Course",
+        "course": [null, null],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: CPE315, or CPE333."
+      },
+      {
+        "subject": "Choose a Philosophy Course",
+        "course": [
+          {
+            "conjunction": "OR",
+            "courses": [
+              {
+                "courseNumber": "PHIL25A",
+                "courseTitle": "Ancient Philosophy",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL25C",
+                "courseTitle": "Modern Philosophy through Kant",
+                "courseUnits": "3.00"
+              },
+              {
+                "courseNumber": "PHIL4",
+                "courseTitle": "Introduction to Philosophy: Knowledge and Its Limits",
+                "courseUnits": "3.00"
+              }
+            ]
+          },
+          {
+            "conjunction": null,
+            "courses": []
+          }
+        ],
+        "uniqueClass": true,
+        "customDesc": "Choose one of the following: PHIL230, or PHIL231.\r\n\r\nRequired in Major/Support; also satisfies GE."
+      }
+    ]
+  }
+}

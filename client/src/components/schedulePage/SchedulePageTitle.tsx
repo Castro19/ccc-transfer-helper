@@ -1,29 +1,33 @@
 import { Fragment } from "react";
+import styles from "./SchedulePageTitle.module.css";
+import { MajorPair, Univ } from "@/types";
+// import { Univ } from "@/types";
 
 type SchedulePageTitleProps = {
-  selectedYear: string | null;
+  selectedYear: number | null;
   selectedCCC: string | null;
-  selectedTransferCollege: string | null;
-  selectedMajor: string | null;
+  selectedTransferCollege: string | Univ | null;
+  selectedMajor: MajorPair | string | null;
 };
 
 const SchedulePageTitle = ({
   selectedYear,
   selectedCCC,
   selectedTransferCollege,
-  selectedMajor
+  selectedMajor,
 }: SchedulePageTitleProps): JSX.Element => {
   return (
     <Fragment>
-      <h1 className="text-2xl font-bold text-center mt-4 mb-2">
-        {selectedTransferCollege}: {selectedMajor}
-      </h1>
-      <p className="text-center font-bold text-2xl text-gray-800 my-4">
-        Transferring from {selectedCCC}
-      </p>
-      <p className="text-center font-bold text-2xl text-gray-800 my-4">
-        Starting year: {selectedYear}
-      </p>
+      <div className={styles.container}>
+        <h1 className={styles.header}>
+          {selectedTransferCollege &&
+          typeof selectedTransferCollege === "object"
+            ? `${selectedTransferCollege.name}: ${selectedMajor}`
+            : `${selectedTransferCollege}: ${selectedMajor}`}
+        </h1>
+        <p className={styles.ccc}>Transferring from {selectedCCC}</p>
+        <p className={styles.year}>Starting year: {selectedYear}</p>
+      </div>
     </Fragment>
   );
 };

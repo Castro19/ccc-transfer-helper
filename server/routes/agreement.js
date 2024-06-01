@@ -40,8 +40,9 @@ router.get("/:codeId/:univCodeId/", async (req, res) => {
     const [code, id] = codeId.split("_");
     const [univCode, univId] = univCodeId.split("_");
 
+    // Eventually use the univ code and univ id when we have more universities
     const rawData = await fs.readFile(
-      `json_data/ccc_info/${code}_${id}/${univCode}_${univId}.json`,
+      `json_data/ccc_info/${code}_${id}/CPSLO_11.json`,
       "utf8"
     );
     const data = JSON.parse(rawData);

@@ -1,10 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import {
-  useState,
-  useContext,
-  createContext,
-  ReactNode
-} from "react";
+import { useState, useContext, createContext, ReactNode } from "react";
 import { Univ, MajorPair } from "@/types";
 import colleges from "@/assets/json_files/community_colleges.json";
 import { CollegeContextType } from "@/types";
@@ -13,12 +8,10 @@ interface CollegeProviderProps {
   children: ReactNode;
 }
 
-const CollegeContext = createContext<
-  CollegeContextType | undefined
->(undefined);
+const CollegeContext = createContext<CollegeContextType | undefined>(undefined);
 
 export const CollegeProvider = ({
-  children
+  children,
 }: CollegeProviderProps): JSX.Element => {
   // 1.) Define our state variables
   //  1a. Lists:
@@ -27,10 +20,10 @@ export const CollegeProvider = ({
   const [majorList, setMajorList] = useState<MajorPair[]>([]);
   //  1b. The 4 selected items from the homepage
   const [year, setYear] = useState<number | undefined>();
-  const [ccc, setCCC] = useState<Univ>();
+  const [ccc, setCCC] = useState<Univ | string>();
   useState<Univ>();
-  const [univ, setUniv] = useState<Univ | undefined>();
-  const [major, setMajor] = useState<MajorPair>();
+  const [univ, setUniv] = useState<Univ | string | undefined>();
+  const [major, setMajor] = useState<MajorPair | string>();
 
   // 2.) Selection Handler Functions: When the user selects from the dropdowns
   // 2a. Select their starting year
@@ -38,9 +31,7 @@ export const CollegeProvider = ({
     setYear(Number(collegeYear));
   };
   // 2b. Select their CCC
-  const handleSelectedCommunityCollege = async (
-    collegeCode: string
-  ) => {
+  const handleSelectedCommunityCollege = async (collegeCode: string) => {
     console.log("CCC CODE: ", collegeCode);
     const chosenCommunityCollege = CCCList.find(
       (college) => college.code === collegeCode
@@ -49,22 +40,28 @@ export const CollegeProvider = ({
     setCCC(chosenCommunityCollege);
   };
   // 2c. Select their Transfer University
-  const handleSelectedTransferCollege = (
-    collegeCode: string
-  ) => {
+  const handleSelectedTransferCollege = (collegeCode: string) => {
     const chosenTransferCollege = univList.find(
       (college) => college.code === collegeCode
     );
-    setUniv(chosenTransferCollege);
+    if (chosenTransferCollege) {
+      setUniv(chosenTransferCollege);
+    } else {
+      setUniv(collegeCode);
+    }
   };
 
   // 2d. Select their major
   const handleSelectedMajor = (collegeMajor: string) => {
+    console.log("MAJOR: ", collegeMajor);
     const chosenMajor: MajorPair | undefined = majorList.find(
       (major) => major.major === collegeMajor
     );
-
-    setMajor(chosenMajor);
+    if (chosenMajor) {
+      setMajor(chosenMajor);
+    } else {
+      setMajor(collegeMajor);
+    }
   };
 
   // 3. Create our provider and pass down the necessary values to it.
@@ -84,7 +81,7 @@ export const CollegeProvider = ({
         univList,
         setUnivList,
         majorList,
-        setMajorList
+        setMajorList,
       }}
     >
       {children}
@@ -96,9 +93,7 @@ export const CollegeProvider = ({
 export const useCollege = (): CollegeContextType => {
   const context = useContext(CollegeContext);
   if (!context) {
-    throw new Error(
-      "useCollege must be used within a CollegeProvider"
-    );
+    throw new Error("useCollege must be used within a CollegeProvider");
   }
   return context;
 };
