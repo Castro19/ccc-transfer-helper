@@ -18,6 +18,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    environment:
+      name: "production"
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -36,6 +40,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: "CCC-Transfers"
-          slot-name: "Production"
+          slot-name: "production"
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5C7239E2503D4DE489B1B58514D02DC4 }}
           package: ./server
