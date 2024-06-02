@@ -9,7 +9,7 @@ type paramsType = {
   year: string;
   ccc: string;
   cccCode: string;
-  college: string;
+  transferCollege: string;
   major: string;
 };
 type savedSchedule = {
@@ -29,7 +29,7 @@ const SavedSchedulesPage = (): JSX.Element => {
     return {
       id: schedule._id,
       ccc: schedule.params.ccc,
-      univ: schedule.params.college,
+      univ: schedule.params.transferCollege,
       major: schedule.params.major,
       year: schedule.params.year,
     };

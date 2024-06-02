@@ -74,7 +74,7 @@ const router = createBrowserRouter([
     loader: loadScheduleData,
   },
   {
-    path: "/schedule/:year/:ccc/:cccCode/:college/:major",
+    path: "/schedule/:year/:ccc/:cccCode/:transferCollege/:major",
     element: (
       <DndProvider backend={HTML5Backend}>
         <Layout>

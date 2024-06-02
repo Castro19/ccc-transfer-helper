@@ -37,7 +37,7 @@ type SavedScheduleData = {
     year: string;
     ccc: string;
     cccCode: string;
-    college: string;
+    transferCollege: string;
     major: string;
   };
 };
