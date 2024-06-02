@@ -3,7 +3,7 @@ import cors from "cors";
 import agreements from "./routes/agreement.js";
 import users from "./routes/user.js";
 import schedules from "./routes/schedule.js";
-const port = 8000;
+const port = 8080;
 const app = express();
 
 app.use(cors());
