@@ -1,4 +1,4 @@
-import { SemesterType, REACT_APP_API_URL } from "@/types";
+import { SemesterType } from "@/types";
 import { Params } from "react-router-dom";
 
 interface postScheduleReturnType {
@@ -22,7 +22,10 @@ export async function postSchedule(
       params,
     }),
   };
-  const response = await fetch(`${REACT_APP_API_URL}/schedules/`, options);
+  const response = await fetch(
+    `https://ccc-transfers.azurewebsites.net/schedules/`,
+    options
+  );
   const responseData = await response.json();
 
   if (!response.ok) {
@@ -49,7 +52,7 @@ export async function updateSchedule(
     }),
   };
   const response = await fetch(
-    `${REACT_APP_API_URL}/schedules/${scheduleId}`,
+    `https://ccc-transfers.azurewebsites.net/schedules/${scheduleId}`,
     options
   );
   const responseData = await response.json();
@@ -68,7 +71,7 @@ export async function deleteScheduleById(
 ): Promise<deleteScheduleReturnType> {
   try {
     const response = await fetch(
-      `${REACT_APP_API_URL}schedules/${scheduleId}`,
+      `https://ccc-transfers.azurewebsites.net/schedules/${scheduleId}`,
       {
         method: "DELETE",
       }

@@ -1,4 +1,3 @@
-import { REACT_APP_API_URL } from "@/types";
 import { LoaderFunction } from "react-router-dom";
 
 export const fetchScheduleData: LoaderFunction = async (args) => {
@@ -7,7 +6,7 @@ export const fetchScheduleData: LoaderFunction = async (args) => {
   const { cccCode, college, major } = params;
   try {
     const response = await fetch(
-      `${REACT_APP_API_URL}/schedules/${cccCode}/${college}/${major}/`
+      `https://ccc-transfers.azurewebsites.net/schedules/${cccCode}/${college}/${major}/`
     );
 
     const data = await response.json();
@@ -25,7 +24,7 @@ export const loadScheduleData: LoaderFunction = async (args) => {
 
   try {
     const response = await fetch(
-      `${REACT_APP_API_URL}/schedules/savedSchedule/${id}`
+      `https://ccc-transfers.azurewebsites.net/schedules/savedSchedule/${id}`
     );
     const responseData = await response.json();
     return responseData;

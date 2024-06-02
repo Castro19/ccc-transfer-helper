@@ -10,7 +10,6 @@ import {
   ActionCodeSettings,
 } from "firebase/auth";
 import { auth } from "./firebase";
-import { REACT_APP_API_URL } from "@/types";
 // Assuming 'auth' is properly typed in its definition module
 
 export const doCreateUserWithEmailAndPassword = async (
@@ -34,7 +33,10 @@ export const doCreateUserWithEmailAndPassword = async (
         firebaseUserId,
       }),
     };
-    const response = await fetch(`${REACT_APP_API_URL}users/signup`, options);
+    const response = await fetch(
+      `https://ccc-transfers.azurewebsites.net/users/signup`,
+      options
+    );
     if (!response.ok) {
       const errorData = await response.json();
       console.error("Backend registration failed", errorData);
