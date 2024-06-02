@@ -41,6 +41,7 @@ jobs:
           VITE_FIREBASE_APP_ID: 1:514130736975:web:f6f306e9c114170104773a
           VITE_FIREBASE_MEASUREMENT_ID: G-5BPJ4HE4NG
           VITE_NODE_ENV: production
+          REACT_APP_API_URL: ccc-transfers.azurewebsites.net
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
