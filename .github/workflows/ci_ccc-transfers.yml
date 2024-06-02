@@ -29,7 +29,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: "CCC-Transfer"
+          app-name: "CCC-Transfers"
           slot-name: "Production"
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5C7239E2503D4DE489B1B58514D02DC4 }}
           package: ./server
