@@ -6,7 +6,7 @@ export const fetchScheduleData: LoaderFunction = async (args) => {
   const { cccCode, college, major } = params;
   try {
     const response = await fetch(
-      `http://localhost:8000/schedules/${cccCode}/${college}/${major}/`
+      `REACT_APP_API_URL/schedules/${cccCode}/${college}/${major}/`
     );
 
     const data = await response.json();
@@ -24,7 +24,7 @@ export const loadScheduleData: LoaderFunction = async (args) => {
 
   try {
     const response = await fetch(
-      `http://localhost:8000/schedules/savedSchedule/${id}`
+      `REACT_APP_API_URL/schedules/savedSchedule/${id}`
     );
     const responseData = await response.json();
     return responseData;

@@ -33,7 +33,7 @@ export const doCreateUserWithEmailAndPassword = async (
         firebaseUserId,
       }),
     };
-    const response = await fetch("http://localhost:8000/users/signup", options);
+    const response = await fetch("REACT_APP_API_URL/users/signup", options);
     if (!response.ok) {
       const errorData = await response.json();
       console.error("Backend registration failed", errorData);
