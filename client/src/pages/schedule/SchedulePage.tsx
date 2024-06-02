@@ -51,14 +51,16 @@ const SchedulePage = (): JSX.Element => {
     if (initialData.savedSchedule) {
       handleSelectedYear(initialData.savedSchedule.params.year);
       handleSelectedCommunityCollege(initialData.savedSchedule.params.cccCode);
-      handleSelectedTransferCollege(initialData.savedSchedule.params.college);
+      handleSelectedTransferCollege(
+        initialData.savedSchedule.params.transferCollege
+      );
       handleSelectedMajor(initialData.savedSchedule.params.major);
       initSchedule(initialData.savedSchedule.schedule);
       updateIsNew(false);
     } else {
       handleSelectedYear(params.year);
       handleSelectedCommunityCollege(params.cccCode);
-      handleSelectedTransferCollege(params.college);
+      handleSelectedTransferCollege(params.transferCollege);
       handleSelectedMajor(params.major);
       initSchedule(initialSemesters); // Ensure initialSemesters is defined
     }

@@ -4,8 +4,10 @@ import { useCollege } from "@/contexts/collegeContext";
 import { fetchPDF } from "./getAssistData";
 import { UnivHome } from "@/types";
 import { useLayout } from "@/contexts";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = (): JSX.Element => {
+  const navigate = useNavigate();
   // Context Variables
   const { year, ccc, univ, major } = useCollege() as UnivHome;
   const { handleSidebarVisibility } = useLayout();
@@ -33,9 +35,10 @@ const HomePage = (): JSX.Element => {
       const majorParam = encodeURIComponent(major.major);
 
       const url = `/schedule/${year}/${cccParam}/${cccCode}/${transferCollegeParam}/${majorParam}`;
-      const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+      navigate(url);
+      // const newWindow = window.open(url, "_blank", "noopener,noreferrer");
 
-      if (newWindow) newWindow.opener = null;
+      // if (newWindow) newWindow.opener = null;
     }
   };
 
