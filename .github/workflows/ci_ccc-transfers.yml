@@ -5,7 +5,7 @@ name: Deploy Node.js server to Azure Web App - ccc-transfers
 on:
   push:
     branches:
-      - main # Or your main branch name
+      - ci # Or your main branch name
   workflow_dispatch:
 
 jobs:
