@@ -1,5 +1,6 @@
-import { SemesterType } from "@/types";
+import { SemesterType, REACT_APP_API_URL } from "@/types";
 import { Params } from "react-router-dom";
+
 interface postScheduleReturnType {
   message: string;
   scheduleId: string;
@@ -21,7 +22,7 @@ export async function postSchedule(
       params,
     }),
   };
-  const response = await fetch(`REACT_APP_API_URL/schedules/`, options);
+  const response = await fetch(`${REACT_APP_API_URL}/schedules/`, options);
   const responseData = await response.json();
 
   if (!response.ok) {
@@ -48,7 +49,7 @@ export async function updateSchedule(
     }),
   };
   const response = await fetch(
-    `REACT_APP_API_URL/schedules/${scheduleId}`,
+    `${REACT_APP_API_URL}/schedules/${scheduleId}`,
     options
   );
   const responseData = await response.json();
@@ -66,9 +67,12 @@ export async function deleteScheduleById(
   scheduleId: string
 ): Promise<deleteScheduleReturnType> {
   try {
-    const response = await fetch(`REACT_APP_API_URL/schedules/${scheduleId}`, {
-      method: "DELETE",
-    });
+    const response = await fetch(
+      `${REACT_APP_API_URL}schedules/${scheduleId}`,
+      {
+        method: "DELETE",
+      }
+    );
     if (!response.ok) {
       const errorData = await response.json();
       throw new Error("" + errorData.message);

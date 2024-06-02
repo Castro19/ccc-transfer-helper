@@ -1,3 +1,4 @@
+import { REACT_APP_API_URL } from "@/types";
 import { LoaderFunction } from "react-router-dom";
 
 const fetchSchedules: LoaderFunction = async (args) => {
@@ -7,7 +8,7 @@ const fetchSchedules: LoaderFunction = async (args) => {
   const { userId } = params;
 
   try {
-    const response = await fetch(`REACT_APP_API_URL/schedules/${userId}/`);
+    const response = await fetch(`${REACT_APP_API_URL}/schedules/${userId}/`);
     if (!response.ok) {
       const errorData = await response.json();
       throw new Error("" + errorData.message);

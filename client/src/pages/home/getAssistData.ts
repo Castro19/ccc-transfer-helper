@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-import { Univ } from "@/types";
+import { Univ, REACT_APP_API_URL } from "@/types";
 export async function fetchColleges(): Promise<Univ[]> {
+  console.log("REACT app url: ", REACT_APP_API_URL);
   try {
-    const response = await fetch("REACT_APP_API_URL/agreements");
+    const response = await fetch(`${REACT_APP_API_URL}/agreements`);
     if (!response.ok) {
       throw new Error("Error fetching Community College Classes");
     }
@@ -19,7 +20,7 @@ export async function fetchColleges(): Promise<Univ[]> {
 export default async function fetchUnivsById(ccc_info: Univ | string) {
   try {
     const response = await fetch(
-      `REACT_APP_API_URL/agreements/${ccc_info["code"]}_${ccc_info["id"]}/`
+      `${REACT_APP_API_URL}/agreements/${ccc_info["code"]}_${ccc_info["id"]}/`
     );
     if (!response.ok) {
       throw new Error("University Section Newtwork Problem");
@@ -34,7 +35,7 @@ export default async function fetchUnivsById(ccc_info: Univ | string) {
 export async function fetchMajors(ccc_info: Univ | string, univ_info: Univ) {
   try {
     const response = await fetch(
-      `REACT_APP_API_URL/agreements/${ccc_info["code"]}_${ccc_info["id"]}/${univ_info["code"]}_${univ_info["id"]}/`
+      `${REACT_APP_API_URL}/agreements/${ccc_info["code"]}_${ccc_info["id"]}/${univ_info["code"]}_${univ_info["id"]}/`
     );
     if (!response.ok) {
       throw new Error("Trouble Fetching list of majors");
