@@ -1,60 +1,79 @@
-name: Azure Static Web Apps CI/CD
+name: Build and deploy Node.js app to Azure Web App - CCCTransfers
 
 on:
   push:
     branches:
-      - main
       - ci
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
-  build_and_deploy_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+  build:
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js version
+        uses: actions/setup-node@v3
         with:
-          submodules: true
-          lfs: false
-      - name: Build And Deploy
-        id: builddeploy
-        uses: Azure/static-web-apps-deploy@v1
+          node-version: "20"
+
+      - name: Install server dependencies
+        run: npm install
+        working-directory: server
+
+      - name: Zip server artifact for deployment
+        run: zip -r release.zip .
+        working-directory: server
+
+      - name: Upload server artifact for deployment job
+        uses: actions/upload-artifact@v3
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_RIVER_08637AB1E }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
-          action: "upload"
-          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
-          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "./client" # App source code path
-          api_location: "" # Api source code path - optional
-          output_location: "build" # Built app content directory - optional
-          ###### End of Repository/Build Configurations ######
+          name: node-server-app
+          path: server/release.zip
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: "production"
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v3
+        with:
+          name: node-server-app
+
+      - name: Unzip server artifact for deployment
+        run: unzip release.zip
+
+      - name: Create Deployment
+        id: create_deployment
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/${{ github.repository }}/deployments
+          ref: ${{ github.ref }}
+          environment: "production"
+          description: "Deploying to Azure Web App"
+          auto_merge: false
+          required_contexts: "[]" # Making sure it's recognized as a JSON array
         env:
-          VITE_FIREBASE_API_KEY: AIzaSyDXL8f4EA6k5zRBmaLOtvVZK6Q19PHn3hM
-          VITE_FIREBASE_AUTH_DOMAIN: ccc-transfers.firebaseapp.com
-          VITE_FIREBASE_PROJECT_ID: ccc-transfers
-          VITE_FIREBASE_STORAGE_BUCKET: ccc-transfers.appspot.com
-          VITE_FIREBASE_MESSAGING_SENDER_ID: 514130736975
-          VITE_FIREBASE_APP_ID: 1:514130736975:web:f6f306e9c114170104773a
-          VITE_FIREBASE_MEASUREMENT_ID: G-5BPJ4HE4NG
-          VITE_NODE_ENV: production
-          VITE_APP_API_URL: ccc-transfers.azurewebsites.net
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  close_pull_request_job:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
-    runs-on: ubuntu-latest
-    name: Close Pull Request Job
-    steps:
-      - name: Close Pull Request
-        id: closepullrequest
-        uses: Azure/static-web-apps-deploy@v1
+      - name: "Deploy to Azure Web App"
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_RIVER_08637AB1E }}
-          action: "close"
-          app_location: "./client" # App source code path
-          output_location: "build" # Built app content directory
+          app-name: "CCCTransfers"
+          slot-name: "production"
+          package: .
 
+      - name: Update Deployment Status
+        if: always()
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/${{ github.repository }}/deployments/${{ steps.create_deployment.outputs.id }}/statuses
+          state: ${{ job.status == 'success' && 'success' || 'failure' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
