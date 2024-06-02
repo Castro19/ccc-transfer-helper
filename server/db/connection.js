@@ -5,7 +5,7 @@ dotenv.config();
 
 // eslint-disable-next-line no-undef
 const URI = process.env.ATLAS_URI || "";
-console.log("URI: ", URI);
+console.log("Atlas URI: ", URI);
 const client = new MongoClient(URI, {
   serverApi: {
     version: ServerApiVersion.v1,
