@@ -32,6 +32,16 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
+      env:
+        VITE_FIREBASE_API_KEY: AIzaSyDXL8f4EA6k5zRBmaLOtvVZK6Q19PHn3hM
+        VITE_FIREBASE_AUTH_DOMAIN: ccc-transfers.firebaseapp.com
+        VITE_FIREBASE_PROJECT_ID: ccc-transfers
+        VITE_FIREBASE_STORAGE_BUCKET: ccc-transfers.appspot.com
+        VITE_FIREBASE_MESSAGING_SENDER_ID: 514130736975
+        VITE_FIREBASE_APP_ID: 1:514130736975:web:f6f306e9c114170104773a
+        VITE_FIREBASE_MEASUREMENT_ID: G-5BPJ4HE4NG
+        VITE_NODE_ENV: production
+
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
