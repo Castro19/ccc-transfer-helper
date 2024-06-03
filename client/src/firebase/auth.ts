@@ -33,7 +33,10 @@ export const doCreateUserWithEmailAndPassword = async (
         firebaseUserId,
       }),
     };
-    const response = await fetch("http://localhost:8000/users/signup", options);
+    const response = await fetch(
+      `https://ccc-transfers.azurewebsites.net/users/signup`,
+      options
+    );
     if (!response.ok) {
       const errorData = await response.json();
       console.error("Backend registration failed", errorData);

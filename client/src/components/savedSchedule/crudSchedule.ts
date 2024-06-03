@@ -1,5 +1,6 @@
 import { SemesterType } from "@/types";
 import { Params } from "react-router-dom";
+
 interface postScheduleReturnType {
   message: string;
   scheduleId: string;
@@ -21,7 +22,10 @@ export async function postSchedule(
       params,
     }),
   };
-  const response = await fetch(`http://localhost:8000/schedules/`, options);
+  const response = await fetch(
+    `https://ccc-transfers.azurewebsites.net/schedules/`,
+    options
+  );
   const responseData = await response.json();
 
   if (!response.ok) {
@@ -48,7 +52,7 @@ export async function updateSchedule(
     }),
   };
   const response = await fetch(
-    `http://localhost:8000/schedules/${scheduleId}`,
+    `https://ccc-transfers.azurewebsites.net/schedules/${scheduleId}`,
     options
   );
   const responseData = await response.json();
@@ -67,8 +71,10 @@ export async function deleteScheduleById(
 ): Promise<deleteScheduleReturnType> {
   try {
     const response = await fetch(
-      `http://localhost:8000/schedules/${scheduleId}`,
-      { method: "DELETE" }
+      `https://ccc-transfers.azurewebsites.net/schedules/${scheduleId}`,
+      {
+        method: "DELETE",
+      }
     );
     if (!response.ok) {
       const errorData = await response.json();

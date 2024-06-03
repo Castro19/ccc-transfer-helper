@@ -1,7 +1,10 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { Univ } from "@/types";
 export async function fetchColleges(): Promise<Univ[]> {
   try {
-    const response = await fetch("http://localhost:8000/agreements");
+    const response = await fetch(
+      "https://ccc-transfers.azurewebsites.net/agreements"
+    );
     if (!response.ok) {
       throw new Error("Error fetching Community College Classes");
     }
@@ -18,7 +21,7 @@ export async function fetchColleges(): Promise<Univ[]> {
 export default async function fetchUnivsById(ccc_info: Univ | string) {
   try {
     const response = await fetch(
-      `http://localhost:8000/agreements/${ccc_info["code"]}_${ccc_info["id"]}/`
+      `https://ccc-transfers.azurewebsites.net/agreements/${ccc_info["code"]}_${ccc_info["id"]}/`
     );
     if (!response.ok) {
       throw new Error("University Section Newtwork Problem");
@@ -33,7 +36,7 @@ export default async function fetchUnivsById(ccc_info: Univ | string) {
 export async function fetchMajors(ccc_info: Univ | string, univ_info: Univ) {
   try {
     const response = await fetch(
-      `http://localhost:8000/agreements/${ccc_info["code"]}_${ccc_info["id"]}/${univ_info["code"]}_${univ_info["id"]}/`
+      `https://ccc-transfers.azurewebsites.net/agreements/${ccc_info["code"]}_${ccc_info["id"]}/${univ_info["code"]}_${univ_info["id"]}/`
     );
     if (!response.ok) {
       throw new Error("Trouble Fetching list of majors");
@@ -51,7 +54,7 @@ function getPDFUrl(key: string | number): string {
   } else {
     const parts = key.split("/");
     if (parts.length === 6) {
-      const [year, agreement, , institution, , guid] = parts;
+      const [year, agreement, , institution] = parts;
       return `https://assist.org/transfer/results?year=${year}&institution=${institution}&agreement=${agreement}&agreementType=from&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=${encodeURIComponent(
         key
       )}`;

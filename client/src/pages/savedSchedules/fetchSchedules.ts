@@ -1,18 +1,15 @@
-interface fetchScheduleDataParams {
-  params: {
-    userId: string;
-  };
-}
+import { LoaderFunction } from "react-router-dom";
 
-export default async function fetchSchedules({
-  params,
-}: fetchScheduleDataParams) {
+const fetchSchedules: LoaderFunction = async (args) => {
+  const { params } = args;
   console.log("PARAMS:", params);
 
   const { userId } = params;
 
   try {
-    const response = await fetch(`http://localhost:8000/schedules/${userId}/`);
+    const response = await fetch(
+      `https://ccc-transfers.azurewebsites.net/schedules/${userId}/`
+    );
     if (!response.ok) {
       const errorData = await response.json();
       throw new Error("" + errorData.message);
@@ -22,4 +19,6 @@ export default async function fetchSchedules({
   } catch (error) {
     throw new Error("Failed to fetch schedule data");
   }
-}
+};
+
+export default fetchSchedules;

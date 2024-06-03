@@ -1,8 +1,6 @@
 import globals from "globals";
 import pluginJs from "@eslint/js";
 import pluginPrettier from "eslint-plugin-prettier";
-import pluginReactConfig from "eslint-plugin-react/configs/recommended.js";
-import { fixupConfigRules } from "@eslint/compat";
 
 export default [
   {
@@ -10,7 +8,6 @@ export default [
     files: ["**/*.js", "**/*.jsx"],
   },
   pluginJs.configs.recommended,
-  ...fixupConfigRules(pluginReactConfig),
   {
     plugins: {
       prettier: pluginPrettier,

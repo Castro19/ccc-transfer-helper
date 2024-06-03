@@ -1,10 +1,11 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 import dotenv from "dotenv";
-
 dotenv.config();
 
+// eslint-disable-next-line no-undef
+console.log("Atlas URI: ", process.env.ATLAS_URI);
+// eslint-disable-next-line no-undef
 const URI = process.env.ATLAS_URI || "";
-console.log("URI: ", URI);
 const client = new MongoClient(URI, {
   serverApi: {
     version: ServerApiVersion.v1,

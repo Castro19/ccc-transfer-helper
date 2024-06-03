@@ -1,5 +1,5 @@
 export type CourseType = {
-  courseTitle: string;
+  courseTitle?: string;
   id?: number;
   courseCode?: string | null;
   course?: string;
@@ -37,7 +37,7 @@ type SavedScheduleData = {
     year: string;
     ccc: string;
     cccCode: string;
-    college: string;
+    transferCollege: string;
     major: string;
   };
 };

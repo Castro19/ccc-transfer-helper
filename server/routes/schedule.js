@@ -18,7 +18,7 @@ import {
 
 const router = express.Router();
 
-router.get("/:ccc/:college/:major/", async (req, res) => {
+router.get("/:ccc/:transferCollege/:major/", async (req, res) => {
   let result = {};
   try {
     const { ccc, college, major } = req.params;

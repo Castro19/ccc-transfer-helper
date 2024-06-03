@@ -18,25 +18,45 @@ export const findUsedCourses = (schedule: SemesterType[]): Set<string> => {
   return usedCourses;
 }; // Recompute when schedule changes
 
-// Example function signature with updated return type
 export const findGeCompletion = (
   usedCourses: Set<string>,
   accordionData: GEAccordionArea[]
 ): GEAccordionArea[] => {
   const checkCompletion = (area: GEAccordionArea | GEAccordionSubArea) => {
-    if (
-      (area.requirements && area.requirements[1] === "class") ||
-      area.requirements.length === 0
-    ) {
+    if ("subAreas" in area) {
+      // Process subAreas only if 'area' is a GEAccordionArea
+      let totalUnits = 0;
+      let allSubAreasCompleted = true;
+
+      // Ensure that we are dealing with 'units' requirements
+      if (area.requirements[1] === "units") {
+        Object.keys(area.subAreas || {}).forEach((subAreaKey) => {
+          const subArea = area.subAreas[subAreaKey];
+          checkCompletion(subArea);
+          if (subArea.completed) {
+            subArea.completedCourses.forEach((course) => {
+              totalUnits += course.units;
+            });
+          } else {
+            // If not area D
+            if (area.requirements[0] !== 6) {
+              allSubAreasCompleted = false;
+            }
+          }
+        });
+
+        area.currentUnitCount = totalUnits;
+        area.completed =
+          allSubAreasCompleted && totalUnits >= area.requirements[0];
+      }
+    }
+
+    if ("subjects" in area) {
+      // This block handles subject-based completion, assuming it might be a GEAccordionArea
+      const subjects = area.subjects || {};
       const requiredClasses = area.requirements[0] || 1;
       const completedCourses: CompletedCourse[] = [];
       const completedSubjects: string[] = [];
-
-      Object.keys(area.subAreas || {}).forEach((subAreaKey) => {
-        checkCompletion(area.subAreas[subAreaKey]);
-      });
-
-      const subjects = area.subjects || {};
       Object.keys(subjects).forEach((subjectCode) => {
         subjects[subjectCode].forEach((course) => {
           if (usedCourses.has(course.course)) {
@@ -55,27 +75,6 @@ export const findGeCompletion = (
       area.completed = isCompleted;
       area.completedSubjects = completedSubjects;
       area.completedCourses = completedCourses;
-    } else if (area.requirements && area.requirements[1] === "units") {
-      let totalUnits = 0;
-      let allSubAreasCompleted = true;
-      Object.keys(area.subAreas || {}).forEach((subAreaKey) => {
-        const subArea = area.subAreas[subAreaKey];
-        checkCompletion(subArea);
-        if (subArea.completed) {
-          subArea.completedCourses.forEach((course) => {
-            totalUnits += course.units;
-          });
-        } else {
-          // If not area D
-          if (area.requirements[0] !== 6) {
-            allSubAreasCompleted = false;
-          }
-        }
-      });
-
-      area.currentUnitCount = totalUnits;
-      area.completed =
-        allSubAreasCompleted && totalUnits >= area.requirements[0];
     }
   };
 

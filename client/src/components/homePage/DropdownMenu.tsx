@@ -17,7 +17,7 @@ const DropdownMenu = ({
   isCollege,
   selectedValue,
 }: DropdownType): JSX.Element => {
-  const [position, setPosition] = useState("popper");
+  const [position, setPosition] = useState<"item-aligned" | "popper">("popper");
 
   useEffect(() => {
     const adjustDropdownPosition = () => {
@@ -27,8 +27,7 @@ const DropdownMenu = ({
         const viewportHeight = window.innerHeight;
         const bottomSpace = viewportHeight - rect.bottom;
         if (bottomSpace < 200) {
-          // 200px is arbitrary, adjust based on your needs
-          setPosition("top");
+          setPosition("item-aligned");
         } else {
           setPosition("popper");
         }
