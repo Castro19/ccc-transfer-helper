@@ -6,7 +6,7 @@ export const fetchScheduleData: LoaderFunction = async (args) => {
   const { cccCode, college, major } = params;
   try {
     const response = await fetch(
-      `https://ccc-transfers.azurewebsites.net/schedules/${cccCode}/${college}/${major}/`
+      `http://localhost:8080/schedules/${cccCode}/${college}/${major}/`
     );
 
     const data = await response.json();
@@ -24,7 +24,7 @@ export const loadScheduleData: LoaderFunction = async (args) => {
 
   try {
     const response = await fetch(
-      `https://ccc-transfers.azurewebsites.net/schedules/savedSchedule/${id}`
+      `http://localhost:8080/schedules/savedSchedule/${id}`
     );
     const responseData = await response.json();
     return responseData;

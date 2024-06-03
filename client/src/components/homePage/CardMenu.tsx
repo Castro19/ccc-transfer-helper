@@ -83,11 +83,13 @@ const CardMenu = ({
     <div>
       <Card>
         <CardHeader>
-          <div className="flex flex-col items-center">
-            <CardTitle>Input your Transfer Details</CardTitle>
+          <div className="self-center">
+            <CardTitle data-testid="home-title">
+              Input your Transfer Details
+            </CardTitle>
           </div>
         </CardHeader>
-        <CardContent>
+        <CardContent data-testid="home-card-content">
           <div className="flex flex-col items-center space-y-3.5">
             <DropdownMenu
               name="Year"
@@ -97,7 +99,7 @@ const CardMenu = ({
               isCollege={false}
             />
             <DropdownMenu
-              name="Community College"
+              name="Community-College"
               labelText="Choose your Community College"
               handleFunction={handleSelectedCommunityCollege}
               listOfItems={CCCList}
@@ -123,7 +125,9 @@ const CardMenu = ({
         </CardContent>
         <div className="flex flex-col space-y-3.5 w-10/12 mx-auto justify-center mb-10">
           <Button onClick={handlePDF}>Get PDF</Button>
-          <Button onClick={handleNewWindow}>Get Schedule</Button>
+          <Button onClick={handleNewWindow} data-testid="button-get-schedule">
+            Get Schedule
+          </Button>
         </div>
       </Card>
     </div>
