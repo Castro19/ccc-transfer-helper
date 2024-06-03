@@ -1,5 +1,4 @@
 import CardMenu from "@/components/homePage/CardMenu";
-import HomePageTitle from "@/components/homePage/HomePageTitle";
 import { useCollege } from "@/contexts/collegeContext";
 import { fetchPDF } from "./getAssistData";
 import { UnivHome } from "@/types";
