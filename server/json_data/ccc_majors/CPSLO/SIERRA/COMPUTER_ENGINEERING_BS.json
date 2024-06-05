@@ -1,0 +1,718 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Sierra College",
+    "major": "COMPUTER ENGINEERING, B.S.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CPE101",
+                        "courseTitle": "Fundamentals of Computer Science",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CSCI46",
+                        "courseTitle": "System Programming with C",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CSCI12",
+                        "courseTitle": "Programming Concepts and Methodology I",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CPE202",
+                        "courseTitle": "Data Structures",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSCI13",
+                        "courseTitle": "Programming Concepts and Methodology II",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CPE203",
+                        "courseTitle": "Project-Based Object-Oriented Programming and Design",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSCI13",
+                        "courseTitle": "Programming Concepts and Methodology II",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CPE101",
+                        "courseTitle": "Fundamentals of Computer Science",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CPE202",
+                        "courseTitle": "Data Structures",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CPE203",
+                        "courseTitle": "Project-Based Object-Oriented Programming and Design",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CPE123",
+                        "courseTitle": "Introduction to Computing",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CPE133",
+                        "courseTitle": "Digital Design",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CPE233",
+                        "courseTitle": "Computer Design and Assembly Language Programming",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EE115",
+                        "courseTitle": "Electrical and Electronic Circuits I",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EE145",
+                        "courseTitle": "Electrical and Electronic Circuits I Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EE215",
+                        "courseTitle": "Electrical and Electronic Circuits II",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EE245",
+                        "courseTitle": "Electrical and Electronic Circuits II Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM124",
+                        "courseTitle": "General Chemistry for Physical Science and Engineering I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM1A",
+                                "courseTitle": "General Chemistry I",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM3A",
+                                "courseTitle": "General Chemistry I - Part 1",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "CHEM3B",
+                                "courseTitle": "General Chemistry I - Part 2",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH30",
+                        "courseTitle": "Analytical Geometry and Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH31",
+                        "courseTitle": "Analytical Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH31",
+                        "courseTitle": "Analytical Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH32",
+                        "courseTitle": "Analytical Geometry and Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH30",
+                        "courseTitle": "Analytical Geometry and Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH31",
+                        "courseTitle": "Analytical Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH30",
+                        "courseTitle": "Analytical Geometry and Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH31",
+                        "courseTitle": "Analytical Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH30",
+                        "courseTitle": "Analytical Geometry and Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH31",
+                        "courseTitle": "Analytical Geometry and Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH32",
+                        "courseTitle": "Analytical Geometry and Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH244",
+                        "courseTitle": "Linear Analysis I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH33",
+                        "courseTitle": "Differential Equations and Linear Algebra",
+                        "courseUnits": "6.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS141",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS205",
+                        "courseTitle": "Principles of Physics: Mechanics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS205L",
+                        "courseTitle": "Principles of Physics Laboratory: Mechanics",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS215",
+                        "courseTitle": "Principles of Physics: Heat, Waves and Modern Physics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHYS215L",
+                        "courseTitle": "Principles of Physics Laboratory: Heat, Waves and Modern Physics",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS143",
+                        "courseTitle": "General Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS210",
+                        "courseTitle": "Principles of Physics: Electricity and Magnetism",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHYS210L",
+                        "courseTitle": "Principles of Physics Laboratory: Electricity and Magnetism",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS141",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS141",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS143",
+                        "courseTitle": "General Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS205",
+                        "courseTitle": "Principles of Physics: Mechanics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS205L",
+                        "courseTitle": "Principles of Physics Laboratory: Mechanics",
+                        "courseUnits": "1.00"
+                    },
+                    {
+                        "courseNumber": "PHYS215",
+                        "courseTitle": "Principles of Physics: Heat, Waves and Modern Physics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHYS215L",
+                        "courseTitle": "Principles of Physics Laboratory: Heat, Waves and Modern Physics",
+                        "courseUnits": "1.00"
+                    },
+                    {
+                        "courseNumber": "PHYS210",
+                        "courseTitle": "Principles of Physics: Electricity and Magnetism",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHYS210L",
+                        "courseTitle": "Principles of Physics Laboratory: Electricity and Magnetism",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL20",
+                        "courseTitle": "History of Ancient Greek Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL21",
+                        "courseTitle": "History of Modern Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL2",
+                        "courseTitle": "Introduction to Philosophy: Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL6",
+                        "courseTitle": "Introduction to Philosophy: Knowledge and Reality",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL2",
+                        "courseTitle": "Introduction to Philosophy: Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL6",
+                        "courseTitle": "Introduction to Philosophy: Knowledge and Reality",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL20",
+                        "courseTitle": "History of Ancient Greek Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL21",
+                        "courseTitle": "History of Modern Philosophy",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

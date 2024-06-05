@@ -1,0 +1,736 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Modesto Junior College",
+    "major": "PLANT SCIENCES, B.S.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC101",
+                        "courseTitle": "Orientation to Horticulture and Crop Science",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC120",
+                        "courseTitle": "Principles of Horticulture and Crop Science",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "EHS210",
+                        "courseTitle": "Introduction to Environmental Horticulture Science",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PLSC200",
+                        "courseTitle": "Introduction to Plant Science",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC124",
+                        "courseTitle": "Plant Propagation",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PLSC235",
+                        "courseTitle": "Plant Propagation/Production",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "EHS235",
+                        "courseTitle": "Plant Propagation/Production",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BOT121",
+                        "courseTitle": "General Botany",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BOT101",
+                        "courseTitle": "General Botany",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SS120",
+                        "courseTitle": "Introductory Soil Science",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "NR200",
+                        "courseTitle": "Soils",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM127",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM101",
+                        "courseTitle": "General Chemistry 1",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM128",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM101",
+                        "courseTitle": "General Chemistry 1",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM102",
+                        "courseTitle": "General Chemistry 2",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH118",
+                        "courseTitle": "Pre-Calculus Algebra",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH121",
+                        "courseTitle": "Pre-Calculus 1",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH111",
+                        "courseTitle": "College Algebra",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATH162",
+                        "courseTitle": "Precalculus",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SS221",
+                        "courseTitle": "Soil Health and Plant Nutrition",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC250",
+                        "courseTitle": "Plant Nutrition and Fertilizers",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "STAT218",
+                        "courseTitle": "Applied Statistics for the Life Sciences",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH134",
+                        "courseTitle": "Elementary Statistics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN101",
+                        "courseTitle": "Elementary Spanish I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN101",
+                        "courseTitle": "Spanish 1",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN102",
+                        "courseTitle": "Elementary Spanish II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "SPAN101",
+                        "courseTitle": "Spanish 1",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "SPAN102",
+                        "courseTitle": "Spanish 2",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN103",
+                        "courseTitle": "Elementary Spanish III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN102",
+                        "courseTitle": "Spanish 2",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN111",
+                        "courseTitle": "Elementary Hispanic Language and Culture",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AGB212",
+                        "courseTitle": "Agricultural Economics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AGEC210",
+                        "courseTitle": "Elements of Agricultural Economics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC123",
+                        "courseTitle": "Landscape Installation and Maintenance",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EHS276",
+                        "courseTitle": "Landscape Maintenance",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC126",
+                        "courseTitle": "Landscape Construction",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EHS278",
+                        "courseTitle": "Landscape Construction and Installation",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC127",
+                        "courseTitle": "Horticulture and Landscape Design",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EHS215",
+                        "courseTitle": "Landscape Design",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC132",
+                        "courseTitle": "Pomology I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC133",
+                        "courseTitle": "Pomology II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC150",
+                        "courseTitle": "Forage Crops",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC205",
+                        "courseTitle": "Field Crops",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC175",
+                        "courseTitle": "Beekeeping",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC190",
+                        "courseTitle": "California Vegetable Production",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC215",
+                        "courseTitle": "Vegetable Crops",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC215",
+                        "courseTitle": "Floral Design I",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EHS280",
+                        "courseTitle": "Principles of Floral Art and Design",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC225",
+                        "courseTitle": "Floral Design II",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EHS281",
+                        "courseTitle": "Advanced Floral Design",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC233",
+                        "courseTitle": "Plant Materials I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EHS201",
+                        "courseTitle": "Plant Identification and Usage 1",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC234",
+                        "courseTitle": "Plant Materials II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EHS202",
+                        "courseTitle": "Plant Identification and Usage 2",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC240",
+                        "courseTitle": "Commercial Seed Production",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC244",
+                        "courseTitle": "Precision Farming",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PLSC245",
+                        "courseTitle": "Horticultural Production Techniques",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "FSN275",
+                        "courseTitle": "Elements of Food Safety",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MCRO221",
+                        "courseTitle": "Microbiology",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MICRO101",
+                        "courseTitle": "Microbiology",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "WVIT233",
+                        "courseTitle": "Basic Viticulture",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AGB214",
+                        "courseTitle": "Agribusiness Financial Accounting",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUS212",
+                        "courseTitle": "Financial Accounting for Nonbusiness Majors",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,405 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Mission College",
+    "major": "ECONOMICS, B.S.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ECON221",
+                        "courseTitle": "Microeconomics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ECN001B",
+                        "courseTitle": "Principles of Microeconomics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ECON222",
+                        "courseTitle": "Macroeconomics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ECN001A",
+                        "courseTitle": "Principles of Macroeconomics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "ECON221",
+                        "courseTitle": "Microeconomics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "ECON222",
+                        "courseTitle": "Macroeconomics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "ECN001B",
+                        "courseTitle": "Principles of Microeconomics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "ECN001A",
+                        "courseTitle": "Principles of Macroeconomics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUS207",
+                        "courseTitle": "Legal Responsibilities of Business",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUS028A",
+                        "courseTitle": "Business Law I",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUS214",
+                        "courseTitle": "Financial Accounting",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ACC001A",
+                        "courseTitle": "Financial Accounting",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUS215",
+                        "courseTitle": "Managerial Accounting",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ACC001B",
+                        "courseTitle": "Managerial Accounting",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MAT003A",
+                        "courseTitle": "Analytic Geometry and Calculus I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC101",
+                        "courseTitle": "Fundamentals of Computer Science",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CIS043",
+                        "courseTitle": "Software Development with Java",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "EGR030",
+                        "courseTitle": "Introduction to Computing for Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC101",
+                        "courseTitle": "Fundamentals of Computer Science",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CIS043",
+                        "courseTitle": "Software Development with Java",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "EGR030",
+                        "courseTitle": "Introduction to Computing for Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MAT003B",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH206",
+                        "courseTitle": "Linear Algebra I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MAT004C",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MAT004A",
+                        "courseTitle": "Multivariable Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH242",
+                        "courseTitle": "Differential Equations I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MAT004B",
+                        "courseTitle": "Differential Equations",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH244",
+                        "courseTitle": "Linear Analysis I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MAT004B",
+                        "courseTitle": "Differential Equations",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MAT004C",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH248",
+                        "courseTitle": "Methods of Proof in Mathematics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ITP233",
+                        "courseTitle": "Product Modeling and Communication",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ITP234",
+                        "courseTitle": "Packaging Design Fundamentals",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        }
+    ]
+}

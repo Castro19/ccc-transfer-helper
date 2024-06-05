@@ -1,0 +1,580 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Reedley College",
+    "major": "BIOCHEMISTRY, B.S.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM124",
+                        "courseTitle": "General Chemistry for Physical Science and Engineering I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1A",
+                        "courseTitle": "General Chemistry",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM3A",
+                        "courseTitle": "Introductory General Chemistry",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM125",
+                        "courseTitle": "General Chemistry for Physical Science and Engineering II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1B",
+                        "courseTitle": "General Chemistry and Qualitative Analysis",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM126",
+                        "courseTitle": "General Chemistry for Physical Science and Engineering III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM1B",
+                        "courseTitle": "General Chemistry and Qualitative Analysis",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM216",
+                        "courseTitle": "Organic Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM8",
+                                "courseTitle": "Elementary Organic Chemistry",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "CHEM9",
+                                "courseTitle": "Elementary Organic Chemistry Laboratory",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM28A",
+                                "courseTitle": "Organic Chemistry I",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "CHEM29A",
+                                "courseTitle": "Organic Chemistry Laboratory I",
+                                "courseUnits": "2.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM217",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM28B",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CHEM29B",
+                        "courseTitle": "Organic Chemistry Laboratory II",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM218",
+                        "courseTitle": "Organic Chemistry III",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM216",
+                        "courseTitle": "Organic Chemistry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM217",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM8",
+                                "courseTitle": "Elementary Organic Chemistry",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "CHEM9",
+                                "courseTitle": "Elementary Organic Chemistry Laboratory",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "CHEM28B",
+                                "courseTitle": "Organic Chemistry II",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "CHEM29B",
+                                "courseTitle": "Organic Chemistry Laboratory II",
+                                "courseUnits": "2.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEM28A",
+                                "courseTitle": "Organic Chemistry I",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "CHEM29A",
+                                "courseTitle": "Organic Chemistry Laboratory I",
+                                "courseUnits": "2.00"
+                            },
+                            {
+                                "courseNumber": "CHEM28B",
+                                "courseTitle": "Organic Chemistry II",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "CHEM29B",
+                                "courseTitle": "Organic Chemistry Laboratory II",
+                                "courseUnits": "2.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM216",
+                        "courseTitle": "Organic Chemistry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM217",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM218",
+                        "courseTitle": "Organic Chemistry III",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM221",
+                        "courseTitle": "Organic Chemistry Laboratory II",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO161",
+                        "courseTitle": "Introduction to Cell and Molecular Biology",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIOL11A",
+                        "courseTitle": "Biology for Science Majors I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH5A",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH5B",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH5B",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH5A",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH5B",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH5A",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH5B",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MCRO224",
+                        "courseTitle": "General Microbiology I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIOL31",
+                        "courseTitle": "Microbiology",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS141",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4A",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4A",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS4B",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS4C",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS143",
+                        "courseTitle": "General Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4B",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS141",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS143",
+                        "courseTitle": "General Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS4A",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS4C",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS4B",
+                        "courseTitle": "Physics for Scientists and Engineers",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

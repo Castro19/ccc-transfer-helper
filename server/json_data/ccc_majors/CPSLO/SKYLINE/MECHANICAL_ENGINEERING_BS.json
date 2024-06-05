@@ -1,0 +1,921 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Skyline College",
+    "major": "MECHANICAL ENGINEERING, B.S.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME128",
+                        "courseTitle": "Introduction to Mechanical Engineering I",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME129",
+                        "courseTitle": "Introduction to Mechanical Engineering II",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME130",
+                        "courseTitle": "Introduction to Mechanical Engineering III",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "ME129",
+                        "courseTitle": "Introduction to Mechanical Engineering II",
+                        "courseUnits": "1.00"
+                    },
+                    {
+                        "courseNumber": "ME130",
+                        "courseTitle": "Introduction to Mechanical Engineering III",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME211",
+                        "courseTitle": "Engineering Statics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR230",
+                        "courseTitle": "Statics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME212",
+                        "courseTitle": "Engineering Dynamics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR240",
+                        "courseTitle": "Engineering Dynamics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME234",
+                        "courseTitle": "Philosophy of Design",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME236",
+                        "courseTitle": "Measurements and Engineering Data Analysis",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME251",
+                        "courseTitle": "Introduction to Detailed Design with Solid Modeling",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CE204",
+                        "courseTitle": "Mechanics of Materials I",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CE204",
+                        "courseTitle": "Mechanics of Materials I",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CE207",
+                        "courseTitle": "Mechanics of Materials II",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CE207",
+                        "courseTitle": "Mechanics of Materials II",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM124",
+                        "courseTitle": "General Chemistry for Physical Science and Engineering I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM210",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM125",
+                        "courseTitle": "General Chemistry for Physical Science and Engineering II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM220",
+                        "courseTitle": "General Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM124",
+                        "courseTitle": "General Chemistry for Physical Science and Engineering I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM125",
+                        "courseTitle": "General Chemistry for Physical Science and Engineering II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM210",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM220",
+                        "courseTitle": "General Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EE201",
+                        "courseTitle": "Electric Circuit Theory",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EE251",
+                        "courseTitle": "Electric Circuits Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR261",
+                        "courseTitle": "Circuits and Devices Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "EE201",
+                        "courseTitle": "Electric Circuit Theory",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "EE251",
+                        "courseTitle": "Electric Circuits Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "ENGR260",
+                        "courseTitle": "Circuits and Devices",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ENGR261",
+                        "courseTitle": "Circuits and Devices Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "IME142",
+                        "courseTitle": "Manufacturing Processes: Materials Joining",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATE210",
+                        "courseTitle": "Materials Engineering",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATE215",
+                        "courseTitle": "Materials Laboratory I",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATE210",
+                        "courseTitle": "Materials Engineering",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATE215",
+                        "courseTitle": "Materials Laboratory I",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR270",
+                        "courseTitle": "Materials Science",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH251",
+                        "courseTitle": "Calculus with Analytic Geometry I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH252",
+                        "courseTitle": "Calculus with Analytic Geometry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH252",
+                        "courseTitle": "Calculus with Analytic Geometry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH253",
+                        "courseTitle": "Calculus with Analytic Geometry III",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH244",
+                        "courseTitle": "Linear Analysis I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH275",
+                        "courseTitle": "Ordinary Differential Equations",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATH270",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH251",
+                        "courseTitle": "Calculus with Analytic Geometry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH252",
+                        "courseTitle": "Calculus with Analytic Geometry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH251",
+                        "courseTitle": "Calculus with Analytic Geometry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH252",
+                        "courseTitle": "Calculus with Analytic Geometry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH251",
+                        "courseTitle": "Calculus with Analytic Geometry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH252",
+                        "courseTitle": "Calculus with Analytic Geometry II",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH253",
+                        "courseTitle": "Calculus with Analytic Geometry III",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS141",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS250",
+                        "courseTitle": "Physics with Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS143",
+                        "courseTitle": "General Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS260",
+                        "courseTitle": "Physics with Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS141",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS143",
+                        "courseTitle": "General Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS250",
+                        "courseTitle": "Physics with Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS270",
+                        "courseTitle": "Physics with Calculus III",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS260",
+                        "courseTitle": "Physics with Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC231",
+                        "courseTitle": "Programming for Engineering Students",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR215",
+                        "courseTitle": "Computational Methods for Engineers and Scientists",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC234",
+                        "courseTitle": "C and UNIX",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "COMP250",
+                        "courseTitle": "Intro to Object-Oriented Programming: C++",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "IME143",
+                        "courseTitle": "Manufacturing Processes: Material Removal",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "IME145",
+                        "courseTitle": "Subtractive Manufacturing Processes for Mechanical Designs I",
+                        "courseUnits": "1.00"
+                    },
+                    {
+                        "courseNumber": "IME146",
+                        "courseTitle": "Subtractive Manufacturing Processes for Mechanical Designs II",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "IME141",
+                        "courseTitle": "Manufacturing Processes: Net Shape",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME161",
+                        "courseTitle": "Introduction to Composite Materials Manufacturing",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EE255",
+                        "courseTitle": "Energy Conversion Electromagnetics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EE295",
+                        "courseTitle": "Energy Conversion Electromagnetics Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        }
+    ]
+}

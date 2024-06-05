@@ -1,0 +1,703 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Glendale Community College",
+    "major": "MATHEMATICS, B.S",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH103",
+                        "courseTitle": "Calculus and Analytic Geometry",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH104",
+                        "courseTitle": "Calculus and Analytic Geometry",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH104H",
+                        "courseTitle": "Honors Calculus and Analytic Geometry",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH104",
+                        "courseTitle": "Calculus and Analytic Geometry",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH104H",
+                        "courseTitle": "Honors Calculus and Analytic Geometry",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH103",
+                                "courseTitle": "Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH104",
+                                "courseTitle": "Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH103H",
+                                "courseTitle": "Honors Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH104H",
+                                "courseTitle": "Honors Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH103",
+                                "courseTitle": "Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH104",
+                                "courseTitle": "Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH103H",
+                                "courseTitle": "Honors Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH104H",
+                                "courseTitle": "Honors Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH103",
+                                "courseTitle": "Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH104",
+                                "courseTitle": "Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH105",
+                                "courseTitle": "Multivariable and Vector Calculus",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH103H",
+                                "courseTitle": "Honors Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH104H",
+                                "courseTitle": "Honors Calculus and Analytic Geometry",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH105H",
+                                "courseTitle": "Honors Multivariable and Vector Calculus",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH202",
+                        "courseTitle": "Orientation to the Mathematics Major",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH105",
+                        "courseTitle": "Multivariable and Vector Calculus",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH105H",
+                        "courseTitle": "Honors Multivariable and Vector Calculus",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH242",
+                        "courseTitle": "Differential Equations I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH108",
+                        "courseTitle": "Ordinary Differential Equations",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH108H",
+                        "courseTitle": "Honors Ordinary Differential Equations",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH206",
+                        "courseTitle": "Linear Algebra I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH242",
+                        "courseTitle": "Differential Equations I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH108",
+                                "courseTitle": "Ordinary Differential Equations",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH107",
+                                "courseTitle": "Linear Algebra",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH108H",
+                                "courseTitle": "Honors Ordinary Differential Equations",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH107H",
+                                "courseTitle": "Honors Linear Algebra",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH206",
+                        "courseTitle": "Linear Algebra I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH107",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH107H",
+                        "courseTitle": "Honors Linear Algebra",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH248",
+                        "courseTitle": "Methods of Proof in Mathematics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC101",
+                        "courseTitle": "Fundamentals of Computer Science",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CS/IS135",
+                        "courseTitle": "Programming in C/C++",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CS/IS139",
+                        "courseTitle": "JAVA",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS141",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHY101",
+                        "courseTitle": "Physics for Scientists and Engineers: A",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHY101",
+                        "courseTitle": "Physics for Scientists and Engineers: A",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "PHY103",
+                        "courseTitle": "Physics for Scientists and Engineers: C",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS143",
+                        "courseTitle": "General Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHY102",
+                        "courseTitle": "Physics for Scientists and Engineers: B",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC202",
+                        "courseTitle": "Data Structures",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS/IS211",
+                        "courseTitle": "Data Structures",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC203",
+                        "courseTitle": "Project-Based Object-Oriented Programming and Design",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS/IS137",
+                        "courseTitle": "C++ and Advanced Topics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC225",
+                        "courseTitle": "Introduction to Computer Organization",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS/IS165",
+                        "courseTitle": "Computer Architecture and Assembly Language",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME211",
+                        "courseTitle": "Engineering Statics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR152",
+                        "courseTitle": "Engineering Mechanics - Statics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME212",
+                        "courseTitle": "Engineering Dynamics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGR230",
+                        "courseTitle": "Dynamics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHY101",
+                        "courseTitle": "Physics for Scientists and Engineers: A",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "PHY103",
+                        "courseTitle": "Physics for Scientists and Engineers: C",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS143",
+                        "courseTitle": "General Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHY102",
+                        "courseTitle": "Physics for Scientists and Engineers: B",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS211",
+                        "courseTitle": "Modern Physics I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        }
+    ]
+}

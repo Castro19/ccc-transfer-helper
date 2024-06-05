@@ -1,0 +1,153 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Fullerton College",
+    "major": "SPANISH, B.A.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN201",
+                        "courseTitle": "Intermediate Spanish I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN202",
+                        "courseTitle": "Intermediate Spanish II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "SPAN201",
+                        "courseTitle": "Intermediate Spanish I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "SPAN202",
+                        "courseTitle": "Intermediate Spanish II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "SPAN203F",
+                        "courseTitle": "Intermediate Spanish III",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "SPAN204F",
+                        "courseTitle": "Intermediate Spanish IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN203",
+                        "courseTitle": "Intermediate Spanish III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN206",
+                        "courseTitle": "Spanish for Heritage Speakers",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN201F",
+                        "courseTitle": "Spanish for the Spanish Speaker",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN207",
+                        "courseTitle": "Introduction to Spanish Linguistics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN233",
+                        "courseTitle": "Introduction to Hispanic Readings",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "SPAN205F",
+                        "courseTitle": "Introduction to Spanish Literature",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "SPAN206F",
+                        "courseTitle": "Introduction to Latin American Literature",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

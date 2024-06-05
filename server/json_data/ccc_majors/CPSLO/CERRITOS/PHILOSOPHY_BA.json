@@ -1,0 +1,184 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Cerritos College",
+    "major": "PHILOSOPHY, B.A.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL101",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL100",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL102",
+                        "courseTitle": "Introduction to Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL130",
+                        "courseTitle": "History of Ancient Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL140",
+                        "courseTitle": "History of Modern Philosophy",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL126",
+                        "courseTitle": "Logic and Argumentative Writing",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL106",
+                        "courseTitle": "Introduction to Logic",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL130",
+                        "courseTitle": "History of Ancient Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL140",
+                        "courseTitle": "History of Modern Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL102",
+                        "courseTitle": "Introduction to Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL100",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL102",
+                        "courseTitle": "Introduction to Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL100",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL130",
+                        "courseTitle": "History of Ancient Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL140",
+                        "courseTitle": "History of Modern Philosophy",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL241",
+                        "courseTitle": "Symbolic Logic",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL160",
+                        "courseTitle": "Symbolic Logic",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

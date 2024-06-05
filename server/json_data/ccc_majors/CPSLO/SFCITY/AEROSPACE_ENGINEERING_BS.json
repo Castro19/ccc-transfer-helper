@@ -1,0 +1,710 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "City College of San Francisco",
+    "major": "AEROSPACE ENGINEERING, B.S.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AERO121",
+                        "courseTitle": "Aerospace Fundamentals",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AERO215",
+                        "courseTitle": "Introduction to Aerospace Design",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AERO220",
+                        "courseTitle": "Aerospace Systems Engineering and Integration",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "AERO299",
+                        "courseTitle": "Aerospace Thermodynamics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CE204",
+                        "courseTitle": "Mechanics of Materials I",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CE207",
+                        "courseTitle": "Mechanics of Materials II",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CE204",
+                        "courseTitle": "Mechanics of Materials I",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CE207",
+                        "courseTitle": "Mechanics of Materials II",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CE208",
+                        "courseTitle": "Mechanics of Materials",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EE201",
+                        "courseTitle": "Electric Circuit Theory",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGN20",
+                        "courseTitle": "Introduction to Circuit Analysis",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "EE251",
+                        "courseTitle": "Electric Circuits Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGN20L",
+                        "courseTitle": "Introduction to Circuit Analysis Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "EE201",
+                        "courseTitle": "Electric Circuit Theory",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "EE251",
+                        "courseTitle": "Electric Circuits Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "ENGN20",
+                        "courseTitle": "Introduction to Circuit Analysis",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "ENGN20L",
+                        "courseTitle": "Introduction to Circuit Analysis Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM124",
+                        "courseTitle": "General Chemistry for Physical Science and Engineering I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM103A",
+                        "courseTitle": "General Chemistry for Engineering",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM101A",
+                        "courseTitle": "General College Chemistry",
+                        "courseUnits": "6.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "IME144",
+                        "courseTitle": "Introduction to Design and Manufacturing",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATE210",
+                        "courseTitle": "Materials Engineering",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGN45",
+                        "courseTitle": "Materials Science",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH110A",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH110B",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH110B",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH110C",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH244",
+                        "courseTitle": "Linear Analysis I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "MATH130",
+                                "courseTitle": "Linear Algebra and Differential Equations",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH120",
+                                "courseTitle": "Linear Algebra",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "MATH125",
+                                "courseTitle": "Differential Equations",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH110A",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH110B",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH110A",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH110B",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH110A",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH110B",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH110C",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME211",
+                        "courseTitle": "Engineering Statics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGN36",
+                        "courseTitle": "Engineering Mechanics - Statics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ME212",
+                        "courseTitle": "Engineering Dynamics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ENGN37",
+                        "courseTitle": "Engineering Mechanics - Dynamics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS141",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYC4A",
+                        "courseTitle": "Classical Mechanics for Scientists and Engineers",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHYC4AL",
+                        "courseTitle": "Mechanics Laboratory for Scientists and Engineers",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYC4C",
+                        "courseTitle": "Waves and Thermodynamics for Scientists and Engineers",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHYC4CL",
+                        "courseTitle": "Waves and Thermodynamics Laboratory for Scientists and Engineers",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS143",
+                        "courseTitle": "General Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYC4B",
+                        "courseTitle": "Electromagnetism for Scientists and Engineers",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHYC4BL",
+                        "courseTitle": "Electromagnetism Laboratory for Scientists and Engineers",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS141",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS142",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS143",
+                        "courseTitle": "General Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYC4A",
+                        "courseTitle": "Classical Mechanics for Scientists and Engineers",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHYC4AL",
+                        "courseTitle": "Mechanics Laboratory for Scientists and Engineers",
+                        "courseUnits": "1.00"
+                    },
+                    {
+                        "courseNumber": "PHYC4C",
+                        "courseTitle": "Waves and Thermodynamics for Scientists and Engineers",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHYC4CL",
+                        "courseTitle": "Waves and Thermodynamics Laboratory for Scientists and Engineers",
+                        "courseUnits": "1.00"
+                    },
+                    {
+                        "courseNumber": "PHYC4B",
+                        "courseTitle": "Electromagnetism for Scientists and Engineers",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHYC4BL",
+                        "courseTitle": "Electromagnetism Laboratory for Scientists and Engineers",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

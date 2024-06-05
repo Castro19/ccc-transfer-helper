@@ -1,0 +1,847 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Moorpark College",
+    "major": "MICROBIOLOGY, B.S.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO150",
+                        "courseTitle": "Diversity and the History of Life",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIOLM02B",
+                        "courseTitle": "General Biology II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO161",
+                        "courseTitle": "Introduction to Cell and Molecular Biology",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BIOLM02A",
+                        "courseTitle": "General Biology I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "BIOLM02AH",
+                        "courseTitle": "Honors: General Biology I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "BIO150",
+                        "courseTitle": "Diversity and the History of Life",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "BIO161",
+                        "courseTitle": "Introduction to Cell and Molecular Biology",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "BIOLM02A",
+                        "courseTitle": "General Biology I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "BIOLM02B",
+                        "courseTitle": "General Biology II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO263",
+                        "courseTitle": "Introductory Ecology and Evolution",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MCRO224",
+                        "courseTitle": "General Microbiology I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MICRM01",
+                        "courseTitle": "General Microbiology",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MCRO225",
+                        "courseTitle": "General Microbiology II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM127",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CHEMM01A",
+                        "courseTitle": "General Chemistry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEMM01AH",
+                        "courseTitle": "Honors: General Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM128",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEMM01B",
+                        "courseTitle": "General Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM129",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEMM01B",
+                        "courseTitle": "General Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM127",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM128",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEMM01A",
+                                "courseTitle": "General Chemistry I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "CHEMM01B",
+                                "courseTitle": "General Chemistry II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEMM01AH",
+                                "courseTitle": "Honors: General Chemistry I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "CHEMM01B",
+                                "courseTitle": "General Chemistry II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM128",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM129",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEMM01A",
+                                "courseTitle": "General Chemistry I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "CHEMM01B",
+                                "courseTitle": "General Chemistry II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEMM01AH",
+                                "courseTitle": "Honors: General Chemistry I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "CHEMM01B",
+                                "courseTitle": "General Chemistry II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM127",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM128",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM129",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEMM01A",
+                                "courseTitle": "General Chemistry I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "CHEMM01B",
+                                "courseTitle": "General Chemistry II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "CHEMM01AH",
+                                "courseTitle": "Honors: General Chemistry I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "CHEMM01B",
+                                "courseTitle": "General Chemistry II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM216",
+                        "courseTitle": "Organic Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEMM07A",
+                        "courseTitle": "Organic Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM217",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEMM07B",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM216",
+                        "courseTitle": "Organic Chemistry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM217",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEMM07A",
+                        "courseTitle": "Organic Chemistry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEMM07B",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM220",
+                        "courseTitle": "Organic Chemistry Laboratory for Life Sciences II",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH161",
+                        "courseTitle": "Calculus for the Life Sciences I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHM16A",
+                        "courseTitle": "Applied Calculus I",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATHM25A",
+                        "courseTitle": "Calculus with Analytic Geometry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATHM25AH",
+                        "courseTitle": "Honors: Calculus with Analytic Geometry I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS121",
+                        "courseTitle": "College Physics I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYSM10A",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM10AL",
+                        "courseTitle": "General Physics I Lab",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS122",
+                        "courseTitle": "College Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS123",
+                        "courseTitle": "College Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYSM10B",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM10BL",
+                        "courseTitle": "General Physics II Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS121",
+                        "courseTitle": "College Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS122",
+                        "courseTitle": "College Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYSM10A",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM10AL",
+                        "courseTitle": "General Physics I Lab",
+                        "courseUnits": "1.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM10B",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM10BL",
+                        "courseTitle": "General Physics II Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS121",
+                        "courseTitle": "College Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS122",
+                        "courseTitle": "College Physics II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS123",
+                        "courseTitle": "College Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYSM10A",
+                        "courseTitle": "General Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM10AL",
+                        "courseTitle": "General Physics I Lab",
+                        "courseUnits": "1.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM10B",
+                        "courseTitle": "General Physics II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYSM10BL",
+                        "courseTitle": "General Physics II Laboratory",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "STAT218",
+                        "courseTitle": "Applied Statistics for the Life Sciences",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHM15",
+                        "courseTitle": "Introductory Statistics",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATHM15H",
+                        "courseTitle": "Honors: Introductory Statistics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ASCI203",
+                        "courseTitle": "Animal Parasitology",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO162",
+                        "courseTitle": "Introduction to Organismal Form and Function",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIOLM02B",
+                        "courseTitle": "General Biology II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO202",
+                        "courseTitle": "Orientation to Biotechnology",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BIOLM13",
+                        "courseTitle": "Introduction to Biotechnology & Molecular Biology",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "BIOTM10",
+                        "courseTitle": "Introduction to Biotechnology & Molecular Biology",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM218",
+                        "courseTitle": "Organic Chemistry III",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEMM07B",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM223",
+                        "courseTitle": "Organic Chemistry Laboratory for Life Sciences III",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "FSN230",
+                        "courseTitle": "Elements of Food Processing",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "FSN275",
+                        "courseTitle": "Elements of Food Safety",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH162",
+                        "courseTitle": "Calculus for the Life Sciences II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATHM16B",
+                        "courseTitle": "Applied Calculus II",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATHM25B",
+                        "courseTitle": "Calculus with Analytic Geometry II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

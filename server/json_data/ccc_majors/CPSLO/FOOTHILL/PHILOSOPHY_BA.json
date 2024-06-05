@@ -1,0 +1,169 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Foothill College",
+    "major": "PHILOSOPHY, B.A.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL101",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL4",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL20A",
+                        "courseTitle": "History of Western Philosophy from Socrates Through St. Thomas",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL20B",
+                        "courseTitle": "History of Western Philosophy from the Rennissance Through Kant",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL126",
+                        "courseTitle": "Logic and Argumentative Writing",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL1",
+                        "courseTitle": "Critical Thinking & Writing",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL20A",
+                        "courseTitle": "History of Western Philosophy from Socrates Through St. Thomas",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL20B",
+                        "courseTitle": "History of Western Philosophy from the Rennissance Through Kant",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL4",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL20B",
+                        "courseTitle": "History of Western Philosophy from the Rennissance Through Kant",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL4",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL20A",
+                        "courseTitle": "History of Western Philosophy from Socrates Through St. Thomas",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL241",
+                        "courseTitle": "Symbolic Logic",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL7",
+                        "courseTitle": "Introduction to Symbolic Logic",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

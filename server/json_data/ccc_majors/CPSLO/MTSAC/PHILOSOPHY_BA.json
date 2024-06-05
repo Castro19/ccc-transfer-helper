@@ -1,0 +1,162 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Mount San Antonio College",
+    "major": "PHILOSOPHY, B.A.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL101",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL126",
+                        "courseTitle": "Logic and Argumentative Writing",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL5",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL5H",
+                        "courseTitle": "Introduction to Philosophy - Honors",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL12",
+                        "courseTitle": "Introduction to Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL12H",
+                        "courseTitle": "Introduction to Ethics - Honors",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "PHIL5",
+                                "courseTitle": "Introduction to Philosophy",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL12",
+                                "courseTitle": "Introduction to Ethics",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "PHIL5H",
+                                "courseTitle": "Introduction to Philosophy - Honors",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHIL12H",
+                                "courseTitle": "Introduction to Ethics - Honors",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL241",
+                        "courseTitle": "Symbolic Logic",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        }
+    ]
+}

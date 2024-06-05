@@ -1,0 +1,708 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Napa Valley College",
+    "major": "MICROBIOLOGY, B.S.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO150",
+                        "courseTitle": "Diversity and the History of Life",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO161",
+                        "courseTitle": "Introduction to Cell and Molecular Biology",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIOL120",
+                        "courseTitle": "General Biology",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "BIO150",
+                        "courseTitle": "Diversity and the History of Life",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "BIO161",
+                        "courseTitle": "Introduction to Cell and Molecular Biology",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "BIOL120",
+                        "courseTitle": "General Biology",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "BIOL240",
+                        "courseTitle": "General Zoology",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "BIOL241",
+                        "courseTitle": "General Botany",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO263",
+                        "courseTitle": "Introductory Ecology and Evolution",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MCRO224",
+                        "courseTitle": "General Microbiology I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIOL220",
+                        "courseTitle": "General Microbiology",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MCRO225",
+                        "courseTitle": "General Microbiology II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM127",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM120",
+                        "courseTitle": "General Chemistry 1",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM128",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM121",
+                        "courseTitle": "General Chemistry 2",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM129",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM121",
+                        "courseTitle": "General Chemistry 2",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM127",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM128",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM120",
+                        "courseTitle": "General Chemistry 1",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM121",
+                        "courseTitle": "General Chemistry 2",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM128",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM129",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM120",
+                        "courseTitle": "General Chemistry 1",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM121",
+                        "courseTitle": "General Chemistry 2",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM127",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM128",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM129",
+                        "courseTitle": "General Chemistry for Agriculture and Life Science III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM120",
+                        "courseTitle": "General Chemistry 1",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM121",
+                        "courseTitle": "General Chemistry 2",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM216",
+                        "courseTitle": "Organic Chemistry I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM240",
+                        "courseTitle": "Organic Chemistry 1",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM217",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM241",
+                        "courseTitle": "Organic Chemistry 2",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM216",
+                        "courseTitle": "Organic Chemistry I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "CHEM217",
+                        "courseTitle": "Organic Chemistry II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CHEM240",
+                        "courseTitle": "Organic Chemistry 1",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CHEM241",
+                        "courseTitle": "Organic Chemistry 2",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM220",
+                        "courseTitle": "Organic Chemistry Laboratory for Life Sciences II",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH161",
+                        "courseTitle": "Calculus for the Life Sciences I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH115",
+                        "courseTitle": "Applied Calculus",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH120",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS121",
+                        "courseTitle": "College Physics I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS120",
+                        "courseTitle": "General Physics 1",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS122",
+                        "courseTitle": "College Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS123",
+                        "courseTitle": "College Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHYS121",
+                        "courseTitle": "General Physics 2",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS121",
+                        "courseTitle": "College Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS122",
+                        "courseTitle": "College Physics II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS120",
+                        "courseTitle": "General Physics 1",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS121",
+                        "courseTitle": "General Physics 2",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS121",
+                        "courseTitle": "College Physics I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS122",
+                        "courseTitle": "College Physics II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS123",
+                        "courseTitle": "College Physics III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHYS120",
+                        "courseTitle": "General Physics 1",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHYS121",
+                        "courseTitle": "General Physics 2",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "STAT218",
+                        "courseTitle": "Applied Statistics for the Life Sciences",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH232",
+                        "courseTitle": "Statistics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ASCI203",
+                        "courseTitle": "Animal Parasitology",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO162",
+                        "courseTitle": "Introduction to Organismal Form and Function",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BIO202",
+                        "courseTitle": "Orientation to Biotechnology",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM218",
+                        "courseTitle": "Organic Chemistry III",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHEM223",
+                        "courseTitle": "Organic Chemistry Laboratory for Life Sciences III",
+                        "courseUnits": "1.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "FSN230",
+                        "courseTitle": "Elements of Food Processing",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "FSN275",
+                        "courseTitle": "Elements of Food Safety",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH162",
+                        "courseTitle": "Calculus for the Life Sciences II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH121",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

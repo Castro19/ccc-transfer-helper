@@ -1,0 +1,476 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Irvine Valley College",
+    "major": "STATISTICS, B.S.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "STAT150",
+                        "courseTitle": "Introduction to the Discipline of Statistics",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH3A",
+                        "courseTitle": "Analytic Geometry and Calculus I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH3AH",
+                        "courseTitle": "Analytic Geometry and Calculus I Honors",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH3B",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH3BH",
+                        "courseTitle": "Analytic Geometry and Calculus II Honors",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH3B",
+                        "courseTitle": "Analytic Geometry and Calculus II",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH3BH",
+                        "courseTitle": "Analytic Geometry and Calculus II Honors",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH206",
+                        "courseTitle": "Linear Algebra I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH26",
+                        "courseTitle": "Introduction to Linear Algebra",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH4A",
+                        "courseTitle": "Analytic Geometry and Calculus III",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH3A",
+                                "courseTitle": "Analytic Geometry and Calculus I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH3B",
+                                "courseTitle": "Analytic Geometry and Calculus II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH3AH",
+                                "courseTitle": "Analytic Geometry and Calculus I Honors",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH3BH",
+                                "courseTitle": "Analytic Geometry and Calculus II Honors",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH3A",
+                                "courseTitle": "Analytic Geometry and Calculus I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH3B",
+                                "courseTitle": "Analytic Geometry and Calculus II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH3AH",
+                                "courseTitle": "Analytic Geometry and Calculus I Honors",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH3BH",
+                                "courseTitle": "Analytic Geometry and Calculus II Honors",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "MATH141",
+                        "courseTitle": "Calculus I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH3A",
+                                "courseTitle": "Analytic Geometry and Calculus I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH3B",
+                                "courseTitle": "Analytic Geometry and Calculus II",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH4A",
+                                "courseTitle": "Analytic Geometry and Calculus III",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "MATH3AH",
+                                "courseTitle": "Analytic Geometry and Calculus I Honors",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH3BH",
+                                "courseTitle": "Analytic Geometry and Calculus II Honors",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "MATH4A",
+                                "courseTitle": "Analytic Geometry and Calculus III",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC101",
+                        "courseTitle": "Fundamentals of Computer Science",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CS36",
+                        "courseTitle": "C Programming",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CS38",
+                        "courseTitle": "Java Programming",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH248",
+                        "courseTitle": "Methods of Proof in Mathematics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC202",
+                        "courseTitle": "Data Structures",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CS41",
+                        "courseTitle": "Data Structures",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC203",
+                        "courseTitle": "Project-Based Object-Oriented Programming and Design",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "CS38",
+                        "courseTitle": "Java Programming",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CS41",
+                        "courseTitle": "Data Structures",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC248",
+                        "courseTitle": "Discrete Structures",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CS6A",
+                        "courseTitle": "Computer Discrete Mathematics I",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATH30",
+                        "courseTitle": "Computer Discrete Mathematics I",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH242",
+                        "courseTitle": "Differential Equations I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH24",
+                        "courseTitle": "Elementary Differential Equations",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "MATH24H",
+                        "courseTitle": "Elementary Differential Equations Honors",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

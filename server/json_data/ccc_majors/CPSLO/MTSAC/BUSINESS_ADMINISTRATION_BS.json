@@ -1,0 +1,457 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Mount San Antonio College",
+    "major": "BUSINESS ADMINISTRATION, B.S.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUS206",
+                        "courseTitle": "Business Professionalism and Career Readiness",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUS207",
+                        "courseTitle": "Legal Responsibilities of Business",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "BUSL18",
+                        "courseTitle": "Business Law",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "BUSL19",
+                        "courseTitle": "Advanced Business Law",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUS214",
+                        "courseTitle": "Financial Accounting",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUSA7",
+                        "courseTitle": "Principles of Accounting - Financial",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUS215",
+                        "courseTitle": "Managerial Accounting",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "BUSA8",
+                        "courseTitle": "Principles of Accounting - Managerial",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ECON221",
+                        "courseTitle": "Microeconomics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BUSC1B",
+                        "courseTitle": "Principles of Economics - Microeconomics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "BUSC1BH",
+                        "courseTitle": "Principles of Economics - Microeconomics - Honors",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ECON222",
+                        "courseTitle": "Macroeconomics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "BUSC1A",
+                        "courseTitle": "Principles of Economics - Macroeconomics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "BUSC1AH",
+                        "courseTitle": "Principles of Economics - Macroeconomics - Honors",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH221",
+                        "courseTitle": "Calculus for Business and Economics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH140",
+                        "courseTitle": "Calculus for Business",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "STAT251",
+                        "courseTitle": "Statistical Inference for Management I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH110",
+                        "courseTitle": "Elementary Statistics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "MATH110H",
+                        "courseTitle": "Elementary Statistics - Honors",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "BUSC17",
+                        "courseTitle": "Applied Business Statistics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PSYC10",
+                        "courseTitle": "Statistics for the Behavioral Sciences",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "STAT252",
+                        "courseTitle": "Statistical Inference for Management II",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CSC101",
+                        "courseTitle": "Fundamentals of Computer Science",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "CISP31",
+                        "courseTitle": "Programming in C++",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "CSCI145",
+                        "courseTitle": "JAVA Language and Object Oriented Programming",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "CSCI110",
+                        "courseTitle": "Fundamentals of Computer Science",
+                        "courseUnits": "3.50"
+                    },
+                    {
+                        "courseNumber": "CSCI140",
+                        "courseTitle": "C++ Language and Object Development",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ITP233",
+                        "courseTitle": "Product Modeling and Communication",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ITP234",
+                        "courseTitle": "Packaging Design Fundamentals",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH142",
+                        "courseTitle": "Calculus II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH181",
+                        "courseTitle": "Calculus and Analytic Geometry II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH143",
+                        "courseTitle": "Calculus III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH181",
+                        "courseTitle": "Calculus and Analytic Geometry II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH206",
+                        "courseTitle": "Linear Algebra I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH285",
+                        "courseTitle": "Linear Algebra and Differential Equations",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH260",
+                        "courseTitle": "Linear Algebra",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH241",
+                        "courseTitle": "Calculus IV",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH280",
+                        "courseTitle": "Calculus and Analytic Geometry III",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH242",
+                        "courseTitle": "Differential Equations I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "MATH285",
+                        "courseTitle": "Linear Algebra and Differential Equations",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "MATH290",
+                        "courseTitle": "Differential Equations",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH244",
+                        "courseTitle": "Linear Analysis I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH285",
+                        "courseTitle": "Linear Algebra and Differential Equations",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH248",
+                        "courseTitle": "Methods of Proof in Mathematics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "MATH245",
+                        "courseTitle": "A Transition to Advanced Mathematics",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

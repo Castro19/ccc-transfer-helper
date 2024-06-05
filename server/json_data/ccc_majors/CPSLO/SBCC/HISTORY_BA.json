@@ -1,0 +1,414 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Santa Barbara City College",
+    "major": "HISTORY, B.A.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST100",
+                        "courseTitle": "Introduction to the Study of History",
+                        "courseUnits": "2.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST110",
+                        "courseTitle": "Western Civilization: Ancient to Renaissance",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST103",
+                        "courseTitle": "History of Western Civilization",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST111",
+                        "courseTitle": "Western Civilization: Reformation to the Present",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "HIST104",
+                        "courseTitle": "History of Western Civilization",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "HIST113H",
+                        "courseTitle": "History of Western Civilization: 1600 to Present, Honors",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "HIST110",
+                        "courseTitle": "Western Civilization: Ancient to Renaissance",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "HIST111",
+                        "courseTitle": "Western Civilization: Reformation to the Present",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": null,
+                        "courses": [
+                            {
+                                "courseNumber": "HIST113H",
+                                "courseTitle": "History of Western Civilization: 1600 to Present, Honors",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "HIST103",
+                                "courseTitle": "History of Western Civilization",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "HIST104",
+                                "courseTitle": "History of Western Civilization",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST201",
+                        "courseTitle": "United States History to 1865",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST202",
+                        "courseTitle": "United States History Since 1865",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "HIST201",
+                        "courseTitle": "United States History to 1865",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "HIST202",
+                        "courseTitle": "United States History Since 1865",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST213",
+                        "courseTitle": "Modern Political Economy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST210",
+                        "courseTitle": "World History I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST107",
+                        "courseTitle": "World Civilization, Beginnings to 1550",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST221",
+                        "courseTitle": "World History, Beginnings to 1000",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST107",
+                        "courseTitle": "World Civilization, Beginnings to 1550",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST222",
+                        "courseTitle": "World History, 1000 - 1800",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "HIST107",
+                        "courseTitle": "World Civilization, Beginnings to 1550",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "HIST108",
+                        "courseTitle": "World Civilization, 1550 to Present",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST223",
+                        "courseTitle": "World History, 1800 to Present",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "HIST108",
+                        "courseTitle": "World Civilization, 1550 to Present",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHIN201",
+                        "courseTitle": "Intermediate Mandarin Chinese I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "CHIN103",
+                        "courseTitle": "Intermediate Chinese",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "FR201",
+                        "courseTitle": "Intermediate French I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "FR103",
+                        "courseTitle": "Intermediate French I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "GER201",
+                        "courseTitle": "Intermediate German I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "GER103",
+                        "courseTitle": "Intermediate German I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ITAL201",
+                        "courseTitle": "Intermediate Italian I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "ITAL103",
+                        "courseTitle": "Intermediate Italian I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "JPNS201",
+                        "courseTitle": "Intermediate Japanese I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "JAPN103",
+                        "courseTitle": "Intermediate Japanese I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN201",
+                        "courseTitle": "Intermediate Spanish I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN103",
+                        "courseTitle": "Intermediate Spanish I",
+                        "courseUnits": "5.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

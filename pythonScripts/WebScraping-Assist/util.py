@@ -1,4 +1,4 @@
-from os import path
+from os import path, sep
 
 """
 
@@ -26,6 +26,25 @@ def construct_path(file_name: str, dir_levels_up: int = 0) -> str:
     str
         The full directory path including the given file name.
     """
-    dir_path_list = path.dirname(path.abspath(__file__)).split('/')
-    desired_dir = '/'.join(dir_path_list[:len(dir_path_list) - dir_levels_up])
-    return path.join(desired_dir, file_name)
+    dir_path_list = path.dirname(path.abspath(__file__)).split(sep)
+    # print(dir_path_list)
+    desired_dir = sep.join(dir_path_list[:len(dir_path_list) - dir_levels_up])
+    return path.join(desired_dir, file_name.replace('/', sep))
+
+
+def join_path(path_segments: list) -> str:
+    """
+    Construct a full file path by concatenating path segments
+    and deliniating them by a '/'.
+
+    Parameters
+    ---
+    path_segments: list
+        A list of strings to be joined.
+
+    Returns
+    ---
+    str
+        The concatenated file path.
+    """
+    return sep.join(path_segments)

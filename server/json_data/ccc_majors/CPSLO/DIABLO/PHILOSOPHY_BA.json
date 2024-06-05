@@ -1,0 +1,215 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Diablo Valley College",
+    "major": "PHILOSOPHY, B.A.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL101",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHILO120",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHILO122",
+                        "courseTitle": "Introduction to Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHILO224",
+                        "courseTitle": "History of Western Philosophy: Pre-Socratic to Medieval Period",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHILO225",
+                        "courseTitle": "History of Western Philosophy: Descartes to Present",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL126",
+                        "courseTitle": "Logic and Argumentative Writing",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHILO130",
+                        "courseTitle": "Logic and Critical Thinking",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHILO224",
+                        "courseTitle": "History of Western Philosophy: Pre-Socratic to Medieval Period",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHILO225",
+                        "courseTitle": "History of Western Philosophy: Descartes to Present",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHILO122",
+                        "courseTitle": "Introduction to Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHILO120",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHILO122",
+                        "courseTitle": "Introduction to Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHILO120",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHILO224",
+                        "courseTitle": "History of Western Philosophy: Pre-Socratic to Medieval Period",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHILO225",
+                        "courseTitle": "History of Western Philosophy: Descartes to Present",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "PHILO122",
+                                "courseTitle": "Introduction to Ethics",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHILO224",
+                                "courseTitle": "History of Western Philosophy: Pre-Socratic to Medieval Period",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "PHILO122",
+                                "courseTitle": "Introduction to Ethics",
+                                "courseUnits": "3.00"
+                            },
+                            {
+                                "courseNumber": "PHILO225",
+                                "courseTitle": "History of Western Philosophy: Descartes to Present",
+                                "courseUnits": "3.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL241",
+                        "courseTitle": "Symbolic Logic",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHILO170",
+                        "courseTitle": "Symbolic Logic",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        }
+    ]
+}

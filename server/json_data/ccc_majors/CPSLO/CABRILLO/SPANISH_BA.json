@@ -1,0 +1,189 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Cabrillo College",
+    "major": "SPANISH, B.A.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN201",
+                        "courseTitle": "Intermediate Spanish I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "SPAN3",
+                        "courseTitle": "Intermediate Spanish I",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "SPAN16",
+                        "courseTitle": "Elementary Spanish for Spanish Speakers I",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN202",
+                        "courseTitle": "Intermediate Spanish II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "SPAN4",
+                        "courseTitle": "Intermediate Spanish II",
+                        "courseUnits": "5.00"
+                    },
+                    {
+                        "courseNumber": "SPAN17",
+                        "courseTitle": "Elementary Spanish for Spanish Speakers II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "SPAN201",
+                        "courseTitle": "Intermediate Spanish I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "SPAN202",
+                        "courseTitle": "Intermediate Spanish II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "SPAN3",
+                                "courseTitle": "Intermediate Spanish I",
+                                "courseUnits": "5.00"
+                            },
+                            {
+                                "courseNumber": "SPAN4",
+                                "courseTitle": "Intermediate Spanish II",
+                                "courseUnits": "5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "conjunction": "AND",
+                        "courses": [
+                            {
+                                "courseNumber": "SPAN16",
+                                "courseTitle": "Elementary Spanish for Spanish Speakers I",
+                                "courseUnits": "4.00"
+                            },
+                            {
+                                "courseNumber": "SPAN17",
+                                "courseTitle": "Elementary Spanish for Spanish Speakers II",
+                                "courseUnits": "4.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN203",
+                        "courseTitle": "Intermediate Spanish III",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN206",
+                        "courseTitle": "Spanish for Heritage Speakers",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "SPAN16",
+                        "courseTitle": "Elementary Spanish for Spanish Speakers I",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "SPAN17",
+                        "courseTitle": "Elementary Spanish for Spanish Speakers II",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN207",
+                        "courseTitle": "Introduction to Spanish Linguistics",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "SPAN233",
+                        "courseTitle": "Introduction to Hispanic Readings",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        }
+    ]
+}

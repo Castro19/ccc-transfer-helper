@@ -1,0 +1,234 @@
+{
+    "academicYear": "2023-2024",
+    "receivingInstitution": "California Polytechnic University, San Luis Obispo",
+    "sendingInstitution": "Santa Barbara City College",
+    "major": "PHILOSOPHY, B.A.",
+    "agreements": [
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL101",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL100",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL100H",
+                        "courseTitle": "Introduction to Philosophy, Honors",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL101",
+                        "courseTitle": "Introduction to Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL101H",
+                        "courseTitle": "Introduction to Ethics, Honors",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL200",
+                        "courseTitle": "History of Philosophy: Ancient",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL201",
+                        "courseTitle": "History of Philosophy: Modern",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL203",
+                        "courseTitle": "History of Philosophy: Contemporary",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL126",
+                        "courseTitle": "Logic and Argumentative Writing",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL205",
+                        "courseTitle": "Introduction to Logic",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL111",
+                        "courseTitle": "Critical Thinking and Writing in Philosophy",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL200",
+                        "courseTitle": "History of Philosophy: Ancient",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL201",
+                        "courseTitle": "History of Philosophy: Modern",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL203",
+                        "courseTitle": "History of Philosophy: Contemporary",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL101",
+                        "courseTitle": "Introduction to Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL101H",
+                        "courseTitle": "Introduction to Ethics, Honors",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL100",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL100H",
+                        "courseTitle": "Introduction to Philosophy, Honors",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": "OR",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL101",
+                        "courseTitle": "Introduction to Ethics",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL101H",
+                        "courseTitle": "Introduction to Ethics, Honors",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL100",
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL101H",
+                        "courseTitle": "Introduction to Ethics, Honors",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL200",
+                        "courseTitle": "History of Philosophy: Ancient",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL201",
+                        "courseTitle": "History of Philosophy: Modern",
+                        "courseUnits": "3.00"
+                    },
+                    {
+                        "courseNumber": "PHIL203",
+                        "courseTitle": "History of Philosophy: Contemporary",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        },
+        {
+            "receving": {
+                "conjunction": "AND",
+                "courses": [
+                    {
+                        "courseNumber": "PHIL230",
+                        "courseTitle": "Philosophical Classics: Knowledge & Reality",
+                        "courseUnits": "4.00"
+                    },
+                    {
+                        "courseNumber": "PHIL231",
+                        "courseTitle": "Philosophical Classics: Ethics and Political Philosophy",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": []
+            }
+        },
+        {
+            "receving": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL241",
+                        "courseTitle": "Symbolic Logic",
+                        "courseUnits": "4.00"
+                    }
+                ]
+            },
+            "sending": {
+                "conjunction": null,
+                "courses": [
+                    {
+                        "courseNumber": "PHIL205",
+                        "courseTitle": "Introduction to Logic",
+                        "courseUnits": "3.00"
+                    }
+                ]
+            }
+        }
+    ]
+}
