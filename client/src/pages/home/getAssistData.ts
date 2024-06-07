@@ -2,9 +2,7 @@
 import { Univ } from "@/types";
 export async function fetchColleges(): Promise<Univ[]> {
   try {
-    const response = await fetch(
-      "https://ccc-transfers.azurewebsites.net/agreements"
-    );
+    const response = await fetch("http://localhost:8080/agreements");
     if (!response.ok) {
       throw new Error("Error fetching Community College Classes");
     }
@@ -21,7 +19,7 @@ export async function fetchColleges(): Promise<Univ[]> {
 export default async function fetchUnivsById(ccc_info: Univ | string) {
   try {
     const response = await fetch(
-      `https://ccc-transfers.azurewebsites.net/agreements/${ccc_info["code"]}_${ccc_info["id"]}/`
+      `http://localhost:8080/agreements/${ccc_info["code"]}_${ccc_info["id"]}/`
     );
     if (!response.ok) {
       throw new Error("University Section Newtwork Problem");
@@ -36,7 +34,7 @@ export default async function fetchUnivsById(ccc_info: Univ | string) {
 export async function fetchMajors(ccc_info: Univ | string, univ_info: Univ) {
   try {
     const response = await fetch(
-      `https://ccc-transfers.azurewebsites.net/agreements/${ccc_info["code"]}_${ccc_info["id"]}/${univ_info["code"]}_${univ_info["id"]}/`
+      `http://localhost:8080/agreements/${ccc_info["code"]}_${ccc_info["id"]}/${univ_info["code"]}_${univ_info["id"]}/`
     );
     if (!response.ok) {
       throw new Error("Trouble Fetching list of majors");

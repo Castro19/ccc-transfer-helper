@@ -1,5 +1,4 @@
 import CardMenu from "@/components/homePage/CardMenu";
-import HomePageTitle from "@/components/homePage/HomePageTitle";
 import { useCollege } from "@/contexts/collegeContext";
 import { fetchPDF } from "./getAssistData";
 import { UnivHome } from "@/types";
@@ -43,14 +42,9 @@ const HomePage = (): JSX.Element => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center">
-      <div className="space-y-6">
-        <HomePageTitle />
-        <div className="flex flex-col space-y-10">
-          <CardMenu handlePDF={handlePDF} handleNewWindow={handleNewWindow} />
-          {/* <PDFCard /> */}
-        </div>
-      </div>
+    <div className="w-full items-center justify-center">
+      <CardMenu handlePDF={handlePDF} handleNewWindow={handleNewWindow} />
+      {/* <PDFCard /> */}
     </div>
   );
 };

@@ -39,9 +39,15 @@ const SchedulePageTitle = ({
   return (
     <Fragment>
       <div className={styles.container}>
-        <h1 className={styles.header}>{formatMajor()}</h1>
-        <p className={styles.ccc}>Transferring from {selectedCCC}</p>
-        <p className={styles.year}>Starting year: {selectedYear}</p>
+        <h1 className={styles.header} data-testid="schedule-header">
+          {formatMajor()}
+        </h1>
+        <p className={styles.ccc} data-testid="schedule-ccc">
+          Transferring from {selectedCCC}
+        </p>
+        <p className={styles.year} data-testid="schedule-year">
+          Starting year: {selectedYear}
+        </p>
       </div>
     </Fragment>
   );
