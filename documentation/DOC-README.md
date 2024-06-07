@@ -6,7 +6,7 @@
 
 ## UML Diagrams using Firebase Auth and MongoDB Database
 
-### Class Diagram
+### Class Diagram (last updated: 6/4/2024)
 
 ![](/documentation/showcaseJSON/UML-class.png)
 
