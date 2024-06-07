@@ -11,6 +11,12 @@
     "start:server": "cd server && node server.js",
     "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
     "format": "prettier --write \"client/**/*.{js,jsx,ts,tsx,json,css,scss,md}\" && prettier --write \"server/**/*.{js,json,md}\"",
+    "format:client": "cd Client && npm run format",
+    "format:server": "cd server && npm run format",
+    "format:all": "npm run format:client && npm run format:server",
+    "lint:client": "cd Client && npm run lint",
+    "lint:server": "cd server && npm run lint",
+    "lint:all": "npm run lint:client && npm run lint:server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

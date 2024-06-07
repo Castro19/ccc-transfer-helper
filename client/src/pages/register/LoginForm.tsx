@@ -93,6 +93,7 @@ export function LoginFormDemo(): JSX.Element {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              data-testid="login-email"
             />
           </LabelInputContainer>
           <LabelInputContainer className="mb-4">
@@ -103,6 +104,7 @@ export function LoginFormDemo(): JSX.Element {
               type={passwordVisible ? "text" : "password"}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              data-testid="login-password"
             />
             <button
               type="button" // Ensure the button does not submit the form

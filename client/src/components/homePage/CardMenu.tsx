@@ -80,7 +80,7 @@ const CardMenu = ({
   }, [ccc, univ, setMajorList]);
 
   return (
-    <div>
+    <div className="w-full">
       <Card>
         <CardHeader>
           <div className="self-center">

@@ -4,6 +4,7 @@ import { fetchPDF } from "./getAssistData";
 import { UnivHome } from "@/types";
 import { useLayout } from "@/contexts";
 import { useNavigate } from "react-router-dom";
+import YouTubeEmbed from "@/components/homePage/YouTubeEmbed";
 
 const HomePage = (): JSX.Element => {
   const navigate = useNavigate();
@@ -42,8 +43,18 @@ const HomePage = (): JSX.Element => {
   };
 
   return (
-    <div className="w-full items-center justify-center">
-      <CardMenu handlePDF={handlePDF} handleNewWindow={handleNewWindow} />
+    <div className="w-full flex flex-col items-center justify-center">
+      <div className="w-full">
+        {" "}
+        {/* Ensuring the container takes full width */}
+        <CardMenu handlePDF={handlePDF} handleNewWindow={handleNewWindow} />
+      </div>
+      <div className="w-1/2 my-5">
+        <YouTubeEmbed
+          videoId="QdfzL8y1shs?si=IE6Ki6FfBbg_IRrt"
+          title="Demo Presentation"
+        />
+      </div>
       {/* <PDFCard /> */}
     </div>
   );

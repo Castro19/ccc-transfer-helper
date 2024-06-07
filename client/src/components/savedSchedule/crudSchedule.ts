@@ -22,7 +22,10 @@ export async function postSchedule(
       params,
     }),
   };
-  const response = await fetch(`http://localhost:8080/schedules/`, options);
+  const response = await fetch(
+    `hhttps://ccc-transfers.azurewebsites.net/schedules/`,
+    options
+  );
   const responseData = await response.json();
 
   if (!response.ok) {
@@ -49,7 +52,7 @@ export async function updateSchedule(
     }),
   };
   const response = await fetch(
-    `http://localhost:8080/schedules/${scheduleId}`,
+    `hhttps://ccc-transfers.azurewebsites.net/schedules/${scheduleId}`,
     options
   );
   const responseData = await response.json();
@@ -68,7 +71,7 @@ export async function deleteScheduleById(
 ): Promise<deleteScheduleReturnType> {
   try {
     const response = await fetch(
-      `http://localhost:8080/schedules/${scheduleId}`,
+      `hhttps://ccc-transfers.azurewebsites.net/schedules/${scheduleId}`,
       {
         method: "DELETE",
       }

@@ -125,6 +125,7 @@ export function SignupFormDemo(): JSX.Element {
                 type="text"
                 value={firstName}
                 onChange={(e) => setFirstName(e.target.value)}
+                data-testid="firstname-input"
               />
             </LabelInputContainer>
             <LabelInputContainer>
@@ -135,6 +136,7 @@ export function SignupFormDemo(): JSX.Element {
                 type="text"
                 value={lastName}
                 onChange={(e) => setLastName(e.target.value)}
+                data-testid="lastname-input"
               />
             </LabelInputContainer>
           </div>
@@ -146,6 +148,7 @@ export function SignupFormDemo(): JSX.Element {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              data-testid="email-input"
             />
           </LabelInputContainer>
           <LabelInputContainer className="mb-4">
@@ -156,6 +159,7 @@ export function SignupFormDemo(): JSX.Element {
               type={passwordVisible ? "text" : "password"}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              data-testid="password-input"
             />
             <button
               type="button"
@@ -174,6 +178,7 @@ export function SignupFormDemo(): JSX.Element {
               type={passwordVisible ? "text" : "password"}
               value={confirmedPassword}
               onChange={(e) => setConfirmedPassword(e.target.value)}
+              data-testid="confirm-password-input"
             />
           </LabelInputContainer>
           {signUpError ? <ErrorMessage text={signUpError} /> : <></>}
