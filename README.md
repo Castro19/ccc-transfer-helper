@@ -3,6 +3,7 @@
 ## Introduction
 
 - [Demo Video](https://www.youtube.com/watch?v=QdfzL8y1shs&t=79s&ab_channel=CristianCastroOliva)
+- [Documentation](./documentation/DOC-README.md)
 - This is the beginning of a project that will assist college transfers.
 - This will be an all-in-one transfer helper that will use the ASSIST.org to find the transfer agreement.
 
