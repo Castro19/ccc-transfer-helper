@@ -2,6 +2,7 @@
 
 ## Introduction
 
+- Web application can be accessed [here](https://calm-river-08637ab1e.5.azurestaticapps.net/)
 - [Demo Video](https://www.youtube.com/watch?v=QdfzL8y1shs&t=79s&ab_channel=CristianCastroOliva)
 - [Documentation](./documentation/DOC-README.md)
 - This is the beginning of a project that will assist college transfers.
@@ -23,6 +24,8 @@
 
 - View General Ed Completion and view what areas your current Schedule has completed (Completed)
 
+- Deployment on Microsoft Azure with client side on a web static app and server on a web app service. 
+
 - Generate Schedules rapidly with the click of a button! (In-Progress)
 
 ![Sign up](https://live.staticflickr.com/65535/53724683925_b2091ea94c.jpg)
@@ -34,6 +37,19 @@
 ![Schedule Page with Generate Schedule](https://live.staticflickr.com/65535/53724243191_b91293d5d7.jpg)
 
 ![SchedulePage with Sidebar](https://live.staticflickr.com/65535/53723348227_7be039c667.jpg)
+
+
+## Sign up / Login
+
+- This application will still work without a user being logged in, however, they won't be able to save any schedules that were created.
+- When a user is logged in they have the option to save, update, and delete schedules!
+- Authorization is possible in our web application using firebase. 
+
+### Instructions on how to create a new User
+
+- A new user can be created by two methods:
+1. **Google sign-in:** Using a google provider, we are able to have users log in using their google account. 
+2. **E-mail and password sign-in:** In the sign-up page, enter the information provided and create an account
 
 ## Installation & Set Up
 
