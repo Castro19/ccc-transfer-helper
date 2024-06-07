@@ -52,27 +52,19 @@ const DropdownMenu = ({
         <SelectTrigger id={name}>
           <SelectValue placeholder={name} />
         </SelectTrigger>
-        <SelectContent
-          position={position}
-          data-testid={`home-dropdown-${name}-list`}
-        >
+        <SelectContent position={position}>
           {isCollege
             ? listOfItems.map((value, index) => (
                 <SelectItem
                   key={index}
                   value={value.code}
                   onClick={() => handleFunction(value.code)}
-                  data-testid={`home-dropdown-${name}-item-${index}`}
                 >
                   {value.name} ({value.code})
                 </SelectItem>
               ))
             : listOfItems.map((value, index) => (
-                <SelectItem
-                  key={index}
-                  value={value}
-                  data-testid={`home-dropdown-${name}-item-${index}`}
-                >
+                <SelectItem key={index} value={value}>
                   {value}
                 </SelectItem>
               ))}
