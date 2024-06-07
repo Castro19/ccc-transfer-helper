@@ -1,6 +1,14 @@
 # Documentation
 
+## Initial Figma Design
+
+- [Figma Design](https://www.figma.com/design/tftWff6fnvOWCs5dLwbM6t/CCC-Transfer-Helper?node-id=0%3A1&t=PjQXHIfTIMYlWlok-1)
+
 ## UML Diagrams using Firebase Auth and MongoDB Database
+
+### Class Diagram
+
+![](/documentation/showcaseJSON/UML-class.png)
 
 ### Sign Up UML Diagram
 
