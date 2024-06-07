@@ -128,3 +128,5 @@ We welcome contributions to our project! To ensure a consistent code style and q
 #### ESLint Configuration: Server
 
 - The ESLint configuartion for the **server-side** code is defined in the file [`server/eslint.config.js`](https://github.com/Castro19/ccc-transfer-helper/blob/TE4/server/eslint.config.js)
+#### Figma Prototype
+- https://www.figma.com/design/tftWff6fnvOWCs5dLwbM6t/CCC-Transfer-Helper?node-id=0-1&t=S3VH2X4nwbuClYpa-1
