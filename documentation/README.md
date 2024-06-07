@@ -42,7 +42,7 @@ We welcome contributions to our project! To ensure a consistent code style and q
 
 ### Coding Standards
 
-- Our current MEAN application has the following coding standards
+- Our current MERN application has the following coding standards
 
 #### **Prettier Configuration:** Prettier is used to format our code.
 
