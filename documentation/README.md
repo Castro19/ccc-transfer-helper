@@ -10,11 +10,11 @@
 
 ![](/documentation/showcaseJSON/UML-class.png)
 
-### Sign Up UML Diagram
+### Sign Up UML Diagram (last updated: 6/4/2024)
 
 ![UML Diagram for Sign up](https://live.staticflickr.com/65535/53724578789_fcef28606b.jpg)
 
-### Login UML Diagram
+### Login UML Diagram (last updated: 6/4/2024)
 
 ![UML Diagram for Login](https://live.staticflickr.com/65535/53724448378_2f1f586c3d.jpg)
 
