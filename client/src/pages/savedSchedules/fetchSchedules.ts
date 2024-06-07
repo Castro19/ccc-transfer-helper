@@ -7,7 +7,9 @@ const fetchSchedules: LoaderFunction = async (args) => {
   const { userId } = params;
 
   try {
-    const response = await fetch(`http://localhost:8080/schedules/${userId}/`);
+    const response = await fetch(
+      `https://ccc-transfers.azurewebsites.net/schedules/${userId}/`
+    );
     if (!response.ok) {
       const errorData = await response.json();
       throw new Error("" + errorData.message);

@@ -2,6 +2,7 @@
 
 ## Introduction
 
+- [Demo Video](https://www.youtube.com/watch?v=QdfzL8y1shs&t=79s&ab_channel=CristianCastroOliva)
 - This is the beginning of a project that will assist college transfers.
 - This will be an all-in-one transfer helper that will use the ASSIST.org to find the transfer agreement.
 
@@ -15,13 +16,13 @@
 
 - Client Side Routing using React Router (Completed)
 
-- MongoDB Implementation to save user information on database (Almost Completed)
+- MongoDB Implementation to save user information on database (Completed)
 
-- Save and Recycle completed schedules to use as templates (In-Progress)
+- Save and Recycle completed schedules to use as templates (Completed)
+
+- View General Ed Completion and view what areas your current Schedule has completed (Completed)
 
 - Generate Schedules rapidly with the click of a button! (In-Progress)
-
-- View General Ed Completion and view what areas your current Schedule has completed (In-progress)
 
 ![Sign up](https://live.staticflickr.com/65535/53724683925_b2091ea94c.jpg)
 
@@ -87,44 +88,3 @@
    ```
    npm start
    ```
-
-## UML Diagrams using Firebase Auth and MongoDB Database
-
-### Sign Up UML Diagram
-
-![UML Diagram for Sign up](https://live.staticflickr.com/65535/53724578789_fcef28606b.jpg)
-
-### Login UML Diagram
-
-![UML Diagram for Login](https://live.staticflickr.com/65535/53724448378_2f1f586c3d.jpg)
-
-## Contributing
-
-We welcome contributions to our project! To ensure a consistent code style and quality, please follow these guidelines:
-
-### Coding Standards
-
-- Our current MEAN application has the following coding standards
-
-#### **Prettier Configuration:** Prettier is used to format our code.
-
-- The configuration is defined in the `.prettierrc` file at the root of the project:
-
-```json
-{
-  "singleQuote": false,
-  "trailingComma": "es5",
-  "printWidth": 80,
-  "tabWidth": 2,
-  "semi": true,
-  "jsxSingleQuote": false
-}
-```
-
-#### ESLint Configuration: Client
-
-- The ESLint configuration for the **client-side** code is defined in the file [`client/.eslintrc.cjs`](https://github.com/Castro19/ccc-transfer-helper/blob/main/client/.eslintrc.cjs)
-
-#### ESLint Configuration: Server
-
-- The ESLint configuartion for the **server-side** code is defined in the file [`server/eslint.config.js`](https://github.com/Castro19/ccc-transfer-helper/blob/TE4/server/eslint.config.js)

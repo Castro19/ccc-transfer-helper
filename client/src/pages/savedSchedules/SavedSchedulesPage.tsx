@@ -39,7 +39,9 @@ const SavedSchedulesPage = (): JSX.Element => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Saved Schedules</h1>
+      <h1 className={styles.title} data-testid="saved-schedule-title">
+        Saved Schedules
+      </h1>
       <ScheduleList
         savedSchedules={scheduleList}
         setScheduleList={setScheduleList}
